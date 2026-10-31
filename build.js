@@ -4,7 +4,10 @@
    Uso (desde la raíz del repositorio, al lado de la carpeta docs):   node build.js
 
    Qué hace:
-   - Lee docs/js/obras-data.js y docs/js/novedades-data.js (los mismos que ya editás).
+   - Lee los datos de content/ (obras, novedades y cifras: se editan desde el panel Pages CMS).
+   - Regenera docs/js/obras-data.js y docs/js/novedades-data.js, que el sitio carga como siempre
+     (ya NO se editan a mano) y actualiza las cifras de docs/nosotros.html.
+   - Las obras/novedades con publicada:false (borradores) no salen en el sitio.
    - Copia docs/obra.html y docs/novedad.html como plantilla y crea:
        docs/obra-<id>.html       docs/novedad-<id>.html
      cada una con su <title>, descripción, canonical, Open Graph (WhatsApp, LinkedIn, Facebook)
@@ -14,7 +17,7 @@
    ========================================================= */
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
+const { cargarObras, cargarNovedades, cargarCifras } = require('./scripts/contenido');
 
 /* ---------- CONFIGURACIÓN ---------- */
 // Dirección pública del sitio, SIN barra final. Cuando conecten dysconsa.com.ar, cambiala acá
@@ -27,7 +30,6 @@ const PAGINAS_FIJAS = ['index.html', 'obras.html', 'novedades.html', 'nosotros.h
 
 /* ---------- Utilidades ---------- */
 const leer = f => fs.readFileSync(path.join(DOCS, f), 'utf8');
-const datos = (archivo, variable) => vm.runInNewContext(leer(archivo) + `\n;${variable}`);
 
 const esc = t => String(t).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const limpiar = t => String(t).replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
@@ -75,14 +77,42 @@ const migas = items => ({
 });
 
 /* ---------- Proceso ---------- */
-const OBRAS = datos('js/obras-data.js', 'OBRAS');
-const NOVEDADES = datos('js/novedades-data.js', 'NOVEDADES');
+const OBRAS = cargarObras();          // solo las publicadas, ordenadas
+const NOVEDADES = cargarNovedades();  // solo las publicadas
+const avisos = [];
+
+// Archivos de datos que lee el sitio (generados: no editar a mano)
+const generado = (dir) => `/* ARCHIVO GENERADO por build.js a partir de content/${dir}/ - NO EDITAR A MANO (se pisa en cada corrida).\n   Para cambiar datos usá el panel de Pages CMS. */\n`;
+fs.writeFileSync(path.join(DOCS, 'js/obras-data.js'), generado('obras') + 'const OBRAS = ' + JSON.stringify(OBRAS, null, 2) + ';\n');
+fs.writeFileSync(path.join(DOCS, 'js/novedades-data.js'), generado('novedades') + 'const NOVEDADES = ' + JSON.stringify(NOVEDADES, null, 2) + ';\n');
+
+// Cifras de "Nosotros": se reescriben los <li> con el mismo marcado de siempre
+const CIFRAS = cargarCifras();
+if (CIFRAS.length && fs.existsSync(path.join(DOCS, 'nosotros.html'))) {
+  const li = CIFRAS.map(c => `        <li class="reveal"><b>+<span class="num" data-valor="${c.valor}">${c.valor}</span></b><span>${esc(c.etiqueta)}</span></li>`).join('\n');
+  const html = leer('nosotros.html')
+    .replace(/<!-- DYSCON EN CIFRAS[^>]*-->/, '<!-- DYSCON EN CIFRAS (generado por build.js desde content/empresa/cifras.json: se edita desde el panel) -->')
+    .replace(/(<ul class="cifras-lista">\n)[\s\S]*?(\n      <\/ul>)/, (m, a, b) => a + li + b);
+  fs.writeFileSync(path.join(DOCS, 'nosotros.html'), html);
+}
+
+// Controles de calidad: se informan como avisos en la pestaña Actions de GitHub
+const existe = r => fs.existsSync(path.join(DOCS, r));
+OBRAS.forEach(o => {
+  const fotos = [...(o.fotos || []), o.miniatura, o.portada].filter(Boolean);
+  if (!fotos.length) avisos.push(`La obra "${o.id}" está publicada pero no tiene fotos.`);
+  if (fotos.some(f => /^provisorio\//.test(f))) avisos.push(`La obra "${o.id}" está publicada con la foto provisoria.`);
+  fotos.filter(f => !existe('img/obras/' + f)).forEach(f => avisos.push(`La obra "${o.id}" usa una foto que no existe: img/obras/${f}`));
+});
+NOVEDADES.forEach(n => {
+  if (!n.portada) avisos.push(`La novedad "${n.id}" no tiene imagen principal.`);
+  [n.portada, ...(n.fotos || [])].filter(f => f && !existe('img/novedades/' + f)).forEach(f => avisos.push(`La novedad "${n.id}" usa una foto que no existe: img/novedades/${f}`));
+});
 
 // Borra lo generado antes, para que no queden páginas de obras que ya no existen
 fs.readdirSync(DOCS).filter(f => /^(obra|novedad)-.+\.html$/.test(f)).forEach(f => fs.unlinkSync(path.join(DOCS, f)));
 
 const urls = PAGINAS_FIJAS.filter(f => fs.existsSync(path.join(DOCS, f))).map(f => ({ loc: f === 'index.html' ? '' : f }));
-const avisos = [];
 let nObras = 0, nNovedades = 0;
 
 // ----- Obras -----
@@ -158,4 +188,4 @@ fs.writeFileSync(path.join(DOCS, 'robots.txt'), `User-agent: *\nAllow: /\n\nSite
 
 console.log(`Listo: ${nObras} obras, ${nNovedades} novedades, ${urls.length} direcciones en sitemap.xml`);
 console.log(`Sitio: ${SITE}`);
-avisos.forEach(a => console.warn('Aviso: ' + a));
+avisos.forEach(a => console.log(`::warning::${a}`));   // formato de GitHub Actions: aparece como aviso amarillo en la corrida

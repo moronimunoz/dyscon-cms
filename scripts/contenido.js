@@ -8,6 +8,23 @@ const leerJson = f => JSON.parse(fs.readFileSync(f, 'utf8'));
 const archivos = dir => fs.existsSync(dir)
   ? fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort() : [];
 
+// El editor visual del panel guarda cada párrafo como <p>...</p>, pero el sitio ya envuelve cada
+// ítem en <p>: se sacan los <p> sobrantes (y los párrafos vacíos) para que se vea igual que siempre.
+function parrafos(lista) {
+  const salida = [];
+  (lista || []).forEach(t => {
+    if (typeof t !== 'string') return;
+    const s = t.trim();
+    if (/^<p[\s>]/i.test(s) && !/<(ul|ol)[\s>]/i.test(s)) {
+      s.split(/<\/p>\s*/i).forEach(parte => {
+        const x = parte.replace(/^\s*<p[^>]*>/i, '').trim();
+        if (x && !/^(<br\s*\/?>\s*)+$/i.test(x)) salida.push(x);   // descarta párrafos vacíos
+      });
+    } else if (s) salida.push(s);
+  });
+  return salida;
+}
+
 // Pages CMS escribe las rutas con el prefijo público de cada carpeta ("/img/obras/casa_m/01.jpg").
 // El sitio las necesita sin ese prefijo ("casa_m/01.jpg"). Se acepta cualquiera de las dos formas.
 const sinPrefijo = (v, prefijo) => typeof v !== 'string' ? v
@@ -33,7 +50,7 @@ function obraALegacy(j, id) {
   const poner = (k, v) => { if (v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && !v.length)) o[k] = v; };
   poner('con', j.con); o.comitente = j.comitente || ''; poner('ubicacion', j.ubicacion); poner('mapa', j.mapa);
   poner('destacada', j.destacada); poner('resumen', j.resumen);
-  o.descripcion = j.descripcion || [];
+  o.descripcion = parrafos(j.descripcion);
   const datos = [];
   if (j.superficie) datos.push('Superficie: ' + j.superficie);
   if (j.plazo) datos.push('Plazo: ' + j.plazo);
@@ -47,7 +64,7 @@ function obraALegacy(j, id) {
 
 function novedadALegacy(j, id) {
   const n = { id, titulo: j.titulo, categoria: j.categoria, fecha: j.fecha, portada: sinPrefijo(j.portada, 'img/novedades'),
-    resumen: j.resumen || '', texto: j.texto || [], fotos: rutas(j.fotos, 'img/novedades') };
+    resumen: j.resumen || '', texto: parrafos(j.texto), fotos: rutas(j.fotos, 'img/novedades') };
   const v = videosALegacy(j.videos, 'img/novedades'); if (v !== undefined) n.video = v;
   return n;
 }
@@ -66,4 +83,8 @@ function cargarNovedades({ incluirBorradores = false, dir = path.join(RAIZ, 'con
     .map(({ j, id }) => novedadALegacy(j, id));
 }
 
-module.exports = { cargarObras, cargarNovedades, videosALegacy };
+function cargarCifras(file = path.join(RAIZ, 'content/empresa/cifras.json')) {
+  return fs.existsSync(file) ? (leerJson(file).cifras || []).filter(c => c && c.etiqueta && Number.isFinite(c.valor)) : [];
+}
+
+module.exports = { cargarObras, cargarNovedades, cargarCifras, videosALegacy, parrafos };

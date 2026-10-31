@@ -313,6 +313,6 @@ settings:
   commit:
     identity: app
     templates:
-      create: "Panel: crear {path} (por {userName})"
-      update: "Panel: actualizar {path} (por {userName})"
-      delete: "Panel: eliminar {path} (por {userName})"
+      create: "Panel: crear {path}"
+      update: "Panel: actualizar {path}"
+      delete: "Panel: eliminar {path}"
