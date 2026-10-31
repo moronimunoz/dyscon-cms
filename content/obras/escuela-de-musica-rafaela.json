@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 790,
+  "nombre": "Escuela de Música - Rafaela",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Municipalidad de Rafaela.",
+  "ubicacion": "Rafaela, Departamento Castellanos, Santa Fe.",
+  "superficie": "2.110 m².",
+  "plazo": "Mayo, 2014 - Octubre, 2015.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

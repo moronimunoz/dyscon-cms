@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 260,
+  "nombre": "Obras de Arquitectura 2025",
+  "categoria": "Institucional",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Municipalidad de Rosario.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Abril 2025 - Finalizado.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

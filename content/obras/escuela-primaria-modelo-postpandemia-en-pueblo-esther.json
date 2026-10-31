@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 380,
+  "nombre": "Escuela Primaria Modelo Postpandemia en Pueblo Esther",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat.",
+  "ubicacion": "Pueblo Esther, Santa Fe.",
+  "superficie": "3.500 m².",
+  "plazo": "Febrero, 2022 - Enero, 2025.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

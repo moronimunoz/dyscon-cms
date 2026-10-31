@@ -1,0 +1,47 @@
+{
+  "publicada": true,
+  "orden": 50,
+  "destacada": 1,
+  "nombre": "Parque Industrial - Nodo",
+  "categoria": "Espacio Público",
+  "tipo": "colaboracion",
+  "con": "<b>Del Sol</b> - Empresa Constructora",
+  "estado": "obra",
+  "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
+  "mapa": "X98V+JHG Villa Gdor. Gálvez, Santa Fe",
+  "descripcion": [
+    "Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <b>Nodo</b>, un desarrollo privado impulsado por <b>Grupo Nasini</b> Inversiones junto a <b>Mariano Schor</b>, de la constructora <b>Dyscon</b>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano."
+  ],
+  "miniatura": "parque_industrial/01.jpg",
+  "fotos": [
+    "parque_industrial/00.jpg",
+    "parque_industrial/01.jpg",
+    "parque_industrial/02.jpg",
+    "parque_industrial/03.jpg",
+    "parque_industrial/04.jpg",
+    "parque_industrial/05.jpg",
+    "parque_industrial/06.jpg",
+    "parque_industrial/07.jpg",
+    "parque_industrial/11.jpg",
+    "parque_industrial/12.jpg",
+    "parque_industrial/13.jpg",
+    "parque_industrial/14.jpg",
+    "parque_industrial/15.jpg",
+    "parque_industrial/16.jpg",
+    "parque_industrial/17.jpg",
+    "parque_industrial/18.jpg",
+    "parque_industrial/19.jpg",
+    "parque_industrial/20.jpg",
+    "parque_industrial/21.jpg",
+    "parque_industrial/22.jpg",
+    "parque_industrial/23.jpg",
+    "parque_industrial/24.jpg",
+    "parque_industrial/25.jpeg"
+  ],
+  "videos": [
+    {
+      "archivo": "obras/nodo.mp4",
+      "poster": "parque_industrial/poster.jpg"
+    }
+  ]
+}

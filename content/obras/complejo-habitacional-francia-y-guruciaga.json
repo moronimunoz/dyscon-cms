@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 1290,
+  "nombre": "Complejo Habitacional Francia y Guruciaga",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "RUANA S.A.",
+  "ubicacion": "San Nicolás, Provincia de Buenos Aires.",
+  "superficie": "600 m².",
+  "plazo": "Julio, 2007 - Agosto, 2009 / Febrero, 2010.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 830,
+  "nombre": "E.E.M. N° 128 - Rosario",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Marzo, 2013 - Febrero, 2015.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

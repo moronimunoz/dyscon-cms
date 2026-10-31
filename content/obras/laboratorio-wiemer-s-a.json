@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1010,
+  "nombre": "Laboratorio Wiemer S.A",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Laboratorio Wiemer S.A.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Junio, 2008 - Diciembre, 2008.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

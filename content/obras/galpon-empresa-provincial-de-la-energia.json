@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1000,
+  "nombre": "Galpon - Empresa Provincial de la Energía",
+  "categoria": "Industrial",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Empresa Provincial de la Energía S.A.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Noviembre, 2008 - Enero, 2009.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

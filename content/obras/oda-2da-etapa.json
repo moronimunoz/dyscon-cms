@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 460,
+  "nombre": "Obras de Arquitectura - 2da Etapa",
+  "categoria": "Institucional",
+  "tipo": "colaboracion",
+  "estado": "terminado",
+  "comitente": "Municipalidad de Rosario.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Mayo, 2019 - Enero, 2022.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

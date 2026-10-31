@@ -1,0 +1,13 @@
+{
+  "publicada": true,
+  "orden": 110,
+  "nombre": "Plaza San Cristóbal",
+  "categoria": "Espacio Público",
+  "tipo": "propia",
+  "estado": "obra",
+  "ubicacion": "CABA · Buenos Aires",
+  "mapa": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
+  "fotos": [
+    "plaza-san-cristobal.webp"
+  ]
+}

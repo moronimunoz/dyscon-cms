@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 280,
+  "nombre": "Puesta en Valor de Dos Plazas",
+  "categoria": "Espacio Público",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "S.U.M.A.R. Municipalidad de Rosario",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Febrero 2025 - Julio 2025.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

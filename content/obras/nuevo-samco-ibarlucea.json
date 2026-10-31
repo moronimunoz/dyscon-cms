@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 410,
+  "nombre": "Nuevo SAMCO Ibarlucea",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat.",
+  "ubicacion": "Ibarlucea, Santa Fe.",
+  "superficie": "600 m².",
+  "plazo": "Agosto, 2021 - Mayo, 2023.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

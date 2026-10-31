@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 920,
+  "nombre": "Obra Civil Nuevo Centro de Distribución",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Empresa Provincial de la Energía S.A.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "386 m².",
+  "plazo": "Agosto, 2011 - Abril, 2013 / Diciembre, 2013.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

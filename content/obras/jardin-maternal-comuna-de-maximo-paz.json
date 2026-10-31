@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 680,
+  "nombre": "Jardin Maternal. Comuna de Máximo Paz",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Comuna de Máximo Paz.",
+  "ubicacion": "Máximo Paz, Constitución, Santa Fe.",
+  "superficie": "450 m².",
+  "plazo": "Septiembre, 2015 - Octubre, 2017.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

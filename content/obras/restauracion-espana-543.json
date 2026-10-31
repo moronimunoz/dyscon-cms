@@ -1,0 +1,16 @@
+{
+  "publicada": true,
+  "orden": 30,
+  "nombre": "Restauración de Dto. España 543",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "terminado",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "España 543, Rosario, Santa Fe",
+  "fotos": [
+    "espana/00.jpg",
+    "espana/01.jpeg",
+    "espana/02.jpeg",
+    "espana/03.jpeg"
+  ]
+}

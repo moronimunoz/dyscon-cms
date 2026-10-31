@@ -1,0 +1,36 @@
+{
+  "publicada": true,
+  "orden": 20,
+  "nombre": "Escuela Secundaria EESO N.º 1548",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de economía, Unidad Ejecutora Provincial (UE).",
+  "ubicacion": "Ricardone · Santa Fe",
+  "mapa": "66G2+6Q Ricardone, Santa Fe",
+  "plazo": "Octubre 2024 - Finalizado.",
+  "descripcion": [
+    "DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de <b>Ricardone</b>, una obra destinada a fortalecer la infraestructura educativa de la localidad y responder a la creciente demanda de espacios para la educación secundaria.<br><br>El proyecto comprendió la ejecución de un establecimiento educativo con ocho aulas, laboratorio, taller multipropósito, Centro de Recursos Multimediales y Salón de Usos Múltiples, además de sectores administrativos, sanitarios, depósitos y galerías de circulación.<br><br>La propuesta integra espacios destinados a la enseñanza, las actividades prácticas y el encuentro comunitario, mediante una infraestructura concebida para acompañar el desarrollo educativo de las nuevas generaciones.<br><br>Impulsada por el Gobierno de la Provincia de Santa Fe en el marco del programa Santa Fe + Conectada, la obra representa una contribución al crecimiento de Ricardone y al fortalecimiento de sus instalaciones educativas.<br><br>Entre los principales sectores previstos se encuentran:<br>• Ocho aulas para el dictado de clases.<br>• Taller multipropósito y laboratorio, destinados a actividades prácticas y experimentales.<br>• Centro de Recursos Multimediales, para apoyar las actividades pedagógicas.<br>• Salón de Usos Múltiples (SUM), con sanitarios y espacios complementarios.<br>• Hall de ingreso, galerías y circulaciones, para organizar el acceso y la conexión entre sectores.<br>• Área administrativa, con dirección, vicedirección, secretaría, preceptoría y sala de docentes.<br>• Servicios generales, incluidos sanitarios, depósitos y sala de máquinas."
+  ],
+  "portada": "ricardone/001.jpg",
+  "fotos": [
+    "ricardone/000.jpg",
+    "ricardone/001.jpg",
+    "ricardone/002.jpg",
+    "ricardone/003.jpg",
+    "ricardone/004.jpg",
+    "ricardone/005.jpg",
+    "ricardone/006.jpg",
+    "ricardone/007.jpg",
+    "ricardone/008.jpg",
+    "ricardone/009.jpg",
+    "ricardone/010.jpg",
+    "ricardone/011.jpg",
+    "ricardone/012.jpg",
+    "ricardone/013.jpg",
+    "ricardone/014.jpg",
+    "ricardone/015.jpg",
+    "ricardone/016.jpg",
+    "ricardone/017.jpg"
+  ]
+}

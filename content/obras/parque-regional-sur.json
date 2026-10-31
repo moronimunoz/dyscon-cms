@@ -1,0 +1,13 @@
+{
+  "publicada": true,
+  "orden": 120,
+  "nombre": "Parque Regional Sur",
+  "categoria": "Espacio Público",
+  "tipo": "propia",
+  "estado": "obra",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "Láinez 1-48, S2000 Rosario, Santa Fe",
+  "fotos": [
+    "parque_regional_sur.jpg"
+  ]
+}

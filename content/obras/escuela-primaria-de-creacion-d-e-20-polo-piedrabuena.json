@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 440,
+  "nombre": "Escuela Primaria de Creación D.E. 20 “Polo Piedrabuena”",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación e Innovación.",
+  "ubicacion": "C.A.B.A.",
+  "superficie": "2.800 m².",
+  "plazo": "Abril, 2019 - Febrero, 2021.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

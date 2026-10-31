@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 930,
+  "nombre": "Edificio de Propiedad Horizontal Tribeca II",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Fideicomiso TRIBECA II.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "1.356 m².",
+  "plazo": "Febrero, 2011 - Diciembre, 2013.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

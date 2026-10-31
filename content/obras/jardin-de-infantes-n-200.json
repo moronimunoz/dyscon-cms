@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1080,
+  "nombre": "Jardín de Infantes N° 200",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Mayo, 2008 - Julio, 2009 / Diciembre, 2010.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

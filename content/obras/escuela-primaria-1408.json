@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "orden": 190,
+  "nombre": "Escuela Primaria N.° 1408",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Obras Públicas.",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "Av. Joaquín Suárez 2900 & Dr. José Julián Pérez, S2005 Rosario, Santa Fe",
+  "superficie": "1.700 m² aprox.",
+  "datos_extra": [
+    "Capacidad: 200 alumnos/as por turno"
+  ],
+  "descripcion": [
+    "La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe. Se desarrolla en un solo nivel compuesto por 8 aulas agrupables, un salón de usos múltiples, una cantina y espacio para cocinar y un gran patio semicubierto."
+  ],
+  "portada": "nuevo_alberdi/00.jpg",
+  "fotos": [
+    "nuevo_alberdi/00.jpg",
+    "nuevo_alberdi/01.jpeg",
+    "nuevo_alberdi/02.jpeg"
+  ]
+}

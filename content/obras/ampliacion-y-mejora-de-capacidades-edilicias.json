@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 990,
+  "nombre": "Ampliación y Mejora de Capacidades Edilicias.",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Instituto de Agrobiotecnología Rosario S.A.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "2.048 m².",
+  "plazo": "Septiembre, 2009 - Junio, 2010 / Junio, 2012.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

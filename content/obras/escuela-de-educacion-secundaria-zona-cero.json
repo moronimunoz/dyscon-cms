@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 530,
+  "nombre": "Escuela de Educación Secundaria - Zona Cero",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Obras Públicas - UEPA.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "2.200 m².",
+  "plazo": "Noviembre, 2017 - Agosto, 2019.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

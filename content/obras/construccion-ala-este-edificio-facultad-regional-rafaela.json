@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 890,
+  "nombre": "Construcción Ala Este Edificio Facultad Regional Rafaela",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Universidad Tecnológica Nacional",
+  "ubicacion": "Rafaela, Departamento Castellanos, Santa Fe.",
+  "superficie": "890 m².",
+  "plazo": "Septiembre, 2011 - Octubre, 2012.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 500,
+  "nombre": "Linea “E” Taller Lacarra",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "SUBTE - Buenos Aires Ciudad.",
+  "ubicacion": "CABA",
+  "superficie": "1.100 m².",
+  "plazo": "Junio, 2018 - Febrero 2022.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

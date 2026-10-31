@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 940,
+  "nombre": "Escuela Joan Miró",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Asociación Educativo Joan Miró.",
+  "ubicacion": "Funes, Santa Fe.",
+  "plazo": "Diciembre, 2010 - Marzo, 2011.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

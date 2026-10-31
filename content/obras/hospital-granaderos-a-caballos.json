@@ -1,0 +1,18 @@
+{
+  "publicada": false,
+  "orden": 480,
+  "nombre": "Hospital Granaderos a Caballos",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Obras Públicas - DIPAI.",
+  "ubicacion": "San Lorenzo, Santa Fe.",
+  "superficie": "700 m².",
+  "plazo": "Septiembre, 2018 - Julio, 2019.",
+  "descripcion": [
+    "REHABILITACIÓN DE FACHADAS Y CUBIERTAS Y OBRAS COMPLEMENTARIO"
+  ],
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

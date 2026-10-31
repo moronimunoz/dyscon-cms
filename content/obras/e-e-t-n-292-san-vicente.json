@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 840,
+  "nombre": "E.E.T. N° 292 San Vicente",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "San Vicente, Departamento Castellanos, Santa Fe",
+  "superficie": "305 m².",
+  "plazo": "Agosto, 2012 - Mayo, 2015.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

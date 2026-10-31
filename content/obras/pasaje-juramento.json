@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 250,
+  "nombre": "Pasaje Juramento",
+  "categoria": "Patrimonio",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Secretaría de Obras Públicas Municipal.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Junio, 2025 - Finalizado.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

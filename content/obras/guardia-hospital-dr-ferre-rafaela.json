@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 820,
+  "nombre": "Guardia Hospital Dr. Ferré - Rafaela",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Obras Públicas y Vivienda",
+  "ubicacion": "Rafaela, Departamento Castellanos, Santa Fe.",
+  "superficie": "750 m².",
+  "plazo": "Mayo, 2013 - Febrero, 2016.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

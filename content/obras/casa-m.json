@@ -1,0 +1,19 @@
+{
+  "publicada": true,
+  "orden": 10,
+  "nombre": "Casa M",
+  "categoria": "Comunidad",
+  "tipo": "propia",
+  "estado": "inicio",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
+  "miniatura": "casa_m/01.jpg",
+  "fotos": [
+    "casa_m/00.jpg",
+    "casa_m/01.jpg",
+    "casa_m/02.jpg",
+    "casa_m/03.jpg",
+    "casa_m/04.jpg",
+    "casa_m/05.jpg"
+  ]
+}

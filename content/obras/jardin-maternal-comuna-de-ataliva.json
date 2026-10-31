@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 640,
+  "nombre": "Jardín Maternal, Comuna de Ataliva",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Comuna de Ataliva.",
+  "ubicacion": "Ataliva, Santa Fe.",
+  "superficie": "480 m².",
+  "plazo": "Junio, 2016 - Agosto, 2017.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

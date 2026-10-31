@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 850,
+  "nombre": "I.S.P. N° 22 Fray Luis Beltran",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "Fray Luis Beltrán, Departamento San Lorenzo, Santa Fe.",
+  "superficie": "928 m².",
+  "plazo": "Junio, 2012 - Mayo, 2014.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "cifras": [
+    {
+      "valor": 20,
+      "etiqueta": "Años de experiencia"
+    },
+    {
+      "valor": 40,
+      "etiqueta": "Equipos propios"
+    },
+    {
+      "valor": 120,
+      "etiqueta": "Obras ejecutadas"
+    },
+    {
+      "valor": 240,
+      "etiqueta": "Colaboradores"
+    }
+  ]
+}

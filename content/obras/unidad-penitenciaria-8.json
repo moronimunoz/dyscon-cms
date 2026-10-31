@@ -1,0 +1,30 @@
+{
+  "publicada": true,
+  "orden": 100,
+  "nombre": "Unidad Penitenciaria N.º 8",
+  "categoria": "Comunidad",
+  "tipo": "propia",
+  "estado": "obra",
+  "comitente": "Unidad Ejecutora de Infraestructura.",
+  "ubicacion": "Piñero · Santa Fe",
+  "mapa": "W633+3G Piñero, Santa Fe",
+  "plazo": "Abril 2025 - Finalizado.",
+  "descripcion": [
+    "<b>Infraestructura penitenciaria de alta seguridad</b><br><br>En el marco del programa de ampliación de la infraestructura penitenciaria de la provincia de Santa Fe, DYSCON S.A. participa en la construcción del Módulo D de la Unidad Penitenciaria N.º 8, integrada al complejo penitenciario de Piñero.<br><br>El proyecto forma parte de un establecimiento de alta seguridad que incorpora sistemas de alojamiento individual, estructuras de hormigón, circulaciones controladas y espacios complementarios destinados al funcionamiento penitenciario.<br><br>La intervención requiere una ejecución coordinada de los componentes arquitectónicos y constructivos, con especial atención a los requerimientos estructurales, funcionales y de seguridad propios de este tipo de infraestructura pública.<br><br>La obra se integra a un programa provincial orientado a ampliar la capacidad del sistema penitenciario y modernizar sus instalaciones."
+  ],
+  "portada": "up8/00.jpeg",
+  "fotos": [
+    "up8/00.jpeg",
+    "up8/01.jpeg",
+    "up8/02.webp",
+    "up8/03.jpg",
+    "up8/04.jpeg",
+    "up8/05.jpg",
+    "up8/06.jpeg"
+  ],
+  "videos": [
+    {
+      "archivo": "obras/up.mp4"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 300,
+  "nombre": "ODA 2023",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Municipalidad de Rosario.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Octubre, 2023 - Finalizado.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

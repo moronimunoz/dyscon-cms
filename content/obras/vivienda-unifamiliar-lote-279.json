@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1300,
+  "nombre": "Vivienda Unifamiliar - Lote 279",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "María Laura Rodriguez.",
+  "ubicacion": "Funes, Santa Fe.",
+  "plazo": "Noviembre, 2006 - Noviembre, 2007 /Noviembre, 2008.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

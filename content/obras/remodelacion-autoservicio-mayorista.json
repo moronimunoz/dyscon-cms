@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1170,
+  "nombre": "Remodelación Autoservicio Mayorista",
+  "categoria": "Comercial",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Pedro Balestrino e hijos S.A.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Febrero, 2007 - Abril, 2007 / Julio, 2007.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

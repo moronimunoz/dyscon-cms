@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 580,
+  "nombre": "Hospital Granaderos a Caballo - UT - Participación",
+  "categoria": "Salud",
+  "tipo": "colaboracion",
+  "estado": "terminado",
+  "comitente": "Ministerio de Obras Públicas - DIPAI.",
+  "ubicacion": "San Lorenzo, Santa Fe.",
+  "superficie": "1400 m².",
+  "plazo": "Septiembre, 2017 - Agosto, 2019.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 730,
+  "nombre": "Obra Civil Nuevo Centro de Distribución Catamarca",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Empresa Provincial de la Energía S.A.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Marzo, 2015 - Octubre, 2015.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

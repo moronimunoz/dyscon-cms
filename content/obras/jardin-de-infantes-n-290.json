@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 550,
+  "nombre": "Jardín de Infantes N° 290.",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación.",
+  "ubicacion": "Villa Gobernador Gálvez - Departamento Rosario, Santa Fe.",
+  "superficie": "700 m².",
+  "plazo": "Febrero, 2018 - Mayo, 2019.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

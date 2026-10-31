@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 1050,
+  "nombre": "PROMSE Grupo N°16 E.E.M. N°243.",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "480 m².",
+  "plazo": "Diciembre, 2008 - Abril, 2009.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

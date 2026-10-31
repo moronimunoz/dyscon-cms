@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1160,
+  "nombre": "Edificio de Propiedad Horizontal Mailen III",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Corsanot S.R.L.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Agosto, 2007 - Enero, 2008 / Julio, 2008.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

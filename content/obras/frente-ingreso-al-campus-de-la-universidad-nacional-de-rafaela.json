@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 420,
+  "nombre": "Frente Ingreso al Campus de la Universidad Nacional de Rafaela",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Universidad Nacional de Rafaela.",
+  "ubicacion": "Rafaela, Santa Fe.",
+  "plazo": "Febrero, 2021 - Agosto, 2021.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

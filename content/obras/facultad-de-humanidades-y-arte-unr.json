@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 450,
+  "nombre": "Facultad de Humanidades y Arte UNR",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Fundación de la UNR.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Septiembre, 2019 - Junio, 2020.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

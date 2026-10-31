@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 400,
+  "nombre": "Escuela Secundaria Modelo Postpandemia en Roldán",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
+  "ubicacion": "Roldán, Santa Fe.",
+  "superficie": "3.000 m².",
+  "plazo": "Septiembre, 2021 - Septiembre, 2023.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

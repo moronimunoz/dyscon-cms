@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 760,
+  "nombre": "Jardín N° 237 - San Lorenzo",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "San Lorenzo, Santa Fe.",
+  "superficie": "305 m².",
+  "plazo": "Enero, 2015 - Septiembre, 2015.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

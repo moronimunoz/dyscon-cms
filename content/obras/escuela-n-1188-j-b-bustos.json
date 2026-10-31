@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 1150,
+  "nombre": "Escuela N° 1188 J. B. Bustos",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "300 m².",
+  "plazo": "Diciembre, 2007 - Diciembre, 2008 / Diciembre, 2009.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

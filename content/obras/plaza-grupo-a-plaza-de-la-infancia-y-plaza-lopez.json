@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 350,
+  "nombre": "Plaza Grupo “A” - Plaza de la Infancia y Plaza López",
+  "categoria": "Espacio Público",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ente Autarquico Munícipal de la Municipalidad de Rosario - SUMAR.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "8.000 m².",
+  "plazo": "Septiembre, 2022 - Mayo, 2023.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

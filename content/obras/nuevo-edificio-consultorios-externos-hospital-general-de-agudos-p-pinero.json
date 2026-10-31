@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 310,
+  "nombre": "Nuevo Edificio Consultorios Externos Hospital General de Agudos. P Piñero",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Gobierno de la ciudad de Buenos Aires.",
+  "ubicacion": "C.A.B.A.",
+  "superficie": "3.000 m².",
+  "plazo": "Julio, 2023 - Febrero, 2025.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

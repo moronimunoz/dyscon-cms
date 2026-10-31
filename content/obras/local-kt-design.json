@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 370,
+  "nombre": "Local KT Design",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "KT Design.",
+  "ubicacion": "Funes - Rosario, Santa Fe.",
+  "superficie": "1.000 m².",
+  "plazo": "Abril, 2022 - Febrero, 2023.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

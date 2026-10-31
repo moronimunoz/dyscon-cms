@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 540,
+  "nombre": "Entorno Ribera Central - U.T.",
+  "categoria": "Espacio Público",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Municipalidad de Rosario.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "9.000 m².",
+  "plazo": "Enero, 2017 - Septiembre, 2019.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

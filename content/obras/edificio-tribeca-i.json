@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 1280,
+  "nombre": "Edificio Tribeca I",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Fideicomiso Tribeca I.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "1540 m².",
+  "plazo": "Mayo, 2007 - Mayo, 2009 / Noviembre, 2009.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

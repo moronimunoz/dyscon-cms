@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 1200,
+  "nombre": "E.E.T. N° 465 - Estructura de Hormigón Armado Visto",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "ESPRECO S.R.L.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "2.500 m².",
+  "plazo": "Octubre, 2006 - Septiembre, 2007 / Junio, 2008.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

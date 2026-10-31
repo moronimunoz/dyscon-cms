@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 430,
+  "nombre": "Terminaciones de Jardines Varios",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "Provincia de Santa Fe",
+  "superficie": "1.200 m².",
+  "plazo": "Enero, 2020 - Septiembre, 2022.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

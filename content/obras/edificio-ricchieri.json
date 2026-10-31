@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 220,
+  "nombre": "Edificio Ricchieri",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "inicio",
+  "ubicacion": "Rosario · Santa Fe",
+  "fotos": [
+    "ricchieri/00.jpeg",
+    "ricchieri/01.jpeg",
+    "ricchieri/02.jpeg",
+    "ricchieri/03.jpeg"
+  ]
+}

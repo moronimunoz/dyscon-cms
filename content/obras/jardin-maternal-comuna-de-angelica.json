@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 700,
+  "nombre": "Jardin Maternal. Comuna de Angélica",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Comuna de Angélica.",
+  "ubicacion": "Angélica, Santa Fe.",
+  "superficie": "480 m².",
+  "plazo": "Octubre, 2015 - Noviembre, 2017.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

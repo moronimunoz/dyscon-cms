@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 600,
+  "nombre": "Readecuación de la Estación de Bomberos N°1.",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Infraestructura y Transporte.",
+  "ubicacion": "Fray Luis Beltrán. Departamento de San Lorenzo, Santa Fe.",
+  "plazo": "Febrero, 2017 - Octubre, 2017.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

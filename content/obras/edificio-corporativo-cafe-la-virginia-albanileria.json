@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1180,
+  "nombre": "Edificio Corporativo Café La Virginia - Albañilería",
+  "categoria": "Comercial",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "RIVA S.A.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Noviembre, 2006 - Enero, 2007 / Abril, 2008.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

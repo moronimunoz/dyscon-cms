@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 690,
+  "nombre": "Jardin Maternal. Comuna de Acebal",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Comuna de Acebal.",
+  "ubicacion": "Acebal, Constitución, Santa Fe.",
+  "superficie": "690 m².",
+  "plazo": "Noviembre, 2015 - Marzo, 2017.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

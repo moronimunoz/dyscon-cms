@@ -1,0 +1,25 @@
+{
+  "publicada": true,
+  "orden": 160,
+  "nombre": "Hospital SAMCo Eva Perón",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
+  "ubicacion": "Funes · Santa Fe",
+  "mapa": "Monteagudo 1582-1600, S2132 Funes, Santa Fe",
+  "superficie": "1.000 m².",
+  "plazo": "Noviembre, 2022 - En ejecución.",
+  "portada": "samco/00.jpg",
+  "fotos": [
+    "samco/00.jpg",
+    "samco/01.jpg",
+    "samco/02.jpg",
+    "samco/03.jpg",
+    "samco/04.jpg",
+    "samco/05.jpg",
+    "samco/06.jpg",
+    "samco/07.jpg",
+    "samco/08.jpg"
+  ]
+}

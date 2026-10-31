@@ -1,0 +1,18 @@
+{
+  "publicada": false,
+  "orden": 230,
+  "nombre": "Hospital de Niños Zona Norte “Dr. Roberto M. Carra”",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "Rosario, Santa Fe",
+  "plazo": "Enero 2025 - Finalizado.",
+  "descripcion": [
+    "<b>Infraestructura sanitaria | Rosario, Santa Fe</b><br><br>La intervención en el Hospital de Niños Zona Norte contempló la refuncionalización y adecuación de espacios destinados a los servicios de tomografía, odontología y cardiología, con el objetivo de optimizar las instalaciones y mejorar las condiciones de atención del establecimiento.<br><br>El proyecto incluyó trabajos complementarios en áreas técnicas y de servicio, adecuaciones de instalaciones eléctricas, incorporación de un generador de energía, mejoras en sectores del subsuelo y acondicionamiento de accesos y circulaciones.<br><br>La obra formó parte de un programa de modernización de la infraestructura sanitaria pública de la provincia de Santa Fe, orientado a responder a las necesidades operativas del hospital y fortalecer sus servicios especializados de atención pediátrica."
+  ],
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 1020,
+  "nombre": "Construcción del Cerco Perimetral de Hormigón Armado",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Dirección Provincial de Arquitectura e Ingeniería - Gobierno de Santa Fe.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Enero, 2009 - Julio, 2009 / Julio, 2011.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

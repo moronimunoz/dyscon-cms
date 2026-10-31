@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 490,
+  "nombre": "Construcción de Locales Comerciales en Estación Facultad de Derecho",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "SUBTE - Buenos Aires Ciudad",
+  "ubicacion": "CABA",
+  "plazo": "Junio, 2018 - Agosto, 2019.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

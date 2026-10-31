@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 800,
+  "nombre": "Estación Sosa 10 Viviendas - Entre Ríos",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "I.A.P.V.",
+  "ubicacion": "Estación Sosa, Entre Ríos.",
+  "plazo": "Junio, 2013 - Mayo, 2014.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

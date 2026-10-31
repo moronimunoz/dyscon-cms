@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 710,
+  "nombre": "Escuela EET N° 346",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "superficie": "400 m².",
+  "plazo": "Octubre, 2015 - Noviembre, 2017.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

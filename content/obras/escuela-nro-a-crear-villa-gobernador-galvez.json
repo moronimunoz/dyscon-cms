@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 750,
+  "nombre": "Escuela Nro a Crear Villa Gobernador Gálvez",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Planificación Federal, Inversión Pública y Servicios.",
+  "ubicacion": "Villa Gobernador Gálvez, Santa Fe.",
+  "superficie": "2.000 m².",
+  "plazo": "Noviembre, 2014 - Marzo, 2016.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

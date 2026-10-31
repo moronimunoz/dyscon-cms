@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 390,
+  "nombre": "Sistema de Provisión de Agua Potable Localidad Puerto Gaboto",
+  "categoria": "Infraestructura",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat.",
+  "ubicacion": "Puerto Gaboto, Santa Fe.",
+  "plazo": "Noviembre, 2021 - Finalizado.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

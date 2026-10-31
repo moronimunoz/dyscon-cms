@@ -1,0 +1,15 @@
+{
+  "publicada": false,
+  "orden": 510,
+  "nombre": "Puesta en Valor Entorno Hospital Gutierrez",
+  "categoria": "Salud",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Ministerio de Ambiente y Espacio Público.",
+  "ubicacion": "CABA",
+  "superficie": "2.800 m².",
+  "plazo": "Diciembre, 2018 - Septiembre, 2019.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

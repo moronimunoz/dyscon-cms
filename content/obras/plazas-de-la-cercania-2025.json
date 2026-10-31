@@ -1,0 +1,14 @@
+{
+  "publicada": false,
+  "orden": 240,
+  "nombre": "Plazas de la Cercanía 2025",
+  "categoria": "Espacio Público",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Municipalidad de Rosario.",
+  "ubicacion": "Rosario, Santa Fe.",
+  "plazo": "Agosto 2025 - Finalizado.",
+  "fotos": [
+    "provisorio/prov-front.png"
+  ]
+}

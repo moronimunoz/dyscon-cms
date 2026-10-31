@@ -1,0 +1,25 @@
+{
+  "publicada": true,
+  "orden": 70,
+  "nombre": "Proyecto: RDZ 1635",
+  "categoria": "Viviendas",
+  "tipo": "propia",
+  "estado": "obra",
+  "comitente": "Fideicomiso.",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "Rodríguez 1635, Rosario, Santa Fe",
+  "superficie": "2.000 m².",
+  "plazo": "Julio, 2023 - Finalizado.",
+  "portada": "rdz/03.jpeg",
+  "fotos": [
+    "rdz/00.jpg",
+    "rdz/01.jpg",
+    "rdz/02.jpg",
+    "rdz/03.jpeg",
+    "rdz/04.jpeg",
+    "rdz/05.jpeg",
+    "rdz/06.jpeg",
+    "rdz/07.jpeg",
+    "rdz/08.jpg"
+  ]
+}

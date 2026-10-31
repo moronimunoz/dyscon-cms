@@ -1,0 +1,14 @@
+{
+  "publicada": true,
+  "orden": 180,
+  "nombre": "Escuela Secundaria N.° 608 - La Esperanza",
+  "categoria": "Educación",
+  "tipo": "propia",
+  "estado": "terminado",
+  "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
+  "mapa": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
+  "fotos": [
+    "jardin_608/01.jpg",
+    "jardin_608/00.jpg"
+  ]
+}
