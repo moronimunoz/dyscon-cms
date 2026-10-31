@@ -1,0 +1,12 @@
+{
+  "name": "dyscon",
+  "private": true,
+  "description": "Herramientas para armar el sitio de DyScon (no se publican)",
+  "scripts": {
+    "imagenes": "node optimizar-imagenes.js",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

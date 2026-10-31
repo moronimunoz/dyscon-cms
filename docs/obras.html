@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obras | DyScon S.A.</title>
+  <meta name="description"
+    content="Obras de DyScon S.A.: proyectos propios y realizados en colaboración con otras empresas.">
+  <link rel="canonical" href="https://dysconsa.com.ar/obras.html">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- ÍCONOS (solo los que usa esta página) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <path d="M12 21s-6-5.500-6-11a6 6 0 0112 0c0 5.500-6 11-6 11z" />
+      <circle cx="12" cy="10" r="2" />
+    </symbol>
+    <symbol id="i-flecha" viewBox="0 0 24 24">
+      <path d="M5 12h14M13 6l6 6-6 6" />
+    </symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <path d="M17.500 6.500v.01" />
+    </symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="3" />
+      <path d="M8 11v6M8 7.500v.01M12 17v-6M12 13c0-3 5-3 5 0v4" />
+    </symbol>
+  </svg>
+
+  <!-- HEADER -->
+  <header class="header header--hero" id="header">
+    <a href="index.html" class="logo" aria-label="DyScon S.A. - Inicio">
+      <img src="img/logo-rectangular.png" alt="DyScon S.A." width="480" height="141">
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="obras.html" class="activo">Obras</a>
+      <a href="novedades.html">Novedades</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html" class="nav-contacto">Contacto</a>
+    </nav>
+
+    <a href="contacto.html" class="btn btn--oscuro header-cta">
+      Contacto <svg class="icon">
+        <use href="#i-flecha" />
+      </svg>
+    </a>
+  </header>
+
+  <main>
+
+    <!-- ENCABEZADO DE LA PÁGINA -->
+    <section class="page-hero page-hero--img">
+      <div class="hero-fondo" style="background-image:url('img/obras/plaza-san-cristobal.webp')" aria-hidden="true">
+      </div>
+
+      <div class="contenedor">
+        <p class="migas">
+          <a href="index.html">Inicio</a> / Obras
+        </p>
+
+        <h1>Obras</h1>
+
+        <p>
+          Proyectos que están iniciando, que están en obra, que ejecutamos
+          por cuenta propia y en colaboración con otras empresas constructoras.
+        </p>
+      </div>
+
+      <!-- Descarga del catálogo completo de obras -->
+      <a class="obras-descarga" href="pdf/catalogo-obras.pdf" download="Catalogo-de-obras-DyScon.pdf"
+        aria-label="Descargar catálogo completo de obras de DyScon en PDF">
+
+        <span class="obras-descarga-texto">
+          Mirá todas nuestras obras
+        </span>
+
+        <svg class="obras-descarga-icono" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <path d="m7 10 5 5 5-5" />
+          <path d="M12 15V3" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- LISTADO CON FILTROS -->
+    <section class="obras">
+      <div class="contenedor">
+
+        <div class="barra-filtros">
+          <div class="campo-filtro">
+            <label class="filtros-rotulo" for="filtro-categoria">Categoría</label>
+            <select id="filtro-categoria" class="filtro-select" data-grupo="categoria">
+              <option value="todos">Todas las categorías</option>
+              <!-- las categorías las agrega js/obras-lista.js desde los datos -->
+            </select>
+          </div>
+
+          <div class="campo-filtro">
+            <span class="filtros-rotulo" id="rotulo-tipo">Tipo</span>
+            <div class="segmentado" role="group" aria-labelledby="rotulo-tipo">
+              <button type="button" class="filtro activo" data-grupo="tipo" data-filtro="todos">Todas</button>
+              <button type="button" class="filtro" data-grupo="tipo" data-filtro="propia">Propias</button>
+              <button type="button" class="filtro" data-grupo="tipo" data-filtro="colaboracion"
+                title="Unión Transitoria">UT</button>
+            </div>
+          </div>
+
+          <div class="campo-filtro">
+            <span class="filtros-rotulo" id="rotulo-estado">Estado</span>
+            <div class="segmentado" role="group" aria-labelledby="rotulo-estado">
+              <button type="button" class="filtro activo" data-grupo="estado" data-filtro="todos">Todas</button>
+              <button type="button" class="filtro" data-grupo="estado" data-filtro="inicio"><span
+                  class="punto punto--inicio punto--inline"></span> Iniciando</button>
+              <button type="button" class="filtro" data-grupo="estado" data-filtro="obra"><span
+                  class="punto punto--obra punto--inline"></span> En ejecución</button>
+              <button type="button" class="filtro" data-grupo="estado" data-filtro="terminado"><span
+                  class="punto punto--terminado punto--inline"></span> Terminadas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resultados-filtro">
+          <p class="contador-obras" id="contador-obras" aria-live="polite"></p>
+          <ul class="filtros-activos" id="filtros-activos" aria-label="Filtros aplicados"></ul>
+          <button type="button" class="borrar-filtros" id="borrar-filtros" hidden>Borrar filtros</button>
+        </div>
+
+        <!-- Las tarjetas se dibujan solas desde js/obras-data.js (js/obras-lista.js) -->
+        <div class="grid" id="lista-obras">
+          <noscript>
+            <p>Para ver el listado de obras necesitás tener JavaScript activado.</p>
+          </noscript>
+        </div>
+        <p class="sin-resultados" id="sin-resultados" hidden>No hay obras con esa combinación de filtros. Probá con
+          otra.</p>
+      </div>
+    </section>
+
+    <!-- LLAMADO A CONTACTAR -->
+    <section class="cta-banda">
+      <div class="contenedor">
+        <h2>¿Tenés un proyecto en mente?</h2>
+        <p>Contanos qué necesitás y te asesoramos.</p>
+        <a href="contacto.html" class="btn btn--teal">Contactanos <svg class="icon">
+            <use href="#i-flecha" />
+          </svg></a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-fila">
+      <div class="footer-marca">
+        <img src="img/logo-rectangular.png" alt="" width="480" height="141">
+        <!-- <div>
+          <strong>DYSCON S.A.</strong>
+          <span>Construyendo futuro</span>
+        </div> -->
+      </div>
+
+      <nav class="footer-nav" aria-label="Pie de página">
+        <a href="index.html">Inicio</a>
+        <a href="obras.html" class="activo">Obras</a>
+        <a href="novedades.html">Novedades</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <div class="footer-datos">
+        <span><svg class="icon">
+            <use href="#i-pin" />
+          </svg> Rosario · Santa Fe · Argentina</span>
+        <a href="https://www.linkedin.com/company/dyscon-sa1/home/" aria-label="LinkedIn de DyScon" target="_blank"
+          rel="noopener"><svg class="icon">
+            <use href="#i-linkedin" />
+          </svg></a>
+        <a href="https://www.instagram.com/dysconsa/" aria-label="Instagram de DyScon" target="_blank"
+          rel="noopener"><svg class="icon">
+            <use href="#i-instagram" />
+          </svg></a>
+      </div>
+    </div>
+
+    <div class="footer-pie">
+      <p>© <span id="anio">2026</span> DYSCON S.A. Todos los derechos reservados.</p>
+      <p>Construcción | Infraestructura | Arquitectura | Restauración</p>
+    </div>
+  </footer>
+
+  <script src="js/obras-data.js"></script>
+  <script src="js/obras-lista.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

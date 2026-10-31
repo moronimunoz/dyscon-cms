@@ -1,0 +1,11 @@
+/* =========================================================
+   DETALLE DE NOVEDAD (se usa solo en novedad.html)
+   Reutiliza el encabezado con foto, la galería y el visor de obra.css
+   ========================================================= */
+.nota { max-width: 820px; margin: 0 auto; }
+.nota > p:not(.ficha-volver) {
+  font-size: 1rem; line-height: 1.8; color: var(--gris);
+  margin-bottom: 1.2rem;
+}
+.nota .galeria { margin-top: 2rem; }
+.nota .ficha-volver { margin-top: 2.5rem; }

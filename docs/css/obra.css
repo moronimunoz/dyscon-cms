@@ -1,0 +1,314 @@
+/* =========================================================
+   DETALLE DE OBRA (se usa solo en obra.html)
+   ========================================================= */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.chip {
+  padding: .15rem .9rem;
+  border-radius: 20px;
+  background: #fff;
+  color: var(--teal-700);
+  font-size: .72rem;
+  font-weight: 600;
+}
+
+.chip--ut {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: .15rem .8rem;
+  border-radius: 20px;
+  background: #fff;
+  color: var(--teal-700);
+  font-size: .72rem;
+  font-weight: 600;
+}
+
+.ficha {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.ficha-fila {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--linea);
+}
+
+.ficha-fila:first-child {
+  border-top: 0;
+}
+
+.ficha-fila h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--teal-700);
+}
+
+.ficha-fila p,
+.ficha-fila li {
+  font-size: .92rem;
+  color: var(--gris);
+}
+
+.ficha-fila p+p {
+  margin-top: .8rem;
+}
+
+.ficha-datos li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: .4rem;
+}
+
+.ficha-datos li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal-500);
+}
+
+/* Estado: Inicio / En obra / Terminado */
+.estados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+
+.estados span {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .3rem 1rem;
+  border-radius: 50px;
+  border: 1.5px solid var(--linea);
+  color: #9aa7ae;
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.estados .activo {
+  background: var(--teal-700);
+  border-color: var(--teal-700);
+  color: #fff;
+}
+
+.estados .en-curso {
+  border-color: #fff;
+}
+
+/* Galería */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: .8rem;
+}
+
+.galeria button {
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: var(--teal-100);
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s;
+}
+
+.galeria button:hover img {
+  transform: scale(1.06);
+}
+
+/* Mapa */
+.mapa iframe {
+  width: 100%;
+  height: 340px;
+  border: 0;
+  border-radius: 6px;
+}
+
+.ficha-volver {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--linea);
+}
+
+@media (max-width: 760px) {
+  .ficha-fila {
+    grid-template-columns: 1fr;
+    gap: .8rem;
+  }
+}
+
+/* Para que los textos largos en obras sean lejibles */
+.ficha-fila p {
+  max-width: 70ch;
+  line-height: 1.7;
+}
+
+/* Visor de foto ampliada */
+.visor {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  margin: auto;
+  max-width: 92vw;
+  max-height: 92vh;
+}
+
+.visor::backdrop {
+  background: rgba(19, 38, 39, .9);
+}
+
+/* El marco se ajusta al tamaño real de la foto: la X y los controles quedan siempre sobre ella */
+.visor-marco {
+  position: relative;
+  width: fit-content;
+  max-width: 92vw;
+}
+
+.visor-marco img {
+  display: block;
+  max-width: 92vw;
+  max-height: 88vh;
+  border-radius: 6px;
+}
+
+.visor-cerrar,
+.visor-controles button {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(19, 38, 39, .65);
+  color: #fff;
+  cursor: pointer;
+  transition: background .3s, color .3s;
+}
+
+.visor-cerrar:hover,
+.visor-controles button:hover {
+  background: #fff;
+  color: var(--teal-900);
+}
+
+.visor-cerrar {
+  position: absolute;
+  top: .7rem;
+  right: .7rem;
+}
+
+.visor-controles {
+  position: absolute;
+  left: 50%;
+  bottom: .9rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.visor-contador {
+  min-width: 4.4rem;
+  padding: .35rem .8rem;
+  border-radius: 999px;
+  background: rgba(19, 38, 39, .65);
+  color: #fff;
+  font-size: .85rem;
+  font-weight: 600;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.visor--una .visor-controles {
+  display: none;
+}
+
+/* con una sola foto no hay flechas ni contador */
+
+/* Galería: el diseño depende de cuántas fotos hay (lo arma crearGaleria en js/visor.js) */
+.galeria--1 {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  aspect-ratio: 16 / 9;
+}
+
+.galeria--2 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  aspect-ratio: 2 / 1;
+}
+
+.galeria--3 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  aspect-ratio: 2 / 1;
+}
+
+.galeria--4,
+.galeria--5 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  aspect-ratio: 2 / 1;
+}
+
+.galeria--3 button:first-child,
+.galeria--4 button:nth-child(-n+2),
+.galeria--5 button:first-child {
+  grid-row: 1 / 3;
+}
+
+.galeria button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: auto;
+}
+
+.galeria button:nth-child(n+6) {
+  display: none;
+}
+
+/* de la sexta en adelante: solo en el visor */
+.galeria-mas {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(19, 38, 39, .62);
+  color: #fff;
+  font-size: clamp(1.4rem, 3.4vw, 2.1rem);
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+  .galeria--2,
+  .galeria--3,
+  .galeria--4,
+  .galeria--5 {
+    aspect-ratio: 4 / 3;
+  }
+}

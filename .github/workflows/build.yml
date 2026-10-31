@@ -1,0 +1,22 @@
+# Cada vez que subís cambios a docs/ (datos, plantillas) regenera las páginas de obras y novedades.
+name: Generar páginas
+on:
+  push:
+    branches: [main]
+    paths: ['docs/js/obras-data.js', 'docs/js/novedades-data.js', 'docs/obra.html', 'docs/novedad.html', 'build.js']
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node build.js
+      - name: Subir lo generado
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A docs
+          git diff --cached --quiet || (git commit -m "Páginas generadas" && git push)
