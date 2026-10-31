@@ -8,12 +8,19 @@ const leerJson = f => JSON.parse(fs.readFileSync(f, 'utf8'));
 const archivos = dir => fs.existsSync(dir)
   ? fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort() : [];
 
+// Pages CMS escribe las rutas con el prefijo público de cada carpeta ("/img/obras/casa_m/01.jpg").
+// El sitio las necesita sin ese prefijo ("casa_m/01.jpg"). Se acepta cualquiera de las dos formas.
+const sinPrefijo = (v, prefijo) => typeof v !== 'string' ? v
+  : v.replace(/^\/+/, '').replace(new RegExp('^' + prefijo + '/'), '');
+const rutas = (lista, prefijo) => (lista || []).map(f => sinPrefijo(f, prefijo)).filter(Boolean);
+
 // [{youtube}|{archivo, poster, vertical, titulo}]  ->  formato que entiende video.js
-function videosALegacy(lista) {
-  const salida = (lista || []).map(v => {
+// carpetaPoster: 'img/obras' o 'img/novedades' (las portadas de video viven con las fotos)
+function videosALegacy(lista, carpetaPoster) {
+  const salida = (lista || []).filter(v => v && (v.youtube || v.archivo)).map(v => {
     if (v.youtube) return v.youtube;
-    const o = { src: v.archivo };
-    if (v.poster) o.poster = v.poster;
+    const o = { src: sinPrefijo(v.archivo, 'video') };
+    if (v.poster) o.poster = sinPrefijo(v.poster, carpetaPoster);
     if (v.vertical) o.vertical = true;
     if (v.titulo) o.titulo = v.titulo;
     return Object.keys(o).length === 1 ? o.src : o;
@@ -32,16 +39,16 @@ function obraALegacy(j, id) {
   if (j.plazo) datos.push('Plazo: ' + j.plazo);
   (j.datos_extra || []).forEach(d => datos.push(d));
   poner('datos', datos);
-  poner('miniatura', j.miniatura); poner('portada', j.portada);   // rutas completas dentro de img/obras/
-  o.fotos = j.fotos || [];
-  poner('video', videosALegacy(j.videos));
+  poner('miniatura', sinPrefijo(j.miniatura, 'img/obras')); poner('portada', sinPrefijo(j.portada, 'img/obras'));   // rutas completas dentro de img/obras/
+  o.fotos = rutas(j.fotos, 'img/obras');
+  poner('video', videosALegacy(j.videos, 'img/obras'));
   return o;
 }
 
 function novedadALegacy(j, id) {
-  const n = { id, titulo: j.titulo, categoria: j.categoria, fecha: j.fecha, portada: j.portada,
-    resumen: j.resumen || '', texto: j.texto || [], fotos: j.fotos || [] };
-  const v = videosALegacy(j.videos); if (v !== undefined) n.video = v;
+  const n = { id, titulo: j.titulo, categoria: j.categoria, fecha: j.fecha, portada: sinPrefijo(j.portada, 'img/novedades'),
+    resumen: j.resumen || '', texto: j.texto || [], fotos: rutas(j.fotos, 'img/novedades') };
+  const v = videosALegacy(j.videos, 'img/novedades'); if (v !== undefined) n.video = v;
   return n;
 }
 

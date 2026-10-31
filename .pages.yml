@@ -1,0 +1,318 @@
+# =====================================================================
+# Configuración de Pages CMS - DyScon S.A.
+# Este archivo define qué se puede editar desde el panel. Solo el administrador
+# (usuario de GitHub) puede cambiarlo: los colaboradores invitados por email NO.
+# IMPORTANTE: al guardar, Pages CMS reescribe cada JSON con los campos de acá; lo que
+# no esté definido acá se borra. Si se agrega un campo nuevo a los datos, agregarlo acá también.
+# =====================================================================
+
+# ---------- Dónde se guardan las fotos y videos que se suben ----------
+# input  = carpeta del repositorio.   output = ruta pública que se escribe en el JSON.
+# rename: random = nombre aleatorio, para que dos fotos nunca se pisen (IMG_0001.jpg de dos obras distintas).
+media:
+  - name: obras
+    label: Fotos de obras
+    input: docs/img/obras
+    output: /img/obras
+    extensions: [jpg, jpeg, png, webp]
+    rename: random
+  - name: novedades
+    label: Fotos de novedades
+    input: docs/img/novedades
+    output: /img/novedades
+    extensions: [jpg, jpeg, png, webp]
+    rename: random
+  - name: videos
+    label: Videos
+    input: docs/video
+    output: /video
+    extensions: [mp4, webm]
+    rename: safe
+
+content:
+  # ===================== OBRAS =====================
+  - name: obras
+    label: Obras
+    type: collection
+    path: content/obras
+    format: json
+    subfolders: false
+    filename:
+      template: "{primary}.json"
+      field: create
+    operations:
+      rename: false
+    view:
+      fields: [nombre, categoria, estado, publicada, orden]
+      primary: nombre
+      sort: [orden, nombre, categoria]
+      search: [nombre, ubicacion, comitente]
+      default:
+        sort: orden
+        order: asc
+    fields:
+      - name: publicada
+        label: Publicada en el sitio
+        type: boolean
+        default: true
+        description: "Si la desmarcás, la obra queda guardada pero NO se ve en la página (borrador)."
+      - name: orden
+        label: Orden en el listado
+        type: number
+        default: 0
+        options:
+          min: 0
+        description: "Número más bajo = aparece primero. Usá 0 para que salga primera."
+      - name: destacada
+        label: Posición en la portada
+        type: number
+        options:
+          min: 1
+        description: "Dejalo vacío si no es destacada. 1 = primera obra de la portada, 2 = segunda, etc."
+      - name: nombre
+        label: Nombre de la obra
+        type: string
+        required: true
+      - name: categoria
+        label: Categoría
+        type: select
+        required: true
+        options:
+          values: [Educación, Salud, Viviendas, Comunidad, Espacio Público, Patrimonio, Infraestructura, Institucional, Comercial, Industrial]
+      - name: tipo
+        label: Modalidad
+        type: select
+        required: true
+        options:
+          values:
+            - name: propia
+              label: Obra propia
+            - name: colaboracion
+              label: En colaboración (Unión Transitoria)
+      - name: con
+        label: Empresa con la que se colaboró
+        type: string
+        description: "Solo si es colaboración. Para negrita: <b>Nombre</b> - Empresa Constructora"
+      - name: estado
+        label: Estado
+        type: select
+        required: true
+        options:
+          values:
+            - name: inicio
+              label: Obra iniciando
+            - name: obra
+              label: Obra en ejecución
+            - name: terminado
+              label: Obra terminada
+      - name: comitente
+        label: Comitente
+        type: string
+      - name: ubicacion
+        label: Ubicación
+        type: string
+        description: "Formato: Ciudad · Provincia  (con el punto medio ·)"
+      - name: mapa
+        label: Dirección para el mapa
+        type: string
+        description: "Calle, número, ciudad y provincia; o coordenadas (-32.9468, -60.6393)."
+      - name: superficie
+        label: Superficie
+        type: string
+        description: "Ej: 4.000 m²."
+      - name: plazo
+        label: Plazo
+        type: string
+        description: "Ej: Septiembre, 2023 - Finalizado."
+      - name: datos_extra
+        label: Otros datos (opcional)
+        type: string
+        list: true
+        description: "Una línea por dato. Ej: Capacidad: 400 alumnos."
+      - name: resumen
+        label: Resumen para Google (opcional)
+        type: text
+      - name: descripcion
+        label: Descripción
+        type: rich-text
+        list: true
+        options:
+          format: html
+          media: false
+        description: "Cada ítem es un bloque de texto. Normalmente alcanza con uno solo."
+      - name: miniatura
+        label: Foto de la tarjeta del listado (opcional)
+        type: image
+        options:
+          media: obras
+        description: "Si la dejás vacía se usa la primera foto de la galería."
+      - name: portada
+        label: Foto de fondo de la ficha (opcional)
+        type: image
+        options:
+          media: obras
+      - name: fotos
+        label: Galería de fotos
+        type: image
+        options:
+          media: obras
+          multiple:
+            max: 60
+          unique: true
+        description: "La primera foto es la principal."
+      - name: videos
+        label: Videos
+        type: object
+        list: true
+        fields:
+          - name: youtube
+            label: Código de YouTube
+            type: string
+            description: "Solo el código. Ej: Hg_EGB0ZTkc. Si usás esto, dejá vacío el archivo."
+          - name: archivo
+            label: Archivo de video
+            type: file
+            options:
+              media: videos
+          - name: poster
+            label: Imagen de portada del video
+            type: image
+            options:
+              media: obras
+          - name: vertical
+            label: Es vertical (tipo Reels)
+            type: boolean
+          - name: titulo
+            label: Título del video (opcional)
+            type: string
+
+  # ===================== NOVEDADES =====================
+  - name: novedades
+    label: Novedades
+    type: collection
+    path: content/novedades
+    format: json
+    subfolders: false
+    filename:
+      template: "{primary}.json"
+      field: create
+    operations:
+      rename: false
+    view:
+      fields: [titulo, fecha, categoria, publicada]
+      primary: titulo
+      sort: [fecha, titulo]
+      search: [titulo, resumen]
+      default:
+        sort: fecha
+        order: desc
+    fields:
+      - name: publicada
+        label: Publicada en el sitio
+        type: boolean
+        default: true
+        description: "Si la desmarcás, queda guardada pero NO se ve en la página (borrador)."
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: categoria
+        label: Categoría
+        type: select
+        required: true
+        options:
+          values: [Obras, Institucional, Eventos]
+      - name: fecha
+        label: Fecha
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: resumen
+        label: Bajada (resumen corto)
+        type: text
+        description: "Una o dos líneas. También es lo que aparece en Google."
+      - name: texto
+        label: Texto de la novedad
+        type: rich-text
+        list: true
+        options:
+          format: html
+          media: false
+        description: "Cada ítem es un bloque de texto. Normalmente alcanza con uno solo."
+      - name: portada
+        label: Imagen principal
+        type: image
+        required: true
+        options:
+          media: novedades
+      - name: fotos
+        label: Fotos adicionales (galería)
+        type: image
+        options:
+          media: novedades
+          multiple:
+            max: 30
+          unique: true
+      - name: videos
+        label: Videos
+        type: object
+        list: true
+        fields:
+          - name: youtube
+            label: Código de YouTube
+            type: string
+          - name: archivo
+            label: Archivo de video
+            type: file
+            options:
+              media: videos
+          - name: poster
+            label: Imagen de portada del video
+            type: image
+            options:
+              media: novedades
+          - name: vertical
+            label: Es vertical (tipo Reels)
+            type: boolean
+          - name: titulo
+            label: Título del video (opcional)
+            type: string
+
+  # ===================== CIFRAS DE "NOSOTROS" =====================
+  - name: cifras
+    label: Cifras de la empresa
+    type: file
+    path: content/empresa/cifras.json
+    format: json
+    operations:
+      create: false
+      delete: false
+    fields:
+      - name: cifras
+        label: Cifras
+        type: object
+        list:
+          min: 4
+          max: 4
+        fields:
+          - name: valor
+            label: Número
+            type: number
+            required: true
+            options:
+              min: 0
+          - name: etiqueta
+            label: Texto
+            type: string
+            required: true
+
+# ---------- Mensajes de los cambios en el historial de GitHub ----------
+# identity: app = NO se publica el email de cada empleado en el historial (el repositorio es público).
+settings:
+  commit:
+    identity: app
+    templates:
+      create: "Panel: crear {path} (por {userName})"
+      update: "Panel: actualizar {path} (por {userName})"
+      delete: "Panel: eliminar {path} (por {userName})"
