@@ -189,7 +189,9 @@ const OBRAS = [
       "tecnoteca/15.jpg",
       "tecnoteca/16.jpg",
       "tecnoteca/17.jpg",
-      "tecnoteca/18.jpg"
+      "tecnoteca/18.jpg",
+      "tecnoteca/03-og.jpg",
+      "tecnoteca/19.jpeg"
     ],
     "video": {
       "src": "obras/tecno.mp4",

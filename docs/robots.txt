@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moronimunoz.github.io/dyscon/sitemap.xml
+Sitemap: https://moronimunoz.github.io/dyscon-cms/sitemap.xml
