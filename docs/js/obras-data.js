@@ -156,7 +156,7 @@ const OBRAS = [
     "nombre": "Tecnoteca",
     "categoria": "Comunidad",
     "tipo": "colaboracion",
-    "estado": "obra",
+    "estado": "terminado",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Municipalidad de Rosario.",
     "ubicacion": "Rosario · Santa Fe",
@@ -189,7 +189,8 @@ const OBRAS = [
       "tecnoteca/15.jpg",
       "tecnoteca/16.jpg",
       "tecnoteca/17.jpg",
-      "tecnoteca/18.jpg"
+      "tecnoteca/18.jpg",
+      "mvx114u3-u3w9xkmq.jpg"
     ],
     "video": {
       "src": "obras/tecno.mp4",
