@@ -156,7 +156,7 @@ const OBRAS = [
     "nombre": "Tecnoteca",
     "categoria": "Comunidad",
     "tipo": "colaboracion",
-    "estado": "terminado",
+    "estado": "obra",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Municipalidad de Rosario.",
     "ubicacion": "Rosario · Santa Fe",
