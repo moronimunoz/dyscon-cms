@@ -8,7 +8,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-# Si dos personas guardan casi a la vez, las corridas hacen cola en vez de pisarse
 concurrency:
   group: generar-paginas
   cancel-in-progress: false
@@ -21,7 +20,6 @@ jobs:
         with: { node-version: 20 }
       - run: node build.js
         env:
-          # Se arma sola según el repositorio: .../dyscon-cms acá, .../dyscon en el original
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       - name: Subir lo generado
         run: |
