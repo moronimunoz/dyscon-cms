@@ -6,7 +6,7 @@
   "categoria": "Comunidad",
   "tipo": "colaboracion",
   "con": "<b>Del Sol</b> - Empresa Constructora",
-  "estado": "inicio",
+  "estado": "terminado",
   "comitente": "Municipalidad de Rosario.",
   "ubicacion": "Rosario · Santa Fe",
   "mapa": "Estévez Boero 740, S2000 Rosario, Santa Fe",
@@ -35,9 +35,7 @@
     "tecnoteca/15.jpg",
     "tecnoteca/16.jpg",
     "tecnoteca/17.jpg",
-    "tecnoteca/18.jpg",
-    "/img/obras/tecnoteca/03-og.jpg",
-    "/img/obras/tecnoteca/19.jpeg"
+    "tecnoteca/18.jpg"
   ],
   "videos": [
     {
