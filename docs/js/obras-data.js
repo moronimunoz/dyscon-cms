@@ -18,7 +18,8 @@ const OBRAS = [
       "casa_m/02.jpg",
       "casa_m/03.jpg",
       "casa_m/04.jpg",
-      "casa_m/05.jpg"
+      "casa_m/05.jpg",
+      "mvz8cqcy-501hf0qf.jpg"
     ]
   },
   {
