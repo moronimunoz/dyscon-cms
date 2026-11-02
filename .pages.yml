@@ -147,12 +147,13 @@ content:
         type: image
         options:
           media: obras
-        description: "Si la dejás vacía se usa la primera foto de la galería."
+        description: "Si la dejás vacía se usa la primera foto de la galería. Formato .jpg, máximo 2 MB por foto (más pesadas dan error: achicalas antes en squoosh.app)."
       - name: portada
         label: Foto de fondo de la ficha (opcional)
         type: image
         options:
           media: obras
+        description: "Formato .jpg, máximo 2 MB por foto (más pesadas dan error: achicalas antes en squoosh.app)."
       - name: fotos
         label: Galería de fotos
         type: image
@@ -161,7 +162,7 @@ content:
           multiple:
             max: 60
           unique: true
-        description: "La primera foto es la principal. Subí fotos .jpg o .png: el sitio las achica y les borra la ubicación solo (tarda 1 a 3 minutos)."
+        description: "La primera foto es la principal. Formato .jpg, máximo 2 MB por foto (más pesadas dan error: achicalas antes en squoosh.app). El sitio las prepara solo (tarda 1 a 3 minutos)."
       - name: videos
         label: Videos
         type: object
@@ -170,12 +171,13 @@ content:
           - name: youtube
             label: Código de YouTube
             type: string
-            description: "Solo el código. Ej: Hg_EGB0ZTkc. Si usás esto, dejá vacío el archivo."
+            description: "Para videos nuevos: subilo a YouTube y pegá acá solo el código. Ej: Hg_EGB0ZTkc. Si usás esto, dejá vacío el archivo."
           - name: archivo
-            label: Archivo de video
+            label: Archivo de video (solo los ya cargados)
             type: file
             options:
               media: videos
+            description: "No se pueden subir videos desde el panel (pesan demasiado). Para videos nuevos usá el código de YouTube."
           - name: poster
             label: Imagen de portada del video
             type: image
@@ -248,6 +250,7 @@ content:
         required: true
         options:
           media: novedades
+        description: "Formato .jpg, máximo 2 MB por foto (más pesadas dan error: achicalas antes en squoosh.app)."
       - name: fotos
         label: Fotos adicionales (galería)
         type: image
@@ -256,6 +259,7 @@ content:
           multiple:
             max: 30
           unique: true
+        description: "Formato .jpg, máximo 2 MB por foto (más pesadas dan error: achicalas antes en squoosh.app)."
       - name: videos
         label: Videos
         type: object
@@ -264,11 +268,13 @@ content:
           - name: youtube
             label: Código de YouTube
             type: string
+            description: "Subí el video a YouTube y pegá acá solo el código. Ej: Hg_EGB0ZTkc."
           - name: archivo
-            label: Archivo de video
+            label: Archivo de video (solo los ya cargados)
             type: file
             options:
               media: videos
+            description: "No se pueden subir videos desde el panel (pesan demasiado). Para videos nuevos usá el código de YouTube."
           - name: poster
             label: Imagen de portada del video
             type: image

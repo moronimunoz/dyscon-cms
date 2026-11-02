@@ -24,3 +24,10 @@ y las carpetas `docs/img/og/` (se pisan en cada corrida). Los datos de antes de 
 - Si se elimina una foto, sus versiones livianas se borran solas.
 - Si una foto está dañada, la corrida de Actions muestra un aviso amarillo con el nombre del archivo.
 - Rehacer todas las versiones livianas a mano: `npm install` y `node optimizar-imagenes.js --forzar`.
+
+## Seguridad, recuperación y respaldos
+- El repositorio es **público**: todo lo que está en él (incluidos borradores y `content/`) se puede leer. No guardar acá nada privado.
+- Todo cambio queda en el historial de GitHub (pestaña *Commits*): nada se pierde. Para recuperar un archivo o una foto borrada,
+  abrir `https://raw.githubusercontent.com/moronimunoz/dyscon-cms/<código-del-commit>/<ruta-del-archivo>` con el código de un commit anterior.
+- Copia fuera de GitHub: *Code > Download ZIP* en la página principal del repositorio, guardada cada tanto en el Drive de la empresa.
+- Detalle completo en el "Manual del administrador" (documento aparte).
