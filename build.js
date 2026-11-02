@@ -38,10 +38,10 @@ const urlAbs = ruta => /^https?:\/\//.test(ruta) ? ruta : `${SITE}/${ruta.split(
 const fechaLarga = f => new Date(f + 'T12:00:00').toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
 const idValido = id => /^[A-Za-z0-9_-]+$/.test(id);
 
-// Foto para compartir: la versión "-og.jpg" (1200 x 630, la crea optimizar-imagenes.js) si existe; si no, la original
+// Foto para compartir: la versión de 1200 x 630 (img/og/..., la crea optimizar-imagenes.js) si existe; si no, la original
 const fotoParaCompartir = ruta => {
-  const og = ruta.replace(/\.(jpe?g|png|webp)$/i, '-og.jpg');
-  return og !== ruta && fs.existsSync(path.join(DOCS, og)) ? og : ruta;
+  const og = 'img/og/' + ruta.replace(/^img\//, '').replace(/\.(jpe?g|png|webp)$/i, '.jpg');
+  return /^img\/(obras|novedades)\//.test(ruta) && fs.existsSync(path.join(DOCS, og)) ? og : ruta;
 };
 
 /* ---------- Genera una página a partir de la plantilla ---------- */

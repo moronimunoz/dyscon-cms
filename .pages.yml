@@ -9,18 +9,20 @@
 # ---------- Dónde se guardan las fotos y videos que se suben ----------
 # input  = carpeta del repositorio.   output = ruta pública que se escribe en el JSON.
 # rename: random = nombre aleatorio, para que dos fotos nunca se pisen (IMG_0001.jpg de dos obras distintas).
+# extensions: solo jpg/jpeg/png. Así el selector NO muestra las versiones livianas (-sm.webp, -lg.webp)
+# que crea el sitio solo: se ven únicamente las fotos reales. (Se suben fotos de hasta 2400 px; se achican solas.)
 media:
   - name: obras
     label: Fotos de obras
     input: docs/img/obras
     output: /img/obras
-    extensions: [jpg, jpeg, png, webp]
+    extensions: [jpg, jpeg, png]
     rename: random
   - name: novedades
     label: Fotos de novedades
     input: docs/img/novedades
     output: /img/novedades
-    extensions: [jpg, jpeg, png, webp]
+    extensions: [jpg, jpeg, png]
     rename: random
   - name: videos
     label: Videos
@@ -159,7 +161,7 @@ content:
           multiple:
             max: 60
           unique: true
-        description: "La primera foto es la principal."
+        description: "La primera foto es la principal. Subí fotos .jpg o .png: el sitio las achica y les borra la ubicación solo (tarda 1 a 3 minutos)."
       - name: videos
         label: Videos
         type: object

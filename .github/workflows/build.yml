@@ -1,10 +1,21 @@
-# Regenera el sitio cada vez que cambia el contenido (panel Pages CMS) o las plantillas.
+# Regenera el sitio cada vez que cambia el contenido (panel Pages CMS), se sube una foto o cambian las plantillas.
 # También se puede correr a mano: pestaña Actions > "Generar páginas" > Run workflow.
 name: Generar páginas
 on:
   push:
     branches: [main]
-    paths: ['content/**', 'docs/obra.html', 'docs/novedad.html', 'docs/nosotros.html', 'build.js', 'scripts/**']
+    paths:
+      - 'content/**'
+      - 'docs/img/obras/**'
+      - 'docs/img/novedades/**'
+      - 'docs/obra.html'
+      - 'docs/novedad.html'
+      - 'docs/nosotros.html'
+      - 'build.js'
+      - 'optimizar-imagenes.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'scripts/**'
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,8 +28,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main          # siempre la última versión, incluso si otra corrida terminó hace un instante
       - uses: actions/setup-node@v4
-        with: { node-version: 20 }
+        with:
+          node-version: 20
+          cache: npm
+      # Si las fotos fallan por cualquier motivo, igual se publica el contenido (el sitio usa la foto original)
+      - name: Optimizar fotos
+        continue-on-error: true
+        run: |
+          npm ci
+          node optimizar-imagenes.js
       - run: node build.js
         env:
           # Se arma sola según el repositorio: .../dyscon-cms acá, .../dyscon en el original
