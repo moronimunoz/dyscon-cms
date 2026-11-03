@@ -7,10 +7,13 @@
   "tipo": "colaboracion",
   "con": "<b>Del Sol</b> - Empresa Constructora",
   "estado": "obra",
+  "comitente": "Grupo Nasini y Mariano Schor",
   "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
   "mapa": "X98V+JHG Villa Gdor. Gálvez, Santa Fe",
+  "superficie": "10 Hectáreas",
+  "plazo": "Febrero 2026 - En ejecución.",
   "descripcion": [
-    "Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <b>Nodo</b>, un desarrollo privado impulsado por <b>Grupo Nasini</b> Inversiones junto a <b>Mariano Schor</b>, de la constructora <b>Dyscon</b>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano."
+    "<p>Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano.</p>"
   ],
   "miniatura": "parque_industrial/01.jpg",
   "fotos": [
@@ -41,7 +44,8 @@
   "videos": [
     {
       "archivo": "obras/nodo.mp4",
-      "poster": "parque_industrial/poster.jpg"
+      "poster": "parque_industrial/poster.jpg",
+      "vertical": false
     }
   ]
 }
