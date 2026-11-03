@@ -276,7 +276,7 @@ const OBRAS = [
     ],
     "datos": [
       "Superficie: 46.000 m².",
-      "Plazo: Abril 2025 - En ejecución."
+      "Plazo: Febrero 2025 - En ejecución."
     ],
     "portada": "up8/00.jpeg",
     "fotos": [
