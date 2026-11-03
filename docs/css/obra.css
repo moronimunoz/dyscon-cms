@@ -312,3 +312,306 @@
     aspect-ratio: 4 / 3;
   }
 }
+
+/* =========================================================
+   NUEVO DISEÑO DE LA PÁGINA DE OBRA
+   Barra de datos clave + cuerpo en dos columnas + galería compacta.
+   Todo está bajo .obra-pagina para no afectar a las novedades, que comparten este archivo.
+   ========================================================= */
+
+/* Franja de título: más lugar abajo para que la barra de datos se apoye sobre la foto */
+.page-hero--obra {
+  padding-bottom: 6.5rem;
+}
+
+.obra-pagina {
+  padding-bottom: 4rem;
+}
+
+/* ---------- Barra de datos clave ---------- */
+.obra-resumen {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(var(--n, 4), minmax(0, 1fr));
+  margin-top: -4rem;
+  background: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 0 12px 36px rgba(27, 58, 60, .16);
+}
+
+.obra-dato {
+  padding: 1.4rem 1.8rem;
+  border-left: 1px solid var(--linea);
+  min-width: 0;
+}
+
+.obra-dato:first-child {
+  border-left: 0;
+}
+
+.obra-dato dt,
+.obra-rotulo {
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+.obra-dato dd {
+  margin: .25rem 0 0;
+}
+
+.obra-dato .valor,
+.obra-lateral .valor {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--teal-700);
+}
+
+.obra-dato .sub,
+.obra-lateral .sub {
+  display: block;
+  font-size: .82rem;
+  color: var(--gris);
+}
+
+.obra-dato .estados {
+  margin-top: .4rem;
+  gap: .4rem;
+}
+
+.obra-dato .estados span {
+  padding: .1rem .7rem;
+  font-size: .75rem;
+}
+
+/* ---------- Cuerpo: texto a la izquierda, tarjeta a la derecha ---------- */
+.obra-cuerpo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 3.5rem;
+  align-items: start;
+  padding-top: 3.5rem;
+}
+
+.obra-cuerpo--sin-barra {
+  padding-top: 2.5rem;
+}
+
+.obra-cuerpo--solo {
+  grid-template-columns: minmax(0, 560px);
+}
+
+.obra-texto h2,
+.obra-bloque h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--teal-700);
+  margin-bottom: 1rem;
+}
+
+.obra-texto h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--teal-700);
+  margin: 2rem 0 .8rem;
+}
+
+.obra-texto p {
+  max-width: 70ch;
+  font-size: .95rem;
+  line-height: 1.8;
+  color: var(--gris);
+}
+
+.obra-texto p+p {
+  margin-top: .9rem;
+}
+
+/* Cuando el texto empieza con un subtítulo en negrita (viene así del panel), se destaca */
+.obra-texto p>strong:only-child {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: var(--tinta);
+}
+
+.obra-texto b,
+.obra-texto strong {
+  color: var(--tinta);
+}
+
+.obra-texto .ficha-datos li {
+  font-size: .95rem;
+}
+
+/* Etiquetas (campo opcional "espacios") */
+.obra-etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+
+.obra-etiquetas li {
+  padding: .3rem 1rem;
+  border-radius: 50px;
+  background: var(--teal-100);
+  color: var(--teal-700);
+  font-size: .82rem;
+  font-weight: 600;
+}
+
+/* Tarjeta lateral */
+.obra-lateral {
+  position: sticky;
+  top: calc(var(--alto-header) + 1.5rem);
+  display: grid;
+  gap: 1.4rem;
+  padding: 1.8rem;
+  background: var(--fondo);
+  border: 1px solid var(--linea);
+  border-radius: 10px;
+}
+
+.obra-lateral .sub {
+  margin-top: .5rem;
+}
+
+.obra-lateral .mapa {
+  margin-top: .5rem;
+}
+
+.obra-lateral .mapa iframe {
+  height: 170px;
+}
+
+.obra-cta {
+  justify-content: center;
+  text-align: center;
+}
+
+.obra-cuerpo--solo .obra-lateral {
+  position: static;
+}
+
+/* ---------- Galería y video ---------- */
+.obra-bloque {
+  padding-top: 4rem;
+}
+
+.obra-bloque h2 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.obra-bloque h2 span {
+  font-size: .875rem;
+  font-weight: 400;
+  color: var(--gris);
+}
+
+.obra-bloque .video {
+  margin: 0;
+}
+
+/* Galería más baja que antes: la altura sale de la proporción (ancho / alto) */
+.obra-pagina .galeria {
+  gap: .6rem;
+}
+
+.obra-pagina .galeria--1 {
+  aspect-ratio: 2.4 / 1;
+}
+
+.obra-pagina .galeria--2,
+.obra-pagina .galeria--3,
+.obra-pagina .galeria--4 {
+  aspect-ratio: 3 / 1;
+}
+
+.obra-pagina .galeria--5 {
+  grid-template-columns: 1.6fr 1fr 1fr;
+  aspect-ratio: 3.15 / 1;
+}
+
+.obra-pagina .ficha-volver {
+  margin-top: 3rem;
+}
+
+/* ---------- Tablet y celular ---------- */
+@media (max-width: 900px) {
+  .obra-cuerpo {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+
+  .obra-lateral {
+    position: static;
+  }
+}
+
+@media (max-width: 760px) {
+  .page-hero--obra {
+    padding-bottom: 5.5rem;
+  }
+
+  .obra-resumen {
+    grid-template-columns: 1fr 1fr;
+    margin-top: -3.5rem;
+  }
+
+  .obra-dato {
+    grid-column: span 1;
+    padding: 1rem 1.2rem;
+    border-left: 0;
+    border-top: 1px solid var(--linea);
+  }
+
+  .obra-dato:first-child {
+    border-top: 0;
+  }
+
+  .obra-dato--ancho {
+    grid-column: 1 / -1;
+  }
+
+  .obra-dato--mitad+.obra-dato--mitad {
+    border-left: 1px solid var(--linea);
+    border-top: 0;
+  }
+
+  .obra-cuerpo {
+    padding-top: 2.5rem;
+  }
+
+  .obra-bloque {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .obra-pagina .galeria--1,
+  .obra-pagina .galeria--2,
+  .obra-pagina .galeria--3,
+  .obra-pagina .galeria--4 {
+    aspect-ratio: 4 / 3;
+  }
+
+  /* 5 o más fotos: una grande arriba y cuatro miniaturas en fila */
+  .obra-pagina .galeria--5 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 210px 78px;
+    aspect-ratio: auto;
+    gap: .4rem;
+  }
+
+  .obra-pagina .galeria--5 button:first-child {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+}
