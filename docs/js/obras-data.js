@@ -229,7 +229,7 @@ const OBRAS = [
     "categoria": "Viviendas",
     "tipo": "propia",
     "estado": "obra",
-    "comitente": "DPVyU.",
+    "comitente": "Dirección Provincial de Vivienda y Urbanismo (DPVyU).",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.9817997363948, -60.62924684936593",
     "descripcion": [
