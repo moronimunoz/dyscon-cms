@@ -72,10 +72,10 @@
   const plazo = limpiarPlazo(o.plazo || buscar('plazo'));
   const mitad = !!(superficie && plazo);        // en el celular, Superficie y Plazo van lado a lado
   const datos = [];
-  if (comitente) datos.push({ k: 'Comitente', v: esc(comitente), ancho: true });
+  if (comitente) datos.push({ k: 'Comitente', v: esc(comitente), ancho: true, clase: comitente.length > 45 ? 'comitente obra-dato--largo' : 'comitente' });
   if (superficie) datos.push({ k: 'Superficie', v: esc(superficie), mitad });
   if (plazo) datos.push({ k: 'Plazo', v: esc(plazo), mitad });
-  if (o.estado) datos.push({ k: 'Estado', html: estados, ancho: true });
+  if (o.estado) datos.push({ k: 'Estado', html: estados, ancho: true, clase: 'estado' });
   let modalidadEnBarra = false;
   if (datos.length < 4 && datos.length >= 1) {
     datos.push({ k: 'Modalidad', v: esc(modalidad.valor), sub: esc(modalidad.sub), ancho: true });
@@ -84,8 +84,8 @@
   if (datos.length < 4 && ubicacion.valor) datos.push({ k: 'Ubicación', v: esc(ubicacion.valor), sub: esc(ubicacion.sub), ancho: true });
 
   const barra = datos.length > 1
-    ? `<dl class="obra-resumen" style="--n:${datos.length}">${datos.map(d =>
-      `<div class="obra-dato${d.mitad ? ' obra-dato--mitad' : ''}${d.ancho ? ' obra-dato--ancho' : ''}"><dt>${d.k}</dt><dd>${d.html || `<span class="valor">${d.v}</span>${d.sub ? `<span class="sub">${d.sub}</span>` : ''}`}</dd></div>`
+    ? `<dl class="obra-resumen">${datos.map(d =>
+      `<div class="obra-dato${d.clase ? ' obra-dato--' + d.clase : ''}${d.mitad ? ' obra-dato--mitad' : ''}${d.ancho ? ' obra-dato--ancho' : ''}"><dt>${d.k}</dt><dd>${d.html || `<span class="valor">${d.v}</span>${d.sub ? `<span class="sub">${d.sub}</span>` : ''}`}</dd></div>`
     ).join('')}</dl>`
     : '';
   if (!barra) modalidadEnBarra = false;

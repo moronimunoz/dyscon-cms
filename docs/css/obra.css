@@ -332,8 +332,7 @@
 .obra-resumen {
   position: relative;
   z-index: 3;
-  display: grid;
-  grid-template-columns: repeat(var(--n, 4), minmax(0, 1fr));
+  display: flex;
   margin-top: -4rem;
   background: var(--blanco);
   border-radius: 10px;
@@ -341,9 +340,24 @@
 }
 
 .obra-dato {
+  flex: 1 1 0;
   padding: 1.4rem 1.8rem;
   border-left: 1px solid var(--linea);
   min-width: 0;
+}
+
+/* Cada columna toma el ancho que necesita: el comitente (suele ser largo) más, el estado lo justo para sus 3 botones */
+.obra-dato--comitente {
+  flex: 1.8 1 0;
+}
+
+.obra-dato--estado {
+  flex: 0 0 auto;
+}
+
+.obra-dato--largo .valor {
+  font-size: .92rem;
+  line-height: 1.45;
 }
 
 .obra-dato:first-child {
@@ -380,13 +394,15 @@
 }
 
 .obra-dato .estados {
-  margin-top: .4rem;
+  margin-top: .5rem;
   gap: .4rem;
+  flex-wrap: nowrap;
 }
 
 .obra-dato .estados span {
   padding: .1rem .7rem;
   font-size: .75rem;
+  white-space: nowrap;
 }
 
 /* ---------- Cuerpo: texto a la izquierda, tarjeta a la derecha ---------- */
@@ -554,17 +570,19 @@
   }
 }
 
-@media (max-width: 760px) {
-  .page-hero--obra {
-    padding-bottom: 5.5rem;
-  }
 
+/* La barra se apila en 2 columnas cuando el ancho ya no alcanza (tablet y celular) */
+@media (max-width: 1000px) {
   .obra-resumen {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: -3.5rem;
   }
 
-  .obra-dato {
+  .obra-dato,
+  .obra-dato--comitente,
+  .obra-dato--estado {
+    flex: none;
     grid-column: span 1;
     padding: 1rem 1.2rem;
     border-left: 0;
@@ -582,6 +600,12 @@
   .obra-dato--mitad+.obra-dato--mitad {
     border-left: 1px solid var(--linea);
     border-top: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .page-hero--obra {
+    padding-bottom: 5.5rem;
   }
 
   .obra-cuerpo {
