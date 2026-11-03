@@ -242,7 +242,7 @@ const OBRAS = [
     "categoria": "Comunidad",
     "tipo": "propia",
     "estado": "obra",
-    "comitente": "",
+    "comitente": "Unidad Ejecutora de Infraestructura.",
     "ubicacion": "Piñero · Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
     "destacada": 2,
