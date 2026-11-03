@@ -7,4 +7,5 @@ Antes de cargar una imagen en github, haz lo siguente:
 5. Corré "node build.js" en la terminal para crear la página propia 
    de esa obra o novedad y actualizar el sitemap.
 6. Subí todo a GitHub.
-ab
+
+na, vos decis!
