@@ -189,14 +189,8 @@ const OBRAS = [
       "tecnoteca/15.jpg",
       "tecnoteca/16.jpg",
       "tecnoteca/17.jpg",
-      "tecnoteca/18.jpg",
-      "mvx114u3-u3w9xkmq.jpg"
-    ],
-    "video": {
-      "src": "obras/tecno.mp4",
-      "poster": "tecnoteca/poster.jpg",
-      "vertical": true
-    }
+      "tecnoteca/18.jpg"
+    ]
   },
   {
     "id": "rdz-1635",
