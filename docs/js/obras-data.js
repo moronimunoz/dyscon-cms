@@ -232,8 +232,15 @@ const OBRAS = [
     "comitente": "DPVyU.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.9817997363948, -60.62924684936593",
-    "descripcion": [],
+    "descripcion": [
+      "<strong>Rosario: proyectan 64 viviendas en el barrio La Tablada</strong>",
+      "<em>El complejo tendrá unidades de uno, dos y tres dormitorios, estacionamiento y viviendas adaptadas para personas con movilidad reducida.</em>",
+      "El barrio La Tablada, en la zona sur de Rosario, tendrá un nuevo conjunto habitacional de 64 viviendas, financiado por la provincia de Santa Fe.",
+      "El complejo se levantará en el lote delimitado por las calles Grandoli, bulevar Seguí, Pasaje Korczak y Pasaje Pagé. Los edificios se desarrollarán en planta baja y tres pisos, e incluirán la infraestructura básica necesaria para su funcionamiento. También contarán con 90 dársenas de estacionamiento.",
+      "Las unidades serán de uno, dos y tres dormitorios, y el proyecto prevé además viviendas adaptadas para personas con movilidad reducida. Según la licitación de 2022, la obra se asienta sobre una superficie de 3.880 metros cuadrados."
+    ],
     "datos": [
+      "Superficie: 3.880 m².",
       "Plazo: Septiembre 2024 - En ejecución."
     ],
     "fotos": [
