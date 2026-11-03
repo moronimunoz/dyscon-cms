@@ -466,9 +466,11 @@ const OBRAS = [
     "comitente": "Ministerio de Educación.",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "X9JQ+CP2 Villa Gdor. Gálvez, Santa Fe",
-    "descripcion": [],
+    "descripcion": [
+      "<h2>Ampliación y modernización a la escuela Secundaria con más de 2.000 m² de obra nueva</h2><p>La institución cuenta ahora con <strong>2.079 metros cuadrados de superficie nueva</strong>, pensados para ampliar su capacidad y mejorar la experiencia de estudiantes y docentes. La obra incluye hall, portería, office, salón de usos múltiples, cantina y playón, depósito, sanitarios para varones, mujeres y personas con necesidades especiales, y un grupo sanitario adicional con baño.</p><p>En materia pedagógica, se sumaron <strong>cinco aulas comunes</strong> y espacios específicos para la formación técnica: un taller de automatización y neumática, un taller de electrónica y una sala de dibujo.</p><p>Además, se refaccionó un sector del edificio existente de <strong>509 metros cuadrados</strong>. Los trabajos comprendieron demoliciones, reformas y la refuncionalización de espacios para una nueva biblioteca, un área de gobierno y talleres, junto con refacciones generales.</p><p>La intervención se completó con un <strong>ingreso secundario con rampa y galería</strong>, un pergolado metálico, un nuevo playón con sistema de evacuación pluvial para el patio escolar y una vereda parquizada.</p>"
+    ],
     "datos": [
-      "Superficie: 2.588 m².",
+      "Superficie: 2079 m².",
       "Plazo: Agosto, 2017 - Octubre, 2019."
     ],
     "fotos": [
