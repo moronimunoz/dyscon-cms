@@ -268,10 +268,11 @@ const OBRAS = [
     "ubicacion": "Piñero · Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
     "descripcion": [
-      "<b>Infraestructura penitenciaria de alta seguridad</b><br><br>En el marco del programa de ampliación de la infraestructura penitenciaria de la provincia de Santa Fe, DYSCON S.A. participa en la construcción del Módulo D de la Unidad Penitenciaria N.º 8, integrada al complejo penitenciario de Piñero.<br><br>El proyecto forma parte de un establecimiento de alta seguridad que incorpora sistemas de alojamiento individual, estructuras de hormigón, circulaciones controladas y espacios complementarios destinados al funcionamiento penitenciario.<br><br>La intervención requiere una ejecución coordinada de los componentes arquitectónicos y constructivos, con especial atención a los requerimientos estructurales, funcionales y de seguridad propios de este tipo de infraestructura pública.<br><br>La obra se integra a un programa provincial orientado a ampliar la capacidad del sistema penitenciario y modernizar sus instalaciones."
+      "<strong>Infraestructura penitenciaria de alta seguridad</strong><br><br>En el marco del programa de ampliación de la infraestructura penitenciaria de la provincia de Santa Fe, DYSCON S.A. participa en la construcción del Módulo D de la Unidad Penitenciaria N.º 8, integrada al complejo penitenciario de Piñero.<br><br>El proyecto forma parte de un establecimiento de alta seguridad que incorpora sistemas de alojamiento individual, estructuras de hormigón, circulaciones controladas y espacios complementarios destinados al funcionamiento penitenciario.<br><br>La intervención requiere una ejecución coordinada de los componentes arquitectónicos y constructivos, con especial atención a los requerimientos estructurales, funcionales y de seguridad propios de este tipo de infraestructura pública.<br><br>La obra se integra a un programa provincial orientado a ampliar la capacidad del sistema penitenciario y modernizar sus instalaciones."
     ],
     "datos": [
-      "Plazo: Abril 2025 - Finalizado."
+      "Superficie: 46.000 m².",
+      "Plazo: Abril 2025 - En ejecución."
     ],
     "portada": "up8/00.jpeg",
     "fotos": [
