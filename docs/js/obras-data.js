@@ -405,6 +405,9 @@ const OBRAS = [
     "mapa": "-34.62672211727268, -58.399535530640875",
     "resumen": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
     "descripcion": [],
+    "datos": [
+      "Superficie: 11470 m²."
+    ],
     "fotos": [
       "plaza-san-cristobal.webp"
     ],
