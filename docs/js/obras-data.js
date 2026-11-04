@@ -110,7 +110,8 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "PAMI.",
     "ubicacion": "Ituzaingó · Buenos Aires",
-    "mapa": "Cnel. Brandsen 2898, B1714LAH Ituzaingó, Provincia de Buenos Aires",
+    "mapa": "9864+HX Ituzaingó, Provincia de Buenos Aires",
+    "resumen": "Cnel. Brandsen 2898, B1714LAH Ituzaingó, Provincia de Buenos Aires",
     "descripcion": [],
     "datos": [
       "Superficie: 21.770 m².",
@@ -133,10 +134,9 @@ const OBRAS = [
       "pami/12.jpeg"
     ],
     "coords": [
-      -34.6583,
-      -58.6667
+      -34.638562,
+      -58.692563
     ],
-    "aprox": true,
     "relacionadas": [
       "samco-pavon-arriba",
       "samco-funes",
