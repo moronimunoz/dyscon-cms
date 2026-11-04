@@ -262,7 +262,13 @@ const OBRAS = [
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.95287073111514, -60.66111829884581",
     "resumen": "Rodríguez 1635, Rosario, Santa Fe",
-    "descripcion": [],
+    "descripcion": [
+      "El Edificio RDZ 1635 es un proyecto residencial desarrollado por Dyscon S.A., ubicado en un sector estratégico de Rosario, a pocos metros de avenida Pellegrini y bulevar Oroño, con proximidad al Parque Independencia.",
+      "El emprendimiento contempla aproximadamente <strong>2.000 m² de superficie cubierta</strong>, distribuidos en planta baja, subsuelo y seis niveles destinados a viviendas, con una propuesta arquitectónica contemporánea que prioriza la funcionalidad, la iluminación natural y el aprovechamiento de los espacios.",
+      "La planta baja y el subsuelo están destinados a cocheras, que cuentan con un sistema de montacoches para facilitar el acceso y la circulación de vehículos. Sobre estos niveles se desarrollan las seis plantas residenciales, organizadas en semipisos de dos y tres dormitorios, con superficies aproximadas de <strong>91 y 114 m²</strong>, respectivamente.",
+      "Entre los espacios comunes se incorpora un Salón de Usos Múltiples (SUM), equipado con parrillero y un área de expansión para reuniones y actividades recreativas de los residentes.",
+      "El proyecto combina espacios privados y servicios compartidos, integrando soluciones de estacionamiento, áreas de encuentro y unidades habitacionales en un edificio de escala residencial. Según la publicación realizada por Dyscon en octubre de 2025, la construcción se encontraba entonces en una etapa avanzada de ejecución."
+    ],
     "datos": [
       "Superficie: 2.000 m².",
       "Plazo: Julio, 2023 - Finalizado."
@@ -545,9 +551,9 @@ const OBRAS = [
       -60.630816
     ],
     "relacionadas": [
-      "prueba",
       "escuela-primaria-1408",
-      "casa-m"
+      "casa-m",
+      "restauracion-espana-543"
     ]
   },
   {
@@ -659,19 +665,28 @@ const OBRAS = [
     "categoria": "Educación",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "",
+    "comitente": "Estado Nacional",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
-    "mapa": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
-    "descripcion": [],
+    "mapa": "-33.038023142288964, -60.616798401153645",
+    "resumen": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
+    "descripcion": [
+      "El edificio de la Escuela Secundaria Orientada N.º 608 “La Esperanza”, ubicado en Villa Gobernador Gálvez, cuenta con una superficie cubierta de <strong>1.670 m²</strong> y fue diseñado para ofrecer espacios adecuados para las actividades educativas, administrativas y recreativas de la comunidad escolar.",
+      "La infraestructura dispone de <strong>siete aulas</strong>, un Salón de Usos Múltiples (SUM), laboratorio, centro de recursos multimediales, depósito y sanitarios. Además, incorpora ascensor para garantizar la accesibilidad entre los distintos niveles.",
+      "El sector administrativo incluye oficinas de dirección, vicedirección, secretaría y preceptoría, junto con una sala de reuniones, sala de espera y office. También cuenta con espacios sanitarios destinados al personal docente y directivo.",
+      "La obra fue ejecutada por <strong>Dyscon S.A.</strong>, con un monto contractual de <strong>$16.780.254,56</strong>. Su financiamiento correspondió al ámbito nacional, en el marco del Programa de Apoyo a la Política de Mejoramiento de la Equidad Educativa, con fondos provenientes de un préstamo del Banco Interamericano de Desarrollo (BID).",
+      "El proyecto permitió dotar a la institución de un edificio propio, con instalaciones que integran aulas, espacios especializados y áreas de gestión en una infraestructura destinada al desarrollo de las actividades educativas."
+    ],
+    "datos": [
+      "Superficie: 1670 m²."
+    ],
     "fotos": [
       "jardin_608/01.jpg",
       "jardin_608/00.jpg"
     ],
     "coords": [
-      -33.0236,
-      -60.6283
+      -33.038023,
+      -60.616798
     ],
-    "aprox": true,
     "relacionadas": [
       "eetp-485",
       "escuela-primaria-1408",
@@ -751,54 +766,34 @@ const OBRAS = [
     "categoria": "Comunidad",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "Secretaría de Estado del Hábitat.",
+    "comitente": "Nación, Provincia de Santa Fe y Municipalidad de V.G.G.",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
-    "descripcion": [],
+    "mapa": "-33.04029450854612, -60.62849816950204",
+    "descripcion": [
+      "El barrio Mortelari I, ubicado en Villa Gobernador Gálvez, fue objeto de un proyecto de mejoramiento urbano que contempló la renovación de infraestructura y servicios esenciales, junto con la recuperación de espacios públicos. La intervención comprendió aproximadamente <strong>13 hectáreas, 226 lotes y 17 cuadras</strong>, beneficiando directamente a unas <strong>200 familias</strong>.",
+      "Los trabajos comenzaron en agosto de 2017 y fueron inaugurados en agosto de 2018, en el marco del Programa de Mejoramiento Barrial (PROMEBA) y del Plan Nacional Santa Fe Hábitat, con participación de los gobiernos nacional, provincial y municipal.",
+      "La obra incluyó la ejecución de <strong>pavimento con cordón cuneta, desagües pluviales y redes de agua potable</strong>, además de infraestructura eléctrica domiciliaria y alumbrado público. También se incorporaron veredas y sendas peatonales, señalización, arbolado y mobiliario urbano.",
+      "En materia recreativa y comunitaria, se construyó un <strong>playón polideportivo</strong> y se acondicionaron espacios verdes, incorporando juegos infantiles y equipamiento para el uso y disfrute de los vecinos.",
+      "La intervención permitió mejorar las condiciones de circulación, los servicios básicos y el espacio público del sector, dotando al barrio de infraestructura urbana y nuevos lugares de encuentro comunitario.",
+      "Posteriormente, en febrero de 2025, se inició una obra complementaria en el Centro de Salud Mortelari, ubicado en Alberdi y Pasaje 4. El proyecto contempla la construcción de tres consultorios, un depósito, dos baños y el reacondicionamiento de un patio interno, con un presupuesto oficial de <strong>$71.176.266,60</strong>."
+    ],
     "datos": [
-      "Plazo: Agosto, 2017 - Octubre, 2020."
+      "Superficie: 13 hectáreas, 226 lotes y 17 cuadras",
+      "Plazo: Agosto, 2017 - Agosto de 2018"
     ],
     "fotos": [
-      "barrio_mortelari_1.jpg"
+      "barrio_mortelari_1.jpg",
+      "mw2auqda-tapj3a6n.jpeg",
+      "mw2auujy-dpk9hjdn.jpeg"
     ],
     "coords": [
-      -33.0236,
-      -60.6283
+      -33.040295,
+      -60.628498
     ],
-    "aprox": true,
     "relacionadas": [
       "casa-m",
       "unidad-penitenciaria-15",
       "unidad-penitenciaria-8"
-    ]
-  },
-  {
-    "id": "prueba",
-    "nombre": "Texas Antigua",
-    "categoria": "Patrimonio",
-    "tipo": "propia",
-    "estado": "terminado",
-    "comitente": "Morochiño",
-    "ubicacion": "Rosario · Santa Fe",
-    "mapa": "3 de febrero 1025, rosario, santa fe",
-    "descripcion": [],
-    "datos": [
-      "Superficie: 40 m²."
-    ],
-    "miniatura": "mw1lrcr2-3f7bltu1.png",
-    "portada": "mw1l948s-kuvwtv8m.png",
-    "fotos": [
-      "mw1lrm40-4stnn0ul.png",
-      "mw1ltmn0-m342r68u.png",
-      "mw1lttri-92ocivjh.png"
-    ],
-    "coords": [
-      -32.952993,
-      -60.638682
-    ],
-    "relacionadas": [
-      "monumento-bandera",
-      "casa-m",
-      "restauracion-espana-543"
     ]
   }
 ];
