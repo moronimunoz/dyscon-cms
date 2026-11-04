@@ -13,13 +13,15 @@
    Eventos que registra solos: llamadas (tel:), mails (mailto:), WhatsApp, descargas de PDF,
    clic en redes sociales, formulario enviado y cualquier elemento con data-evento="Nombre".
    En Plausible hay que crear cada evento como "Goal" en el panel para verlo en los resultados.
+
+
    ========================================================= */
 (function () {
   'use strict';
 
   /* ---------- CONFIGURACIÓN: lo único que hay que tocar ---------- */
   var CONFIG = {
-    proveedor: '',                       // 'plausible' | 'umami' | 'ga4'   (vacío = apagada)
+    proveedor: 'umami',                       // 'plausible' | 'umami' | 'ga4'   (vacío = apagada)
 
     plausible: {
       dominio: 'dysconsa.com.ar',        // el dominio tal como lo cargaste en Plausible
@@ -27,7 +29,7 @@
       script: 'https://plausible.io/js/script.js'
     },
     umami: {
-      id: '',                            // "Website ID" que muestra Umami
+      id: 'ff071d52-4424-4cbc-80ec-68c2409ee273',                            // "Website ID" que muestra Umami
       script: 'https://cloud.umami.is/script.js'   // si usás Umami propio, la dirección de tu servidor
     },
     ga4: {
