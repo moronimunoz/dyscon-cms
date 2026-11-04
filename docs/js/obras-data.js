@@ -450,9 +450,10 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario (UNR)",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "Riobamba 242, S2000 Rosario, Santa Fe",
+    "mapa": "-32.9663568433821, -60.62559512621197",
+    "resumen": "Riobamba 242, S2000 Rosario, Santa Fe",
     "descripcion": [
-      "En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <b>69 viviendas</b> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.<br><br>La intervención forma parte de un programa integral impulsado por el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario, orientado a mejorar las condiciones habitacionales y promover la integración urbana del sector.<br><br>El proyecto contempló viviendas de distintas tipologías, cocheras e infraestructura de servicios, incluyendo redes sanitarias, instalaciones eléctricas y obras de urbanización complementarias.<br><br>La obra constituye un aporte al desarrollo de vivienda pública y a la transformación de un sector estratégico de Rosario, fortaleciendo la integración entre el tejido residencial, los espacios públicos y el entorno universitario."
+      "En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <strong>69 viviendas</strong> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.<br><br>La intervención forma parte de un programa integral impulsado por el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario, orientado a mejorar las condiciones habitacionales y promover la integración urbana del sector.<br><br>El proyecto contempló viviendas de distintas tipologías, cocheras e infraestructura de servicios, incluyendo redes sanitarias, instalaciones eléctricas y obras de urbanización complementarias.<br><br>La obra constituye un aporte al desarrollo de vivienda pública y a la transformación de un sector estratégico de Rosario, fortaleciendo la integración entre el tejido residencial, los espacios públicos y el entorno universitario."
     ],
     "portada": "69-viviendas/02.webp",
     "fotos": [
@@ -461,8 +462,8 @@ const OBRAS = [
       "69-viviendas/00.jpg"
     ],
     "coords": [
-      -32.965101,
-      -60.63031
+      -32.966357,
+      -60.625595
     ],
     "relacionadas": [
       "restauracion-espana-543",
