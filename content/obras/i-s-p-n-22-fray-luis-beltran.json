@@ -1,7 +1,7 @@
 {
   "publicada": false,
   "orden": 850,
-  "nombre": "I.S.P. N° 22 Fray Luis Beltran",
+  "nombre": "Instituto Superior del Profesorado N.º 22 \"Maestro Addad\" de Fray Luis Beltrán",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
@@ -9,6 +9,9 @@
   "ubicacion": "Fray Luis Beltrán, Departamento San Lorenzo, Santa Fe.",
   "superficie": "928 m².",
   "plazo": "Junio, 2012 - Mayo, 2014.",
+  "descripcion": [
+    "<p>El proyecto de intervención edilicia del Instituto Superior del Profesorado N.º 22 «Maestro Addad», ubicado en Fray Luis Beltrán, contempló la refacción y adecuación de 855 m² destinados a mejorar las instalaciones educativas y administrativas de la institución.</p><p>La propuesta incluyó la construcción de un hall de ingreso, librería y portería, junto con la rehabilitación de la cocina-comedor en planta baja. En planta alta se proyectaron una biblioteca, sala de informática, galerías, área de gobierno y nuevos núcleos sanitarios.</p><p>La obra fue impulsada por el Ministerio de Educación de Santa Fe, con financiamiento del Programa Nacional de Refacción Integral de Edificios de Establecimientos de Educación Técnico Profesional (INET). El presupuesto informado fue de $3.311.008,74, con un plazo de ejecución previsto de 360 días corridos.</p><p>La intervención formó parte de un proyecto destinado a mejorar las condiciones edilicias de una institución educativa que funciona desde 1987 y que necesitaba ampliar y adecuar sus espacios para responder al crecimiento de su comunidad estudiantil.</p>"
+  ],
   "fotos": [
     "provisorio/prov-front.png"
   ]
