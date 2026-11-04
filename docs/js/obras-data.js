@@ -569,13 +569,12 @@ const OBRAS = [
     "datos": [
       "Superficie: 40 m²."
     ],
-    "miniatura": "mw1l9vfd-vgl2ie20.jpeg",
+    "miniatura": "mw1lrcr2-3f7bltu1.png",
     "portada": "mw1l948s-kuvwtv8m.png",
     "fotos": [
-      "tablada.jpg",
-      "parque_regional_sur.jpg",
-      "mvz8cqcy-501hf0qf.jpg",
-      "mvx114u3-u3w9xkmq.jpg"
+      "mw1lrm40-4stnn0ul.png",
+      "mw1ltmn0-m342r68u.png",
+      "mw1lttri-92ocivjh.png"
     ]
   }
 ];
