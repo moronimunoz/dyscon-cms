@@ -197,9 +197,9 @@ const OBRAS = [
       -60.606047
     ],
     "relacionadas": [
+      "parque-regional-sur",
       "plaza-san-martin",
-      "plaza-san-cristobal",
-      "parque-regional-sur"
+      "plaza-san-cristobal"
     ]
   },
   {
@@ -431,13 +431,19 @@ const OBRAS = [
     "id": "parque-regional-sur",
     "nombre": "Parque Regional Sur",
     "categoria": "Espacio Público",
-    "tipo": "propia",
+    "tipo": "colaboracion",
     "estado": "obra",
-    "comitente": "",
+    "con": "<b>Del Sol</b> - Empresa Constructora",
+    "comitente": "Ministerio de Obras Públicas y la Dirección Provincial de Arquitectura e Ingeniería (DIPAI)",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-33.00470218365296, -60.628972348056905",
     "resumen": "Láinez 1-48, S2000 Rosario, Santa Fe",
-    "descripcion": [],
+    "descripcion": [
+      "<p>La <strong>Intervención Integral del Parque Regional Sur</strong> en Rosario es una obra de remodelación ejecutada por la <strong>Unión Transitoria de Empresas (UTE)</strong> conformada por <strong>Dyscon</strong> y <strong>Del Sol</strong>, con una inversión provincial de aproximadamente <strong>$9.400 millones de pesos</strong>.</p><p>Las tareas abarcan <strong>40 hectáreas</strong> del predio (delimitado por calles Centenario, Hungría y el arroyo Saladillo) e incluyen:</p><ul><li><p><strong>Infraestructura vial:</strong> Pavimentación definitiva con cordón cuneta en calles aledañas y construcción de nuevas veredas perimetrales.</p></li><li><p><strong>Espacios recreativos:</strong> Construcción de un nuevo sector de baños públicos, parrilleros rebatibles, mesadas antivandálicas y mejoramiento de la iluminación y parquización.</p></li><li><p><strong>Áreas deportivas:</strong> Cerramiento y nuevo pavimento del <strong>Circuito KDT</strong>, adecuación del entorno del <strong>velódromo</strong> y ejecución de playones deportivos.</p></li><li><p><strong>Accesibilidad y seguridad:</strong> Remodelación de edificios existentes, senderos interiores accesibles y nuevas barandas en el borde del arroyo Saladillo.</p></li></ul><p></p>"
+    ],
+    "datos": [
+      "Superficie: 40 Hectáreas"
+    ],
     "fotos": [
       "parque_regional_sur.jpg"
     ],
@@ -447,8 +453,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "plaza-san-martin",
-      "plaza-san-cristobal",
-      "parque-industrial"
+      "parque-industrial",
+      "plaza-san-cristobal"
     ]
   },
   {
