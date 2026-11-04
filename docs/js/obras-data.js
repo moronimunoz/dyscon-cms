@@ -21,10 +21,9 @@ const OBRAS = [
       "casa_m/05.jpg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -32.927646,
+      -60.770908
     ],
-    "aprox": true,
     "relacionadas": [
       "tecnoteca",
       "unidad-penitenciaria-15",
@@ -94,10 +93,9 @@ const OBRAS = [
       "espana/03.jpeg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -32.942002,
+      -60.64568
     ],
-    "aprox": true,
     "relacionadas": [
       "rdz-1635",
       "viviendas-tablada",
@@ -244,10 +242,9 @@ const OBRAS = [
       "tecnoteca/18.jpg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -32.945205,
+      -60.6298
     ],
-    "aprox": true,
     "relacionadas": [
       "casa-m",
       "unidad-penitenciaria-15",
@@ -281,10 +278,9 @@ const OBRAS = [
       "rdz/08.jpg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -32.905369,
+      -60.699109
     ],
-    "aprox": true,
     "relacionadas": [
       "viviendas-tablada",
       "69-viviendas",
@@ -434,10 +430,9 @@ const OBRAS = [
       "parque_regional_sur.jpg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -33.004993,
+      -60.637753
     ],
-    "aprox": true,
     "relacionadas": [
       "plaza-san-martin",
       "plaza-san-cristobal",
@@ -463,10 +458,9 @@ const OBRAS = [
       "69-viviendas/00.jpg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -32.965101,
+      -60.63031
     ],
-    "aprox": true,
     "relacionadas": [
       "restauracion-espana-543",
       "rdz-1635",
@@ -527,14 +521,13 @@ const OBRAS = [
       "monumento/32.jpg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -32.947593,
+      -60.630816
     ],
-    "aprox": true,
     "relacionadas": [
+      "prueba",
       "escuela-primaria-1408",
-      "casa-m",
-      "restauracion-espana-543"
+      "casa-m"
     ]
   },
   {
@@ -777,6 +770,15 @@ const OBRAS = [
       "mw1lrm40-4stnn0ul.png",
       "mw1ltmn0-m342r68u.png",
       "mw1lttri-92ocivjh.png"
+    ],
+    "coords": [
+      -32.952993,
+      -60.638682
+    ],
+    "relacionadas": [
+      "monumento-bandera",
+      "casa-m",
+      "restauracion-espana-543"
     ]
   }
 ];
