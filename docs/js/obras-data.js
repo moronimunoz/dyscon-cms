@@ -558,10 +558,10 @@ const OBRAS = [
   },
   {
     "id": "prueba",
-    "nombre": "Prueba de carga",
-    "categoria": "Comercial",
+    "nombre": "Texas Antigua",
+    "categoria": "Patrimonio",
     "tipo": "propia",
-    "estado": "obra",
+    "estado": "terminado",
     "comitente": "Morochiño",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "3 de febrero 1025, rosario, santa fe",
