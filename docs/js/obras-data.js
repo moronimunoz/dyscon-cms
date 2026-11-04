@@ -666,7 +666,8 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Ministerio de Obras Públicas.",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "Av. Joaquín Suárez 2900 & Dr. José Julián Pérez, S2005 Rosario, Santa Fe",
+    "mapa": "-32.88844558431866, -60.73054073642479",
+    "resumen": "Av. Joaquín Suárez 2900 & Dr. José Julián Pérez, S2005 Rosario, Santa Fe",
     "descripcion": [
       "La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe. Se desarrolla en un solo nivel compuesto por 8 aulas agrupables, un salón de usos múltiples, una cantina y espacio para cocinar y un gran patio semicubierto."
     ],
@@ -681,10 +682,9 @@ const OBRAS = [
       "nuevo_alberdi/02.jpeg"
     ],
     "coords": [
-      -32.9468,
-      -60.6393
+      -32.888446,
+      -60.730541
     ],
-    "aprox": true,
     "relacionadas": [
       "escuela-ricardone",
       "eetp-485",
