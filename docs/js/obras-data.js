@@ -400,16 +400,22 @@ const OBRAS = [
     "categoria": "Espacio Público",
     "tipo": "propia",
     "estado": "obra",
-    "comitente": "",
+    "comitente": "Ministerio de Espacio Público porteño y Subterráneos de Buenos Aires (SBASE)",
     "ubicacion": "CABA · Buenos Aires",
     "mapa": "-34.62672211727268, -58.399535530640875",
     "resumen": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
-    "descripcion": [],
+    "descripcion": [
+      "<h3>Avanza la renovación integral de la plaza y su entorno</h3><p>El proyecto contempla la renovación de 13.550 m², incluyendo la plaza y las veredas de toda la manzana, con mejoras en accesibilidad, iluminación y seguridad. El nuevo espacio contará con sectores verdes, juegos infantiles, cancha deportiva, área de calistenia y un espacio cultural semicubierto.</p><p>Además, se recuperará el histórico edificio ferroviario de calle Alberti y se reutilizarán estructuras existentes como pérgolas. También se incorporarán unos 70 árboles, nuevo mobiliario urbano y caminos peatonales renovados.</p><p>La obra tendrá un plazo estimado de 14 meses y se prevé que esté finalizada durante el segundo semestre de 2027.</p>"
+    ],
     "datos": [
-      "Superficie: 11470 m²."
+      "Superficie: 11470 m².",
+      "Plazo: Septiembre, 2026 - En ejecución"
     ],
     "fotos": [
-      "plaza-san-cristobal.webp"
+      "plaza-san-cristobal.webp",
+      "mw28x0q3-m1igwfvn.jpg",
+      "mw28x8yk-14ai701m.jpg",
+      "mw28xdb5-7lq0f3ia.jpg"
     ],
     "coords": [
       -34.626722,
