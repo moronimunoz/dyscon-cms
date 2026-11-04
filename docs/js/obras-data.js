@@ -659,19 +659,28 @@ const OBRAS = [
     "categoria": "Educación",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "",
+    "comitente": "Estado Nacional",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
-    "mapa": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
-    "descripcion": [],
+    "mapa": "-33.038023142288964, -60.616798401153645",
+    "resumen": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
+    "descripcion": [
+      "El edificio de la Escuela Secundaria Orientada N.º 608 “La Esperanza”, ubicado en Villa Gobernador Gálvez, cuenta con una superficie cubierta de <strong>1.670 m²</strong> y fue diseñado para ofrecer espacios adecuados para las actividades educativas, administrativas y recreativas de la comunidad escolar.",
+      "La infraestructura dispone de <strong>siete aulas</strong>, un Salón de Usos Múltiples (SUM), laboratorio, centro de recursos multimediales, depósito y sanitarios. Además, incorpora ascensor para garantizar la accesibilidad entre los distintos niveles.",
+      "El sector administrativo incluye oficinas de dirección, vicedirección, secretaría y preceptoría, junto con una sala de reuniones, sala de espera y office. También cuenta con espacios sanitarios destinados al personal docente y directivo.",
+      "La obra fue ejecutada por <strong>Dyscon S.A.</strong>, con un monto contractual de <strong>$16.780.254,56</strong>. Su financiamiento correspondió al ámbito nacional, en el marco del Programa de Apoyo a la Política de Mejoramiento de la Equidad Educativa, con fondos provenientes de un préstamo del Banco Interamericano de Desarrollo (BID).",
+      "El proyecto permitió dotar a la institución de un edificio propio, con instalaciones que integran aulas, espacios especializados y áreas de gestión en una infraestructura destinada al desarrollo de las actividades educativas."
+    ],
+    "datos": [
+      "Superficie: 1670 m²."
+    ],
     "fotos": [
       "jardin_608/01.jpg",
       "jardin_608/00.jpg"
     ],
     "coords": [
-      -33.0236,
-      -60.6283
+      -33.038023,
+      -60.616798
     ],
-    "aprox": true,
     "relacionadas": [
       "eetp-485",
       "escuela-primaria-1408",
