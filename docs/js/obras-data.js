@@ -83,10 +83,17 @@ const OBRAS = [
     "categoria": "Viviendas",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "",
+    "comitente": "Particular",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "España 543, Rosario, Santa Fe",
-    "descripcion": [],
+    "descripcion": [
+      "Se llevó adelante la restauración y puesta en valor de un departamento ubicado en calle España 543, en la ciudad de Rosario. La intervención comprendió trabajos de pintura y encerado de superficies, renovación del mobiliario y actualización integral del baño.",
+      "Además, se realizó el recambio de muebles y equipamiento, incorporando nuevos elementos para mejorar la funcionalidad, el confort y la estética de los ambientes.",
+      "La obra permitió renovar los espacios interiores y optimizar sus condiciones de uso, mediante una intervención que combinó tareas de mantenimiento, restauración y modernización."
+    ],
+    "datos": [
+      "Superficie: 45 m²."
+    ],
     "fotos": [
       "espana/00.jpg",
       "espana/01.jpeg",
