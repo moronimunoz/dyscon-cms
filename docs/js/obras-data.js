@@ -400,7 +400,8 @@ const OBRAS = [
     "estado": "obra",
     "comitente": "",
     "ubicacion": "CABA · Buenos Aires",
-    "mapa": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
+    "mapa": "Av. Pavón 2439, C1248 AAG, Cdad. Autónoma de Buenos Aires",
+    "resumen": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
     "descripcion": [],
     "fotos": [
       "plaza-san-cristobal.webp"
