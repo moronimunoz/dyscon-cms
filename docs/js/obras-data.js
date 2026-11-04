@@ -426,14 +426,15 @@ const OBRAS = [
     "estado": "obra",
     "comitente": "",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "Láinez 1-48, S2000 Rosario, Santa Fe",
+    "mapa": "-33.00470218365296, -60.628972348056905",
+    "resumen": "Láinez 1-48, S2000 Rosario, Santa Fe",
     "descripcion": [],
     "fotos": [
       "parque_regional_sur.jpg"
     ],
     "coords": [
-      -33.004993,
-      -60.637753
+      -33.004702,
+      -60.628972
     ],
     "relacionadas": [
       "plaza-san-martin",
