@@ -575,7 +575,8 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
     "ubicacion": "Funes · Santa Fe",
-    "mapa": "Monteagudo 1582-1600, S2132 Funes, Santa Fe",
+    "mapa": "-32.90604960988841, -60.809192565734605",
+    "resumen": "Monteagudo 1582-1600, S2132 Funes, Santa Fe",
     "descripcion": [],
     "datos": [
       "Superficie: 1.000 m².",
@@ -594,10 +595,9 @@ const OBRAS = [
       "samco/08.jpg"
     ],
     "coords": [
-      -32.9172,
-      -60.8139
+      -32.90605,
+      -60.809193
     ],
-    "aprox": true,
     "relacionadas": [
       "pami-ituzaingo",
       "samco-pavon-arriba",
