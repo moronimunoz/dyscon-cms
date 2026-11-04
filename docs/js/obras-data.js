@@ -262,7 +262,13 @@ const OBRAS = [
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.95287073111514, -60.66111829884581",
     "resumen": "Rodríguez 1635, Rosario, Santa Fe",
-    "descripcion": [],
+    "descripcion": [
+      "El Edificio RDZ 1635 es un proyecto residencial desarrollado por Dyscon S.A., ubicado en un sector estratégico de Rosario, a pocos metros de avenida Pellegrini y bulevar Oroño, con proximidad al Parque Independencia.",
+      "El emprendimiento contempla aproximadamente <strong>2.000 m² de superficie cubierta</strong>, distribuidos en planta baja, subsuelo y seis niveles destinados a viviendas, con una propuesta arquitectónica contemporánea que prioriza la funcionalidad, la iluminación natural y el aprovechamiento de los espacios.",
+      "La planta baja y el subsuelo están destinados a cocheras, que cuentan con un sistema de montacoches para facilitar el acceso y la circulación de vehículos. Sobre estos niveles se desarrollan las seis plantas residenciales, organizadas en semipisos de dos y tres dormitorios, con superficies aproximadas de <strong>91 y 114 m²</strong>, respectivamente.",
+      "Entre los espacios comunes se incorpora un Salón de Usos Múltiples (SUM), equipado con parrillero y un área de expansión para reuniones y actividades recreativas de los residentes.",
+      "El proyecto combina espacios privados y servicios compartidos, integrando soluciones de estacionamiento, áreas de encuentro y unidades habitacionales en un edificio de escala residencial. Según la publicación realizada por Dyscon en octubre de 2025, la construcción se encontraba entonces en una etapa avanzada de ejecución."
+    ],
     "datos": [
       "Superficie: 2.000 m².",
       "Plazo: Julio, 2023 - Finalizado."
