@@ -555,5 +555,27 @@ const OBRAS = [
     "fotos": [
       "barrio_mortelari_1.jpg"
     ]
+  },
+  {
+    "id": "prueba",
+    "nombre": "Prueba de carga",
+    "categoria": "Comercial",
+    "tipo": "propia",
+    "estado": "obra",
+    "comitente": "Morochiño",
+    "ubicacion": "Rosario · Santa Fe",
+    "mapa": "3 de febrero 1025, rosario, santa fe",
+    "descripcion": [],
+    "datos": [
+      "Superficie: 40 m²."
+    ],
+    "miniatura": "mw1l9vfd-vgl2ie20.jpeg",
+    "portada": "mw1l948s-kuvwtv8m.png",
+    "fotos": [
+      "tablada.jpg",
+      "parque_regional_sur.jpg",
+      "mvz8cqcy-501hf0qf.jpg",
+      "mvx114u3-u3w9xkmq.jpg"
+    ]
   }
 ];
