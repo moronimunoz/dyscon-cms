@@ -409,7 +409,7 @@ const OBRAS = [
     ],
     "datos": [
       "Superficie: 11470 m².",
-      "Plazo: Septiembre, 2026 - En ejecución"
+      "Plazo: Septiembre, 2026 - Noviembre, 2027"
     ],
     "fotos": [
       "plaza-san-cristobal.webp",
