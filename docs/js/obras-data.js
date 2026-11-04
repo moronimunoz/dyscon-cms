@@ -260,7 +260,7 @@ const OBRAS = [
     "estado": "obra",
     "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "Rodríguez 1635, Rosario, Santa Fe",
+    "mapa": "-32.95287073111514, -60.66111829884581",
     "resumen": "Rodríguez 1635, Rosario, Santa Fe",
     "descripcion": [],
     "datos": [
@@ -280,8 +280,8 @@ const OBRAS = [
       "rdz/08.jpg"
     ],
     "coords": [
-      -32.905369,
-      -60.699109
+      -32.952871,
+      -60.661118
     ],
     "relacionadas": [
       "viviendas-tablada",
