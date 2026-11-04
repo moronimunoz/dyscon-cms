@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DyScon S.A. | Empresa constructora</title>
-  <meta name="description"
-    content="DyScon S.A. Empresa constructora de Rosario. Más de 20 años de experiencia en obras públicas y privadas.">
-  <link rel="canonical" href="https://dysconsa.com.ar/"> <!-- index.html -->
+  <meta name="description" content="DyScon S.A. Empresa constructora de Rosario. Más de 20 años de experiencia en obras públicas y privadas.">
+  <link rel="canonical" href="https://dysconsa.com.ar/">                  <!-- index.html -->
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
@@ -15,72 +13,30 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
   <!-- ÍCONOS (se reutilizan con <use href="#nombre">) -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="i-obras" viewBox="0 0 24 24">
-      <path d="M4 21V5h10v16M14 9h6v12M2 21h20M7 8h4M7 12h4M7 16h4M17 13v.01M17 17v.01" />
-    </symbol>
-    <symbol id="i-puente" viewBox="0 0 24 24">
-      <path d="M2 19h20M5 19V8M19 19V8M5 8c3 6 11 6 14 0M9 14.500V19M12 15.500V19M15 14.500V19" />
-    </symbol>
-    <symbol id="i-edificio" viewBox="0 0 24 24">
-      <path d="M6 21V3h12v18M3 21h18M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2" />
-    </symbol>
-    <symbol id="i-columna" viewBox="0 0 24 24">
-      <path d="M4 7h16M5 7l7-4 7 4M7 10v8M12 10v8M17 10v8M4 21h16M5 18h14" />
-    </symbol>
-    <symbol id="i-pin" viewBox="0 0 24 24">
-      <path d="M12 21s-6-5.500-6-11a6 6 0 0112 0c0 5.500-6 11-6 11z" />
-      <circle cx="12" cy="10" r="2" />
-    </symbol>
-    <symbol id="i-flecha" viewBox="0 0 24 24">
-      <path d="M5 12h14M13 6l6 6-6 6" />
-    </symbol>
-    <symbol id="i-izq" viewBox="0 0 24 24">
-      <path d="M15 6l-6 6 6 6" />
-    </symbol>
-    <symbol id="i-der" viewBox="0 0 24 24">
-      <path d="M9 6l6 6-6 6" />
-    </symbol>
-    <symbol id="i-calendario" viewBox="0 0 24 24">
-      <rect x="4" y="5" width="16" height="16" rx="2" />
-      <path d="M4 10h16M8 3v4M16 3v4" />
-    </symbol>
-    <symbol id="i-escudo" viewBox="0 0 24 24">
-      <path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z" />
-      <path d="M8.500 12l2.500 2.500 4.500-5" />
-    </symbol>
-    <symbol id="i-libro" viewBox="0 0 24 24">
-      <path d="M3 5c3-1 6-1 9 1 3-2 6-2 9-1v14c-3-1-6-1-9 1-3-2-6-2-9-1z" />
-      <path d="M12 6v14" />
-    </symbol>
-    <symbol id="i-cruz" viewBox="0 0 24 24">
-      <path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z" />
-    </symbol>
-    <symbol id="i-casa" viewBox="0 0 24 24">
-      <path d="M3 11l9-8 9 8M5 10v11h14V10M10 21v-6h4v6" />
-    </symbol>
-    <symbol id="i-arbol" viewBox="0 0 24 24">
-      <circle cx="12" cy="9" r="6" />
-      <path d="M12 15v6M9 21h6" />
-    </symbol>
-    <symbol id="i-instagram" viewBox="0 0 24 24">
-      <rect x="3" y="3" width="18" height="18" rx="5" />
-      <circle cx="12" cy="12" r="4" />
-      <path d="M17.500 6.500v.01" />
-    </symbol>
-    <symbol id="i-linkedin" viewBox="0 0 24 24">
-      <rect x="3" y="3" width="18" height="18" rx="3" />
-      <path d="M8 11v6M8 7.500v.01M12 17v-6M12 13c0-3 5-3 5 0v4" />
-    </symbol>
+    <symbol id="i-obras" viewBox="0 0 24 24"><path d="M4 21V5h10v16M14 9h6v12M2 21h20M7 8h4M7 12h4M7 16h4M17 13v.01M17 17v.01"/></symbol>
+    <symbol id="i-puente" viewBox="0 0 24 24"><path d="M2 19h20M5 19V8M19 19V8M5 8c3 6 11 6 14 0M9 14.500V19M12 15.500V19M15 14.500V19"/></symbol>
+    <symbol id="i-edificio" viewBox="0 0 24 24"><path d="M6 21V3h12v18M3 21h18M9 7h2M13 7h2M9 11h2M13 11h2M9 15h2M13 15h2"/></symbol>
+    <symbol id="i-columna" viewBox="0 0 24 24"><path d="M4 7h16M5 7l7-4 7 4M7 10v8M12 10v8M17 10v8M4 21h16M5 18h14"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6-5.500-6-11a6 6 0 0112 0c0 5.500-6 11-6 11z"/><circle cx="12" cy="10" r="2"/></symbol>
+    <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-izq" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+    <symbol id="i-der" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+    <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 10h16M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.500 8-8 9-4.500-1-8-4-8-9V6z"/><path d="M8.500 12l2.500 2.500 4.500-5"/></symbol>
+    <symbol id="i-libro" viewBox="0 0 24 24"><path d="M3 5c3-1 6-1 9 1 3-2 6-2 9-1v14c-3-1-6-1-9 1-3-2-6-2-9-1z"/><path d="M12 6v14"/></symbol>
+    <symbol id="i-cruz" viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></symbol>
+    <symbol id="i-casa" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v11h14V10M10 21v-6h4v6"/></symbol>
+    <symbol id="i-arbol" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M12 15v6M9 21h6"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.500 6.500v.01"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v6M8 7.500v.01M12 17v-6M12 13c0-3 5-3 5 0v4"/></symbol>
   </svg>
 
   <!-- HEADER -->
@@ -100,9 +56,7 @@
     </nav>
 
     <a href="contacto.html" class="btn btn--oscuro header-cta">
-      Contacto <svg class="icon">
-        <use href="#i-flecha" />
-      </svg>
+      Contacto <svg class="icon"><use href="#i-flecha"/></svg>
     </a>
   </header>
 
@@ -112,7 +66,7 @@
     <section class="hero" id="inicio" aria-label="Presentación">
       <div class="slides">
         <video autoplay muted loop playsinline preload="auto" poster="img/hero/poster.jpg">
-          <source src="video/portada.mp4" type="video/mp4">
+          <source src="video/portada.webm" type="video/mp4">
         </video>
       </div>
 
@@ -122,9 +76,7 @@
         <span class="hero-linea"></span>
         <p class="hero-texto">Más de 20 años de experiencia en obras públicas y privadas.</p>
         <a href="#nosotros" class="btn btn--teal">
-          Conocé más sobre nosotros <svg class="icon">
-            <use href="#i-flecha" />
-          </svg>
+          Conocé más sobre nosotros <svg class="icon"><use href="#i-flecha"/></svg>
         </a>
       </div>
 
@@ -132,28 +84,20 @@
 
     <!-- FRANJA DE CATEGORÍAS -->
     <section class="categorias" aria-label="Áreas de trabajo">
-      <a href="obras.html" class="cat reveal"> <!-- Obras públicas y privadas -->
-        <svg class="icon icon--lg">
-          <use href="#i-obras" />
-        </svg>
+      <a href="obras.html" class="cat reveal">                             <!-- Obras públicas y privadas --> 
+        <svg class="icon icon--lg"><use href="#i-obras"/></svg>
         <span>Obras públicas<br>y privadas</span>
       </a>
-      <a href="obras.html?categoria=espacio-publico" class="cat reveal"> <!-- Infraestructura -->
-        <svg class="icon icon--lg">
-          <use href="#i-puente" />
-        </svg>
+      <a href="obras.html?categoria=espacio-publico" class="cat reveal">   <!-- Infraestructura -->
+        <svg class="icon icon--lg"><use href="#i-puente"/></svg>
         <span>Infraestructura</span>
       </a>
-      <a href="obras.html?categoria=comunidad" class="cat reveal"> <!-- Arquitectura -->
-        <svg class="icon icon--lg">
-          <use href="#i-edificio" />
-        </svg>
+      <a href="obras.html?categoria=comunidad" class="cat reveal">         <!-- Arquitectura -->
+        <svg class="icon icon--lg"><use href="#i-edificio"/></svg>
         <span>Arquitectura</span>
       </a>
-      <a href="obras.html?categoria=patrimonio" class="cat reveal"> <!-- Restauración y puesta en valor -->
-        <svg class="icon icon--lg">
-          <use href="#i-columna" />
-        </svg>
+      <a href="obras.html?categoria=patrimonio" class="cat reveal">        <!-- Restauración y puesta en valor -->
+        <svg class="icon icon--lg"><use href="#i-columna"/></svg>
         <span>Restauración y<br>puesta en valor</span>
       </a>
     </section>
@@ -163,47 +107,36 @@
       <div class="contenedor">
         <div class="obras-cabecera">
           <h2 class="titulo">Obras destacadas</h2>
-          <a href="obras.html" class="link-flecha">Ver todas las obras <svg class="icon">
-              <use href="#i-flecha" />
-            </svg></a>
+          <a href="obras.html" class="link-flecha">Ver todas las obras <svg class="icon"><use href="#i-flecha"/></svg></a>
         </div>
 
         <div class="grid" id="obras-destacadas">
-          <noscript>
-            <p><a href="obras.html">Ver todas las obras</a></p>
-          </noscript>
+          <noscript><p><a href="obras.html">Ver todas las obras</a></p></noscript>
         </div>
-
+        
       </div>
     </section>
 
     <!-- NOSOTROS -->
     <section class="nosotros" id="nosotros">
       <div class="nosotros-img">
-        <img src="img/nosotros.jpg" alt="Obra en construcción de DyScon S.A." loading="lazy">
+        <img src="img/nosotros.jpg" alt="Obra en construcción de DyScon S.A." width="1200" height="675" loading="lazy" decoding="async">
       </div>
 
       <div class="nosotros-texto reveal">
         <p class="rotulo">Nosotros</p>
         <h2>Una empresa constructora con vocación de servicio</h2>
-        <p>En DYSCON S.A. trabajamos para transformar ideas en obras que mejoran la vida de las personas y el desarrollo
-          de las comunidades. Con una sólida trayectoria y un equipo de profesionales especializados, desarrollamos
-          proyectos de diversa escala y complejidad, en todo el país.</p>
-        <a href="nosotros.html" class="btn btn--borde">Conocé más <svg class="icon">
-            <use href="#i-flecha" />
-          </svg></a>
+        <p>En DYSCON S.A. trabajamos para transformar ideas en obras que mejoran la vida de las personas y el desarrollo de las comunidades. Con una sólida trayectoria y un equipo de profesionales especializados, desarrollamos proyectos de diversa escala y complejidad, en todo el país.</p>
+        <a href="nosotros.html" class="btn btn--borde">Conocé más <svg class="icon"><use href="#i-flecha"/></svg></a>
       </div>
 
+      <!-- Las dos primeras cifras las genera build.js desde content/empresa/cifras.json (panel: "Cifras de la empresa" > "Mostrar en el inicio") -->
       <ul class="datos reveal">
-        <li><svg class="icon icon--lg">
-            <use href="#i-calendario" />
-          </svg><span><strong>+20 años</strong> de trayectoria</span></li>
-        <li><svg class="icon icon--lg">
-            <use href="#i-escudo" />
-          </svg><span><strong>+120 Obras ejecutadas</strong></span></li>
-        <li><svg class="icon icon--lg">
-            <use href="#i-pin" />
-          </svg><span><strong>Presencia en Santa Fe</strong> y otras jurisdicciones</span></li>
+        <!-- CIFRAS-INICIO:inicio -->
+        <li><svg class="icon icon--lg"><use href="#i-calendario"/></svg><span><strong>+20</strong> Años de experiencia</span></li>
+        <li><svg class="icon icon--lg"><use href="#i-escudo"/></svg><span><strong>+120</strong> Obras ejecutadas</span></li>
+        <!-- CIFRAS-INICIO:fin -->
+        <li><svg class="icon icon--lg"><use href="#i-pin"/></svg><span><strong>Presencia en Santa Fe</strong> y otras jurisdicciones</span></li>
       </ul>
     </section>
 
@@ -211,41 +144,30 @@
     <section class="franja" id="trayectoria">
       <div class="franja-col franja-historia reveal">
         <p class="rotulo rotulo--claro">Nuestra trayectoria</p>
-        <h2>2005 – 2026</h2>
-        <p>Desde nuestra fundación, en 2005, construimos un camino de crecimiento constante, con el compromiso de
-          generar valor a través de la calidad, la innovación y la responsabilidad en cada proyecto.</p>
-        <a href="nosotros.html" class="btn btn--borde-claro">Nuestra historia <svg class="icon">
-            <use href="#i-flecha" />
-          </svg></a>
+        <h2><!-- RANGO:inicio -->2005 – 2026<!-- RANGO:fin --></h2>
+        <p>Desde nuestra fundación, en <!-- FUNDACION:inicio -->2005<!-- FUNDACION:fin -->, construimos un camino de crecimiento constante, con el compromiso de generar valor a través de la calidad, la innovación y la responsabilidad en cada proyecto.</p>
+        <a href="nosotros.html" class="btn btn--borde-claro">Nuestra historia <svg class="icon"><use href="#i-flecha"/></svg></a>
       </div>
 
       <ol class="linea-tiempo reveal" aria-label="Hitos de la empresa">
+        <!-- HITOS:inicio -->
         <li><b>2005</b><span>Inicio de la actividad</span></li>
         <li><b>2010</b><span>Expansión de proyectos</span></li>
         <li><b>2015</b><span>Nuevas jurisdicciones</span></li>
         <li><b>2020</b><span>Grandes obras de infraestructura</span></li>
         <li><b>2026</b><span>Seguimos construyendo</span></li>
+      <!-- HITOS:fin -->
       </ol>
 
       <div class="franja-col franja-trabajos reveal">
         <p class="rotulo rotulo--claro">Trabajamos en</p>
         <h2>Educación, salud, patrimonio, viviendas y espacio público.</h2>
         <ul class="sectores">
-          <li><svg class="icon icon--lg">
-              <use href="#i-libro" />
-            </svg>Educación</li>
-          <li><svg class="icon icon--lg">
-              <use href="#i-cruz" />
-            </svg>Salud</li>
-          <li><svg class="icon icon--lg">
-              <use href="#i-edificio" />
-            </svg>Patrimonio</li>
-          <li><svg class="icon icon--lg">
-              <use href="#i-casa" />
-            </svg>Viviendas</li>
-          <li><svg class="icon icon--lg">
-              <use href="#i-arbol" />
-            </svg>Espacio público</li>
+          <li><svg class="icon icon--lg"><use href="#i-libro"/></svg>Educación</li>
+          <li><svg class="icon icon--lg"><use href="#i-cruz"/></svg>Salud</li>
+          <li><svg class="icon icon--lg"><use href="#i-edificio"/></svg>Patrimonio</li>
+          <li><svg class="icon icon--lg"><use href="#i-casa"/></svg>Viviendas</li>
+          <li><svg class="icon icon--lg"><use href="#i-arbol"/></svg>Espacio público</li>
         </ul>
       </div>
     </section>
@@ -273,17 +195,9 @@
       </nav>
 
       <div class="footer-datos">
-        <span><svg class="icon">
-            <use href="#i-pin" />
-          </svg> Rosario · Santa Fe · Argentina</span>
-        <a href="https://www.linkedin.com/company/dyscon-sa1/home/" aria-label="LinkedIn de DyScon" target="_blank"
-          rel="noopener"><svg class="icon">
-            <use href="#i-linkedin" />
-          </svg></a>
-        <a href="https://www.instagram.com/dysconsa/" aria-label="Instagram de DyScon" target="_blank"
-          rel="noopener"><svg class="icon">
-            <use href="#i-instagram" />
-          </svg></a>
+        <span><svg class="icon"><use href="#i-pin"/></svg> Rosario · Santa Fe · Argentina</span>
+        <a href="https://www.linkedin.com/company/dyscon-sa1/home/" aria-label="LinkedIn de DyScon" target="_blank" rel="noopener"><svg class="icon"><use href="#i-linkedin"/></svg></a>
+        <a href="https://www.instagram.com/dysconsa/" aria-label="Instagram de DyScon" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram"/></svg></a>
       </div>
     </div>
 
@@ -296,6 +210,6 @@
   <script src="js/obras-data.js"></script>
   <script src="js/obras-lista.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/analitica.js" defer></script>
 </body>
-
 </html>

@@ -2,19 +2,23 @@
   "cifras": [
     {
       "valor": 20,
-      "etiqueta": "Años de experiencia"
+      "etiqueta": "Años de experiencia",
+      "inicio": true
     },
     {
       "valor": 40,
-      "etiqueta": "Equipos propios"
+      "etiqueta": "Equipos propios",
+      "inicio": false
     },
     {
       "valor": 120,
-      "etiqueta": "Obras ejecutadas"
+      "etiqueta": "Obras ejecutadas",
+      "inicio": true
     },
     {
       "valor": 240,
-      "etiqueta": "Colaboradores"
+      "etiqueta": "Colaboradores",
+      "inicio": false
     }
   ]
 }

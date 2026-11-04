@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es" data-404>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada | DyScon S.A.</title>
+  <meta name="description" content="La página que buscás no existe o cambió de lugar. Volvé al inicio o mirá nuestras obras.">
+  <meta name="robots" content="noindex">
+
+  <!-- GitHub Pages muestra esta página para cualquier dirección que no existe, incluso dentro de carpetas
+       (/obras/casa-m, /a/b/c). Por eso las rutas de acá NO se escriben relativas a la página: este script calcula
+       la raíz del sitio (/dyscon-cms/ en github.io, / en dysconsa.com.ar) y arma con ella las rutas. -->
+  <script>
+    window.RAIZ = (function () {
+      var partes = location.pathname.split('/');
+      return (/\.github\.io$/.test(location.hostname) && partes[1]) ? '/' + partes[1] + '/' : '/';
+    })();
+    document.write(
+      '<link rel="icon" type="image/svg+xml" href="' + RAIZ + 'img/favicon/favicon.svg">' +
+      '<link rel="shortcut icon" href="' + RAIZ + 'favicon.ico">' +
+      '<link rel="preload" href="' + RAIZ + 'fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>' +
+      '<link rel="stylesheet" href="' + RAIZ + 'css/styles.css">'
+    );
+  </script>
+  <noscript><link rel="stylesheet" href="/css/styles.css"></noscript>
+</head>
+
+<body>
+
+  <!-- ÍCONOS (solo los que usa esta página) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6-5.500-6-11a6 6 0 0112 0c0 5.500-6 11-6 11z" /><circle cx="12" cy="10" r="2" /></symbol>
+    <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.500 6.500v.01" /></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3" /><path d="M8 11v6M8 7.500v.01M12 17v-6M12 13c0-3 5-3 5 0v4" /></symbol>
+  </svg>
+
+  <!-- HEADER (los vínculos "data-ruta" se completan con la raíz del sitio al final de la página) -->
+  <header class="header header--hero" id="header">
+    <a href="#" data-ruta="index.html" class="logo" aria-label="DyScon S.A. - Inicio">
+      <script>document.write('<img src="' + RAIZ + 'img/logo-rectangular.png" alt="DyScon S.A." width="480" height="141">');</script>
+      <noscript>DyScon S.A.</noscript>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#" data-ruta="index.html">Inicio</a>
+      <a href="#" data-ruta="obras.html">Obras</a>
+      <a href="#" data-ruta="novedades.html">Novedades</a>
+      <a href="#" data-ruta="nosotros.html">Nosotros</a>
+      <a href="#" data-ruta="contacto.html" class="nav-contacto">Contacto</a>
+    </nav>
+
+    <a href="#" data-ruta="contacto.html" class="btn btn--oscuro header-cta">
+      Contacto <svg class="icon"><use href="#i-flecha" /></svg>
+    </a>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero--404">
+      <div class="contenedor">
+        <p class="error-codigo" aria-hidden="true">404</p>
+        <h1>No encontramos esa página</h1>
+        <p>
+          La dirección que abriste no existe o cambió de lugar. Puede que la obra o la novedad
+          que buscás haya sido reubicada: probá desde alguno de estos accesos.
+        </p>
+        <p><a href="#" data-ruta="index.html" class="btn btn--teal">Volver al inicio <svg class="icon"><use href="#i-flecha" /></svg></a></p>
+      </div>
+    </section>
+
+    <section class="contenedor">
+      <div class="error-accesos">
+        <a class="error-acceso" href="#" data-ruta="obras.html">
+          <strong>Obras</strong>
+          <span>Todos nuestros proyectos, con filtros por categoría, tipo y estado.</span>
+        </a>
+        <a class="error-acceso" href="#" data-ruta="obras.html?vista=mapa">
+          <strong>Mapa de obras</strong>
+          <span>Dónde trabajamos, obra por obra.</span>
+        </a>
+        <a class="error-acceso" href="#" data-ruta="novedades.html">
+          <strong>Novedades</strong>
+          <span>Inauguraciones, avances y noticias de la empresa.</span>
+        </a>
+        <a class="error-acceso" href="#" data-ruta="contacto.html">
+          <strong>Contacto</strong>
+          <span>Escribinos o llamanos: te respondemos a la brevedad.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-fila">
+      <div class="footer-marca">
+        <script>document.write('<img src="' + RAIZ + 'img/logo-rectangular.png" alt="" width="480" height="141">');</script>
+      </div>
+
+      <nav class="footer-nav" aria-label="Pie de página">
+        <a href="#" data-ruta="index.html">Inicio</a>
+        <a href="#" data-ruta="obras.html">Obras</a>
+        <a href="#" data-ruta="novedades.html">Novedades</a>
+        <a href="#" data-ruta="nosotros.html">Nosotros</a>
+        <a href="#" data-ruta="contacto.html">Contacto</a>
+      </nav>
+
+      <div class="footer-datos">
+        <span><svg class="icon"><use href="#i-pin" /></svg> Rosario · Santa Fe · Argentina</span>
+        <a href="https://www.linkedin.com/company/dyscon-sa1/home/" aria-label="LinkedIn de DyScon" target="_blank" rel="noopener"><svg class="icon"><use href="#i-linkedin" /></svg></a>
+        <a href="https://www.instagram.com/dysconsa/" aria-label="Instagram de DyScon" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram" /></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-pie">
+      <p>© <span id="anio">2026</span> DYSCON S.A. Todos los derechos reservados.</p>
+      <p>Construcción | Infraestructura | Arquitectura | Restauración</p>
+    </div>
+  </footer>
+
+  <script>
+    // Completa los vínculos con la raíz del sitio y carga los scripts de siempre
+    document.querySelectorAll('a[data-ruta]').forEach(function (a) { a.href = RAIZ + a.getAttribute('data-ruta'); });
+    document.write('<script src="' + RAIZ + 'js/main.js"><\/script><script src="' + RAIZ + 'js/analitica.js" defer><\/script>');
+  </script>
+</body>
+
+</html>

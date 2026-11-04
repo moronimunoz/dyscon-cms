@@ -1,0 +1,9 @@
+{
+  "hitos": [
+    { "anio": 2005, "texto": "Inicio de la actividad" },
+    { "anio": 2010, "texto": "Expansión de proyectos" },
+    { "anio": 2015, "texto": "Nuevas jurisdicciones" },
+    { "anio": 2020, "texto": "Grandes obras de infraestructura" },
+    { "anio": 2026, "texto": "Seguimos construyendo" }
+  ]
+}

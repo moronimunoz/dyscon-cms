@@ -11,9 +11,8 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/obra.css">
 
@@ -68,7 +67,7 @@
   </header>
 
   <!-- Acá se dibuja la obra (js/obra.js) -->
-  <main id="detalle"><section class="contenedor ficha"><h1>Bloque de 69 viviendas — República de la Sexta</h1><p>Rosario · Santa Fe</p><p>En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <b>69 viviendas</b> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.<br><br>La intervención forma parte de un programa integral impulsado por el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario, orientado a mejorar las condiciones habitacionales y promover la integración urbana del sector.<br><br>El proyecto contempló viviendas de distintas tipologías, cocheras e infraestructura de servicios, incluyendo redes sanitarias, instalaciones eléctricas y obras de urbanización complementarias.<br><br>La obra constituye un aporte al desarrollo de vivienda pública y a la transformación de un sector estratégico de Rosario, fortaleciendo la integración entre el tejido residencial, los espacios públicos y el entorno universitario.</p><p><a href="obras.html">Volver a Obras</a></p></section></main>
+  <main id="detalle"><section class="contenedor ficha"><h1>Bloque de 69 viviendas — República de la Sexta</h1><p>Rosario · Santa Fe</p><p>En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <b>69 viviendas</b> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.<br><br>La intervención forma parte de un programa integral impulsado por el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario, orientado a mejorar las condiciones habitacionales y promover la integración urbana del sector.<br><br>El proyecto contempló viviendas de distintas tipologías, cocheras e infraestructura de servicios, incluyendo redes sanitarias, instalaciones eléctricas y obras de urbanización complementarias.<br><br>La obra constituye un aporte al desarrollo de vivienda pública y a la transformación de un sector estratégico de Rosario, fortaleciendo la integración entre el tejido residencial, los espacios públicos y el entorno universitario.</p><h2>Otras obras</h2><ul><li><a href="obra-restauracion-espana-543.html">Restauración de Dto. España 543</a></li><li><a href="obra-rdz-1635.html">Proyecto: RDZ 1635</a></li><li><a href="obra-viviendas-tablada.html">64 Viviendas en Tablada</a></li></ul><p><a href="obras.html">Volver a Obras</a></p></section></main>
 
   <!-- Visor de fotos ampliadas -->
   <dialog class="visor" id="visor" aria-label="Galería de fotos">
@@ -124,10 +123,12 @@
   </footer>
 
   <script src="js/obras-data.js"></script>
+  <script src="js/obras-lista.js"></script>   <!-- da la tarjeta de las obras relacionadas -->
   <script src="js/visor.js"></script>
   <script src="js/video.js"></script>
   <script src="js/obra.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/analitica.js" defer></script>
 </body>
 
 </html>

@@ -11,9 +11,8 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/obra.css">
 
@@ -68,7 +67,7 @@
   </header>
 
   <!-- Acá se dibuja la obra (js/obra.js) -->
-  <main id="detalle"><section class="contenedor ficha"><h1>Escuela Secundaria N.° 608 - La Esperanza</h1><p>Villa Gobernador Gálvez · Santa Fe</p><p><a href="obras.html">Volver a Obras</a></p></section></main>
+  <main id="detalle"><section class="contenedor ficha"><h1>Escuela Secundaria N.° 608 - La Esperanza</h1><p>Villa Gobernador Gálvez · Santa Fe</p><h2>Otras obras</h2><ul><li><a href="obra-eetp-485.html">Ampliación Secundaria E.E.T.P. N° 485</a></li><li><a href="obra-escuela-primaria-1408.html">Escuela Primaria N.° 1408</a></li><li><a href="obra-escuela-ricardone.html">Escuela Secundaria EESO N.º 1548</a></li></ul><p><a href="obras.html">Volver a Obras</a></p></section></main>
 
   <!-- Visor de fotos ampliadas -->
   <dialog class="visor" id="visor" aria-label="Galería de fotos">
@@ -124,10 +123,12 @@
   </footer>
 
   <script src="js/obras-data.js"></script>
+  <script src="js/obras-lista.js"></script>   <!-- da la tarjeta de las obras relacionadas -->
   <script src="js/visor.js"></script>
   <script src="js/video.js"></script>
   <script src="js/obra.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/analitica.js" defer></script>
 </body>
 
 </html>

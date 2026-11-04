@@ -19,6 +19,16 @@ const OBRAS = [
       "casa_m/03.jpg",
       "casa_m/04.jpg",
       "casa_m/05.jpg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "tecnoteca",
+      "unidad-penitenciaria-15",
+      "unidad-penitenciaria-8"
     ]
   },
   {
@@ -56,6 +66,15 @@ const OBRAS = [
       "ricardone/015.jpg",
       "ricardone/016.jpg",
       "ricardone/017.jpg"
+    ],
+    "coords": [
+      -32.774437,
+      -60.798063
+    ],
+    "relacionadas": [
+      "eetp-485",
+      "escuela-608",
+      "escuela-primaria-1408"
     ]
   },
   {
@@ -73,6 +92,16 @@ const OBRAS = [
       "espana/01.jpeg",
       "espana/02.jpeg",
       "espana/03.jpeg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "rdz-1635",
+      "viviendas-tablada",
+      "69-viviendas"
     ]
   },
   {
@@ -104,6 +133,16 @@ const OBRAS = [
       "pami/10.jpeg",
       "pami/11.jpeg",
       "pami/12.jpeg"
+    ],
+    "coords": [
+      -34.6583,
+      -58.6667
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "samco-pavon-arriba",
+      "samco-funes",
+      "rdz-1635"
     ]
   },
   {
@@ -153,7 +192,16 @@ const OBRAS = [
     "video": {
       "src": "obras/nodo.mp4",
       "poster": "parque_industrial/poster.jpg"
-    }
+    },
+    "coords": [
+      -33.033437,
+      -60.606047
+    ],
+    "relacionadas": [
+      "plaza-san-martin",
+      "plaza-san-cristobal",
+      "parque-regional-sur"
+    ]
   },
   {
     "id": "tecnoteca",
@@ -194,6 +242,16 @@ const OBRAS = [
       "tecnoteca/16.jpg",
       "tecnoteca/17.jpg",
       "tecnoteca/18.jpg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "casa-m",
+      "unidad-penitenciaria-15",
+      "unidad-penitenciaria-8"
     ]
   },
   {
@@ -221,6 +279,16 @@ const OBRAS = [
       "rdz/06.jpeg",
       "rdz/07.jpeg",
       "rdz/08.jpg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "viviendas-tablada",
+      "69-viviendas",
+      "restauracion-espana-543"
     ]
   },
   {
@@ -245,6 +313,15 @@ const OBRAS = [
     ],
     "fotos": [
       "tablada.jpg"
+    ],
+    "coords": [
+      -32.9818,
+      -60.629247
+    ],
+    "relacionadas": [
+      "69-viviendas",
+      "restauracion-espana-543",
+      "rdz-1635"
     ]
   },
   {
@@ -271,7 +348,16 @@ const OBRAS = [
       "up15/01.webp",
       "up15/03.jpeg"
     ],
-    "video": "obras/up.mp4"
+    "video": "obras/up.mp4",
+    "coords": [
+      -33.097313,
+      -60.796188
+    ],
+    "relacionadas": [
+      "unidad-penitenciaria-8",
+      "barrio-mortelari-1",
+      "casa-m"
+    ]
   },
   {
     "id": "unidad-penitenciaria-8",
@@ -299,7 +385,16 @@ const OBRAS = [
       "up8/05.jpg",
       "up8/06.jpeg"
     ],
-    "video": "obras/up.mp4"
+    "video": "obras/up.mp4",
+    "coords": [
+      -33.097313,
+      -60.796188
+    ],
+    "relacionadas": [
+      "unidad-penitenciaria-15",
+      "barrio-mortelari-1",
+      "casa-m"
+    ]
   },
   {
     "id": "plaza-san-cristobal",
@@ -313,6 +408,16 @@ const OBRAS = [
     "descripcion": [],
     "fotos": [
       "plaza-san-cristobal.webp"
+    ],
+    "coords": [
+      -34.6037,
+      -58.3816
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "parque-regional-sur",
+      "plaza-san-martin",
+      "parque-industrial"
     ]
   },
   {
@@ -327,6 +432,16 @@ const OBRAS = [
     "descripcion": [],
     "fotos": [
       "parque_regional_sur.jpg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "plaza-san-martin",
+      "plaza-san-cristobal",
+      "parque-industrial"
     ]
   },
   {
@@ -346,6 +461,16 @@ const OBRAS = [
       "69-viviendas/02.webp",
       "69-viviendas/01.jpg",
       "69-viviendas/00.jpg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "restauracion-espana-543",
+      "rdz-1635",
+      "viviendas-tablada"
     ]
   },
   {
@@ -400,6 +525,16 @@ const OBRAS = [
       "monumento/30.jpg",
       "monumento/31.jpg",
       "monumento/32.jpg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "escuela-primaria-1408",
+      "casa-m",
+      "restauracion-espana-543"
     ]
   },
   {
@@ -428,7 +563,16 @@ const OBRAS = [
     "video": {
       "src": "obras/samco-pavon.mp4",
       "poster": "samco_pavon_arriba/poster.jpg"
-    }
+    },
+    "coords": [
+      -33.310985,
+      -60.827244
+    ],
+    "relacionadas": [
+      "samco-funes",
+      "pami-ituzaingo",
+      "eetp-485"
+    ]
   },
   {
     "id": "samco-funes",
@@ -455,6 +599,16 @@ const OBRAS = [
       "samco/06.jpg",
       "samco/07.jpg",
       "samco/08.jpg"
+    ],
+    "coords": [
+      -32.9172,
+      -60.8139
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "pami-ituzaingo",
+      "samco-pavon-arriba",
+      "eetp-485"
     ]
   },
   {
@@ -475,6 +629,15 @@ const OBRAS = [
     ],
     "fotos": [
       "eetp485.jpg"
+    ],
+    "coords": [
+      -33.018988,
+      -60.610734
+    ],
+    "relacionadas": [
+      "escuela-608",
+      "escuela-primaria-1408",
+      "escuela-ricardone"
     ]
   },
   {
@@ -490,6 +653,16 @@ const OBRAS = [
     "fotos": [
       "jardin_608/01.jpg",
       "jardin_608/00.jpg"
+    ],
+    "coords": [
+      -33.0236,
+      -60.6283
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "eetp-485",
+      "escuela-primaria-1408",
+      "escuela-ricardone"
     ]
   },
   {
@@ -513,6 +686,16 @@ const OBRAS = [
       "nuevo_alberdi/00.jpg",
       "nuevo_alberdi/01.jpeg",
       "nuevo_alberdi/02.jpeg"
+    ],
+    "coords": [
+      -32.9468,
+      -60.6393
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "escuela-ricardone",
+      "eetp-485",
+      "escuela-608"
     ]
   },
   {
@@ -538,6 +721,15 @@ const OBRAS = [
       "plaza_san_martin/03.webp",
       "plaza_san_martin/00.jpg",
       "plaza_san_martin/05.jpg"
+    ],
+    "coords": [
+      -32.943688,
+      -60.649687
+    ],
+    "relacionadas": [
+      "parque-regional-sur",
+      "parque-industrial",
+      "plaza-san-cristobal"
     ]
   },
   {
@@ -554,6 +746,16 @@ const OBRAS = [
     ],
     "fotos": [
       "barrio_mortelari_1.jpg"
+    ],
+    "coords": [
+      -33.0236,
+      -60.6283
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "casa-m",
+      "unidad-penitenciaria-15",
+      "unidad-penitenciaria-8"
     ]
   }
 ];

@@ -12,12 +12,15 @@
        docs/obra-<id>.html       docs/novedad-<id>.html
      cada una con su <title>, descripción, canonical, Open Graph (WhatsApp, LinkedIn, Facebook)
      y datos estructurados. El contenido sigue dibujándose con obra.js / novedad.js.
+   - Calcula la ubicación de cada obra para el mapa (scripts/ubicaciones.js) y las obras relacionadas de cada ficha.
+   - Actualiza en docs/index.html las cifras, el rango de años y la línea de tiempo (content/empresa/).
    - Crea docs/sitemap.xml y docs/robots.txt.
    Los archivos generados empiezan con "obra-" y "novedad-": se borran y se rehacen en cada corrida.
    ========================================================= */
 const fs = require('fs');
 const path = require('path');
-const { cargarObras, cargarNovedades, cargarCifras } = require('./scripts/contenido');
+const { cargarObras, cargarNovedades, cargarCifras, cargarTrayectoria } = require('./scripts/contenido');
+const { resolverCoordenadas } = require('./scripts/ubicaciones');
 
 /* ---------- CONFIGURACIÓN ---------- */
 // Dirección pública del sitio, SIN barra final. Cuando conecten dysconsa.com.ar, cambiala acá
@@ -37,6 +40,27 @@ const recortar = (t, n = 155) => t.length <= n ? t : t.slice(0, n).replace(/\s+\
 const urlAbs = ruta => /^https?:\/\//.test(ruta) ? ruta : `${SITE}/${ruta.split('/').map(encodeURIComponent).join('/')}`;
 const fechaLarga = f => new Date(f + 'T12:00:00').toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric' });
 const idValido = id => /^[A-Za-z0-9_-]+$/.test(id);
+
+const sinTildes = t => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+const ciudadDe = o => sinTildes(String(o.ubicacion || '').split(/\s*·\s*/)[0]);
+
+// Obras parecidas a "o": misma categoría (4 puntos), misma ciudad (2) y mismo tipo (1). Si empatan, van primero
+// las que siguen a "o" en el listado, así cada ficha muestra obras distintas. Siempre devuelve "n" obras (si hay tantas).
+function relacionadas(o, todas, n = 3) {
+  const pos = todas.findIndex(x => x.id === o.id);
+  return todas.map((x, i) => ({ x, distancia: (i - pos + todas.length) % todas.length }))
+    .filter(({ x }) => x.id !== o.id)
+    .map(r => ({ ...r, puntos: (sinTildes(r.x.categoria) === sinTildes(o.categoria) ? 4 : 0) + (ciudadDe(r.x) && ciudadDe(r.x) === ciudadDe(o) ? 2 : 0) + (r.x.tipo === o.tipo ? 1 : 0) }))
+    .sort((a, b) => b.puntos - a.puntos || a.distancia - b.distancia)
+    .slice(0, n).map(r => r.x);
+}
+
+// Reemplaza lo que hay entre <!-- nombre:inicio --> y <!-- nombre:fin --> (marcas que están en el HTML)
+function entreMarcas(html, nombre, contenido, archivo, avisos) {
+  const re = new RegExp(`(<!--\\s*${nombre}:inicio\\s*-->)[\\s\\S]*?(<!--\\s*${nombre}:fin\\s*-->)`);
+  if (!re.test(html)) { avisos.push(`${archivo} no tiene las marcas <!-- ${nombre}:inicio --> y <!-- ${nombre}:fin -->: no se actualizó esa parte.`); return html; }
+  return html.replace(re, (m, a, b) => a + contenido + b);
+}
 
 // Foto para compartir: la versión de 1200 x 630 (img/og/..., la crea optimizar-imagenes.js) si existe; si no, la original
 const fotoParaCompartir = ruta => {
@@ -81,19 +105,51 @@ const OBRAS = cargarObras();          // solo las publicadas, ordenadas
 const NOVEDADES = cargarNovedades();  // solo las publicadas
 const avisos = [];
 
+// Datos para las fichas y el mapa: ubicación de cada obra y obras relacionadas (ver arriba)
+const UBICACIONES = resolverCoordenadas(OBRAS, { avisos });
+OBRAS.forEach(o => {
+  const u = UBICACIONES[o.id];
+  if (u) { o.coords = u.coords; if (u.aprox) o.aprox = true; }
+  o.relacionadas = relacionadas(o, OBRAS).map(r => r.id);
+});
+
 // Archivos de datos que lee el sitio (generados: no editar a mano)
 const generado = (dir) => `/* ARCHIVO GENERADO por build.js a partir de content/${dir}/ - NO EDITAR A MANO (se pisa en cada corrida).\n   Para cambiar datos usá el panel de Pages CMS. */\n`;
 fs.writeFileSync(path.join(DOCS, 'js/obras-data.js'), generado('obras') + 'const OBRAS = ' + JSON.stringify(OBRAS, null, 2) + ';\n');
 fs.writeFileSync(path.join(DOCS, 'js/novedades-data.js'), generado('novedades') + 'const NOVEDADES = ' + JSON.stringify(NOVEDADES, null, 2) + ';\n');
 
-// Cifras de "Nosotros": se reescriben los <li> con el mismo marcado de siempre
+// Cifras y línea de tiempo: la misma fuente (content/empresa/) alimenta "Nosotros" y el inicio
 const CIFRAS = cargarCifras();
+const HITOS = cargarTrayectoria();
+const ICONOS_INICIO = ['calendario', 'escudo', 'edificio', 'casa'];   // íconos de las cifras que se muestran en el inicio, en orden
+const aniosCifra = CIFRAS.find(c => /a[ñn]os/i.test(c.etiqueta));      // "Más de 20 años" en textos y descripciones
+
+// "Nosotros": se reescriben los <li> con el mismo marcado de siempre
 if (CIFRAS.length && fs.existsSync(path.join(DOCS, 'nosotros.html'))) {
   const li = CIFRAS.map(c => `        <li class="reveal"><b>+<span class="num" data-valor="${c.valor}">${c.valor}</span></b><span>${esc(c.etiqueta)}</span></li>`).join('\n');
-  const html = leer('nosotros.html')
+  let html = leer('nosotros.html')
     .replace(/<!-- DYSCON EN CIFRAS[^>]*-->/, '<!-- DYSCON EN CIFRAS (generado por build.js desde content/empresa/cifras.json: se edita desde el panel) -->')
     .replace(/(<ul class="cifras-lista">\n)[\s\S]*?(\n      <\/ul>)/, (m, a, b) => a + li + b);
+  if (aniosCifra) html = html.replace(/([Mm]ás de )\d+( años)/g, `$1${aniosCifra.valor}$2`);
   fs.writeFileSync(path.join(DOCS, 'nosotros.html'), html);
+}
+
+// Inicio: cifras marcadas "Mostrar en el inicio", texto "Más de N años" y línea de tiempo
+if (fs.existsSync(path.join(DOCS, 'index.html'))) {
+  let html = leer('index.html');
+  const enInicio = CIFRAS.filter(c => c.inicio);
+  if (enInicio.length) {
+    const li = enInicio.map((c, i) => `\n        <li><svg class="icon icon--lg"><use href="#i-${ICONOS_INICIO[i] || 'escudo'}"/></svg><span><strong>+${c.valor.toLocaleString('es-AR')}</strong> ${esc(c.etiqueta)}</span></li>`).join('') + '\n        ';
+    html = entreMarcas(html, 'CIFRAS-INICIO', li, 'index.html', avisos);
+  } else avisos.push('Ninguna cifra tiene marcado "Mostrar en el inicio": el inicio conserva las cifras que ya tenía.');
+  if (aniosCifra) html = html.replace(/([Mm]ás de )\d+( años)/g, `$1${aniosCifra.valor}$2`);
+  if (HITOS.length) {
+    const li = HITOS.map(h => `\n        <li><b>${h.anio}</b><span>${esc(h.texto)}</span></li>`).join('') + '\n      ';
+    html = entreMarcas(html, 'HITOS', li, 'index.html', avisos);
+    html = entreMarcas(html, 'RANGO', `${HITOS[0].anio} – ${HITOS[HITOS.length - 1].anio}`, 'index.html', avisos);
+    html = entreMarcas(html, 'FUNDACION', String(HITOS[0].anio), 'index.html', avisos);
+  }
+  fs.writeFileSync(path.join(DOCS, 'index.html'), html);
 }
 
 // Controles de calidad: se informan como avisos en la pestaña Actions de GitHub
@@ -134,6 +190,7 @@ if (fs.existsSync(path.join(DOCS, 'obra.html'))) {
     const respaldo = `<section class="contenedor ficha"><h1>${o.nombre}</h1>`
       + (o.ubicacion ? `<p>${o.ubicacion}</p>` : '')
       + (o.descripcion || []).map(t => `<p>${t}</p>`).join('')
+      + (o.relacionadas.length ? `<h2>Otras obras</h2><ul>${o.relacionadas.map(id => OBRAS.find(x => x.id === id)).map(r => `<li><a href="obra-${r.id}.html">${r.nombre}</a></li>`).join('')}</ul>` : '')
       + `<p><a href="obras.html">Volver a Obras</a></p></section>`;
 
     fs.writeFileSync(path.join(DOCS, archivo), crearPagina(plantilla, {

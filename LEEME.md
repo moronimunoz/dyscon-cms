@@ -14,6 +14,22 @@ y las carpetas `docs/img/og/` (se pisan en cada corrida). Los datos de antes de 
 
 **Borradores:** una obra o novedad con "Publicada en el sitio" desmarcado queda guardada pero no se ve en la página.
 
+## Funciones agregadas (mapa, analítica, cifras, 404, tipografía)
+
+**Mapa de obras.** En `obras.html` el botón *Mapa* muestra las obras sobre OpenStreetMap (Leaflet, guardado en `docs/vendor/leaflet/`; no necesita clave). Se ubica cada obra así: coordenadas escritas en *Dirección para el mapa* → código de Google (`X98V+JHG ...`) → dirección (se busca en OpenStreetMap una sola vez y queda en `scripts/geocache.json`) → centro de la ciudad de *Ubicación* (se marca como "aproximada"). Para afinar una obra, completá bien *Dirección para el mapa* en el panel. Lo hacen `scripts/ubicaciones.js` y `scripts/geocodificar.js`; si OpenStreetMap no responde, se publica igual.
+
+**Obras relacionadas y anterior/siguiente.** Las calcula `build.js` (misma categoría, ciudad y tipo) y las dibuja `docs/js/obra.js`.
+
+**Analítica.** Está apagada hasta que se complete `CONFIG.proveedor` en `docs/js/analitica.js` (Plausible, Umami o GA4). No mide en pruebas locales ni con "No rastrear". Registra llamadas, mails, WhatsApp, PDF, redes, formulario enviado, mapa y páginas 404.
+
+**Cifras y línea de tiempo del inicio.** Salen del panel: *Cifras de la empresa* (casilla "Mostrar en el inicio") y *Línea de tiempo (inicio)*. `build.js` reescribe lo que está entre las marcas `<!-- ...:inicio -->` y `<!-- ...:fin -->` de `docs/index.html`: no las borres.
+
+**Página 404.** `docs/404.html` calcula sola la raíz del sitio, así que sirve en github.io y en dysconsa.com.ar.
+
+**Tipografía.** Poppins se sirve desde `docs/fonts/` (ya no se pide a Google Fonts).
+
+**Texto alternativo de fotos.** En cada obra se puede escribir *Descripción de la foto principal*; si está vacío se arma con el nombre y la ciudad.
+
 ## Fotos
 - Subí fotos **.jpg, .jpeg o .png** desde el panel. El selector del panel solo muestra esas.
 - Cada foto nueva se **achica solita** a 2400 px como máximo, se endereza si el celular la guardó girada y se le

@@ -11,9 +11,8 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/obra.css">
 
@@ -68,7 +67,7 @@
   </header>
 
   <!-- Acá se dibuja la obra (js/obra.js) -->
-  <main id="detalle"><section class="contenedor ficha"><h1>Casa M</h1><p>Rosario · Santa Fe</p><p><a href="obras.html">Volver a Obras</a></p></section></main>
+  <main id="detalle"><section class="contenedor ficha"><h1>Casa M</h1><p>Rosario · Santa Fe</p><h2>Otras obras</h2><ul><li><a href="obra-tecnoteca.html">Tecnoteca</a></li><li><a href="obra-unidad-penitenciaria-15.html">Unidad Penitenciaria N.º 15</a></li><li><a href="obra-unidad-penitenciaria-8.html">Unidad Penitenciaria N.º 8</a></li></ul><p><a href="obras.html">Volver a Obras</a></p></section></main>
 
   <!-- Visor de fotos ampliadas -->
   <dialog class="visor" id="visor" aria-label="Galería de fotos">
@@ -124,10 +123,12 @@
   </footer>
 
   <script src="js/obras-data.js"></script>
+  <script src="js/obras-lista.js"></script>   <!-- da la tarjeta de las obras relacionadas -->
   <script src="js/visor.js"></script>
   <script src="js/video.js"></script>
   <script src="js/obra.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/analitica.js" defer></script>
 </body>
 
 </html>

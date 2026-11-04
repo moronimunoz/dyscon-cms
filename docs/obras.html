@@ -15,10 +15,11 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/mapa.css">
 </head>
 
 <body>
@@ -145,6 +146,14 @@
           <p class="contador-obras" id="contador-obras" aria-live="polite"></p>
           <ul class="filtros-activos" id="filtros-activos" aria-label="Filtros aplicados"></ul>
           <button type="button" class="borrar-filtros" id="borrar-filtros" hidden>Borrar filtros</button>
+
+          <!-- Vista Lista / Mapa (js/mapa-obras.js lo muestra si hay obras con ubicación) -->
+          <div class="vista-selector" id="vista-selector" hidden>
+            <div class="segmentado" role="group" aria-label="Ver las obras como">
+              <button type="button" class="vista-btn" data-vista="lista" aria-pressed="true">Lista</button>
+              <button type="button" class="vista-btn" data-vista="mapa" aria-pressed="false">Mapa</button>
+            </div>
+          </div>
         </div>
 
         <!-- Las tarjetas se dibujan solas desde js/obras-data.js (js/obras-lista.js) -->
@@ -152,6 +161,19 @@
           <noscript>
             <p>Para ver el listado de obras necesitás tener JavaScript activado.</p>
           </noscript>
+        </div>
+        <!-- Mapa de obras (js/mapa-obras.js): Leaflet + OpenStreetMap, se carga al tocar "Mapa" -->
+        <div class="mapa-obras" id="mapa-obras" hidden>
+          <div class="mapa-obras-marco">
+            <div class="mapa-obras-lienzo" id="mapa-obras-lienzo" role="region" aria-label="Mapa de obras de DyScon"></div>
+            <p class="mapa-obras-vacio" id="mapa-obras-vacio" hidden>No hay obras con esa combinación de filtros. Probá con otra.</p>
+            <p class="mapa-obras-error" id="mapa-obras-error" hidden>No pudimos cargar el mapa. Podés ver todas las obras en la lista.</p>
+          </div>
+          <p class="mapa-leyenda">
+            <span><i></i> Ubicación de la obra</span>
+            <span><i class="aprox"></i> Ubicación aproximada (centro de la ciudad)</span>
+            <span>Tocá un marcador para ver la obra. El número indica varias obras en el mismo lugar.</span>
+          </p>
         </div>
         <p class="sin-resultados" id="sin-resultados" hidden>No hay obras con esa combinación de filtros. Probá con
           otra.</p>
@@ -215,6 +237,8 @@
   <script src="js/obras-data.js"></script>
   <script src="js/obras-lista.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/mapa-obras.js"></script>
+  <script src="js/analitica.js" defer></script>
 </body>
 
 </html>

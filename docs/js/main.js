@@ -139,6 +139,7 @@ if (botonesFiltro.length || selectsFiltro.length) {
         return li;
       }));
     }
+    document.dispatchEvent(new CustomEvent('filtros-aplicados'));   // lo escucha js/mapa-obras.js
   };
 
   botonesFiltro.forEach(b => b.addEventListener('click', () => {

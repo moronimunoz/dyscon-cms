@@ -1,6 +1,21 @@
 /* =========================================================
    DYSCON S.A. - Estilos
    ========================================================= */
+/* ---------- Tipografía (Poppins, servida desde el propio sitio: docs/fonts/) ----------
+   font-display: swap muestra el texto enseguida con la letra de respaldo y cambia cuando Poppins llega.
+   "Poppins Fallback" es Arial ajustada a las medidas de Poppins, así el texto casi no se mueve al cambiar. */
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/poppins-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 500; font-display: swap; src: url('../fonts/poppins-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/poppins-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/poppins-latin-700-normal.woff2') format('woff2'); }
+@font-face {
+  font-family: 'Poppins Fallback';
+  src: local('Arial'), local('Helvetica Neue'), local('Helvetica'), local('Liberation Sans');
+  size-adjust: 112.35%;
+  ascent-override: 93.46%;
+  descent-override: 31.15%;
+  line-gap-override: 8.9%;
+}
 /* ---------- Variables (cambiás la paleta acá) ---------- */
 :root {
   --marca: #588587;
@@ -21,7 +36,7 @@
   --blanco: #ffffff;
   --ancho: 1200px;
   --alto-header: 80px;
-  --fuente: 'Poppins', 'Segoe UI', Arial, sans-serif;
+  --fuente: 'Poppins', 'Poppins Fallback', 'Segoe UI', Arial, sans-serif;
 }
 
 /* ---------- Variables (cambiás la paleta acá) ---------- */
@@ -527,6 +542,15 @@ button {
   gap: 1.4rem;
 }
 
+/* Hueco reservado mientras js/obras-lista.js dibuja las tarjetas: así la página no salta cuando aparecen */
+#lista-obras:has(> noscript:only-child) {
+  min-height: 70vh;
+}
+
+#obras-destacadas:has(> noscript:only-child) {
+  min-height: 280px;
+}
+
 .obra-card {
   background: var(--blanco);
   border: 1px solid var(--linea);
@@ -551,7 +575,8 @@ button {
 
 .obra-img {
   position: relative;
-  height: 190px;
+  aspect-ratio: 3 / 2;
+  /* proporción fija: la tarjeta ocupa su lugar antes de que llegue la foto y la página no salta */
   overflow: hidden;
   background: var(--teal-100);
 }
@@ -1653,4 +1678,54 @@ button {
   .obras-descarga-icono {
     transition: none;
   }
+}
+
+/* =========================================================
+   PÁGINA 404 (404.html)
+   ========================================================= */
+.page-hero .error-codigo {
+  margin-bottom: .2rem;
+  font-size: clamp(4.5rem, 16vw, 9rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.03em;
+  color: rgba(255, 255, 255, .2);
+}
+
+.page-hero--404 .btn {
+  margin-top: 1.4rem;
+}
+
+.error-accesos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  padding: 3.5rem 0;
+}
+
+.error-acceso {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  padding: 1.5rem;
+  border: 1px solid var(--linea);
+  border-radius: 6px;
+  background: var(--blanco);
+  color: var(--tinta);
+  transition: transform .3s, box-shadow .3s;
+}
+
+.error-acceso strong {
+  font-weight: 600;
+  color: var(--teal-700);
+}
+
+.error-acceso span {
+  font-size: .88rem;
+  color: var(--gris);
+}
+
+.error-acceso:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(15, 61, 78, .16);
 }

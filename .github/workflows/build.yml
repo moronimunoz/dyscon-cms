@@ -11,6 +11,7 @@ on:
       - 'docs/obra.html'
       - 'docs/novedad.html'
       - 'docs/nosotros.html'
+      - 'docs/index.html'
       - 'build.js'
       - 'optimizar-imagenes.js'
       - 'package.json'
@@ -40,6 +41,11 @@ jobs:
         run: |
           npm ci
           node optimizar-imagenes.js
+      # Busca en OpenStreetMap la ubicación exacta de las obras nuevas (cada dirección se busca una sola vez
+      # y queda en scripts/geocache.json). Si no hay respuesta, el mapa usa el centro de la ciudad y se publica igual.
+      - name: Ubicar obras en el mapa
+        continue-on-error: true
+        run: node scripts/geocodificar.js
       - run: node build.js
         env:
           # Se arma sola según el repositorio: .../dyscon-cms acá, .../dyscon en el original
@@ -49,4 +55,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -A docs
+          if [ -f scripts/geocache.json ]; then git add scripts/geocache.json; fi
           git diff --cached --quiet || (git commit -m "Páginas generadas" && git pull --rebase && git push)

@@ -17,7 +17,7 @@
       <article class="obra-card reveal" data-estado="${clave(n.categoria)}">
         <a href="novedad-${n.id}.html">
           <div class="obra-img">
-            <img src="img/novedades/${chica(n.portada)}" alt="${n.titulo}" loading="${i < 4 ? 'eager' : 'lazy'}" decoding="async" onerror="this.onerror=null;this.src='img/novedades/${n.portada}'">
+            <img src="img/novedades/${chica(n.portada)}" alt="${n.titulo}" width="640" height="427" loading="${i < 4 ? 'eager' : 'lazy'}" decoding="async" onerror="this.onerror=null;this.src='img/novedades/${n.portada}'">
             <span class="tag">${n.categoria}</span>
           </div>
           <div class="obra-cuerpo">

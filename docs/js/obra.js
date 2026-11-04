@@ -108,7 +108,8 @@
 
   // ---------- Columna lateral: modalidad (si no está en la barra), mapa y botón ----------
   const base = 'img/obras/' + (o.carpeta ? o.carpeta + '/' : '');
-  const fotos = crearGaleria(o.fotos, base, o.nombre);
+  const altBase = o.nombre + (ubicacion.valor ? ', ' + ubicacion.valor : '');   // "Casa M, Rosario" + ", foto 3 de 12"
+  const fotos = crearGaleria(o.fotos, base, altBase);
   const totalFotos = new Set(Array.from(o.fotos || []).filter(Boolean)).size;
 
   // El número es el zoom: 14 muestra el barrio, 16 la cuadra y 18 casi el edificio
@@ -119,11 +120,29 @@
   const lateral = `<aside class="obra-lateral">
       ${modalidadEnBarra ? '' : `<div><p class="obra-rotulo">Modalidad</p><p class="valor">${esc(modalidad.valor)}</p>${modalidad.sub ? `<p class="sub">${esc(modalidad.sub)}</p>` : ''}</div>`}
       ${(o.mapa || o.ubicacion) ? `<div><p class="obra-rotulo">Ubicación</p><div class="mapa"><iframe src="${mapa}" title="Mapa: ${o.nombre}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>${direccion ? `<p class="sub">${esc(direccion)}</p>` : ''}</div>` : ''}
-      <a href="contacto.html" class="btn btn--teal obra-cta">Consultar por una obra similar</a>
+      <a href="contacto.html" class="btn btn--teal obra-cta" data-evento="Consulta por obra similar">Consultar por una obra similar</a>
     </aside>`;
 
   const videos = crearVideos(o.video, o.nombre, 'img/obras/');
   const tituloVideo = [].concat(o.video || []).length > 1 ? 'Videos' : 'Video';
+  // ---------- Obras relacionadas (las calcula build.js) y navegación anterior / siguiente ----------
+  const parecidas = (o.relacionadas || []).map(rid => OBRAS.find(x => x.id === rid)).filter(Boolean);
+  const relacionadas = parecidas.length && window.tarjetaObra
+    ? `<section class="obra-bloque obra-relacionadas"><h2>Otras obras que te pueden interesar</h2><div class="grid">${parecidas.map(r => window.tarjetaObra(r, 99)).join('')}</div></section>`
+    : '';
+
+  // El orden es el del listado de obras.html; después de la última se vuelve a la primera
+  const lugar = OBRAS.findIndex(x => x.id === o.id);
+  const vecina = paso => OBRAS[(lugar + paso + OBRAS.length) % OBRAS.length];
+  const enlaceVecina = (r, rel, rotulo) => {
+    const texto = `<span class="obra-nav-texto"><small>${rotulo}</small><b>${esc(r.nombre)}</b></span>`;
+    const flecha = '<svg class="icon" aria-hidden="true"><use href="#i-flecha"/></svg>';
+    return `<a class="obra-nav-${rel === 'prev' ? 'prev' : 'next'}" href="obra-${esc(r.id)}.html" rel="${rel}">${rel === 'prev' ? flecha + texto : texto + flecha}</a>`;
+  };
+  const navegacion = OBRAS.length > 2
+    ? `<nav class="obra-nav" aria-label="Seguir viendo obras">${enlaceVecina(vecina(-1), 'prev', 'Obra anterior')}<a class="obra-nav-todas" href="obras.html">Todas las obras</a>${enlaceVecina(vecina(1), 'next', 'Obra siguiente')}</nav>`
+    : `<p class="ficha-volver"><a href="obras.html" class="link-flecha">Volver a todas las obras <svg class="icon"><use href="#i-flecha"/></svg></a></p>`;
+
   const bloque = (titulo, html, extra) => html ? `<section class="obra-bloque"><h2>${titulo}${extra ? `<span>${extra}</span>` : ''}</h2>${html}</section>` : '';
 
   main.innerHTML = `
@@ -143,7 +162,8 @@
       </div>
       ${bloque('Galería de fotos', fotos, totalFotos > 1 ? `${totalFotos} fotos` : '')}
       ${bloque(tituloVideo, videos)}
-      <p class="ficha-volver"><a href="obras.html" class="link-flecha">Volver a todas las obras <svg class="icon"><use href="#i-flecha"/></svg></a></p>
+      ${relacionadas}
+      ${navegacion}
     </div>`;
 
   // El orden de las elementos se definen dentro de este section de arriba

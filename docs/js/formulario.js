@@ -117,6 +117,7 @@
       const r = await fetch(endpoint, { method: 'POST', body: envio, headers: { Accept: 'application/json' } });
       if (!r.ok) throw new Error('envio');
       aviso('¡Gracias! Recibimos tu mensaje y te responderemos pronto.', 'green');
+      if (typeof window.dyEvento === 'function') window.dyEvento('Formulario enviado', { motivo });   // js/analitica.js
       form.reset();
       aplicarMotivo();                                          // vuelve al motivo inicial y oculta los extras
     } catch (err) {

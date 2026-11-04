@@ -1,0 +1,227 @@
+/* =========================================================
+   MAPA DE OBRAS (solo obras.html) - se carga junto con vendor/leaflet/leaflet.css
+   ========================================================= */
+
+/* Selector Lista / Mapa, a la derecha de los filtros */
+.vista-selector {
+  margin-left: auto;
+}
+
+.vista-selector[hidden] {
+  display: none;
+}
+
+.vista-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .4rem .9rem;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--teal-700);
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .3s, color .3s;
+}
+
+.vista-btn:hover {
+  background: var(--teal-100);
+}
+
+.vista-btn[aria-pressed="true"] {
+  background: var(--teal-700);
+  color: #fff;
+}
+
+/* Con el mapa a la vista, el listado y el aviso de "sin resultados" se ocultan */
+.vista-mapa #lista-obras,
+.vista-mapa .sin-resultados {
+  display: none;
+}
+
+/* Mapa */
+.mapa-obras-marco {
+  position: relative;
+}
+
+.mapa-obras-lienzo {
+  height: clamp(380px, 68vh, 640px);
+  border: 1px solid var(--linea);
+  border-radius: 8px;
+  background: var(--teal-100);
+  isolation: isolate;
+  /* los niveles internos de Leaflet no pasan por encima del menú */
+}
+
+.mapa-obras-vacio,
+.mapa-obras-error {
+  position: absolute;
+  inset: 0;
+  z-index: 500;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: rgba(243, 246, 246, .92);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--teal-700);
+}
+
+.mapa-obras-vacio[hidden],
+.mapa-obras-error[hidden] {
+  display: none;
+}
+
+.mapa-leyenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1.4rem;
+  margin: .8rem 0 0;
+  font-size: .8rem;
+  color: var(--gris);
+}
+
+.mapa-leyenda span {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.mapa-leyenda i {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--teal-700);
+  border: 3px solid var(--teal-700);
+}
+
+.mapa-leyenda i.aprox {
+  background: #fff;
+}
+
+/* Marcadores (reemplazan los de Leaflet) */
+.pin-wrap {
+  background: none;
+  border: 0;
+}
+
+.pin-obra {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background: var(--teal-700);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+  color: #fff;
+  font-family: var(--fuente);
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.pin-obra svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Ubicación aproximada (centro de la ciudad): anillo vacío */
+.pin-obra--aprox {
+  background: #fff;
+  border-color: var(--teal-700);
+  color: var(--teal-700);
+}
+
+.pin-wrap:focus-visible .pin-obra {
+  outline: 3px solid var(--teal-500);
+  outline-offset: 3px;
+}
+
+/* Ventana que se abre al tocar un marcador */
+.mapa-obras .leaflet-popup-content {
+  margin: .9rem 1rem;
+  font-family: var(--fuente);
+}
+
+.mapa-popup h3 {
+  margin: 0 0 .4rem;
+  font-size: .85rem;
+  font-weight: 700;
+  color: var(--teal-700);
+}
+
+.mapa-popup ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.mapa-popup li+li {
+  border-top: 1px solid var(--linea);
+}
+
+.mapa-popup a {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  padding: .4rem 0;
+  color: var(--tinta);
+  font-size: .82rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.mapa-popup a:hover {
+  color: var(--teal-700);
+}
+
+.mapa-popup img {
+  flex: none;
+  width: 52px;
+  height: 36px;
+  border-radius: 4px;
+  object-fit: cover;
+  background: var(--teal-100);
+}
+
+.mapa-popup small {
+  display: block;
+  font-weight: 400;
+  color: var(--gris);
+}
+
+.mapa-popup .aviso-aprox {
+  margin: .5rem 0 0;
+  font-size: .72rem;
+  color: var(--gris);
+}
+
+@media (max-width: 600px) {
+  .vista-selector {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .vista-selector .vista-btn {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+
+  .mapa-obras-lienzo {
+    height: 62vh;
+    min-height: 360px;
+  }
+}

@@ -49,7 +49,7 @@ function obraALegacy(j, id) {
   const o = { id, nombre: j.nombre, categoria: j.categoria, tipo: j.tipo || 'propia', estado: j.estado };
   const poner = (k, v) => { if (v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && !v.length)) o[k] = v; };
   poner('con', j.con); o.comitente = j.comitente || ''; poner('ubicacion', j.ubicacion); poner('mapa', j.mapa);
-  poner('destacada', j.destacada); poner('resumen', j.resumen);
+  poner('destacada', j.destacada); poner('resumen', j.resumen); poner('alt', j.alt);
   o.descripcion = parrafos(j.descripcion);
   const datos = [];
   if (j.superficie) datos.push('Superficie: ' + j.superficie);
@@ -87,4 +87,10 @@ function cargarCifras(file = path.join(RAIZ, 'content/empresa/cifras.json')) {
   return fs.existsSync(file) ? (leerJson(file).cifras || []).filter(c => c && c.etiqueta && Number.isFinite(c.valor)) : [];
 }
 
-module.exports = { cargarObras, cargarNovedades, cargarCifras, videosALegacy, parrafos };
+// Hitos de la línea de tiempo del inicio: [{ anio, texto }] ordenados por año
+function cargarTrayectoria(file = path.join(RAIZ, 'content/empresa/trayectoria.json')) {
+  return fs.existsSync(file)
+    ? (leerJson(file).hitos || []).filter(h => h && Number.isFinite(h.anio) && h.texto).sort((a, b) => a.anio - b.anio) : [];
+}
+
+module.exports = { cargarObras, cargarNovedades, cargarCifras, cargarTrayectoria, videosALegacy, parrafos };

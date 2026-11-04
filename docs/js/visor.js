@@ -73,7 +73,7 @@ function crearGaleria(fotos, base, titulo) {
     const ultima = i === 4 && resto > 0;             // la quinta foto, cuando hay más de cinco
     const etiqueta = ultima ? `Ver las ${total} fotos` : `Ampliar foto ${i + 1}`;
     const original = base + f, chica = variante(original, 'sm'), grande = variante(original, 'lg');
-    return `<button type="button" data-src="${grande}" data-orig="${original}" aria-label="${etiqueta}"><img src="${chica}" srcset="${chica} 640w, ${grande} 1600w" sizes="${tamanos}" alt="${t} - foto ${i + 1}" loading="lazy" decoding="async" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='${original}'">${ultima ? `<span class="galeria-mas" aria-hidden="true">+${resto}</span>` : ''}</button>`;
+    return `<button type="button" data-src="${grande}" data-orig="${original}" aria-label="${etiqueta}"><img src="${chica}" srcset="${chica} 640w, ${grande} 1600w" sizes="${tamanos}" alt="${t}, foto ${i + 1} de ${total}" loading="lazy" decoding="async" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='${original}'">${ultima ? `<span class="galeria-mas" aria-hidden="true">+${resto}</span>` : ''}</button>`;
   }).join('');
 
   return `<div class="galeria galeria--${Math.min(total, 5)}">${botones}</div>`;

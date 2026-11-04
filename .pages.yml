@@ -113,11 +113,11 @@ content:
       - name: ubicacion
         label: Ubicación
         type: string
-        description: "Formato: Ciudad · Provincia  (con el punto medio ·)"
+        description: "Formato: Ciudad · Provincia  (con el punto medio ·). Con esto la obra aparece en el mapa de obras (en el centro de la ciudad, si no hay dirección exacta)."
       - name: mapa
         label: Dirección para el mapa
         type: string
-        description: "Calle, número, ciudad y provincia; o coordenadas (-32.9468, -60.6393)."
+        description: "Para ubicar la obra con precisión en el mapa: calle, número, ciudad y provincia; o coordenadas (-32.9468, -60.6393); o el código de Google Maps (X98V+JHG Villa Gdor. Gálvez, Santa Fe)."
       - name: superficie
         label: Superficie
         type: string
@@ -142,6 +142,10 @@ content:
           format: html
           media: false
         description: "Cada ítem es un bloque de texto. Normalmente alcanza con uno solo."
+      - name: alt
+        label: Descripción de la foto principal (opcional)
+        type: string
+        description: "Una frase que describa lo que se ve en la foto, para personas que usan lector de pantalla y para Google. Ej: Fachada restaurada del edificio con andamios retirados. Si la dejás vacía se usa el nombre de la obra y la ciudad."
       - name: miniatura
         label: Foto de la tarjeta del listado (opcional)
         type: image
@@ -312,6 +316,41 @@ content:
               min: 0
           - name: etiqueta
             label: Texto
+            type: string
+            required: true
+          - name: inicio
+            label: Mostrar en el inicio
+            type: boolean
+            default: false
+            description: "Marcá las 2 cifras que querés ver también en la página de inicio (junto a la foto de Nosotros). El resto solo aparece en Nosotros."
+
+  # ===================== LÍNEA DE TIEMPO DEL INICIO =====================
+  - name: trayectoria
+    label: Línea de tiempo (inicio)
+    type: file
+    path: content/empresa/trayectoria.json
+    format: json
+    operations:
+      create: false
+      delete: false
+    fields:
+      - name: hitos
+        label: Hitos de la empresa
+        type: object
+        list:
+          min: 2
+          max: 8
+        description: "Se muestran en la franja oscura del inicio. El título de la franja toma el primer y el último año (ej. 2005 – 2026) y el texto de fundación toma el primer año."
+        fields:
+          - name: anio
+            label: Año
+            type: number
+            required: true
+            options:
+              min: 1900
+              max: 2100
+          - name: texto
+            label: Qué pasó
             type: string
             required: true
 

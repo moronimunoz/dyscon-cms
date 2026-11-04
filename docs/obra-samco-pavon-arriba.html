@@ -11,9 +11,8 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/obra.css">
 
@@ -68,7 +67,7 @@
   </header>
 
   <!-- Acá se dibuja la obra (js/obra.js) -->
-  <main id="detalle"><section class="contenedor ficha"><h1>Nuevo SAMco de Pavón Arriba</h1><p>Pavón Arriba · Santa Fe</p><p>Ubicado en la intersección de las calles Buenos Aires y Valerio Carreras, el nuevo SAMCo de Pavón Arriba constituye una intervención destinada a fortalecer la infraestructura sanitaria de la localidad y mejorar las condiciones de atención para la comunidad.<br><br>Impulsado por el <b>Gobierno de la Provincia de Santa Fe</b>, el proyecto contempló la construcción de nuevos espacios asistenciales y la refuncionalización de sectores del edificio existente, integrando soluciones arquitectónicas y técnicas orientadas a optimizar el funcionamiento del establecimiento.<br><br>La propuesta incluyó consultorios, sala de observación, sector de atención de urgencias, espacios de enfermería y áreas de internación con capacidad para cuatro camas. También contempló accesos diferenciados para el público y las ambulancias, circulación accesible e instalaciones específicas para el funcionamiento de un centro sanitario.<br><br>La intervención incorporó, además, sistemas de climatización, gases medicinales, iluminación LED y soluciones de aprovechamiento de energía solar, de acuerdo con las especificaciones del proyecto.<br><br>Con una Superficie de intervención prevista de 723 m², la obra representa un aporte a la modernización de los servicios públicos de salud y al desarrollo de la infraestructura de la región.<br><br><b>DYSCON S.A. — Construcción de infraestructura para las necesidades de la comunidad.</b></p><p><a href="obras.html">Volver a Obras</a></p></section></main>
+  <main id="detalle"><section class="contenedor ficha"><h1>Nuevo SAMco de Pavón Arriba</h1><p>Pavón Arriba · Santa Fe</p><p>Ubicado en la intersección de las calles Buenos Aires y Valerio Carreras, el nuevo SAMCo de Pavón Arriba constituye una intervención destinada a fortalecer la infraestructura sanitaria de la localidad y mejorar las condiciones de atención para la comunidad.<br><br>Impulsado por el <b>Gobierno de la Provincia de Santa Fe</b>, el proyecto contempló la construcción de nuevos espacios asistenciales y la refuncionalización de sectores del edificio existente, integrando soluciones arquitectónicas y técnicas orientadas a optimizar el funcionamiento del establecimiento.<br><br>La propuesta incluyó consultorios, sala de observación, sector de atención de urgencias, espacios de enfermería y áreas de internación con capacidad para cuatro camas. También contempló accesos diferenciados para el público y las ambulancias, circulación accesible e instalaciones específicas para el funcionamiento de un centro sanitario.<br><br>La intervención incorporó, además, sistemas de climatización, gases medicinales, iluminación LED y soluciones de aprovechamiento de energía solar, de acuerdo con las especificaciones del proyecto.<br><br>Con una Superficie de intervención prevista de 723 m², la obra representa un aporte a la modernización de los servicios públicos de salud y al desarrollo de la infraestructura de la región.<br><br><b>DYSCON S.A. — Construcción de infraestructura para las necesidades de la comunidad.</b></p><h2>Otras obras</h2><ul><li><a href="obra-samco-funes.html">Hospital SAMCo Eva Perón</a></li><li><a href="obra-pami-ituzaingo.html">Hospital del Bicentenario PAMI Ituzaingó</a></li><li><a href="obra-eetp-485.html">Ampliación Secundaria E.E.T.P. N° 485</a></li></ul><p><a href="obras.html">Volver a Obras</a></p></section></main>
 
   <!-- Visor de fotos ampliadas -->
   <dialog class="visor" id="visor" aria-label="Galería de fotos">
@@ -124,10 +123,12 @@
   </footer>
 
   <script src="js/obras-data.js"></script>
+  <script src="js/obras-lista.js"></script>   <!-- da la tarjeta de las obras relacionadas -->
   <script src="js/visor.js"></script>
   <script src="js/video.js"></script>
   <script src="js/obra.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/analitica.js" defer></script>
 </body>
 
 </html>

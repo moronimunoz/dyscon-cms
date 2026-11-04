@@ -15,9 +15,8 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/nosotros.css">
 </head>
@@ -138,18 +137,15 @@
             <path d="M15 6l-6 6 6 6" />
           </svg></button>
         <div class="carrusel-pista">
-          <figure class="marca"><img src="img/marcas/muni.png" alt="Municipalidad de Rosario" loading="lazy"></figure>
-          <figure class="marca"><img src="img/marcas/santafe.png" alt="Gobierno de la Provincia de Santa Fe"
-              loading="lazy"></figure>
-          <figure class="marca"><img src="img/marcas/buenosaires.png" alt="Gobierno de la Ciudad de Buenos Aires"
-              loading="lazy"></figure>
-          <figure class="marca"><img src="img/marcas/ktdisign.png" alt="KT Design" loading="lazy"></figure>
-          <figure class="marca"><img src="img/marcas/pami.png" alt="PAMI (INSSJP)" loading="lazy"></figure>
-          <figure class="marca"><img src="img/marcas/unraf.png" alt="Universidad Nacional de Rafaela" loading="lazy">
+          <figure class="marca"><img src="img/marcas/muni.png" alt="Municipalidad de Rosario" width="1080" height="1350" loading="lazy" decoding="async"></figure>
+          <figure class="marca"><img src="img/marcas/santafe.png" alt="Gobierno de la Provincia de Santa Fe" width="1080" height="1350" loading="lazy" decoding="async"></figure>
+          <figure class="marca"><img src="img/marcas/buenosaires.png" alt="Gobierno de la Ciudad de Buenos Aires" width="1080" height="1350" loading="lazy" decoding="async"></figure>
+          <figure class="marca"><img src="img/marcas/ktdisign.png" alt="KT Design" width="1080" height="1350" loading="lazy" decoding="async"></figure>
+          <figure class="marca"><img src="img/marcas/pami.png" alt="PAMI (INSSJP)" width="1080" height="1350" loading="lazy" decoding="async"></figure>
+          <figure class="marca"><img src="img/marcas/unraf.png" alt="Universidad Nacional de Rafaela" width="1080" height="1350" loading="lazy" decoding="async">
           </figure>
-          <figure class="marca"><img src="img/marcas/subte.png" alt="Subte de Buenos Aires" loading="lazy"></figure>
-          <figure class="marca"><img src="img/marcas/unr.png" alt="Universidad Nacional de Rosario (UNR)"
-              loading="lazy"></figure>
+          <figure class="marca"><img src="img/marcas/subte.png" alt="Subte de Buenos Aires" width="1080" height="1350" loading="lazy" decoding="async"></figure>
+          <figure class="marca"><img src="img/marcas/unr.png" alt="Universidad Nacional de Rosario (UNR)" width="1080" height="1350" loading="lazy" decoding="async"></figure>
         </div>
         <button type="button" class="carrusel-btn carrusel-next" aria-label="Siguiente"><svg class="icon"
             viewBox="0 0 24 24">
@@ -198,6 +194,7 @@
 
   <script src="js/nosotros.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/analitica.js" defer></script>
 </body>
 
 </html>

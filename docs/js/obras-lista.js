@@ -20,6 +20,13 @@
   // "Espacio público" -> "espacio-publico" (valor que usan los filtros y los vínculos ?categoria=...)
   const slug = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/\s+/g, '-');
 
+  // Ciudad de la obra: "Rosario · Santa Fe" -> "Rosario"
+  const ciudad = o => String(o.ubicacion || '').split(/\s*·\s*/)[0].trim();
+
+  // Texto alternativo de la foto de la tarjeta: el que se escribió en el panel (campo "Descripción de la foto")
+  // o, si está vacío, uno armado con el nombre y la ciudad
+  const textoAlt = o => o.alt || `Obra ${o.nombre}${ciudad(o) ? ', ' + ciudad(o) : ''}`;
+
   // "casa/01.jpg" -> "casa/01-sm.webp" (la crea optimizar-imagenes.js)
   const chica = ruta => ruta.replace(/\.(jpe?g|png|webp)$/i, '-sm.webp');
 
@@ -32,11 +39,11 @@
       : '';
 
     return `
-      <article class="obra-card reveal" data-categoria="${slug(o.categoria)}" data-tipo="${o.tipo}" data-estado="${o.estado}">
+      <article class="obra-card reveal" data-id="${esc(o.id)}" data-categoria="${slug(o.categoria)}" data-tipo="${o.tipo}" data-estado="${o.estado}">
         <a href="obra-${o.id}.html">
           <div class="obra-img">
             ${estado}
-            <img src="${chica(foto)}" alt="${esc(o.nombre)}" loading="${i < 4 ? 'eager' : 'lazy'}" decoding="async" onerror="this.onerror=null;this.src='${esc(foto)}'">
+            <img src="${chica(foto)}" alt="${esc(textoAlt(o))}" width="640" height="427" loading="${i < 4 ? 'eager' : 'lazy'}" decoding="async" onerror="this.onerror=null;this.src='${esc(foto)}'">
             <div class="obra-etiquetas">
               <span class="tag">${o.categoria}</span>
               ${o.tipo === 'colaboracion' ? '<span class="tag-ut" title="Unión Transitoria" aria-label="Unión Transitoria">UT</span>' : ''}
@@ -49,6 +56,10 @@
         </a>
       </article>`;
   };
+
+  // Las fichas de obra (obra.js) usan la misma tarjeta para las obras relacionadas
+  window.tarjetaObra = tarjeta;
+  window.textoAltObra = textoAlt;
 
   // ---------- obras.html: listado completo + opciones del desplegable de categoría ----------
   const lista = document.getElementById('lista-obras');
