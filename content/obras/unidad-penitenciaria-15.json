@@ -6,10 +6,13 @@
   "categoria": "Comunidad",
   "tipo": "propia",
   "estado": "obra",
+  "comitente": "Unidad Ejecutora de Infraestructura.",
   "ubicacion": "Piñero · Santa Fe",
   "mapa": "W633+3G Piñero, Santa Fe",
+  "superficie": "46.000 m².",
+  "plazo": "Abril 2025 - En ejecución.",
   "descripcion": [
-    "La Unidad Penitenciaria N.º 15 forma parte del programa provincial de ampliación de la infraestructura penitenciaria, con un proyecto que contempla seis módulos de alojamiento y edificios complementarios destinados al funcionamiento del establecimiento.<br><br>El desarrollo prevé espacios de ingreso, pabellones, áreas educativas, talleres, cocinas y sectores de apoyo, junto con infraestructura de servicios y circulación interna.<br><br>La magnitud del proyecto requiere la coordinación de distintas especialidades constructivas y de instalaciones, en el marco de una intervención pública orientada a ampliar la capacidad del sistema penitenciario santafesino."
+    "<p>La Unidad Penitenciaria N.º 15 forma parte del programa provincial de ampliación de la infraestructura penitenciaria, con un proyecto que contempla seis módulos de alojamiento y edificios complementarios destinados al funcionamiento del establecimiento.<br><br>El desarrollo prevé espacios de ingreso, pabellones, áreas educativas, talleres, cocinas y sectores de apoyo, junto con infraestructura de servicios y circulación interna.<br><br>La magnitud del proyecto requiere la coordinación de distintas especialidades constructivas y de instalaciones, en el marco de una intervención pública orientada a ampliar la capacidad del sistema penitenciario santafesino.</p>"
   ],
   "portada": "up15/02.jpeg",
   "fotos": [
@@ -20,7 +23,8 @@
   ],
   "videos": [
     {
-      "archivo": "obras/up.mp4"
+      "archivo": "obras/up.mp4",
+      "vertical": false
     }
   ]
 }

@@ -113,12 +113,16 @@ const OBRAS = [
     "tipo": "colaboracion",
     "estado": "obra",
     "con": "<b>Del Sol</b> - Empresa Constructora",
-    "comitente": "",
+    "comitente": "Grupo Nasini y Mariano Schor",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "X98V+JHG Villa Gdor. Gálvez, Santa Fe",
     "destacada": 1,
     "descripcion": [
-      "Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <b>Nodo</b>, un desarrollo privado impulsado por <b>Grupo Nasini</b> Inversiones junto a <b>Mariano Schor</b>, de la constructora <b>Dyscon</b>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano."
+      "Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano."
+    ],
+    "datos": [
+      "Superficie: 10 Hectáreas",
+      "Plazo: Febrero 2026 - En ejecución."
     ],
     "miniatura": "parque_industrial/01.jpg",
     "fotos": [
@@ -225,11 +229,18 @@ const OBRAS = [
     "categoria": "Viviendas",
     "tipo": "propia",
     "estado": "obra",
-    "comitente": "DPVyU.",
+    "comitente": "Dirección Provincial de Vivienda y Urbanismo (DPVyU).",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.9817997363948, -60.62924684936593",
-    "descripcion": [],
+    "descripcion": [
+      "<strong>Rosario: proyectan 64 viviendas en el barrio La Tablada</strong>",
+      "<em>El complejo tendrá unidades de uno, dos y tres dormitorios, estacionamiento y viviendas adaptadas para personas con movilidad reducida.</em>",
+      "El barrio La Tablada, en la zona sur de Rosario, tendrá un nuevo conjunto habitacional de 64 viviendas, financiado por la provincia de Santa Fe.",
+      "El complejo se levantará en el lote delimitado por las calles Grandoli, bulevar Seguí, Pasaje Korczak y Pasaje Pagé. Los edificios se desarrollarán en planta baja y tres pisos, e incluirán la infraestructura básica necesaria para su funcionamiento. También contarán con 90 dársenas de estacionamiento.",
+      "Las unidades serán de uno, dos y tres dormitorios, y el proyecto prevé además viviendas adaptadas para personas con movilidad reducida. Según la licitación de 2022, la obra se asienta sobre una superficie de 3.880 metros cuadrados."
+    ],
     "datos": [
+      "Superficie: 3.880 m².",
       "Plazo: Septiembre 2024 - En ejecución."
     ],
     "fotos": [
@@ -242,12 +253,16 @@ const OBRAS = [
     "categoria": "Comunidad",
     "tipo": "propia",
     "estado": "obra",
-    "comitente": "",
+    "comitente": "Unidad Ejecutora de Infraestructura.",
     "ubicacion": "Piñero · Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
     "destacada": 2,
     "descripcion": [
       "La Unidad Penitenciaria N.º 15 forma parte del programa provincial de ampliación de la infraestructura penitenciaria, con un proyecto que contempla seis módulos de alojamiento y edificios complementarios destinados al funcionamiento del establecimiento.<br><br>El desarrollo prevé espacios de ingreso, pabellones, áreas educativas, talleres, cocinas y sectores de apoyo, junto con infraestructura de servicios y circulación interna.<br><br>La magnitud del proyecto requiere la coordinación de distintas especialidades constructivas y de instalaciones, en el marco de una intervención pública orientada a ampliar la capacidad del sistema penitenciario santafesino."
+    ],
+    "datos": [
+      "Superficie: 46.000 m².",
+      "Plazo: Abril 2025 - En ejecución."
     ],
     "portada": "up15/02.jpeg",
     "fotos": [
@@ -268,10 +283,11 @@ const OBRAS = [
     "ubicacion": "Piñero · Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
     "descripcion": [
-      "<b>Infraestructura penitenciaria de alta seguridad</b><br><br>En el marco del programa de ampliación de la infraestructura penitenciaria de la provincia de Santa Fe, DYSCON S.A. participa en la construcción del Módulo D de la Unidad Penitenciaria N.º 8, integrada al complejo penitenciario de Piñero.<br><br>El proyecto forma parte de un establecimiento de alta seguridad que incorpora sistemas de alojamiento individual, estructuras de hormigón, circulaciones controladas y espacios complementarios destinados al funcionamiento penitenciario.<br><br>La intervención requiere una ejecución coordinada de los componentes arquitectónicos y constructivos, con especial atención a los requerimientos estructurales, funcionales y de seguridad propios de este tipo de infraestructura pública.<br><br>La obra se integra a un programa provincial orientado a ampliar la capacidad del sistema penitenciario y modernizar sus instalaciones."
+      "<strong>Infraestructura penitenciaria de alta seguridad</strong><br><br>En el marco del programa de ampliación de la infraestructura penitenciaria de la provincia de Santa Fe, DYSCON S.A. participa en la construcción del Módulo D de la Unidad Penitenciaria N.º 8, integrada al complejo penitenciario de Piñero.<br><br>El proyecto forma parte de un establecimiento de alta seguridad que incorpora sistemas de alojamiento individual, estructuras de hormigón, circulaciones controladas y espacios complementarios destinados al funcionamiento penitenciario.<br><br>La intervención requiere una ejecución coordinada de los componentes arquitectónicos y constructivos, con especial atención a los requerimientos estructurales, funcionales y de seguridad propios de este tipo de infraestructura pública.<br><br>La obra se integra a un programa provincial orientado a ampliar la capacidad del sistema penitenciario y modernizar sus instalaciones."
     ],
     "datos": [
-      "Plazo: Abril 2025 - Finalizado."
+      "Superficie: 46.000 m².",
+      "Plazo: Febrero 2025 - En ejecución."
     ],
     "portada": "up8/00.jpeg",
     "fotos": [
@@ -450,9 +466,11 @@ const OBRAS = [
     "comitente": "Ministerio de Educación.",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "X9JQ+CP2 Villa Gdor. Gálvez, Santa Fe",
-    "descripcion": [],
+    "descripcion": [
+      "<h2>Ampliación y modernización a la escuela Secundaria con más de 2.000 m² de obra nueva</h2><p>La institución cuenta ahora con <strong>2.079 metros cuadrados de superficie nueva</strong>, pensados para ampliar su capacidad y mejorar la experiencia de estudiantes y docentes. La obra incluye hall, portería, office, salón de usos múltiples, cantina y playón, depósito, sanitarios para varones, mujeres y personas con necesidades especiales, y un grupo sanitario adicional con baño.</p><p>En materia pedagógica, se sumaron <strong>cinco aulas comunes</strong> y espacios específicos para la formación técnica: un taller de automatización y neumática, un taller de electrónica y una sala de dibujo.</p><p>Además, se refaccionó un sector del edificio existente de <strong>509 metros cuadrados</strong>. Los trabajos comprendieron demoliciones, reformas y la refuncionalización de espacios para una nueva biblioteca, un área de gobierno y talleres, junto con refacciones generales.</p><p>La intervención se completó con un <strong>ingreso secundario con rampa y galería</strong>, un pergolado metálico, un nuevo playón con sistema de evacuación pluvial para el patio escolar y una vereda parquizada.</p>"
+    ],
     "datos": [
-      "Superficie: 2.588 m².",
+      "Superficie: 2079 m².",
       "Plazo: Agosto, 2017 - Octubre, 2019."
     ],
     "fotos": [
