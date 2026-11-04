@@ -757,5 +757,26 @@ const OBRAS = [
       "unidad-penitenciaria-15",
       "unidad-penitenciaria-8"
     ]
+  },
+  {
+    "id": "prueba",
+    "nombre": "Texas Antigua",
+    "categoria": "Patrimonio",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Morochiño",
+    "ubicacion": "Rosario · Santa Fe",
+    "mapa": "3 de febrero 1025, rosario, santa fe",
+    "descripcion": [],
+    "datos": [
+      "Superficie: 40 m²."
+    ],
+    "miniatura": "mw1lrcr2-3f7bltu1.png",
+    "portada": "mw1l948s-kuvwtv8m.png",
+    "fotos": [
+      "mw1lrm40-4stnn0ul.png",
+      "mw1ltmn0-m342r68u.png",
+      "mw1lttri-92ocivjh.png"
+    ]
   }
 ];

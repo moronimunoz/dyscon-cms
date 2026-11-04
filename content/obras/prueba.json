@@ -1,0 +1,19 @@
+{
+  "publicada": true,
+  "orden": 1310,
+  "nombre": "Texas Antigua",
+  "categoria": "Patrimonio",
+  "tipo": "propia",
+  "estado": "terminado",
+  "comitente": "Morochiño",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "3 de febrero 1025, rosario, santa fe",
+  "superficie": "40 m².",
+  "miniatura": "/img/obras/mw1lrcr2-3f7bltu1.png",
+  "portada": "/img/obras/mw1l948s-kuvwtv8m.png",
+  "fotos": [
+    "/img/obras/mw1lrm40-4stnn0ul.png",
+    "/img/obras/mw1ltmn0-m342r68u.png",
+    "/img/obras/mw1lttri-92ocivjh.png"
+  ]
+}
