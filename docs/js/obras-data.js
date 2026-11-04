@@ -261,6 +261,7 @@ const OBRAS = [
     "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "Rodríguez 1635, Rosario, Santa Fe",
+    "resumen": "Rodríguez 1635, Rosario, Santa Fe",
     "descripcion": [],
     "datos": [
       "Superficie: 2.000 m².",
