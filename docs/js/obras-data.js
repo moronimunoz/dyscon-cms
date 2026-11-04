@@ -9,7 +9,8 @@ const OBRAS = [
     "estado": "inicio",
     "comitente": "",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
+    "mapa": "-32.93471315323165, -60.643166777856244",
+    "resumen": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
     "descripcion": [],
     "miniatura": "casa_m/01.jpg",
     "fotos": [
@@ -21,8 +22,8 @@ const OBRAS = [
       "casa_m/05.jpg"
     ],
     "coords": [
-      -32.927646,
-      -60.770908
+      -32.934713,
+      -60.643167
     ],
     "relacionadas": [
       "tecnoteca",
