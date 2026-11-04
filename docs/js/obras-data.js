@@ -766,7 +766,7 @@ const OBRAS = [
     "categoria": "Comunidad",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "Secretaría de Estado del Hábitat.",
+    "comitente": "Nación, Provincia de Santa Fe y Municipalidad de V.G.G.",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "-33.04029450854612, -60.62849816950204",
     "descripcion": [
@@ -782,7 +782,9 @@ const OBRAS = [
       "Plazo: Agosto, 2017 - Agosto de 2018"
     ],
     "fotos": [
-      "barrio_mortelari_1.jpg"
+      "barrio_mortelari_1.jpg",
+      "mw2auqda-tapj3a6n.jpeg",
+      "mw2auujy-dpk9hjdn.jpeg"
     ],
     "coords": [
       -33.040295,
