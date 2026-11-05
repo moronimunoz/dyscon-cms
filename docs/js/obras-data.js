@@ -9,8 +9,7 @@ const OBRAS = [
     "estado": "inicio",
     "comitente": "",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "-32.93471315323165, -60.643166777856244",
-    "resumen": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
+    "mapa": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
     "descripcion": [],
     "miniatura": "casa_m/01.jpg",
     "fotos": [
@@ -22,9 +21,10 @@ const OBRAS = [
       "casa_m/05.jpg"
     ],
     "coords": [
-      -32.934713,
-      -60.643167
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "tecnoteca",
       "unidad-penitenciaria-15",
@@ -94,9 +94,10 @@ const OBRAS = [
       "espana/03.jpeg"
     ],
     "coords": [
-      -32.942002,
-      -60.64568
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "rdz-1635",
       "viviendas-tablada",
@@ -111,8 +112,7 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "PAMI.",
     "ubicacion": "Ituzaingó · Buenos Aires",
-    "mapa": "-34.63848764611621, -58.692515708507365",
-    "resumen": "Cnel. Brandsen 2898, B1714LAH Ituzaingó, Provincia de Buenos Aires",
+    "mapa": "Cnel. Brandsen 2898, B1714LAH Ituzaingó, Provincia de Buenos Aires",
     "descripcion": [],
     "datos": [
       "Superficie: 21.770 m².",
@@ -135,9 +135,10 @@ const OBRAS = [
       "pami/12.jpeg"
     ],
     "coords": [
-      -34.638488,
-      -58.692516
+      -34.6583,
+      -58.6667
     ],
+    "aprox": true,
     "relacionadas": [
       "samco-pavon-arriba",
       "samco-funes",
@@ -197,9 +198,9 @@ const OBRAS = [
       -60.606047
     ],
     "relacionadas": [
-      "parque-regional-sur",
       "plaza-san-martin",
-      "plaza-san-cristobal"
+      "plaza-san-cristobal",
+      "parque-regional-sur"
     ]
   },
   {
@@ -243,9 +244,10 @@ const OBRAS = [
       "tecnoteca/18.jpg"
     ],
     "coords": [
-      -32.945205,
-      -60.6298
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "casa-m",
       "unidad-penitenciaria-15",
@@ -260,15 +262,8 @@ const OBRAS = [
     "estado": "obra",
     "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "-32.95287073111514, -60.66111829884581",
-    "resumen": "Rodríguez 1635, Rosario, Santa Fe",
-    "descripcion": [
-      "El Edificio RDZ 1635 es un proyecto residencial desarrollado por Dyscon S.A., ubicado en un sector estratégico de Rosario, a pocos metros de avenida Pellegrini y bulevar Oroño, con proximidad al Parque Independencia.",
-      "El emprendimiento contempla aproximadamente <strong>2.000 m² de superficie cubierta</strong>, distribuidos en planta baja, subsuelo y seis niveles destinados a viviendas, con una propuesta arquitectónica contemporánea que prioriza la funcionalidad, la iluminación natural y el aprovechamiento de los espacios.",
-      "La planta baja y el subsuelo están destinados a cocheras, que cuentan con un sistema de montacoches para facilitar el acceso y la circulación de vehículos. Sobre estos niveles se desarrollan las seis plantas residenciales, organizadas en semipisos de dos y tres dormitorios, con superficies aproximadas de <strong>91 y 114 m²</strong>, respectivamente.",
-      "Entre los espacios comunes se incorpora un Salón de Usos Múltiples (SUM), equipado con parrillero y un área de expansión para reuniones y actividades recreativas de los residentes.",
-      "El proyecto combina espacios privados y servicios compartidos, integrando soluciones de estacionamiento, áreas de encuentro y unidades habitacionales en un edificio de escala residencial. Según la publicación realizada por Dyscon en octubre de 2025, la construcción se encontraba entonces en una etapa avanzada de ejecución."
-    ],
+    "mapa": "Rodríguez 1635, Rosario, Santa Fe",
+    "descripcion": [],
     "datos": [
       "Superficie: 2.000 m².",
       "Plazo: Julio, 2023 - Finalizado."
@@ -286,9 +281,10 @@ const OBRAS = [
       "rdz/08.jpg"
     ],
     "coords": [
-      -32.952871,
-      -60.661118
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "viviendas-tablada",
       "69-viviendas",
@@ -406,27 +402,18 @@ const OBRAS = [
     "categoria": "Espacio Público",
     "tipo": "propia",
     "estado": "obra",
-    "comitente": "Ministerio de Espacio Público porteño y Subterráneos de Buenos Aires (SBASE)",
+    "comitente": "",
     "ubicacion": "CABA · Buenos Aires",
-    "mapa": "-34.62672211727268, -58.399535530640875",
-    "resumen": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
-    "descripcion": [
-      "<h3>Avanza la renovación integral de la plaza y su entorno</h3><p>El proyecto contempla la renovación de 13.550 m², incluyendo la plaza y las veredas de toda la manzana, con mejoras en accesibilidad, iluminación y seguridad. El nuevo espacio contará con sectores verdes, juegos infantiles, cancha deportiva, área de calistenia y un espacio cultural semicubierto.</p><p>Además, se recuperará el histórico edificio ferroviario de calle Alberti y se reutilizarán estructuras existentes como pérgolas. También se incorporarán unos 70 árboles, nuevo mobiliario urbano y caminos peatonales renovados.</p><p>La obra tendrá un plazo estimado de 14 meses y se prevé que esté finalizada durante el segundo semestre de 2027.</p>"
-    ],
-    "datos": [
-      "Superficie: 11470 m².",
-      "Plazo: Septiembre, 2026 - Noviembre, 2027"
-    ],
+    "mapa": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
+    "descripcion": [],
     "fotos": [
-      "plaza-san-cristobal.webp",
-      "mw28x0q3-m1igwfvn.jpg",
-      "mw28x8yk-14ai701m.jpg",
-      "mw28xdb5-7lq0f3ia.jpg"
+      "plaza-san-cristobal.webp"
     ],
     "coords": [
-      -34.626722,
-      -58.399536
+      -34.6037,
+      -58.3816
     ],
+    "aprox": true,
     "relacionadas": [
       "parque-regional-sur",
       "plaza-san-martin",
@@ -437,31 +424,24 @@ const OBRAS = [
     "id": "parque-regional-sur",
     "nombre": "Parque Regional Sur",
     "categoria": "Espacio Público",
-    "tipo": "colaboracion",
+    "tipo": "propia",
     "estado": "obra",
-    "con": "<b>Del Sol</b> - Empresa Constructora",
-    "comitente": "Ministerio de Obras Públicas y la Dirección Provincial de Arquitectura e Ingeniería (DIPAI)",
+    "comitente": "",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "-33.00470218365296, -60.628972348056905",
-    "resumen": "Láinez 1-48, S2000 Rosario, Santa Fe",
-    "descripcion": [
-      "<p>La <strong>Intervención Integral del Parque Regional Sur</strong> en Rosario es una obra de remodelación ejecutada por la <strong>Unión Transitoria de Empresas (UTE)</strong> conformada por <strong>Dyscon</strong> y <strong>Del Sol</strong>, con una inversión provincial de aproximadamente <strong>$9.400 millones de pesos</strong>.</p><p>Las tareas abarcan <strong>40 hectáreas</strong> del predio (delimitado por calles Centenario, Hungría y el arroyo Saladillo) e incluyen:</p><ul><li><p><strong>Infraestructura vial:</strong> Pavimentación definitiva con cordón cuneta en calles aledañas y construcción de nuevas veredas perimetrales.</p></li><li><p><strong>Espacios recreativos:</strong> Construcción de un nuevo sector de baños públicos, parrilleros rebatibles, mesadas antivandálicas y mejoramiento de la iluminación y parquización.</p></li><li><p><strong>Áreas deportivas:</strong> Cerramiento y nuevo pavimento del <strong>Circuito KDT</strong>, adecuación del entorno del <strong>velódromo</strong> y ejecución de playones deportivos.</p></li><li><p><strong>Accesibilidad y seguridad:</strong> Remodelación de edificios existentes, senderos interiores accesibles y nuevas barandas en el borde del arroyo Saladillo.</p></li></ul><p></p>"
-    ],
-    "datos": [
-      "Superficie: 40 Hectáreas",
-      "Plazo: Octubre, 2025 - Noviembre, 2027"
-    ],
+    "mapa": "Láinez 1-48, S2000 Rosario, Santa Fe",
+    "descripcion": [],
     "fotos": [
       "parque_regional_sur.jpg"
     ],
     "coords": [
-      -33.004702,
-      -60.628972
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "plaza-san-martin",
-      "parque-industrial",
-      "plaza-san-cristobal"
+      "plaza-san-cristobal",
+      "parque-industrial"
     ]
   },
   {
@@ -472,10 +452,9 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario (UNR)",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "-32.9663568433821, -60.62559512621197",
-    "resumen": "Riobamba 242, S2000 Rosario, Santa Fe",
+    "mapa": "Riobamba 242, S2000 Rosario, Santa Fe",
     "descripcion": [
-      "En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <strong>69 viviendas</strong> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.<br><br>La intervención forma parte de un programa integral impulsado por el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario, orientado a mejorar las condiciones habitacionales y promover la integración urbana del sector.<br><br>El proyecto contempló viviendas de distintas tipologías, cocheras e infraestructura de servicios, incluyendo redes sanitarias, instalaciones eléctricas y obras de urbanización complementarias.<br><br>La obra constituye un aporte al desarrollo de vivienda pública y a la transformación de un sector estratégico de Rosario, fortaleciendo la integración entre el tejido residencial, los espacios públicos y el entorno universitario."
+      "En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <b>69 viviendas</b> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.<br><br>La intervención forma parte de un programa integral impulsado por el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario, orientado a mejorar las condiciones habitacionales y promover la integración urbana del sector.<br><br>El proyecto contempló viviendas de distintas tipologías, cocheras e infraestructura de servicios, incluyendo redes sanitarias, instalaciones eléctricas y obras de urbanización complementarias.<br><br>La obra constituye un aporte al desarrollo de vivienda pública y a la transformación de un sector estratégico de Rosario, fortaleciendo la integración entre el tejido residencial, los espacios públicos y el entorno universitario."
     ],
     "portada": "69-viviendas/02.webp",
     "fotos": [
@@ -484,9 +463,10 @@ const OBRAS = [
       "69-viviendas/00.jpg"
     ],
     "coords": [
-      -32.966357,
-      -60.625595
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "restauracion-espana-543",
       "rdz-1635",
@@ -547,9 +527,10 @@ const OBRAS = [
       "monumento/32.jpg"
     ],
     "coords": [
-      -32.947593,
-      -60.630816
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "escuela-primaria-1408",
       "casa-m",
@@ -601,8 +582,7 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
     "ubicacion": "Funes · Santa Fe",
-    "mapa": "-32.90604960988841, -60.809192565734605",
-    "resumen": "Monteagudo 1582-1600, S2132 Funes, Santa Fe",
+    "mapa": "Monteagudo 1582-1600, S2132 Funes, Santa Fe",
     "descripcion": [],
     "datos": [
       "Superficie: 1.000 m².",
@@ -621,9 +601,10 @@ const OBRAS = [
       "samco/08.jpg"
     ],
     "coords": [
-      -32.90605,
-      -60.809193
+      -32.9172,
+      -60.8139
     ],
+    "aprox": true,
     "relacionadas": [
       "pami-ituzaingo",
       "samco-pavon-arriba",
@@ -665,28 +646,19 @@ const OBRAS = [
     "categoria": "Educación",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "Estado Nacional",
+    "comitente": "",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
-    "mapa": "-33.038023142288964, -60.616798401153645",
-    "resumen": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
-    "descripcion": [
-      "El edificio de la Escuela Secundaria Orientada N.º 608 “La Esperanza”, ubicado en Villa Gobernador Gálvez, cuenta con una superficie cubierta de <strong>1.670 m²</strong> y fue diseñado para ofrecer espacios adecuados para las actividades educativas, administrativas y recreativas de la comunidad escolar.",
-      "La infraestructura dispone de <strong>siete aulas</strong>, un Salón de Usos Múltiples (SUM), laboratorio, centro de recursos multimediales, depósito y sanitarios. Además, incorpora ascensor para garantizar la accesibilidad entre los distintos niveles.",
-      "El sector administrativo incluye oficinas de dirección, vicedirección, secretaría y preceptoría, junto con una sala de reuniones, sala de espera y office. También cuenta con espacios sanitarios destinados al personal docente y directivo.",
-      "La obra fue ejecutada por <strong>Dyscon S.A.</strong>, con un monto contractual de <strong>$16.780.254,56</strong>. Su financiamiento correspondió al ámbito nacional, en el marco del Programa de Apoyo a la Política de Mejoramiento de la Equidad Educativa, con fondos provenientes de un préstamo del Banco Interamericano de Desarrollo (BID).",
-      "El proyecto permitió dotar a la institución de un edificio propio, con instalaciones que integran aulas, espacios especializados y áreas de gestión en una infraestructura destinada al desarrollo de las actividades educativas."
-    ],
-    "datos": [
-      "Superficie: 1670 m²."
-    ],
+    "mapa": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
+    "descripcion": [],
     "fotos": [
       "jardin_608/01.jpg",
       "jardin_608/00.jpg"
     ],
     "coords": [
-      -33.038023,
-      -60.616798
+      -33.0236,
+      -60.6283
     ],
+    "aprox": true,
     "relacionadas": [
       "eetp-485",
       "escuela-primaria-1408",
@@ -701,8 +673,7 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Ministerio de Obras Públicas.",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "-32.88844558431866, -60.73054073642479",
-    "resumen": "Av. Joaquín Suárez 2900 & Dr. José Julián Pérez, S2005 Rosario, Santa Fe",
+    "mapa": "Av. Joaquín Suárez 2900 & Dr. José Julián Pérez, S2005 Rosario, Santa Fe",
     "descripcion": [
       "La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe. Se desarrolla en un solo nivel compuesto por 8 aulas agrupables, un salón de usos múltiples, una cantina y espacio para cocinar y un gran patio semicubierto."
     ],
@@ -717,9 +688,10 @@ const OBRAS = [
       "nuevo_alberdi/02.jpeg"
     ],
     "coords": [
-      -32.888446,
-      -60.730541
+      -32.9468,
+      -60.6393
     ],
+    "aprox": true,
     "relacionadas": [
       "escuela-ricardone",
       "eetp-485",
@@ -766,30 +738,20 @@ const OBRAS = [
     "categoria": "Comunidad",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "Nación, Provincia de Santa Fe y Municipalidad de V.G.G.",
+    "comitente": "Secretaría de Estado del Hábitat.",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
-    "mapa": "-33.04029450854612, -60.62849816950204",
-    "descripcion": [
-      "El barrio Mortelari I, ubicado en Villa Gobernador Gálvez, fue objeto de un proyecto de mejoramiento urbano que contempló la renovación de infraestructura y servicios esenciales, junto con la recuperación de espacios públicos. La intervención comprendió aproximadamente <strong>13 hectáreas, 226 lotes y 17 cuadras</strong>, beneficiando directamente a unas <strong>200 familias</strong>.",
-      "Los trabajos comenzaron en agosto de 2017 y fueron inaugurados en agosto de 2018, en el marco del Programa de Mejoramiento Barrial (PROMEBA) y del Plan Nacional Santa Fe Hábitat, con participación de los gobiernos nacional, provincial y municipal.",
-      "La obra incluyó la ejecución de <strong>pavimento con cordón cuneta, desagües pluviales y redes de agua potable</strong>, además de infraestructura eléctrica domiciliaria y alumbrado público. También se incorporaron veredas y sendas peatonales, señalización, arbolado y mobiliario urbano.",
-      "En materia recreativa y comunitaria, se construyó un <strong>playón polideportivo</strong> y se acondicionaron espacios verdes, incorporando juegos infantiles y equipamiento para el uso y disfrute de los vecinos.",
-      "La intervención permitió mejorar las condiciones de circulación, los servicios básicos y el espacio público del sector, dotando al barrio de infraestructura urbana y nuevos lugares de encuentro comunitario.",
-      "Posteriormente, en febrero de 2025, se inició una obra complementaria en el Centro de Salud Mortelari, ubicado en Alberdi y Pasaje 4. El proyecto contempla la construcción de tres consultorios, un depósito, dos baños y el reacondicionamiento de un patio interno, con un presupuesto oficial de <strong>$71.176.266,60</strong>."
-    ],
+    "descripcion": [],
     "datos": [
-      "Superficie: 13 hectáreas, 226 lotes y 17 cuadras",
-      "Plazo: Agosto, 2017 - Agosto de 2018"
+      "Plazo: Agosto, 2017 - Octubre, 2020."
     ],
     "fotos": [
-      "barrio_mortelari_1.jpg",
-      "mw2auqda-tapj3a6n.jpeg",
-      "mw2auujy-dpk9hjdn.jpeg"
+      "barrio_mortelari_1.jpg"
     ],
     "coords": [
-      -33.040295,
-      -60.628498
+      -33.0236,
+      -60.6283
     ],
+    "aprox": true,
     "relacionadas": [
       "casa-m",
       "unidad-penitenciaria-15",

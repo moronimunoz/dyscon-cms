@@ -110,6 +110,53 @@
   border-color: #fff;
 }
 
+/* Estado activo "Inicio" (naranja) y "En obra" (verde): la cápsula entera se pinta con el degradado de los puntos
+   de estado del sitio y titila suavemente. Lo que titila es el relleno (::before), no el texto. "Terminado" no cambia. */
+.estados .activo--inicio,
+.estados .activo--obra {
+  --estado-fondo: linear-gradient(90deg, #89d957, #c9e265);
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+  border-color: transparent;
+  color: #fff;
+}
+
+.estados .activo--inicio {
+  --estado-fondo: linear-gradient(90deg, #f59e2c, #fbc66a);
+}
+
+.estados .activo--inicio::before,
+.estados .activo--obra::before {
+  content: "";
+  position: absolute;
+  inset: -1.5px;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--estado-fondo);
+  animation: titilar-suave 2.4s ease-in-out infinite;
+}
+
+@keyframes titilar-suave {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .72;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .estados .activo--inicio::before,
+  .estados .activo--obra::before {
+    animation: none;
+  }
+}
+
 /* Galería */
 .galeria {
   display: grid;

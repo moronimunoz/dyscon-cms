@@ -41,9 +41,10 @@
   const limpiarPlazo = t => sinPunto(t).replace(/\s*[-–—]\s*finalizad[oa]$/i, '').replace(/\s*[-–—]\s*$/, '');
 
   // ---------- Estado: Inicio / En obra / Terminado ----------
+  // El chip activo se pinta entero: Inicio naranja y En obra verde (los dos titilan); Terminado no cambia
   const pasos = [['inicio', 'Inicio'], ['obra', 'En obra'], ['terminado', 'Terminado']];
   const estados = `<div class="estados">${pasos.map(([k, t]) =>
-    `<span class="${k === o.estado ? 'activo' : ''}">${k === 'obra' && o.estado === 'obra' ? '<i class="en-curso en-curso--inline"></i>' : ''}${t}</span>`
+    `<span class="${k === o.estado ? 'activo activo--' + k : ''}">${t}</span>`
   ).join('')}</div>`;
 
   // ---------- Modalidad ----------
