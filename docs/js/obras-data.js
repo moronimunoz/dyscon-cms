@@ -9,8 +9,12 @@ const OBRAS = [
     "estado": "inicio",
     "comitente": "",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
-    "descripcion": [],
+    "mapa": "-32.93471315323165, -60.643166777856244",
+    "resumen": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
+    "descripcion": [
+      "Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.",
+      "El establecimiento contará con amplios espacios vidriados, ambientes interiores y exteriores, materiales cálidos y vistas privilegiadas al paisaje del río Paraná. Un lugar pensado para disfrutar de una experiencia gastronómica diferente, donde la elegancia, el confort y el entorno natural se integran en armonía."
+    ],
     "miniatura": "casa_m/01.jpg",
     "fotos": [
       "casa_m/00.jpg",
@@ -41,7 +45,8 @@ const OBRAS = [
     "ubicacion": "Ricardone · Santa Fe",
     "mapa": "66G2+6Q Ricardone, Santa Fe",
     "descripcion": [
-      "DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de <b>Ricardone</b>, una obra destinada a fortalecer la infraestructura educativa de la localidad y responder a la creciente demanda de espacios para la educación secundaria.<br><br>El proyecto comprendió la ejecución de un establecimiento educativo con ocho aulas, laboratorio, taller multipropósito, Centro de Recursos Multimediales y Salón de Usos Múltiples, además de sectores administrativos, sanitarios, depósitos y galerías de circulación.<br><br>La propuesta integra espacios destinados a la enseñanza, las actividades prácticas y el encuentro comunitario, mediante una infraestructura concebida para acompañar el desarrollo educativo de las nuevas generaciones.<br><br>Impulsada por el Gobierno de la Provincia de Santa Fe en el marco del programa Santa Fe + Conectada, la obra representa una contribución al crecimiento de Ricardone y al fortalecimiento de sus instalaciones educativas.<br><br>Entre los principales sectores previstos se encuentran:<br>• Ocho aulas para el dictado de clases.<br>• Taller multipropósito y laboratorio, destinados a actividades prácticas y experimentales.<br>• Centro de Recursos Multimediales, para apoyar las actividades pedagógicas.<br>• Salón de Usos Múltiples (SUM), con sanitarios y espacios complementarios.<br>• Hall de ingreso, galerías y circulaciones, para organizar el acceso y la conexión entre sectores.<br>• Área administrativa, con dirección, vicedirección, secretaría, preceptoría y sala de docentes.<br>• Servicios generales, incluidos sanitarios, depósitos y sala de máquinas."
+      "DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada. La obra tuvo como propósito ampliar la infraestructura educativa de la localidad, responder a la creciente demanda de espacios para la educación secundaria y brindar mejores condiciones para la enseñanza y el aprendizaje.",
+      "El establecimiento cuenta con ocho aulas, laboratorio, taller multipropósito, Centro de Recursos Multimediales, SUM, sectores administrativos, sanitarios y espacios de circulación."
     ],
     "datos": [
       "Plazo: Octubre 2024 - Finalizado."
@@ -83,10 +88,17 @@ const OBRAS = [
     "categoria": "Viviendas",
     "tipo": "propia",
     "estado": "terminado",
-    "comitente": "",
+    "comitente": "Particular",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "España 543, Rosario, Santa Fe",
-    "descripcion": [],
+    "descripcion": [
+      "Se llevó adelante la restauración y puesta en valor de un departamento ubicado en calle España 543, en la ciudad de Rosario. La intervención comprendió trabajos de pintura y encerado de superficies, renovación del mobiliario y actualización integral del baño.",
+      "Además, se realizó el recambio de muebles y equipamiento, incorporando nuevos elementos para mejorar la funcionalidad, el confort y la estética de los ambientes.",
+      "La obra permitió renovar los espacios interiores y optimizar sus condiciones de uso, mediante una intervención que combinó tareas de mantenimiento, restauración y modernización."
+    ],
+    "datos": [
+      "Superficie: 45 m²."
+    ],
     "fotos": [
       "espana/00.jpg",
       "espana/01.jpeg",
