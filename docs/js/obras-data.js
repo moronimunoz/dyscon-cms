@@ -16,7 +16,7 @@ const OBRAS = [
       "El establecimiento contará con amplios espacios vidriados, ambientes interiores y exteriores, materiales cálidos y vistas privilegiadas al paisaje del río Paraná. Un lugar pensado para disfrutar de una experiencia gastronómica diferente, donde la elegancia, el confort y el entorno natural se integran en armonía."
     ],
     "datos": [
-      "Superficie: PB: 2079 m²."
+      "Superficie: PB y en PA: 245 m²"
     ],
     "miniatura": "casa_m/01.jpg",
     "fotos": [
@@ -25,7 +25,9 @@ const OBRAS = [
       "casa_m/02.jpg",
       "casa_m/03.jpg",
       "casa_m/04.jpg",
-      "casa_m/05.jpg"
+      "casa_m/05.jpg",
+      "mw470c4s-cknc9o5e.jpg",
+      "mw470idr-zu21ct1e.jpg"
     ],
     "coords": [
       -32.934713,
