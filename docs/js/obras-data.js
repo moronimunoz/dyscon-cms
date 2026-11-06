@@ -157,7 +157,7 @@ const OBRAS = [
     "relacionadas": [
       "samco-pavon-arriba",
       "samco-funes",
-      "rdz-1635"
+      "nuevo-edificio-consultorios-externos-hospital-general-de-agudos-p-pinero"
     ]
   },
   {
@@ -611,8 +611,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "samco-funes",
-      "pami-ituzaingo",
-      "eetp-485"
+      "nuevo-edificio-consultorios-externos-hospital-general-de-agudos-p-pinero",
+      "pami-ituzaingo"
     ]
   },
   {
@@ -647,9 +647,9 @@ const OBRAS = [
       -60.809193
     ],
     "relacionadas": [
+      "nuevo-edificio-consultorios-externos-hospital-general-de-agudos-p-pinero",
       "pami-ituzaingo",
-      "samco-pavon-arriba",
-      "eetp-485"
+      "samco-pavon-arriba"
     ]
   },
   {
@@ -851,6 +851,55 @@ const OBRAS = [
       "escuela-ricardone",
       "eetp-485",
       "escuela-608"
+    ]
+  },
+  {
+    "id": "nuevo-edificio-consultorios-externos-hospital-general-de-agudos-p-pinero",
+    "nombre": "Nuevo Edificio de Consultorios Externos – Hospital General de Agudos Dr. Parmenio Piñero",
+    "categoria": "Salud",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Gobierno de la Ciudad de Buenos Aires.",
+    "ubicacion": "Av. Varela 1301, Flores, CABA",
+    "mapa": "-34.64428197754232, -58.45473645561413",
+    "descripcion": [
+      "Construcción de un nuevo edificio destinado a Consultorios Externos del Hospital General de Agudos Dr. Parmenio Piñero, desarrollado para centralizar y optimizar los servicios de atención ambulatoria del establecimiento.",
+      "El proyecto comprendió la ejecución de una infraestructura hospitalaria de 2.177 m² cubiertos, distribuida en planta baja y primer piso, con subsuelo técnico y azotea destinada a instalaciones.",
+      "Los trabajos incluyeron movimiento de suelos, ejecución de fundaciones y estructuras de hormigón armado, cerramientos, terminaciones arquitectónicas e instalaciones eléctricas, sanitarias, electromecánicas y contra incendios.",
+      "El edificio cuenta con <strong>69 consultorios, vacunatorio, boxes de atención, áreas de enfermería y espacios de apoyo médico y administrativo</strong>.",
+      "Una obra de infraestructura sanitaria orientada a fortalecer la capacidad operativa del hospital, mejorar las condiciones de atención y brindar espacios modernos y funcionales para pacientes y profesionales."
+    ],
+    "datos": [
+      "Superficie: 2.177 m²",
+      "Plazo: Julio, 2023 - Febrero, 2025."
+    ],
+    "miniatura": "mw55p0hb-v5whdse2.jpeg",
+    "portada": "mw55p6ht-9acn5gfj.jpeg",
+    "fotos": [
+      "mw55pfk8-64msbp82.jpeg",
+      "mw55pm04-pzney0ba.jpeg",
+      "mw55pr6l-ibdzt13m.jpeg",
+      "mw55v3ym-g2755v73.jpg",
+      "mw55v7lp-9l8a19x1.jpg",
+      "mw55vedz-lo1pxjem.jpg",
+      "mw55viiz-q277jnj1.jpg",
+      "mw55vmic-oub66fud.png",
+      "mw55vr2k-qa35h4lw.png",
+      "mw55vvrx-v2afv32u.png",
+      "mw55w09v-w4vcifxp.jpg",
+      "mw55w4u6-60kwynvw.jpg",
+      "mw55w91s-tldxeygn.jpg",
+      "mw55wh8q-i3x2onlt.jpg",
+      "mw55wn3n-f5zyusux.jpg"
+    ],
+    "coords": [
+      -34.644282,
+      -58.454736
+    ],
+    "relacionadas": [
+      "pami-ituzaingo",
+      "samco-pavon-arriba",
+      "samco-funes"
     ]
   }
 ];
