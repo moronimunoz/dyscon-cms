@@ -1,5 +1,5 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 310,
   "nombre": "Nuevo Edificio de Consultorios Externos – Hospital General de Agudos Dr. Parmenio Piñero",
   "categoria": "Salud",
@@ -18,6 +18,18 @@
   "fotos": [
     "/img/obras/mw55pfk8-64msbp82.jpeg",
     "/img/obras/mw55pm04-pzney0ba.jpeg",
-    "/img/obras/mw55pr6l-ibdzt13m.jpeg"
+    "/img/obras/mw55pr6l-ibdzt13m.jpeg",
+    "/img/obras/mw55v3ym-g2755v73.jpg",
+    "/img/obras/mw55v7lp-9l8a19x1.jpg",
+    "/img/obras/mw55vedz-lo1pxjem.jpg",
+    "/img/obras/mw55viiz-q277jnj1.jpg",
+    "/img/obras/mw55vmic-oub66fud.png",
+    "/img/obras/mw55vr2k-qa35h4lw.png",
+    "/img/obras/mw55vvrx-v2afv32u.png",
+    "/img/obras/mw55w09v-w4vcifxp.jpg",
+    "/img/obras/mw55w4u6-60kwynvw.jpg",
+    "/img/obras/mw55w91s-tldxeygn.jpg",
+    "/img/obras/mw55wh8q-i3x2onlt.jpg",
+    "/img/obras/mw55wn3n-f5zyusux.jpg"
   ]
 }
