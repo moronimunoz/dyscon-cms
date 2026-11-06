@@ -7,13 +7,16 @@ const OBRAS = [
     "categoria": "Comunidad",
     "tipo": "propia",
     "estado": "inicio",
-    "comitente": "",
+    "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.93471315323165, -60.643166777856244",
     "resumen": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
     "descripcion": [
       "Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.",
       "El establecimiento contará con amplios espacios vidriados, ambientes interiores y exteriores, materiales cálidos y vistas privilegiadas al paisaje del río Paraná. Un lugar pensado para disfrutar de una experiencia gastronómica diferente, donde la elegancia, el confort y el entorno natural se integran en armonía."
+    ],
+    "datos": [
+      "Superficie: PB y en PA: 245 m²"
     ],
     "miniatura": "casa_m/01.jpg",
     "fotos": [
@@ -22,7 +25,9 @@ const OBRAS = [
       "casa_m/02.jpg",
       "casa_m/03.jpg",
       "casa_m/04.jpg",
-      "casa_m/05.jpg"
+      "casa_m/05.jpg",
+      "mw470c4s-cknc9o5e.jpg",
+      "mw470idr-zu21ct1e.jpg"
     ],
     "coords": [
       -32.934713,
@@ -363,7 +368,10 @@ const OBRAS = [
       "up15/01.webp",
       "up15/03.jpeg"
     ],
-    "video": "obras/up.mp4",
+    "video": {
+      "src": "obras/up.mp4",
+      "poster": "mw48512u-uf2iwa27.jpg"
+    },
     "coords": [
       -33.097313,
       -60.796188
@@ -400,7 +408,10 @@ const OBRAS = [
       "up8/05.jpg",
       "up8/06.jpeg"
     ],
-    "video": "obras/up.mp4",
+    "video": {
+      "src": "obras/up.mp4",
+      "poster": "mw484i20-kjet3k3t.jpg"
+    },
     "coords": [
       -33.097313,
       -60.796188
@@ -430,9 +441,9 @@ const OBRAS = [
     ],
     "fotos": [
       "plaza-san-cristobal.webp",
-      "mw28x0q3-m1igwfvn.jpg",
-      "mw28x8yk-14ai701m.jpg",
-      "mw28xdb5-7lq0f3ia.jpg"
+      "mw47gpn5-yg3emdj9.jpg",
+      "mw47gw1a-f0qd1jbx.jpg",
+      "mw47h18e-5pj6ww41.jpg"
     ],
     "coords": [
       -34.626722,
@@ -515,7 +526,7 @@ const OBRAS = [
     "mapa": "Sta Fe 581, S2000 Rosario, Santa Fe",
     "destacada": 3,
     "descripcion": [
-      "PUESTA EN VALOR DEL MONUMENTO NACIONAL A LA BANDERA - Etapa II"
+      "<h1>Puesta en valor del Monumento Nacional a la Bandera</h1><p>Intervención integral de restauración y puesta en valor del Monumento Nacional a la Bandera, uno de los principales símbolos históricos y arquitectónicos de Argentina.</p><p>Los trabajos comprendieron la recuperación de revestimientos de mármol travertino, restauración de fachadas, solados, escalinatas, esculturas y ornamentaciones, junto con intervenciones en el Propileo, Patio Cívico, Atrio y Torre Central.</p><p>El proyecto también contempló la renovación de instalaciones eléctricas, sanitarias y termomecánicas, la modernización del ascensor del mirador y la recuperación de espacios interiores y exteriores.</p><p>Una intervención de gran complejidad técnica y patrimonial, orientada a preservar el valor arquitectónico, histórico y cultural de uno de los monumentos más representativos del país.</p>"
     ],
     "datos": [
       "Superficie: 10.000 m².",
