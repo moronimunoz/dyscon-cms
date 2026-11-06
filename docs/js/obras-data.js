@@ -18,16 +18,16 @@ const OBRAS = [
     "datos": [
       "Superficie: PB y en PA: 245 m²"
     ],
-    "miniatura": "casa_m/01.jpg",
+    "miniatura": "casa-m/01.jpg",
     "fotos": [
-      "casa_m/00.jpg",
-      "casa_m/01.jpg",
-      "casa_m/02.jpg",
-      "casa_m/03.jpg",
-      "casa_m/04.jpg",
-      "casa_m/05.jpg",
-      "mw470c4s-cknc9o5e.jpg",
-      "mw470idr-zu21ct1e.jpg"
+      "casa-m/00.jpg",
+      "casa-m/01.jpg",
+      "casa-m/02.jpg",
+      "casa-m/03.jpg",
+      "casa-m/04.jpg",
+      "casa-m/05.jpg",
+      "casa-m/mw470c4s-cknc9o5e.jpg",
+      "casa-m/mw470idr-zu21ct1e.jpg"
     ],
     "coords": [
       -32.934713,
@@ -55,26 +55,26 @@ const OBRAS = [
     "datos": [
       "Plazo: Octubre 2024 - Finalizado."
     ],
-    "portada": "ricardone/001.jpg",
+    "portada": "escuela-ricardone/001.jpg",
     "fotos": [
-      "ricardone/000.jpg",
-      "ricardone/001.jpg",
-      "ricardone/002.jpg",
-      "ricardone/003.jpg",
-      "ricardone/004.jpg",
-      "ricardone/005.jpg",
-      "ricardone/006.jpg",
-      "ricardone/007.jpg",
-      "ricardone/008.jpg",
-      "ricardone/009.jpg",
-      "ricardone/010.jpg",
-      "ricardone/011.jpg",
-      "ricardone/012.jpg",
-      "ricardone/013.jpg",
-      "ricardone/014.jpg",
-      "ricardone/015.jpg",
-      "ricardone/016.jpg",
-      "ricardone/017.jpg"
+      "escuela-ricardone/000.jpg",
+      "escuela-ricardone/001.jpg",
+      "escuela-ricardone/002.jpg",
+      "escuela-ricardone/003.jpg",
+      "escuela-ricardone/004.jpg",
+      "escuela-ricardone/005.jpg",
+      "escuela-ricardone/006.jpg",
+      "escuela-ricardone/007.jpg",
+      "escuela-ricardone/008.jpg",
+      "escuela-ricardone/009.jpg",
+      "escuela-ricardone/010.jpg",
+      "escuela-ricardone/011.jpg",
+      "escuela-ricardone/012.jpg",
+      "escuela-ricardone/013.jpg",
+      "escuela-ricardone/014.jpg",
+      "escuela-ricardone/015.jpg",
+      "escuela-ricardone/016.jpg",
+      "escuela-ricardone/017.jpg"
     ],
     "coords": [
       -32.774437,
@@ -104,10 +104,10 @@ const OBRAS = [
       "Superficie: 45 m²."
     ],
     "fotos": [
-      "espana/00.jpg",
-      "espana/01.jpeg",
-      "espana/02.jpeg",
-      "espana/03.jpeg"
+      "restauracion-espana-543/00.jpg",
+      "restauracion-espana-543/01.jpeg",
+      "restauracion-espana-543/02.jpeg",
+      "restauracion-espana-543/03.jpeg"
     ],
     "coords": [
       -32.942002,
@@ -134,21 +134,21 @@ const OBRAS = [
       "Superficie: 21.770 m².",
       "Plazo: Febrero, 2022 - Finalizado."
     ],
-    "portada": "pami/01.jpeg",
+    "portada": "pami-ituzaingo/01.jpeg",
     "fotos": [
-      "pami/00.jpg",
-      "pami/01.jpeg",
-      "pami/02.jpg",
-      "pami/03.jpeg",
-      "pami/04.jpeg",
-      "pami/05.jpeg",
-      "pami/06.jpeg",
-      "pami/07.jpeg",
-      "pami/08.jpeg",
-      "pami/09.jpeg",
-      "pami/10.jpeg",
-      "pami/11.jpeg",
-      "pami/12.jpeg"
+      "pami-ituzaingo/00.jpg",
+      "pami-ituzaingo/01.jpeg",
+      "pami-ituzaingo/02.jpg",
+      "pami-ituzaingo/03.jpeg",
+      "pami-ituzaingo/04.jpeg",
+      "pami-ituzaingo/05.jpeg",
+      "pami-ituzaingo/06.jpeg",
+      "pami-ituzaingo/07.jpeg",
+      "pami-ituzaingo/08.jpeg",
+      "pami-ituzaingo/09.jpeg",
+      "pami-ituzaingo/10.jpeg",
+      "pami-ituzaingo/11.jpeg",
+      "pami-ituzaingo/12.jpeg"
     ],
     "coords": [
       -34.638488,
@@ -178,35 +178,35 @@ const OBRAS = [
       "Superficie: 10 Hectáreas",
       "Plazo: Febrero 2026 - En ejecución."
     ],
-    "miniatura": "parque_industrial/01.jpg",
+    "miniatura": "parque-industrial/01.jpg",
     "fotos": [
-      "parque_industrial/00.jpg",
-      "parque_industrial/01.jpg",
-      "parque_industrial/02.jpg",
-      "parque_industrial/03.jpg",
-      "parque_industrial/04.jpg",
-      "parque_industrial/05.jpg",
-      "parque_industrial/06.jpg",
-      "parque_industrial/07.jpg",
-      "parque_industrial/11.jpg",
-      "parque_industrial/12.jpg",
-      "parque_industrial/13.jpg",
-      "parque_industrial/14.jpg",
-      "parque_industrial/15.jpg",
-      "parque_industrial/16.jpg",
-      "parque_industrial/17.jpg",
-      "parque_industrial/18.jpg",
-      "parque_industrial/19.jpg",
-      "parque_industrial/20.jpg",
-      "parque_industrial/21.jpg",
-      "parque_industrial/22.jpg",
-      "parque_industrial/23.jpg",
-      "parque_industrial/24.jpg",
-      "parque_industrial/25.jpeg"
+      "parque-industrial/00.jpg",
+      "parque-industrial/01.jpg",
+      "parque-industrial/02.jpg",
+      "parque-industrial/03.jpg",
+      "parque-industrial/04.jpg",
+      "parque-industrial/05.jpg",
+      "parque-industrial/06.jpg",
+      "parque-industrial/07.jpg",
+      "parque-industrial/11.jpg",
+      "parque-industrial/12.jpg",
+      "parque-industrial/13.jpg",
+      "parque-industrial/14.jpg",
+      "parque-industrial/15.jpg",
+      "parque-industrial/16.jpg",
+      "parque-industrial/17.jpg",
+      "parque-industrial/18.jpg",
+      "parque-industrial/19.jpg",
+      "parque-industrial/20.jpg",
+      "parque-industrial/21.jpg",
+      "parque-industrial/22.jpg",
+      "parque-industrial/23.jpg",
+      "parque-industrial/24.jpg",
+      "parque-industrial/25.jpeg"
     ],
     "video": {
       "src": "obras/nodo.mp4",
-      "poster": "parque_industrial/poster.jpg"
+      "poster": "parque-industrial/poster.jpg"
     },
     "coords": [
       -33.033437,
@@ -289,17 +289,17 @@ const OBRAS = [
       "Superficie: 2.000 m².",
       "Plazo: Julio, 2023 - Finalizado."
     ],
-    "portada": "rdz/03.jpeg",
+    "portada": "rdz-1635/03.jpeg",
     "fotos": [
-      "rdz/00.jpg",
-      "rdz/01.jpg",
-      "rdz/02.jpg",
-      "rdz/03.jpeg",
-      "rdz/04.jpeg",
-      "rdz/05.jpeg",
-      "rdz/06.jpeg",
-      "rdz/07.jpeg",
-      "rdz/08.jpg"
+      "rdz-1635/00.jpg",
+      "rdz-1635/01.jpg",
+      "rdz-1635/02.jpg",
+      "rdz-1635/03.jpeg",
+      "rdz-1635/04.jpeg",
+      "rdz-1635/05.jpeg",
+      "rdz-1635/06.jpeg",
+      "rdz-1635/07.jpeg",
+      "rdz-1635/08.jpg"
     ],
     "coords": [
       -32.952871,
@@ -332,7 +332,7 @@ const OBRAS = [
       "Plazo: Septiembre 2024 - En ejecución."
     ],
     "fotos": [
-      "tablada.jpg"
+      "viviendas-tablada/tablada.jpg"
     ],
     "coords": [
       -32.9818,
@@ -361,16 +361,16 @@ const OBRAS = [
       "Superficie: 46.000 m².",
       "Plazo: Abril 2025 - En ejecución."
     ],
-    "portada": "up15/02.jpeg",
+    "portada": "unidad-penitenciaria-15/02.jpeg",
     "fotos": [
-      "up15/02.jpeg",
-      "up15/00.jpg",
-      "up15/01.webp",
-      "up15/03.jpeg"
+      "unidad-penitenciaria-15/02.jpeg",
+      "unidad-penitenciaria-15/00.jpg",
+      "unidad-penitenciaria-15/01.webp",
+      "unidad-penitenciaria-15/03.jpeg"
     ],
     "video": {
       "src": "obras/up.mp4",
-      "poster": "mw48512u-uf2iwa27.jpg"
+      "poster": "unidad-penitenciaria-15/mw48512u-uf2iwa27.jpg"
     },
     "coords": [
       -33.097313,
@@ -398,19 +398,19 @@ const OBRAS = [
       "Superficie: 46.000 m².",
       "Plazo: Febrero 2025 - En ejecución."
     ],
-    "portada": "up8/00.jpeg",
+    "portada": "unidad-penitenciaria-8/00.jpeg",
     "fotos": [
-      "up8/00.jpeg",
-      "up8/01.jpeg",
-      "up8/02.webp",
-      "up8/03.jpg",
-      "up8/04.jpeg",
-      "up8/05.jpg",
-      "up8/06.jpeg"
+      "unidad-penitenciaria-8/00.jpeg",
+      "unidad-penitenciaria-8/01.jpeg",
+      "unidad-penitenciaria-8/02.webp",
+      "unidad-penitenciaria-8/03.jpg",
+      "unidad-penitenciaria-8/04.jpeg",
+      "unidad-penitenciaria-8/05.jpg",
+      "unidad-penitenciaria-8/06.jpeg"
     ],
     "video": {
       "src": "obras/up.mp4",
-      "poster": "mw484i20-kjet3k3t.jpg"
+      "poster": "unidad-penitenciaria-8/mw484i20-kjet3k3t.jpg"
     },
     "coords": [
       -33.097313,
@@ -441,9 +441,9 @@ const OBRAS = [
     ],
     "fotos": [
       "plaza-san-cristobal.webp",
-      "mw47gpn5-yg3emdj9.jpg",
-      "mw47gw1a-f0qd1jbx.jpg",
-      "mw47h18e-5pj6ww41.jpg"
+      "plaza-san-cristobal/mw47gpn5-yg3emdj9.jpg",
+      "plaza-san-cristobal/mw47gw1a-f0qd1jbx.jpg",
+      "plaza-san-cristobal/mw47h18e-5pj6ww41.jpg"
     ],
     "coords": [
       -34.626722,
@@ -474,7 +474,7 @@ const OBRAS = [
       "Plazo: Octubre, 2025 - Noviembre, 2027"
     ],
     "fotos": [
-      "parque_regional_sur.jpg"
+      "parque-regional-sur/parque_regional_sur.jpg"
     ],
     "coords": [
       -33.004702,
@@ -532,41 +532,41 @@ const OBRAS = [
       "Superficie: 10.000 m².",
       "Plazo: Marzo, 2023 - Finalizado."
     ],
-    "portada": "monumento/01.jpg",
+    "portada": "monumento-bandera/01.jpg",
     "fotos": [
-      "monumento/00.jpg",
-      "monumento/01.jpg",
-      "monumento/02.jpeg",
-      "monumento/03.jpg",
-      "monumento/04.jpg",
-      "monumento/05.jpg",
-      "monumento/06.jpg",
-      "monumento/07.jpg",
-      "monumento/08.jpg",
-      "monumento/09.jpg",
-      "monumento/10.jpg",
-      "monumento/11.jpg",
-      "monumento/12.jpg",
-      "monumento/13.jpg",
-      "monumento/14.jpg",
-      "monumento/15.jpg",
-      "monumento/16.jpg",
-      "monumento/17.jpg",
-      "monumento/18.jpg",
-      "monumento/19.jpg",
-      "monumento/20.jpg",
-      "monumento/21.jpg",
-      "monumento/22.jpg",
-      "monumento/23.jpg",
-      "monumento/24.jpg",
-      "monumento/25.jpg",
-      "monumento/26.jpg",
-      "monumento/27.jpg",
-      "monumento/28.jpg",
-      "monumento/29.jpg",
-      "monumento/30.jpg",
-      "monumento/31.jpg",
-      "monumento/32.jpg"
+      "monumento-bandera/00.jpg",
+      "monumento-bandera/01.jpg",
+      "monumento-bandera/02.jpeg",
+      "monumento-bandera/03.jpg",
+      "monumento-bandera/04.jpg",
+      "monumento-bandera/05.jpg",
+      "monumento-bandera/06.jpg",
+      "monumento-bandera/07.jpg",
+      "monumento-bandera/08.jpg",
+      "monumento-bandera/09.jpg",
+      "monumento-bandera/10.jpg",
+      "monumento-bandera/11.jpg",
+      "monumento-bandera/12.jpg",
+      "monumento-bandera/13.jpg",
+      "monumento-bandera/14.jpg",
+      "monumento-bandera/15.jpg",
+      "monumento-bandera/16.jpg",
+      "monumento-bandera/17.jpg",
+      "monumento-bandera/18.jpg",
+      "monumento-bandera/19.jpg",
+      "monumento-bandera/20.jpg",
+      "monumento-bandera/21.jpg",
+      "monumento-bandera/22.jpg",
+      "monumento-bandera/23.jpg",
+      "monumento-bandera/24.jpg",
+      "monumento-bandera/25.jpg",
+      "monumento-bandera/26.jpg",
+      "monumento-bandera/27.jpg",
+      "monumento-bandera/28.jpg",
+      "monumento-bandera/29.jpg",
+      "monumento-bandera/30.jpg",
+      "monumento-bandera/31.jpg",
+      "monumento-bandera/32.jpg"
     ],
     "coords": [
       -32.947593,
@@ -594,16 +594,16 @@ const OBRAS = [
       "Superficie: 723 m².",
       "Plazo: Agosto, 2022 - Abril, 2025."
     ],
-    "portada": "samco_pavon_arriba/02.jpg",
+    "portada": "samco-pavon-arriba/02.jpg",
     "fotos": [
-      "samco_pavon_arriba/02.jpg",
-      "samco_pavon_arriba/00.jpg",
-      "samco_pavon_arriba/01.jpg",
-      "samco_pavon_arriba/03.jpg"
+      "samco-pavon-arriba/02.jpg",
+      "samco-pavon-arriba/00.jpg",
+      "samco-pavon-arriba/01.jpg",
+      "samco-pavon-arriba/03.jpg"
     ],
     "video": {
       "src": "obras/samco-pavon.mp4",
-      "poster": "samco_pavon_arriba/poster.jpg"
+      "poster": "samco-pavon-arriba/poster.jpg"
     },
     "coords": [
       -33.310985,
@@ -630,17 +630,17 @@ const OBRAS = [
       "Superficie: 1.000 m².",
       "Plazo: Noviembre, 2022 - En ejecución."
     ],
-    "portada": "samco/00.jpg",
+    "portada": "samco-funes/00.jpg",
     "fotos": [
-      "samco/00.jpg",
-      "samco/01.jpg",
-      "samco/02.jpg",
-      "samco/03.jpg",
-      "samco/04.jpg",
-      "samco/05.jpg",
-      "samco/06.jpg",
-      "samco/07.jpg",
-      "samco/08.jpg"
+      "samco-funes/00.jpg",
+      "samco-funes/01.jpg",
+      "samco-funes/02.jpg",
+      "samco-funes/03.jpg",
+      "samco-funes/04.jpg",
+      "samco-funes/05.jpg",
+      "samco-funes/06.jpg",
+      "samco-funes/07.jpg",
+      "samco-funes/08.jpg"
     ],
     "coords": [
       -32.90605,
@@ -669,7 +669,7 @@ const OBRAS = [
       "Plazo: Agosto, 2017 - Octubre, 2019."
     ],
     "fotos": [
-      "eetp485.jpg"
+      "eetp-485/eetp485.jpg"
     ],
     "coords": [
       -33.018988,
@@ -702,8 +702,8 @@ const OBRAS = [
       "Superficie: 1670 m²."
     ],
     "fotos": [
-      "jardin_608/01.jpg",
-      "jardin_608/00.jpg"
+      "escuela-608/01.jpg",
+      "escuela-608/00.jpg"
     ],
     "coords": [
       -33.038023,
@@ -732,11 +732,11 @@ const OBRAS = [
       "Superficie: 1.700 m² aprox.",
       "Capacidad: 200 alumnos/as por turno"
     ],
-    "portada": "nuevo_alberdi/00.jpg",
+    "portada": "escuela-primaria-1408/00.jpg",
     "fotos": [
-      "nuevo_alberdi/00.jpg",
-      "nuevo_alberdi/01.jpeg",
-      "nuevo_alberdi/02.jpeg"
+      "escuela-primaria-1408/00.jpg",
+      "escuela-primaria-1408/01.jpeg",
+      "escuela-primaria-1408/02.jpeg"
     ],
     "coords": [
       -32.888446,
@@ -763,14 +763,14 @@ const OBRAS = [
       "Superficie: 14.000 m².",
       "Plazo: Noviembre, 2014 - Mayo, 2015."
     ],
-    "portada": "plaza_san_martin/00.jpg",
+    "portada": "plaza-san-martin/00.jpg",
     "fotos": [
-      "plaza_san_martin/04.webp",
-      "plaza_san_martin/01.webp",
-      "plaza_san_martin/02.webp",
-      "plaza_san_martin/03.webp",
-      "plaza_san_martin/00.jpg",
-      "plaza_san_martin/05.jpg"
+      "plaza-san-martin/04.webp",
+      "plaza-san-martin/01.webp",
+      "plaza-san-martin/02.webp",
+      "plaza-san-martin/03.webp",
+      "plaza-san-martin/00.jpg",
+      "plaza-san-martin/05.jpg"
     ],
     "coords": [
       -32.943688,
@@ -804,9 +804,9 @@ const OBRAS = [
       "Plazo: Agosto, 2017 - Agosto de 2018"
     ],
     "fotos": [
-      "barrio_mortelari_1.jpg",
-      "mw2auqda-tapj3a6n.jpeg",
-      "mw2auujy-dpk9hjdn.jpeg"
+      "barrio-mortelari-1/barrio_mortelari_1.jpg",
+      "barrio-mortelari-1/mw2auqda-tapj3a6n.jpeg",
+      "barrio-mortelari-1/mw2auujy-dpk9hjdn.jpeg"
     ],
     "coords": [
       -33.040295,
