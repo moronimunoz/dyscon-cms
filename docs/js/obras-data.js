@@ -526,7 +526,7 @@ const OBRAS = [
     "mapa": "Sta Fe 581, S2000 Rosario, Santa Fe",
     "destacada": 3,
     "descripcion": [
-      "PUESTA EN VALOR DEL MONUMENTO NACIONAL A LA BANDERA - Etapa II"
+      "<h1>Puesta en valor del Monumento Nacional a la Bandera</h1><p>Intervención integral de restauración y puesta en valor del Monumento Nacional a la Bandera, uno de los principales símbolos históricos y arquitectónicos de Argentina.</p><p>Los trabajos comprendieron la recuperación de revestimientos de mármol travertino, restauración de fachadas, solados, escalinatas, esculturas y ornamentaciones, junto con intervenciones en el Propileo, Patio Cívico, Atrio y Torre Central.</p><p>El proyecto también contempló la renovación de instalaciones eléctricas, sanitarias y termomecánicas, la modernización del ascensor del mirador y la recuperación de espacios interiores y exteriores.</p><p>Una intervención de gran complejidad técnica y patrimonial, orientada a preservar el valor arquitectónico, histórico y cultural de uno de los monumentos más representativos del país.</p>"
     ],
     "datos": [
       "Superficie: 10.000 m².",
