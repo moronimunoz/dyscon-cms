@@ -13,17 +13,17 @@
   "descripcion": [
     "Ubicado en la intersección de las calles Buenos Aires y Valerio Carreras, el nuevo SAMCo de Pavón Arriba constituye una intervención destinada a fortalecer la infraestructura sanitaria de la localidad y mejorar las condiciones de atención para la comunidad.<br><br>Impulsado por el <b>Gobierno de la Provincia de Santa Fe</b>, el proyecto contempló la construcción de nuevos espacios asistenciales y la refuncionalización de sectores del edificio existente, integrando soluciones arquitectónicas y técnicas orientadas a optimizar el funcionamiento del establecimiento.<br><br>La propuesta incluyó consultorios, sala de observación, sector de atención de urgencias, espacios de enfermería y áreas de internación con capacidad para cuatro camas. También contempló accesos diferenciados para el público y las ambulancias, circulación accesible e instalaciones específicas para el funcionamiento de un centro sanitario.<br><br>La intervención incorporó, además, sistemas de climatización, gases medicinales, iluminación LED y soluciones de aprovechamiento de energía solar, de acuerdo con las especificaciones del proyecto.<br><br>Con una Superficie de intervención prevista de 723 m², la obra representa un aporte a la modernización de los servicios públicos de salud y al desarrollo de la infraestructura de la región.<br><br><b>DYSCON S.A. — Construcción de infraestructura para las necesidades de la comunidad.</b>"
   ],
-  "portada": "samco_pavon_arriba/02.jpg",
+  "portada": "samco-pavon-arriba/02.jpg",
   "fotos": [
-    "samco_pavon_arriba/02.jpg",
-    "samco_pavon_arriba/00.jpg",
-    "samco_pavon_arriba/01.jpg",
-    "samco_pavon_arriba/03.jpg"
+    "samco-pavon-arriba/02.jpg",
+    "samco-pavon-arriba/00.jpg",
+    "samco-pavon-arriba/01.jpg",
+    "samco-pavon-arriba/03.jpg"
   ],
   "videos": [
     {
       "archivo": "obras/samco-pavon.mp4",
-      "poster": "samco_pavon_arriba/poster.jpg"
+      "poster": "samco-pavon-arriba/poster.jpg"
     }
   ]
 }
