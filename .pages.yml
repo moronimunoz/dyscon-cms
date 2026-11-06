@@ -114,10 +114,10 @@ content:
         label: Ubicación
         type: string
         description: "Formato: Ciudad · Provincia  (con el punto medio ·). Con esto la obra aparece en el mapa de obras (en el centro de la ciudad, si no hay dirección exacta)."
-      - name: mapa
-        label: Dirección para el mapa
+      - name: direccion
+        label: Dirección a mostrar (debajo del mapa)
         type: string
-        description: "Para ubicar la obra con precisión en el mapa: calle, número, ciudad y provincia; o coordenadas (-32.9468, -60.6393); o el código de Google Maps (X98V+JHG Villa Gdor. Gálvez, Santa Fe)."
+        description: "Texto que se lee debajo del mapa en la ficha de la obra. Escribí la dirección que quieras mostrar (ej: Av. Pellegrini 1234, Rosario). No cambia el punto del mapa. Si lo dejás vacío se muestra la ubicación (ciudad y provincia)."
       - name: superficie
         label: Superficie
         type: string

@@ -116,7 +116,8 @@
   // El número es el zoom: 14 muestra el barrio, 16 la cuadra y 18 casi el edificio
   const mapa = `https://www.google.com/maps?q=${encodeURIComponent(o.mapa || o.ubicacion)}&z=16&output=embed`;
   const esCodigoPlus = /^[A-Z0-9]{4,}\+[A-Z0-9]{2,}/.test(o.mapa || '');   // "X98V+JHG ..." no es una dirección legible
-  const direccion = (o.mapa && !esCodigoPlus) ? o.mapa : o.ubicacion;
+  const sonCoordenadas = /^\s*-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?\s*$/.test(o.mapa || '');
+  const direccion = (o.direccion && o.direccion.trim()) || ((o.mapa && !esCodigoPlus && !sonCoordenadas) ? o.mapa : o.ubicacion);
 
   const lateral = `<aside class="obra-lateral">
       ${modalidadEnBarra ? '' : `<div><p class="obra-rotulo">Modalidad</p><p class="valor">${esc(modalidad.valor)}</p>${modalidad.sub ? `<p class="sub">${esc(modalidad.sub)}</p>` : ''}</div>`}
