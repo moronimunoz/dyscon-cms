@@ -114,6 +114,10 @@ content:
         label: Ubicación
         type: string
         description: "Formato: Ciudad · Provincia  (con el punto medio ·). Con esto la obra aparece en el mapa de obras (en el centro de la ciudad, si no hay dirección exacta)."
+      - name: mapa
+        label: Dirección para el mapa
+        type: string
+        description: "Para ubicar la obra con precisión en el mapa: calle, número, ciudad y provincia; o coordenadas (-32.9468, -60.6393); o el código de Google Maps (X98V+JHG Villa Gdor. Gálvez, Santa Fe)."
       - name: direccion
         label: Dirección a mostrar (debajo del mapa)
         type: string
