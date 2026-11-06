@@ -1,0 +1,52 @@
+# Ordena docs/img/obras/ en una carpeta por obra (ver organizar-fotos.js).
+# Se corre a mano: pestaña Actions > "Ordenar fotos de obras" > Run workflow.
+#   - Con "aplicar" SIN tildar: solo muestra en el log lo que movería. No cambia nada.
+#   - Con "aplicar" tildado: mueve las fotos, corrige los JSON, regenera el sitio y guarda todo.
+name: Ordenar fotos de obras
+on:
+  workflow_dispatch:
+    inputs:
+      aplicar:
+        description: 'Aplicar los cambios (si no, solo prueba)'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: generar-paginas
+  cancel-in-progress: false
+jobs:
+  ordenar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Prueba (no cambia nada)
+        if: ${{ !inputs.aplicar }}
+        run: node organizar-fotos.js
+      - name: Mover fotos
+        if: ${{ inputs.aplicar }}
+        run: node organizar-fotos.js --aplicar
+      - name: Optimizar fotos
+        if: ${{ inputs.aplicar }}
+        continue-on-error: true
+        run: |
+          npm ci
+          node optimizar-imagenes.js
+      - name: Generar páginas
+        if: ${{ inputs.aplicar }}
+        run: node build.js
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+      - name: Subir cambios
+        if: ${{ inputs.aplicar }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A docs content
+          git diff --cached --quiet || (git commit -m "Fotos ordenadas por obra" && git pull --rebase && git push)
