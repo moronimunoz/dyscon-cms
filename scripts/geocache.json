@@ -1,4 +1,8 @@
 {
+  "Av. Varela 1301, Flores, CABA, Argentina": [
+    -34.643972,
+    -58.453921
+  ],
   "España 543, Rosario, Santa Fe": [
     -32.942002,
     -60.64568
@@ -14,5 +18,9 @@
   "Sta Fe 581, Rosario, Santa Fe": [
     -32.947593,
     -60.630816
+  ],
+  "Vélez Sarsfield 564 • Funes • Santa Fe, Argentina": [
+    -32.91012,
+    -60.79339
   ]
 }

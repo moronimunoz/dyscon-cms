@@ -1,15 +1,35 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 310,
-  "nombre": "Nuevo Edificio Consultorios Externos Hospital General de Agudos. P Piñero",
+  "nombre": "Nuevo Edificio de Consultorios Externos – Hospital General de Agudos Dr. Parmenio Piñero",
   "categoria": "Salud",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "Gobierno de la ciudad de Buenos Aires.",
-  "ubicacion": "C.A.B.A.",
-  "superficie": "3.000 m².",
+  "comitente": "Gobierno de la Ciudad de Buenos Aires.",
+  "ubicacion": "Av. Varela 1301, Flores, CABA",
+  "mapa": "-34.64428197754232, -58.45473645561413",
+  "superficie": "2.177 m²",
   "plazo": "Julio, 2023 - Febrero, 2025.",
+  "descripcion": [
+    "<p>Construcción de un nuevo edificio destinado a Consultorios Externos del Hospital General de Agudos Dr. Parmenio Piñero, desarrollado para centralizar y optimizar los servicios de atención ambulatoria del establecimiento.</p><p>El proyecto comprendió la ejecución de una infraestructura hospitalaria de 2.177 m² cubiertos, distribuida en planta baja y primer piso, con subsuelo técnico y azotea destinada a instalaciones.</p><p>Los trabajos incluyeron movimiento de suelos, ejecución de fundaciones y estructuras de hormigón armado, cerramientos, terminaciones arquitectónicas e instalaciones eléctricas, sanitarias, electromecánicas y contra incendios.</p><p>El edificio cuenta con <strong>69 consultorios, vacunatorio, boxes de atención, áreas de enfermería y espacios de apoyo médico y administrativo</strong>.</p><p>Una obra de infraestructura sanitaria orientada a fortalecer la capacidad operativa del hospital, mejorar las condiciones de atención y brindar espacios modernos y funcionales para pacientes y profesionales.</p>"
+  ],
+  "miniatura": "/img/obras/mw55p0hb-v5whdse2.jpeg",
+  "portada": "/img/obras/mw55p6ht-9acn5gfj.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mw55pfk8-64msbp82.jpeg",
+    "/img/obras/mw55pm04-pzney0ba.jpeg",
+    "/img/obras/mw55pr6l-ibdzt13m.jpeg",
+    "/img/obras/mw55v3ym-g2755v73.jpg",
+    "/img/obras/mw55v7lp-9l8a19x1.jpg",
+    "/img/obras/mw55vedz-lo1pxjem.jpg",
+    "/img/obras/mw55viiz-q277jnj1.jpg",
+    "/img/obras/mw55vmic-oub66fud.png",
+    "/img/obras/mw55vr2k-qa35h4lw.png",
+    "/img/obras/mw55vvrx-v2afv32u.png",
+    "/img/obras/mw55w09v-w4vcifxp.jpg",
+    "/img/obras/mw55w4u6-60kwynvw.jpg",
+    "/img/obras/mw55w91s-tldxeygn.jpg",
+    "/img/obras/mw55wh8q-i3x2onlt.jpg",
+    "/img/obras/mw55wn3n-f5zyusux.jpg"
   ]
 }
