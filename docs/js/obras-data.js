@@ -678,7 +678,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-608",
       "escuela-primaria-1408",
-      "escuela-ricardone"
+      "entubamiento-y-darsena-escuela-primaria-n1397"
     ]
   },
   {
@@ -712,7 +712,7 @@ const OBRAS = [
     "relacionadas": [
       "eetp-485",
       "escuela-primaria-1408",
-      "escuela-ricardone"
+      "entubamiento-y-darsena-escuela-primaria-n1397"
     ]
   },
   {
@@ -743,9 +743,9 @@ const OBRAS = [
       -60.730541
     ],
     "relacionadas": [
+      "entubamiento-y-darsena-escuela-primaria-n1397",
       "escuela-ricardone",
-      "eetp-485",
-      "escuela-608"
+      "eetp-485"
     ]
   },
   {
@@ -816,6 +816,41 @@ const OBRAS = [
       "casa-m",
       "unidad-penitenciaria-15",
       "unidad-penitenciaria-8"
+    ]
+  },
+  {
+    "id": "entubamiento-y-darsena-escuela-primaria-n1397",
+    "nombre": "Entubamiento y Dársena Escuela Primaria N.º 1397",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
+    "ubicacion": "Vélez Sarsfield 564 • Funes • Santa Fe",
+    "mapa": "-32.91061717970105, -60.793461544895145",
+    "descripcion": [
+      "Ejecución de trabajos de infraestructura complementaria en el entorno de la Escuela Primaria N.º 1397 de Funes, comprendiendo intervenciones de entubamiento pluvial y construcción de una dársena de acceso vehicular.",
+      "El proyecto está orientado a mejorar las condiciones de drenaje del sector, optimizar la circulación vehicular y favorecer la seguridad en los accesos al establecimiento educativo.",
+      "Una intervención de infraestructura urbana destinada a mejorar la funcionalidad y accesibilidad del entorno escolar."
+    ],
+    "datos": [
+      "Superficie: 1.577 m²",
+      "Plazo: Marzo, 2025 - Abril, 2025."
+    ],
+    "miniatura": "mw55ejke-nai9ut75.jpeg",
+    "portada": "mw55ep3j-btntpw0c.jpeg",
+    "fotos": [
+      "mw55e37r-zxfbfnhm.jpeg",
+      "mw55e97p-uulpy8h5.jpeg",
+      "mw55ee0f-r6tx9hj3.jpeg"
+    ],
+    "coords": [
+      -32.910617,
+      -60.793462
+    ],
+    "relacionadas": [
+      "escuela-ricardone",
+      "eetp-485",
+      "escuela-608"
     ]
   }
 ];
