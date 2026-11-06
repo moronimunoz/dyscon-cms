@@ -368,7 +368,10 @@ const OBRAS = [
       "up15/01.webp",
       "up15/03.jpeg"
     ],
-    "video": "obras/up.mp4",
+    "video": {
+      "src": "obras/up.mp4",
+      "poster": "mw48512u-uf2iwa27.jpg"
+    },
     "coords": [
       -33.097313,
       -60.796188
