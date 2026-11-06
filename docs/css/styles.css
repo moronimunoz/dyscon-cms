@@ -1554,6 +1554,12 @@ button {
     justify-content: center;
     padding: .4rem .5rem;
   }
+
+  /* Estado: 4 botones en 2 filas de 2 */
+  .segmentado[aria-labelledby="rotulo-estado"] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* Videos verticales (tipo Reels / Shorts): una fila de tarjetas 9:16 */

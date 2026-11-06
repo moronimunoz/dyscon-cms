@@ -74,8 +74,8 @@
   const mitad = !!(superficie && plazo);        // en el celular, Superficie y Plazo van lado a lado
   const datos = [];
   if (comitente) datos.push({ k: 'Comitente', v: esc(comitente), ancho: true, clase: comitente.length > 45 ? 'comitente obra-dato--largo' : 'comitente' });
-  if (superficie) datos.push({ k: 'Superficie', v: esc(superficie), mitad });
-  if (plazo) datos.push({ k: 'Plazo', v: esc(plazo), mitad });
+  if (superficie) datos.push({ k: 'Superficie', v: esc(superficie), mitad, ancho: !mitad });
+  if (plazo) datos.push({ k: 'Plazo', v: esc(plazo), mitad, ancho: !mitad });
   if (o.estado) datos.push({ k: 'Estado', html: estados, ancho: true, clase: 'estado' });
   let modalidadEnBarra = false;
   if (datos.length < 4 && datos.length >= 1) {

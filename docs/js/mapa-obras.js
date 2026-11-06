@@ -74,7 +74,7 @@
       });
       const titulo = g.obras.length === 1 ? g.obras[0].nombre : g.obras.length + ' obras: ' + g.obras.map(o => o.nombre).join(', ');
       L.marker(g.coords, { icon: icono, title: titulo, alt: titulo, keyboard: true, riseOnHover: true })
-        .bindPopup(ventana(g), { maxWidth: 300, minWidth: 220 })
+        .bindPopup(ventana(g), { maxWidth: 220, minWidth: 220 })
         .addTo(capa);
     });
 
