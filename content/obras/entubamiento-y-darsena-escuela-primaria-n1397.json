@@ -1,14 +1,23 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 270,
-  "nombre": "Entubamiento y Darsena Escuela Primaria N°1397",
+  "nombre": "Entubamiento y Dársena Escuela Primaria N.º 1397",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
-  "ubicacion": "Funes.",
+  "ubicacion": "Vélez Sarsfield 564 • Funes • Santa Fe",
+  "mapa": "-32.91061717970105, -60.793461544895145",
+  "superficie": "1.577 m²",
   "plazo": "Marzo, 2025 - Abril, 2025.",
+  "descripcion": [
+    "<p>Ejecución de trabajos de infraestructura complementaria en el entorno de la Escuela Primaria N.º 1397 de Funes, comprendiendo intervenciones de entubamiento pluvial y construcción de una dársena de acceso vehicular.</p><p>El proyecto está orientado a mejorar las condiciones de drenaje del sector, optimizar la circulación vehicular y favorecer la seguridad en los accesos al establecimiento educativo.</p><p>Una intervención de infraestructura urbana destinada a mejorar la funcionalidad y accesibilidad del entorno escolar.</p>"
+  ],
+  "miniatura": "/img/obras/mw55ejke-nai9ut75.jpeg",
+  "portada": "/img/obras/mw55ep3j-btntpw0c.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mw55e37r-zxfbfnhm.jpeg",
+    "/img/obras/mw55e97p-uulpy8h5.jpeg",
+    "/img/obras/mw55ee0f-r6tx9hj3.jpeg"
   ]
 }
