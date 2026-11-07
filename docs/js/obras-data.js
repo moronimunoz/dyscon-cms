@@ -130,7 +130,6 @@ const OBRAS = [
     "comitente": "PAMI.",
     "ubicacion": "Ituzaingó · Buenos Aires",
     "mapa": "-34.63848764611621, -58.692515708507365",
-    "resumen": "Cnel. Brandsen 2898, B1714LAH Ituzaingó, Provincia de Buenos Aires",
     "descripcion": [],
     "datos": [
       "Superficie: 21.770 m².",
