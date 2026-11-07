@@ -10,7 +10,7 @@ const OBRAS = [
     "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.93471315323165, -60.643166777856244",
-    "resumen": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
+    "resumen": "<p>Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.</p>",
     "descripcion": [
       "Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.",
       "El establecimiento contará con amplios espacios vidriados, ambientes interiores y exteriores, materiales cálidos y vistas privilegiadas al paisaje del río Paraná. Un lugar pensado para disfrutar de una experiencia gastronómica diferente, donde la elegancia, el confort y el entorno natural se integran en armonía."
