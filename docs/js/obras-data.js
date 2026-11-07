@@ -10,7 +10,7 @@ const OBRAS = [
     "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.93471315323165, -60.643166777856244",
-    "resumen": "Arturo Illia 1690, S2000 Rosario, Santa Fe",
+    "resumen": "<p>Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.</p>",
     "descripcion": [
       "Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.",
       "El establecimiento contará con amplios espacios vidriados, ambientes interiores y exteriores, materiales cálidos y vistas privilegiadas al paisaje del río Paraná. Un lugar pensado para disfrutar de una experiencia gastronómica diferente, donde la elegancia, el confort y el entorno natural se integran en armonía."
@@ -47,7 +47,8 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Ministerio de economía, Unidad Ejecutora Provincial (UE).",
     "ubicacion": "Ricardone · Santa Fe",
-    "mapa": "66G2+6Q Ricardone, Santa Fe",
+    "mapa": "-32.77486960487831, -60.79787343957392",
+    "resumen": "<p>DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada</p>",
     "descripcion": [
       "DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada. La obra tuvo como propósito ampliar la infraestructura educativa de la localidad, responder a la creciente demanda de espacios para la educación secundaria y brindar mejores condiciones para la enseñanza y el aprendizaje.",
       "El establecimiento cuenta con ocho aulas, laboratorio, taller multipropósito, Centro de Recursos Multimediales, SUM, sectores administrativos, sanitarios y espacios de circulación."
@@ -77,8 +78,8 @@ const OBRAS = [
       "escuela-ricardone/017.jpg"
     ],
     "coords": [
-      -32.774437,
-      -60.798063
+      -32.77487,
+      -60.797873
     ],
     "relacionadas": [
       "eetp-485",
@@ -95,6 +96,7 @@ const OBRAS = [
     "comitente": "Particular",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "España 543, Rosario, Santa Fe",
+    "resumen": "<p>restauración y puesta en valor de un departamento ubicado en calle España 543</p>",
     "descripcion": [
       "Se llevó adelante la restauración y puesta en valor de un departamento ubicado en calle España 543, en la ciudad de Rosario. La intervención comprendió trabajos de pintura y encerado de superficies, renovación del mobiliario y actualización integral del baño.",
       "Además, se realizó el recambio de muebles y equipamiento, incorporando nuevos elementos para mejorar la funcionalidad, el confort y la estética de los ambientes.",
@@ -128,7 +130,6 @@ const OBRAS = [
     "comitente": "PAMI.",
     "ubicacion": "Ituzaingó · Buenos Aires",
     "mapa": "-34.63848764611621, -58.692515708507365",
-    "resumen": "Cnel. Brandsen 2898, B1714LAH Ituzaingó, Provincia de Buenos Aires",
     "descripcion": [],
     "datos": [
       "Superficie: 21.770 m².",
@@ -229,6 +230,7 @@ const OBRAS = [
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "Estévez Boero 740, S2000 Rosario, Santa Fe",
     "destacada": 4,
+    "resumen": "<p>Tecnoteca es funcionar como una Escuela de Tecnología y Oficios Digitales, donde se impulsen proyectos de aprendizaje tecnológicos vinculados a la ciencia, la comunicación y el arte. </p>",
     "descripcion": [
       "<strong>Tecnoteca, Escuela de Tecnología y Oficios Digitales</strong><br>El propósito de Tecnoteca es funcionar como una Escuela de Tecnología y Oficios Digitales, donde se impulsen proyectos de aprendizaje tecnológicos vinculados a la ciencia, la comunicación y el arte. Está pensada para jóvenes entre 18 a 30 años, priorizando sobre todo a aquellas/os que no puedan acceder a oportunidades educativas similares.<br>Emplazada en el Galpón 13, cuenta con 4.000 mts2 distribuidos en dos plantas que disponen de los recursos tecnológicos, profesionales y un ambiente confortable para alojar a los y las participantes. Los espacios, equipados en función de las especiﬁcidades técnicas, son: Cápsula Audiovisual; Coworking; FabLab; Laboratorios; Salas de capacitación. También está proyectado un lactario, el comedor y un espacio de cuidados para niños y niñas."
     ],
