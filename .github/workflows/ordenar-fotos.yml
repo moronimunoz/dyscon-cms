@@ -12,6 +12,8 @@ on:
         default: false
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency:
   group: generar-paginas
   cancel-in-progress: false
@@ -50,3 +52,21 @@ jobs:
           git config user.email "actions@github.com"
           git add -A docs content
           git diff --cached --quiet || (git commit -m "Fotos ordenadas por obra" && git pull --rebase && git push)
+
+  publicar:
+    needs: ordenar
+    if: ${{ inputs.aplicar }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
