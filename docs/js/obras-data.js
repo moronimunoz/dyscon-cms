@@ -47,7 +47,8 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Ministerio de economía, Unidad Ejecutora Provincial (UE).",
     "ubicacion": "Ricardone · Santa Fe",
-    "mapa": "66G2+6Q Ricardone, Santa Fe",
+    "mapa": "-32.77486960487831, -60.79787343957392",
+    "resumen": "<p>DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada</p>",
     "descripcion": [
       "DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada. La obra tuvo como propósito ampliar la infraestructura educativa de la localidad, responder a la creciente demanda de espacios para la educación secundaria y brindar mejores condiciones para la enseñanza y el aprendizaje.",
       "El establecimiento cuenta con ocho aulas, laboratorio, taller multipropósito, Centro de Recursos Multimediales, SUM, sectores administrativos, sanitarios y espacios de circulación."
@@ -77,8 +78,8 @@ const OBRAS = [
       "escuela-ricardone/017.jpg"
     ],
     "coords": [
-      -32.774437,
-      -60.798063
+      -32.77487,
+      -60.797873
     ],
     "relacionadas": [
       "eetp-485",
