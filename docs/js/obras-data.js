@@ -459,7 +459,9 @@ const OBRAS = [
       "plaza-san-cristobal.webp",
       "plaza-san-cristobal/mw47gpn5-yg3emdj9.jpg",
       "plaza-san-cristobal/mw47gw1a-f0qd1jbx.jpg",
-      "plaza-san-cristobal/mw47h18e-5pj6ww41.jpg"
+      "plaza-san-cristobal/mw47h18e-5pj6ww41.jpg",
+      "mw5xjepo-f9vjfy1p.jpg",
+      "mw5xjv34-dadz8rzi.jpg"
     ],
     "coords": [
       -34.626722,
