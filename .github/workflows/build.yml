@@ -1,15 +1,32 @@
-# Genera Y PUBLICA el sitio SOLO cuando vos lo pedís, con un botón:
-#   pestaña Actions > "Generar páginas" > Run workflow > Run workflow
-# Editar en Pages CMS o subir fotos NO publica nada: se acumula en el repositorio hasta que apretás el botón.
+# Genera Y PUBLICA el sitio en dos casos:
+#   1) A mano: pestaña Actions > "Generar páginas" > Run workflow > Run workflow
+#   2) Solo, cuando se sube (con commit y push desde VS Code) un cambio de código o de las páginas del sitio.
+# Editar en Pages CMS (obras, novedades, fotos) NO publica nada: se acumula en el repositorio hasta que
+# se publique por alguno de los dos caminos de arriba, y en ese momento sale todo lo acumulado.
 # (Requiere Settings > Pages > Source: "GitHub Actions".)
 name: Generar páginas
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/css/**'
+      - 'docs/js/**'
+      - 'docs/*.html'
+      - 'build.js'
+      - 'optimizar-imagenes.js'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      # Estos los genera el propio sitio: no deben disparar otra corrida
+      - '!docs/js/*-data.js'
+      - '!docs/obra-*.html'
+      - '!docs/novedad-*.html'
 permissions:
   contents: write
   pages: write
   id-token: write
-# Si se aprieta el botón dos veces, las corridas hacen cola en vez de pisarse
+# Si se dispara dos veces seguidas, las corridas hacen cola en vez de pisarse
 concurrency:
   group: generar-paginas
   cancel-in-progress: false
