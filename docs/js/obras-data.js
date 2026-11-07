@@ -10,6 +10,7 @@ const OBRAS = [
     "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.93471315323165, -60.643166777856244",
+    "direccion": "Arturo Illia 1690, Rosario, Santa Fe",
     "resumen": "<p>Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.</p>",
     "descripcion": [
       "Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.",
@@ -48,6 +49,7 @@ const OBRAS = [
     "comitente": "Ministerio de economía, Unidad Ejecutora Provincial (UE).",
     "ubicacion": "Ricardone · Santa Fe",
     "mapa": "-32.77486960487831, -60.79787343957392",
+    "direccion": "Club del Pueblo 1531, Ricardone, Santa Fe",
     "resumen": "<p>DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada</p>",
     "descripcion": [
       "DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada. La obra tuvo como propósito ampliar la infraestructura educativa de la localidad, responder a la creciente demanda de espacios para la educación secundaria y brindar mejores condiciones para la enseñanza y el aprendizaje.",
@@ -96,6 +98,7 @@ const OBRAS = [
     "comitente": "Particular",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "España 543, Rosario, Santa Fe",
+    "direccion": "España 543, Rosario, Santa Fe",
     "resumen": "<p>restauración y puesta en valor de un departamento ubicado en calle España 543</p>",
     "descripcion": [
       "Se llevó adelante la restauración y puesta en valor de un departamento ubicado en calle España 543, en la ciudad de Rosario. La intervención comprendió trabajos de pintura y encerado de superficies, renovación del mobiliario y actualización integral del baño.",
@@ -130,6 +133,7 @@ const OBRAS = [
     "comitente": "PAMI.",
     "ubicacion": "Ituzaingó · Buenos Aires",
     "mapa": "-34.63848764611621, -58.692515708507365",
+    "direccion": "Cnel. Brandsen 2898, Ituzaingó, Provincia de Buenos Aires",
     "descripcion": [],
     "datos": [
       "Superficie: 21.770 m².",
@@ -171,6 +175,7 @@ const OBRAS = [
     "comitente": "Grupo Nasini y Mariano Schor",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "X98V+JHG Villa Gdor. Gálvez, Santa Fe",
+    "direccion": "Ecuador y Camino del Inmigrante, VGG, Santa Fe",
     "destacada": 1,
     "descripcion": [
       "Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano."
@@ -229,6 +234,7 @@ const OBRAS = [
     "comitente": "Municipalidad de Rosario.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "Estévez Boero 740, S2000 Rosario, Santa Fe",
+    "direccion": "Estévez Boero 740, Rosario, Santa Fe",
     "destacada": 4,
     "resumen": "<p>Tecnoteca es funcionar como una Escuela de Tecnología y Oficios Digitales, donde se impulsen proyectos de aprendizaje tecnológicos vinculados a la ciencia, la comunicación y el arte. </p>",
     "descripcion": [
