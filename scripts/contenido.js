@@ -48,7 +48,7 @@ function videosALegacy(lista, carpetaPoster) {
 function obraALegacy(j, id) {
   const o = { id, nombre: j.nombre, categoria: j.categoria, tipo: j.tipo || 'propia', estado: j.estado };
   const poner = (k, v) => { if (v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && !v.length)) o[k] = v; };
-  poner('con', j.con); o.comitente = j.comitente || ''; poner('ubicacion', j.ubicacion); poner('mapa', j.mapa);
+  poner('con', j.con); o.comitente = j.comitente || ''; poner('ubicacion', j.ubicacion); poner('mapa', j.mapa); poner('direccion', j.direccion);
   poner('destacada', j.destacada); poner('resumen', j.resumen); poner('alt', j.alt);
   o.descripcion = parrafos(j.descripcion);
   const datos = [];
