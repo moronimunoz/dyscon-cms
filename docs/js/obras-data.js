@@ -96,6 +96,7 @@ const OBRAS = [
     "comitente": "Particular",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "España 543, Rosario, Santa Fe",
+    "resumen": "<p>restauración y puesta en valor de un departamento ubicado en calle España 543</p>",
     "descripcion": [
       "Se llevó adelante la restauración y puesta en valor de un departamento ubicado en calle España 543, en la ciudad de Rosario. La intervención comprendió trabajos de pintura y encerado de superficies, renovación del mobiliario y actualización integral del baño.",
       "Además, se realizó el recambio de muebles y equipamiento, incorporando nuevos elementos para mejorar la funcionalidad, el confort y la estética de los ambientes.",
