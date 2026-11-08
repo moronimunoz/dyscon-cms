@@ -221,7 +221,7 @@ const OBRAS = [
     "relacionadas": [
       "parque-regional-sur",
       "plaza-san-martin",
-      "plaza-san-cristobal"
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -468,9 +468,9 @@ const OBRAS = [
       -58.399536
     ],
     "relacionadas": [
-      "parque-regional-sur",
-      "plaza-san-martin",
-      "parque-industrial"
+      "pvplazasdistritales",
+      "plazas-de-la-cercania",
+      "parque-regional-sur"
     ]
   },
   {
@@ -501,8 +501,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "plaza-san-martin",
-      "parque-industrial",
-      "plaza-san-cristobal"
+      "pvplazasdistritales",
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -596,8 +596,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-primaria-1408",
-      "casa-m",
-      "restauracion-espana-543"
+      "pvplazasdistritales",
+      "casa-m"
     ]
   },
   {
@@ -807,8 +807,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "parque-regional-sur",
-      "parque-industrial",
-      "plaza-san-cristobal"
+      "pvplazasdistritales",
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -850,6 +850,78 @@ const OBRAS = [
     ]
   },
   {
+    "id": "plazas-de-la-cercania-2025",
+    "nombre": "Plazas de cercanía – Presupuesto Participativo 2025",
+    "categoria": "Espacio Público",
+    "tipo": "colaboracion",
+    "estado": "terminado",
+    "con": "<b>Del Sol</b> - Empresa Constructora",
+    "comitente": "Municipalidad de Rosario.",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "Bielsa 5200, S2007BIF Rosario, Santa Fe",
+    "direccion": "Plaza J. Wesley, Rosario, Santa Fe",
+    "resumen": "<p>Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025.</p>",
+    "descripcion": [
+      "Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025. El proyecto contempla intervenciones en distintos sectores de la ciudad, con trabajos de veredas, rampas, pintura, instalación de juegos infantiles y equipamiento urbano, parquización, iluminación y mejoras generales de infraestructura.",
+      "La licitación previó hasta seis frentes de trabajo simultáneos. Entre los espacios incluidos en el programa se encuentran Plaza Pinocho, Plaza de las Américas, Plaza John Wesley, Plaza Maradona y Matienzo, Plaza Yugoslavia y Plazoleta Posta de los Arroyos."
+    ],
+    "datos": [
+      "Plazo: Agosto 2025 - Junio 2026 "
+    ],
+    "miniatura": "mw7e2z6m-arobkotx.jpeg",
+    "portada": "mw7e3266-j9dte8yv.jpeg",
+    "fotos": [
+      "mw7e2l3i-b00mi4ps.jpeg",
+      "mw7e2q6r-l3oo6173.jpeg",
+      "mw7e2tuc-kw4usbh0.jpeg"
+    ],
+    "coords": [
+      -32.923221,
+      -60.695455
+    ],
+    "relacionadas": [
+      "plazas-de-la-cercania",
+      "parque-industrial",
+      "parque-regional-sur"
+    ]
+  },
+  {
+    "id": "pvplazasdistritales",
+    "nombre": "Puesta en valor de plazas distritales – Rosario",
+    "categoria": "Espacio Público",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Municipalidad de Rosario.",
+    "ubicacion": "Rosario · Santa Fe",
+    "mapa": "Córdoba 3853, S2002LAG Rosario, Santa Fe",
+    "direccion": "Plaza Mariano Moreno, Rosario, Santa Fe",
+    "resumen": "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
+    "descripcion": [
+      "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
+      "Plazas intervenidas: <strong>Mariano Moreno y Santa Isabel de Hungría.</strong>"
+    ],
+    "datos": [
+      "Plazo: 150 días."
+    ],
+    "miniatura": "mw7duftp-vuqk9ifi.jpeg",
+    "portada": "mw7dukio-unxjllkl.jpeg",
+    "fotos": [
+      "mw7dtruw-tlopnwva.jpeg",
+      "mw7du5v9-sasjax07.jpeg",
+      "mw7du8k7-kbrmwm29.jpeg",
+      "mw7dubmv-99czacwm.jpeg"
+    ],
+    "coords": [
+      -32.939762,
+      -60.675806
+    ],
+    "relacionadas": [
+      "parque-regional-sur",
+      "plaza-san-martin",
+      "plazas-de-la-cercania"
+    ]
+  },
+  {
     "id": "entubamiento-y-darsena-escuela-primaria-n1397",
     "nombre": "Entubamiento y Dársena Escuela Primaria N.º 1397",
     "categoria": "Educación",
@@ -884,6 +956,48 @@ const OBRAS = [
       "escuela-ricardone",
       "eetp-485",
       "escuela-608"
+    ]
+  },
+  {
+    "id": "plazas-de-la-cercania",
+    "nombre": "Plazas de cercanía – 2024",
+    "categoria": "Espacio Público",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Municipalidad de Rosario",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "-32.9811709093732, -60.64194944289854",
+    "direccion": "Rosario, Santa Fe",
+    "descripcion": [
+      "Remodelación de seis plazas de cercanía en las cuales los trabajos a realizarse comprenden la reparación de veredas y senderos, nuevo mobiliario urbano, parquizado, iluminación LED, renovación de juegos infantiles, piso antigolpes y rampas de accesibilidad.",
+      "<strong>Las plazas incluidas son:</strong>",
+      "<strong>· Cantero Central de Av. Francia</strong> (Centro) - Brown y Urquiza",
+      "<strong>· Plaza Tarragó Ros</strong> (Sur) - Laprida y 24 de Septiembre",
+      "<strong>· Plaza Chiodi</strong> (Oeste) - Lima y Cochabamba",
+      "<strong>· Plaza 17 de Agosto / La Consolata</strong> (Sudoeste) - Regimiento 11 / Callao / Patria / Casaccia",
+      "<strong>· Plaza Fausto Hernández</strong> (Noroeste) - Echazarreta / Sohle / Benito / Conte de Alió",
+      "<strong>· Plaza Cabo Álvarez</strong> (Norte) - Cabo Principal Álvarez y Darregueira",
+      "<strong>Sumando una superficie total de 33.550 m².</strong>"
+    ],
+    "datos": [
+      "Superficie: 33.550 m²",
+      "Plazo: Diciembre 2024 - Finalizado."
+    ],
+    "miniatura": "mw7cvh9l-8k49m2cg.png",
+    "portada": "mw7cvkac-q80v8wdr.png",
+    "fotos": [
+      "mw7cujo1-8tvpj56i.png",
+      "mw7cuwbq-q9os7wux.png",
+      "mw7cv6lu-m973ejy8.png"
+    ],
+    "coords": [
+      -32.981171,
+      -60.641949
+    ],
+    "relacionadas": [
+      "plazas-de-la-cercania-2025",
+      "plaza-san-cristobal",
+      "pvplazasdistritales"
     ]
   },
   {
