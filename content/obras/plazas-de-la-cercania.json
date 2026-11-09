@@ -1,14 +1,24 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 290,
-  "nombre": "Plazas de la Cercanía",
+  "nombre": "Plazas de cercanía – 2024",
   "categoria": "Espacio Público",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Municipalidad de Rosario",
   "ubicacion": "Rosario, Santa Fe.",
+  "mapa": "-32.9811709093732, -60.64194944289854",
+  "direccion": "Rosario, Santa Fe",
+  "superficie": "33.550 m²",
   "plazo": "Diciembre 2024 - Finalizado.",
+  "descripcion": [
+    "<p>Remodelación de seis plazas de cercanía en las cuales los trabajos a realizarse comprenden la reparación de veredas y senderos, nuevo mobiliario urbano, parquizado, iluminación LED, renovación de juegos infantiles, piso antigolpes y rampas de accesibilidad.</p><p><strong>Las plazas incluidas son:</strong></p><p><strong>· Cantero Central de Av. Francia</strong> (Centro) - Brown y Urquiza</p><p><strong>· Plaza Tarragó Ros</strong> (Sur) - Laprida y 24 de Septiembre</p><p><strong>· Plaza Chiodi</strong> (Oeste) - Lima y Cochabamba</p><p><strong>· Plaza 17 de Agosto / La Consolata</strong> (Sudoeste) - Regimiento 11 / Callao / Patria / Casaccia</p><p><strong>· Plaza Fausto Hernández</strong> (Noroeste) - Echazarreta / Sohle / Benito / Conte de Alió</p><p><strong>· Plaza Cabo Álvarez</strong> (Norte) - Cabo Principal Álvarez y Darregueira</p><p><strong>Sumando una superficie total de 33.550 m².</strong></p>"
+  ],
+  "miniatura": "/img/obras/mw7cvh9l-8k49m2cg.png",
+  "portada": "/img/obras/mw7cvkac-q80v8wdr.png",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mw7cujo1-8tvpj56i.png",
+    "/img/obras/mw7cuwbq-q9os7wux.png",
+    "/img/obras/mw7cv6lu-m973ejy8.png"
   ]
 }

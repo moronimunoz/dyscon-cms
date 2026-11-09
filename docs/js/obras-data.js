@@ -221,7 +221,7 @@ const OBRAS = [
     "relacionadas": [
       "parque-regional-sur",
       "plaza-san-martin",
-      "plaza-san-cristobal"
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -285,7 +285,8 @@ const OBRAS = [
     "comitente": "Fideicomiso.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.95287073111514, -60.66111829884581",
-    "resumen": "Rodríguez 1635, Rosario, Santa Fe",
+    "direccion": "Rodríguez 1635, Rosario, Santa Fe",
+    "resumen": "<p>El Edificio RDZ 1635 es un proyecto residencial desarrollado por Dyscon S.A., ubicado en un sector estratégico de Rosario, a pocos metros de avenida Pellegrini y bulevar Oroño, con proximidad al Parque Independencia.</p>",
     "descripcion": [
       "El Edificio RDZ 1635 es un proyecto residencial desarrollado por Dyscon S.A., ubicado en un sector estratégico de Rosario, a pocos metros de avenida Pellegrini y bulevar Oroño, con proximidad al Parque Independencia.",
       "El emprendimiento contempla aproximadamente <strong>2.000 m² de superficie cubierta</strong>, distribuidos en planta baja, subsuelo y seis niveles destinados a viviendas, con una propuesta arquitectónica contemporánea que prioriza la funcionalidad, la iluminación natural y el aprovechamiento de los espacios.",
@@ -328,6 +329,8 @@ const OBRAS = [
     "comitente": "Dirección Provincial de Vivienda y Urbanismo (DPVyU).",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.9817997363948, -60.62924684936593",
+    "direccion": "Rosario, Santa Fe",
+    "resumen": "<p>El barrio La Tablada, en la zona sur de Rosario, tendrá un nuevo conjunto habitacional de 64 viviendas, financiado por la provincia de Santa Fe.</p>",
     "descripcion": [
       "<strong>Rosario: proyectan 64 viviendas en el barrio La Tablada</strong>",
       "<em>El complejo tendrá unidades de uno, dos y tres dormitorios, estacionamiento y viviendas adaptadas para personas con movilidad reducida.</em>",
@@ -361,7 +364,9 @@ const OBRAS = [
     "comitente": "Unidad Ejecutora de Infraestructura.",
     "ubicacion": "Piñero · Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
+    "direccion": "Ruta A012 y 14",
     "destacada": 2,
+    "resumen": "<p>La Unidad Penitenciaria N.º 15 forma parte del programa provincial de ampliación de la infraestructura penitenciaria, con un proyecto que contempla seis módulos de alojamiento y edificios complementarios destinados al funcionamiento del establecimiento.</p>",
     "descripcion": [
       "La Unidad Penitenciaria N.º 15 forma parte del programa provincial de ampliación de la infraestructura penitenciaria, con un proyecto que contempla seis módulos de alojamiento y edificios complementarios destinados al funcionamiento del establecimiento.<br><br>El desarrollo prevé espacios de ingreso, pabellones, áreas educativas, talleres, cocinas y sectores de apoyo, junto con infraestructura de servicios y circulación interna.<br><br>La magnitud del proyecto requiere la coordinación de distintas especialidades constructivas y de instalaciones, en el marco de una intervención pública orientada a ampliar la capacidad del sistema penitenciario santafesino."
     ],
@@ -399,6 +404,8 @@ const OBRAS = [
     "comitente": "Unidad Ejecutora de Infraestructura.",
     "ubicacion": "Piñero · Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
+    "direccion": "Ruta A012 y 14",
+    "resumen": "<p>En el marco del programa de ampliación de la infraestructura penitenciaria de la provincia de Santa Fe, DYSCON S.A. participa en la construcción del Módulo D de la Unidad Penitenciaria N.º 8, integrada al complejo penitenciario de Piñero.</p>",
     "descripcion": [
       "<strong>Infraestructura penitenciaria de alta seguridad</strong><br><br>En el marco del programa de ampliación de la infraestructura penitenciaria de la provincia de Santa Fe, DYSCON S.A. participa en la construcción del Módulo D de la Unidad Penitenciaria N.º 8, integrada al complejo penitenciario de Piñero.<br><br>El proyecto forma parte de un establecimiento de alta seguridad que incorpora sistemas de alojamiento individual, estructuras de hormigón, circulaciones controladas y espacios complementarios destinados al funcionamiento penitenciario.<br><br>La intervención requiere una ejecución coordinada de los componentes arquitectónicos y constructivos, con especial atención a los requerimientos estructurales, funcionales y de seguridad propios de este tipo de infraestructura pública.<br><br>La obra se integra a un programa provincial orientado a ampliar la capacidad del sistema penitenciario y modernizar sus instalaciones."
     ],
@@ -439,7 +446,8 @@ const OBRAS = [
     "comitente": "Ministerio de Espacio Público porteño y Subterráneos de Buenos Aires (SBASE)",
     "ubicacion": "CABA · Buenos Aires",
     "mapa": "-34.62672211727268, -58.399535530640875",
-    "resumen": "Constitución 2498, C1254AAN C1254AAN, Cdad. Autónoma de Buenos Aires",
+    "direccion": "Constitución 2498, Cdad. Autónoma de Buenos Aires",
+    "resumen": "<p>El proyecto contempla la renovación de 13.550 m², incluyendo la plaza y las veredas de toda la manzana, con mejoras en accesibilidad, iluminación y seguridad. El nuevo espacio contará con sectores verdes, juegos infantiles, cancha deportiva, área de calistenia y un espacio cultural semicubierto.</p>",
     "descripcion": [
       "<h3>Avanza la renovación integral de la plaza y su entorno</h3><p>El proyecto contempla la renovación de 13.550 m², incluyendo la plaza y las veredas de toda la manzana, con mejoras en accesibilidad, iluminación y seguridad. El nuevo espacio contará con sectores verdes, juegos infantiles, cancha deportiva, área de calistenia y un espacio cultural semicubierto.</p><p>Además, se recuperará el histórico edificio ferroviario de calle Alberti y se reutilizarán estructuras existentes como pérgolas. También se incorporarán unos 70 árboles, nuevo mobiliario urbano y caminos peatonales renovados.</p><p>La obra tendrá un plazo estimado de 14 meses y se prevé que esté finalizada durante el segundo semestre de 2027.</p>"
     ],
@@ -451,16 +459,18 @@ const OBRAS = [
       "plaza-san-cristobal.webp",
       "plaza-san-cristobal/mw47gpn5-yg3emdj9.jpg",
       "plaza-san-cristobal/mw47gw1a-f0qd1jbx.jpg",
-      "plaza-san-cristobal/mw47h18e-5pj6ww41.jpg"
+      "plaza-san-cristobal/mw47h18e-5pj6ww41.jpg",
+      "mw5xjepo-f9vjfy1p.jpg",
+      "mw5xjv34-dadz8rzi.jpg"
     ],
     "coords": [
       -34.626722,
       -58.399536
     ],
     "relacionadas": [
-      "parque-regional-sur",
-      "plaza-san-martin",
-      "parque-industrial"
+      "pvplazasdistritales",
+      "plazas-de-la-cercania",
+      "parque-regional-sur"
     ]
   },
   {
@@ -473,7 +483,8 @@ const OBRAS = [
     "comitente": "Ministerio de Obras Públicas y la Dirección Provincial de Arquitectura e Ingeniería (DIPAI)",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-33.00470218365296, -60.628972348056905",
-    "resumen": "Láinez 1-48, S2000 Rosario, Santa Fe",
+    "direccion": "Láinez 1-48, Rosario, Santa Fe",
+    "resumen": "<p>La <strong>Intervención Integral del Parque Regional Sur</strong> en Rosario es una obra de remodelación, Las tareas abarcan <strong>40 hectáreas</strong> del predio</p>",
     "descripcion": [
       "<p>La <strong>Intervención Integral del Parque Regional Sur</strong> en Rosario es una obra de remodelación ejecutada por la <strong>Unión Transitoria de Empresas (UTE)</strong> conformada por <strong>Dyscon</strong> y <strong>Del Sol</strong>, con una inversión provincial de aproximadamente <strong>$9.400 millones de pesos</strong>.</p><p>Las tareas abarcan <strong>40 hectáreas</strong> del predio (delimitado por calles Centenario, Hungría y el arroyo Saladillo) e incluyen:</p><ul><li><p><strong>Infraestructura vial:</strong> Pavimentación definitiva con cordón cuneta en calles aledañas y construcción de nuevas veredas perimetrales.</p></li><li><p><strong>Espacios recreativos:</strong> Construcción de un nuevo sector de baños públicos, parrilleros rebatibles, mesadas antivandálicas y mejoramiento de la iluminación y parquización.</p></li><li><p><strong>Áreas deportivas:</strong> Cerramiento y nuevo pavimento del <strong>Circuito KDT</strong>, adecuación del entorno del <strong>velódromo</strong> y ejecución de playones deportivos.</p></li><li><p><strong>Accesibilidad y seguridad:</strong> Remodelación de edificios existentes, senderos interiores accesibles y nuevas barandas en el borde del arroyo Saladillo.</p></li></ul><p></p>"
     ],
@@ -490,8 +501,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "plaza-san-martin",
-      "parque-industrial",
-      "plaza-san-cristobal"
+      "pvplazasdistritales",
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -503,7 +514,8 @@ const OBRAS = [
     "comitente": "el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario (UNR)",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.9663568433821, -60.62559512621197",
-    "resumen": "Riobamba 242, S2000 Rosario, Santa Fe",
+    "direccion": "Riobamba 242, Rosario, Santa Fe",
+    "resumen": "<p>En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <strong>69 viviendas</strong> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.</p>",
     "descripcion": [
       "En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <strong>69 viviendas</strong> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.<br><br>La intervención forma parte de un programa integral impulsado por el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario, orientado a mejorar las condiciones habitacionales y promover la integración urbana del sector.<br><br>El proyecto contempló viviendas de distintas tipologías, cocheras e infraestructura de servicios, incluyendo redes sanitarias, instalaciones eléctricas y obras de urbanización complementarias.<br><br>La obra constituye un aporte al desarrollo de vivienda pública y a la transformación de un sector estratégico de Rosario, fortaleciendo la integración entre el tejido residencial, los espacios públicos y el entorno universitario."
     ],
@@ -532,7 +544,9 @@ const OBRAS = [
     "comitente": "Ministerio de Obras Públicas.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "Sta Fe 581, S2000 Rosario, Santa Fe",
+    "direccion": "Sta Fe 581, Rosario, Santa Fe",
     "destacada": 3,
+    "resumen": "<p>Intervención integral de restauración y puesta en valor del Monumento Nacional a la Bandera, uno de los principales símbolos históricos y arquitectónicos de Argentina.</p>",
     "descripcion": [
       "<h1>Puesta en valor del Monumento Nacional a la Bandera</h1><p>Intervención integral de restauración y puesta en valor del Monumento Nacional a la Bandera, uno de los principales símbolos históricos y arquitectónicos de Argentina.</p><p>Los trabajos comprendieron la recuperación de revestimientos de mármol travertino, restauración de fachadas, solados, escalinatas, esculturas y ornamentaciones, junto con intervenciones en el Propileo, Patio Cívico, Atrio y Torre Central.</p><p>El proyecto también contempló la renovación de instalaciones eléctricas, sanitarias y termomecánicas, la modernización del ascensor del mirador y la recuperación de espacios interiores y exteriores.</p><p>Una intervención de gran complejidad técnica y patrimonial, orientada a preservar el valor arquitectónico, histórico y cultural de uno de los monumentos más representativos del país.</p>"
     ],
@@ -582,8 +596,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-primaria-1408",
-      "casa-m",
-      "restauracion-espana-543"
+      "pvplazasdistritales",
+      "casa-m"
     ]
   },
   {
@@ -595,8 +609,10 @@ const OBRAS = [
     "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
     "ubicacion": "Pavón Arriba · Santa Fe",
     "mapa": "-33.310985234429445, -60.827243803116566",
+    "direccion": "Valerios Carreras & Bs As, Pavón Arriba, Santa Fe",
+    "resumen": "<p>Ubicado en la intersección de las calles Buenos Aires y Valerio Carreras, el nuevo SAMCo de Pavón Arriba constituye una intervención destinada a fortalecer la infraestructura sanitaria de la localidad y mejorar las condiciones de atención para la comunidad.</p>",
     "descripcion": [
-      "Ubicado en la intersección de las calles Buenos Aires y Valerio Carreras, el nuevo SAMCo de Pavón Arriba constituye una intervención destinada a fortalecer la infraestructura sanitaria de la localidad y mejorar las condiciones de atención para la comunidad.<br><br>Impulsado por el <b>Gobierno de la Provincia de Santa Fe</b>, el proyecto contempló la construcción de nuevos espacios asistenciales y la refuncionalización de sectores del edificio existente, integrando soluciones arquitectónicas y técnicas orientadas a optimizar el funcionamiento del establecimiento.<br><br>La propuesta incluyó consultorios, sala de observación, sector de atención de urgencias, espacios de enfermería y áreas de internación con capacidad para cuatro camas. También contempló accesos diferenciados para el público y las ambulancias, circulación accesible e instalaciones específicas para el funcionamiento de un centro sanitario.<br><br>La intervención incorporó, además, sistemas de climatización, gases medicinales, iluminación LED y soluciones de aprovechamiento de energía solar, de acuerdo con las especificaciones del proyecto.<br><br>Con una Superficie de intervención prevista de 723 m², la obra representa un aporte a la modernización de los servicios públicos de salud y al desarrollo de la infraestructura de la región.<br><br><b>DYSCON S.A. — Construcción de infraestructura para las necesidades de la comunidad.</b>"
+      "Ubicado en la intersección de las calles Buenos Aires y Valerio Carreras, el nuevo SAMCo de Pavón Arriba constituye una intervención destinada a fortalecer la infraestructura sanitaria de la localidad y mejorar las condiciones de atención para la comunidad.<br><br>Impulsado por el <strong>Gobierno de la Provincia de Santa Fe</strong>, el proyecto contempló la construcción de nuevos espacios asistenciales y la refuncionalización de sectores del edificio existente, integrando soluciones arquitectónicas y técnicas orientadas a optimizar el funcionamiento del establecimiento.<br><br>La propuesta incluyó consultorios, sala de observación, sector de atención de urgencias, espacios de enfermería y áreas de internación con capacidad para cuatro camas. También contempló accesos diferenciados para el público y las ambulancias, circulación accesible e instalaciones específicas para el funcionamiento de un centro sanitario.<br><br>La intervención incorporó, además, sistemas de climatización, gases medicinales, iluminación LED y soluciones de aprovechamiento de energía solar, de acuerdo con las especificaciones del proyecto.<br><br>Con una Superficie de intervención prevista de 723 m², la obra representa un aporte a la modernización de los servicios públicos de salud y al desarrollo de la infraestructura de la región.<br><br><strong>DYSCON S.A. — Construcción de infraestructura para las necesidades de la comunidad.</strong>"
     ],
     "datos": [
       "Superficie: 723 m².",
@@ -632,7 +648,7 @@ const OBRAS = [
     "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
     "ubicacion": "Funes · Santa Fe",
     "mapa": "-32.90604960988841, -60.809192565734605",
-    "resumen": "Monteagudo 1582-1600, S2132 Funes, Santa Fe",
+    "direccion": "Monteagudo 1582-1600, Funes, Santa Fe",
     "descripcion": [],
     "datos": [
       "Superficie: 1.000 m².",
@@ -669,6 +685,8 @@ const OBRAS = [
     "comitente": "Ministerio de Educación.",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "X9JQ+CP2 Villa Gdor. Gálvez, Santa Fe",
+    "direccion": "Av. San Diego 329-399, VGG, Santa Fe",
+    "resumen": "<p>La institución cuenta ahora con <strong>2.079 metros cuadrados de superficie nueva</strong>, pensados para ampliar su capacidad y mejorar la experiencia de estudiantes y docentes. </p>",
     "descripcion": [
       "<h2>Ampliación y modernización a la escuela Secundaria con más de 2.000 m² de obra nueva</h2><p>La institución cuenta ahora con <strong>2.079 metros cuadrados de superficie nueva</strong>, pensados para ampliar su capacidad y mejorar la experiencia de estudiantes y docentes. La obra incluye hall, portería, office, salón de usos múltiples, cantina y playón, depósito, sanitarios para varones, mujeres y personas con necesidades especiales, y un grupo sanitario adicional con baño.</p><p>En materia pedagógica, se sumaron <strong>cinco aulas comunes</strong> y espacios específicos para la formación técnica: un taller de automatización y neumática, un taller de electrónica y una sala de dibujo.</p><p>Además, se refaccionó un sector del edificio existente de <strong>509 metros cuadrados</strong>. Los trabajos comprendieron demoliciones, reformas y la refuncionalización de espacios para una nueva biblioteca, un área de gobierno y talleres, junto con refacciones generales.</p><p>La intervención se completó con un <strong>ingreso secundario con rampa y galería</strong>, un pergolado metálico, un nuevo playón con sistema de evacuación pluvial para el patio escolar y una vereda parquizada.</p>"
     ],
@@ -698,7 +716,8 @@ const OBRAS = [
     "comitente": "Estado Nacional",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "-33.038023142288964, -60.616798401153645",
-    "resumen": "Pje. Uboldi 630, S2124 Villa Gdor. Gálvez, Santa Fe",
+    "direccion": "Pje. Uboldi 630, Villa Gdor. Gálvez, Santa Fe",
+    "resumen": "<p>El edificio de la Escuela Secundaria Orientada N.º 608 “La Esperanza”, ubicado en Villa Gobernador Gálvez, cuenta con una superficie cubierta de <strong>1.670 m²</strong> y fue diseñado para ofrecer espacios adecuados para las actividades educativas, administrativas y recreativas de la comunidad escolar.</p>",
     "descripcion": [
       "El edificio de la Escuela Secundaria Orientada N.º 608 “La Esperanza”, ubicado en Villa Gobernador Gálvez, cuenta con una superficie cubierta de <strong>1.670 m²</strong> y fue diseñado para ofrecer espacios adecuados para las actividades educativas, administrativas y recreativas de la comunidad escolar.",
       "La infraestructura dispone de <strong>siete aulas</strong>, un Salón de Usos Múltiples (SUM), laboratorio, centro de recursos multimediales, depósito y sanitarios. Además, incorpora ascensor para garantizar la accesibilidad entre los distintos niveles.",
@@ -732,7 +751,8 @@ const OBRAS = [
     "comitente": "Ministerio de Obras Públicas.",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.88844558431866, -60.73054073642479",
-    "resumen": "Av. Joaquín Suárez 2900 & Dr. José Julián Pérez, S2005 Rosario, Santa Fe",
+    "direccion": "Av. Joaquín Suárez 2900, Rosario, Santa Fe",
+    "resumen": "<p>La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe.</p> ",
     "descripcion": [
       "La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe. Se desarrolla en un solo nivel compuesto por 8 aulas agrupables, un salón de usos múltiples, una cantina y espacio para cocinar y un gran patio semicubierto."
     ],
@@ -766,6 +786,7 @@ const OBRAS = [
     "comitente": "",
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "3942+G4 Rosario, Santa Fe",
+    "direccion": "Plaza San Martin, Rosario, Santa Fe",
     "descripcion": [],
     "datos": [
       "Superficie: 14.000 m².",
@@ -786,8 +807,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "parque-regional-sur",
-      "parque-industrial",
-      "plaza-san-cristobal"
+      "pvplazasdistritales",
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -799,6 +820,8 @@ const OBRAS = [
     "comitente": "Nación, Provincia de Santa Fe y Municipalidad de V.G.G.",
     "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
     "mapa": "-33.04029450854612, -60.62849816950204",
+    "direccion": "Mortelari I, Villa Gobernador Gálvez, Santa Fe",
+    "resumen": "<p>El barrio Mortelari I, ubicado en Villa Gobernador Gálvez, fue objeto de un proyecto de mejoramiento urbano que contempló la renovación de infraestructura y servicios esenciales, junto con la recuperación de espacios públicos.</p>",
     "descripcion": [
       "El barrio Mortelari I, ubicado en Villa Gobernador Gálvez, fue objeto de un proyecto de mejoramiento urbano que contempló la renovación de infraestructura y servicios esenciales, junto con la recuperación de espacios públicos. La intervención comprendió aproximadamente <strong>13 hectáreas, 226 lotes y 17 cuadras</strong>, beneficiando directamente a unas <strong>200 familias</strong>.",
       "Los trabajos comenzaron en agosto de 2017 y fueron inaugurados en agosto de 2018, en el marco del Programa de Mejoramiento Barrial (PROMEBA) y del Plan Nacional Santa Fe Hábitat, con participación de los gobiernos nacional, provincial y municipal.",
@@ -827,14 +850,88 @@ const OBRAS = [
     ]
   },
   {
+    "id": "plazas-de-la-cercania-2025",
+    "nombre": "Plazas de cercanía – Presupuesto Participativo 2025",
+    "categoria": "Espacio Público",
+    "tipo": "colaboracion",
+    "estado": "terminado",
+    "con": "<b>Del Sol</b> - Empresa Constructora",
+    "comitente": "Municipalidad de Rosario.",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "Bielsa 5200, S2007BIF Rosario, Santa Fe",
+    "direccion": "Plaza J. Wesley, Rosario, Santa Fe",
+    "resumen": "<p>Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025.</p>",
+    "descripcion": [
+      "Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025. El proyecto contempla intervenciones en distintos sectores de la ciudad, con trabajos de veredas, rampas, pintura, instalación de juegos infantiles y equipamiento urbano, parquización, iluminación y mejoras generales de infraestructura.",
+      "La licitación previó hasta seis frentes de trabajo simultáneos. Entre los espacios incluidos en el programa se encuentran Plaza Pinocho, Plaza de las Américas, Plaza John Wesley, Plaza Maradona y Matienzo, Plaza Yugoslavia y Plazoleta Posta de los Arroyos."
+    ],
+    "datos": [
+      "Plazo: Agosto 2025 - Junio 2026 "
+    ],
+    "miniatura": "mw7e2z6m-arobkotx.jpeg",
+    "portada": "mw7e3266-j9dte8yv.jpeg",
+    "fotos": [
+      "mw7e2l3i-b00mi4ps.jpeg",
+      "mw7e2q6r-l3oo6173.jpeg",
+      "mw7e2tuc-kw4usbh0.jpeg"
+    ],
+    "coords": [
+      -32.923221,
+      -60.695455
+    ],
+    "relacionadas": [
+      "plazas-de-la-cercania",
+      "parque-industrial",
+      "parque-regional-sur"
+    ]
+  },
+  {
+    "id": "pvplazasdistritales",
+    "nombre": "Puesta en valor de plazas distritales – Rosario",
+    "categoria": "Espacio Público",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Municipalidad de Rosario.",
+    "ubicacion": "Rosario · Santa Fe",
+    "mapa": "Córdoba 3853, S2002LAG Rosario, Santa Fe",
+    "direccion": "Plaza Mariano Moreno, Rosario, Santa Fe",
+    "resumen": "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
+    "descripcion": [
+      "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
+      "Plazas intervenidas: <strong>Mariano Moreno y Santa Isabel de Hungría.</strong>"
+    ],
+    "datos": [
+      "Plazo: 150 días."
+    ],
+    "miniatura": "mw7duftp-vuqk9ifi.jpeg",
+    "portada": "mw7dukio-unxjllkl.jpeg",
+    "fotos": [
+      "mw7dtruw-tlopnwva.jpeg",
+      "mw7du5v9-sasjax07.jpeg",
+      "mw7du8k7-kbrmwm29.jpeg",
+      "mw7dubmv-99czacwm.jpeg"
+    ],
+    "coords": [
+      -32.939762,
+      -60.675806
+    ],
+    "relacionadas": [
+      "parque-regional-sur",
+      "plaza-san-martin",
+      "plazas-de-la-cercania"
+    ]
+  },
+  {
     "id": "entubamiento-y-darsena-escuela-primaria-n1397",
     "nombre": "Entubamiento y Dársena Escuela Primaria N.º 1397",
     "categoria": "Educación",
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
-    "ubicacion": "Vélez Sarsfield 564 • Funes • Santa Fe",
+    "ubicacion": "Funes · Santa Fe",
     "mapa": "-32.91061717970105, -60.793461544895145",
+    "direccion": "Vélez Sarsfield 564, Funes, Santa Fe",
+    "resumen": "<p>Ejecución de trabajos de infraestructura complementaria en el entorno de la Escuela Primaria N.º 1397 de Funes, comprendiendo intervenciones de entubamiento pluvial y construcción de una dársena de acceso vehicular.</p>",
     "descripcion": [
       "Ejecución de trabajos de infraestructura complementaria en el entorno de la Escuela Primaria N.º 1397 de Funes, comprendiendo intervenciones de entubamiento pluvial y construcción de una dársena de acceso vehicular.",
       "El proyecto está orientado a mejorar las condiciones de drenaje del sector, optimizar la circulación vehicular y favorecer la seguridad en los accesos al establecimiento educativo.",
@@ -862,14 +959,58 @@ const OBRAS = [
     ]
   },
   {
+    "id": "plazas-de-la-cercania",
+    "nombre": "Plazas de cercanía – 2024",
+    "categoria": "Espacio Público",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Municipalidad de Rosario",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "-32.9811709093732, -60.64194944289854",
+    "direccion": "Rosario, Santa Fe",
+    "descripcion": [
+      "Remodelación de seis plazas de cercanía en las cuales los trabajos a realizarse comprenden la reparación de veredas y senderos, nuevo mobiliario urbano, parquizado, iluminación LED, renovación de juegos infantiles, piso antigolpes y rampas de accesibilidad.",
+      "<strong>Las plazas incluidas son:</strong>",
+      "<strong>· Cantero Central de Av. Francia</strong> (Centro) - Brown y Urquiza",
+      "<strong>· Plaza Tarragó Ros</strong> (Sur) - Laprida y 24 de Septiembre",
+      "<strong>· Plaza Chiodi</strong> (Oeste) - Lima y Cochabamba",
+      "<strong>· Plaza 17 de Agosto / La Consolata</strong> (Sudoeste) - Regimiento 11 / Callao / Patria / Casaccia",
+      "<strong>· Plaza Fausto Hernández</strong> (Noroeste) - Echazarreta / Sohle / Benito / Conte de Alió",
+      "<strong>· Plaza Cabo Álvarez</strong> (Norte) - Cabo Principal Álvarez y Darregueira",
+      "<strong>Sumando una superficie total de 33.550 m².</strong>"
+    ],
+    "datos": [
+      "Superficie: 33.550 m²",
+      "Plazo: Diciembre 2024 - Finalizado."
+    ],
+    "miniatura": "mw7cvh9l-8k49m2cg.png",
+    "portada": "mw7cvkac-q80v8wdr.png",
+    "fotos": [
+      "mw7cujo1-8tvpj56i.png",
+      "mw7cuwbq-q9os7wux.png",
+      "mw7cv6lu-m973ejy8.png"
+    ],
+    "coords": [
+      -32.981171,
+      -60.641949
+    ],
+    "relacionadas": [
+      "plazas-de-la-cercania-2025",
+      "plaza-san-cristobal",
+      "pvplazasdistritales"
+    ]
+  },
+  {
     "id": "nuevo-edificio-consultorios-externos-hospital-general-de-agudos-p-pinero",
-    "nombre": "Nuevo Edificio de Consultorios Externos – Hospital General de Agudos Dr. Parmenio Piñero",
+    "nombre": "Edificio de Consultorios Externos – Hospital Gral. de Agudos Dr. Parmenio Piñero",
     "categoria": "Salud",
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Gobierno de la Ciudad de Buenos Aires.",
-    "ubicacion": "Av. Varela 1301, Flores, CABA",
+    "ubicacion": "Flores · CABA",
     "mapa": "-34.64428197754232, -58.45473645561413",
+    "direccion": "Av. Varela 1301, Flores, CABA",
+    "resumen": "<p>Construcción de un nuevo edificio destinado a Consultorios Externos del Hospital General de Agudos Dr. Parmenio Piñero, desarrollado para centralizar y optimizar los servicios de atención ambulatoria del establecimiento.</p>",
     "descripcion": [
       "Construcción de un nuevo edificio destinado a Consultorios Externos del Hospital General de Agudos Dr. Parmenio Piñero, desarrollado para centralizar y optimizar los servicios de atención ambulatoria del establecimiento.",
       "El proyecto comprendió la ejecución de una infraestructura hospitalaria de 2.177 m² cubiertos, distribuida en planta baja y primer piso, con subsuelo técnico y azotea destinada a instalaciones.",
