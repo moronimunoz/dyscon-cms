@@ -1104,13 +1104,13 @@ const OBRAS = [
   },
   {
     "id": "local-kt-design",
-    "nombre": "Local KT Design",
+    "nombre": "KT Design",
     "categoria": "Infraestructura",
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "KT Design.",
     "ubicacion": "Funes · Santa Fe",
-    "mapa": "San Martín Bis 454, S2132 Funes, Santa Fe",
+    "mapa": "-32.9235584751063, -60.783765122976135",
     "direccion": "San Martín Bis 454, Funes, Santa Fe",
     "resumen": "Construcción de un edificio comercial de dos plantas, destinado a showroom y venta de mobiliario y equipamiento para exteriores. El proyecto comprende amplios espacios de exhibición distribuidos en dos niveles y un sector de depósito, conformando un establecimiento diseñado para integrar diseño, funcionalidad y comercialización de productos para espacios al aire libre.",
     "descripcion": [
@@ -1136,10 +1136,9 @@ const OBRAS = [
       "mw8tblm8-48j3nuhx.jpg"
     ],
     "coords": [
-      -32.9172,
-      -60.8139
+      -32.923558,
+      -60.783765
     ],
-    "aprox": true,
     "relacionadas": [
       "samco-funes",
       "entubamiento-y-darsena-escuela-primaria-n1397",
