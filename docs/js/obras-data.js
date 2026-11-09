@@ -863,7 +863,7 @@ const OBRAS = [
     "resumen": "<p>Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025.</p>",
     "descripcion": [
       "Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025. El proyecto contempla intervenciones en distintos sectores de la ciudad, con trabajos de veredas, rampas, pintura, instalación de juegos infantiles y equipamiento urbano, parquización, iluminación y mejoras generales de infraestructura.",
-      "La licitación previó hasta seis frentes de trabajo simultáneos. Entre los espacios incluidos en el programa se encuentran Plaza Pinocho, Plaza de las Américas, Plaza John Wesley, Plaza Maradona y Matienzo, Plaza Yugoslavia y Plazoleta Posta de los Arroyos."
+      "La licitación previó hasta seis frentes de trabajo simultáneos. Entre los espacios incluidos en el programa se encuentran <strong>Plaza Pinocho, Plaza de las Américas, Plaza John Wesley, Plaza Maradona y Matienzo, Plaza Yugoslavia y Plazoleta Posta de los Arroyos.</strong>"
     ],
     "datos": [
       "Plazo: Agosto 2025 - Junio 2026 "
@@ -871,9 +871,13 @@ const OBRAS = [
     "miniatura": "mw7e2z6m-arobkotx.jpeg",
     "portada": "mw7e3266-j9dte8yv.jpeg",
     "fotos": [
+      "mw7e2tuc-kw4usbh0.jpeg",
       "mw7e2l3i-b00mi4ps.jpeg",
       "mw7e2q6r-l3oo6173.jpeg",
-      "mw7e2tuc-kw4usbh0.jpeg"
+      "mw8ndqfm-r35owesx.png",
+      "mw8ndygv-ss12dgut.jpeg",
+      "mw8neeri-gu3ldwmn.jpeg",
+      "mw8nekgh-pa03ml22.jpeg"
     ],
     "coords": [
       -32.923221,
