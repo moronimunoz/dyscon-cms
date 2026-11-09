@@ -926,6 +926,53 @@ const OBRAS = [
     ]
   },
   {
+    "id": "oda-2025",
+    "nombre": "Obras de Arquitectura (ODA) 2025",
+    "categoria": "Institucional",
+    "tipo": "colaboracion",
+    "estado": "obra",
+    "con": "<b>Del Sol</b> - Empresa Constructora",
+    "comitente": "Municipalidad de Rosario.",
+    "ubicacion": "Rosario · Santa Fe.",
+    "mapa": "Buenos Aires 711, S2000CEB Rosario, Santa Fe",
+    "direccion": "Buenos Aires 711, Rosario, Santa Fe",
+    "resumen": "Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones.",
+    "descripcion": [
+      "Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones.",
+      "<strong>¿Qué trabajos comprende?</strong>",
+      "· Reparación y ejecución de veredas.",
+      "· Intervenciones en plazas de la ciudad.",
+      "· Obras varias de arquitectura y mantenimiento municipal.",
+      "· Remodelación del Palacio de los Leones, sede del gobierno municipal."
+    ],
+    "datos": [
+      "Plazo: Abril 2025 - En ejecución."
+    ],
+    "miniatura": "mw8on9rp-fbra1lke.jpeg",
+    "portada": "mw8onllq-kiz0t94u.jpeg",
+    "fotos": [
+      "mw8ol833-961f0720.jpeg",
+      "mw8olerj-qa8thxzb.jpeg",
+      "mw8oliff-c8boj211.jpeg",
+      "mw8olnn7-33ct9wbm.jpeg",
+      "mw8olu9e-gljqho65.jpeg",
+      "mw8olx5z-vgbmm3r5.jpeg",
+      "mw8om14w-7zym2c3n.jpeg",
+      "mw8om5qz-kxjxru88.jpeg",
+      "mw8omc2e-ija69ntx.jpeg",
+      "mw8omfld-iqmxkz9n.jpeg"
+    ],
+    "coords": [
+      -32.94713,
+      -60.632202
+    ],
+    "relacionadas": [
+      "tecnoteca",
+      "parque-regional-sur",
+      "plaza-san-martin"
+    ]
+  },
+  {
     "id": "entubamiento-y-darsena-escuela-primaria-n1397",
     "nombre": "Entubamiento y Dársena Escuela Primaria N.º 1397",
     "categoria": "Educación",
