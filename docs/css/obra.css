@@ -273,9 +273,18 @@
   display: flex;
   align-items: center;
   gap: .6rem;
+  /* Ancho propio: sin esto el navegador lo limita a la mitad de la foto y, en fotos angostas
+     (celular), el contador "23 / 23" se parte en dos líneas */
+  width: max-content;
+}
+
+.visor-controles button {
+  flex-shrink: 0;
 }
 
 .visor-contador {
+  white-space: nowrap;
+  flex-shrink: 0;
   min-width: 4.4rem;
   padding: .35rem .8rem;
   border-radius: 999px;
