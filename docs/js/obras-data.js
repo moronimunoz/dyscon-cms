@@ -1101,5 +1101,49 @@ const OBRAS = [
       "samco-pavon-arriba",
       "samco-funes"
     ]
+  },
+  {
+    "id": "local-kt-design",
+    "nombre": "Local KT Design",
+    "categoria": "Infraestructura",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "KT Design.",
+    "ubicacion": "Funes · Santa Fe",
+    "mapa": "San Martín Bis 454, S2132 Funes, Santa Fe",
+    "direccion": "San Martín Bis 454, Funes, Santa Fe",
+    "resumen": "Construcción de un edificio comercial de dos plantas, destinado a showroom y venta de mobiliario y equipamiento para exteriores. El proyecto comprende amplios espacios de exhibición distribuidos en dos niveles y un sector de depósito, conformando un establecimiento diseñado para integrar diseño, funcionalidad y comercialización de productos para espacios al aire libre.",
+    "descripcion": [
+      "Construcción de un <strong>edificio comercial de dos plantas</strong>, destinado a showroom y venta de mobiliario y equipamiento para exteriores. El proyecto comprende amplios espacios de exhibición distribuidos en dos niveles y un sector de depósito, conformando un establecimiento diseñado para integrar diseño, funcionalidad y comercialización de productos para espacios al aire libre."
+    ],
+    "datos": [
+      "Superficie: 1.200 m².",
+      "Plazo: Abril, 2022 - Febrero, 2023."
+    ],
+    "miniatura": "mw8tadmm-vt9nkarw.jpg",
+    "portada": "mw8tdb1w-ib7vjcsk.jpg",
+    "fotos": [
+      "mw8tb2af-538cze98.jpg",
+      "mw8tbs9f-oe9wk6zn.jpg",
+      "mw8tb6y2-phlxvfng.jpg",
+      "mw8tbp0h-b0jq2r8w.jpg",
+      "mw8tb9qx-84sjg93q.jpg",
+      "mw8tbvh5-s03yo78r.jpg",
+      "mw8talov-5d3icoth.jpg",
+      "mw8tbfxs-18ltd6gm.jpg",
+      "mw8tbcuh-5uyls9mg.jpg",
+      "mw8tbitf-z1iurxr1.jpg",
+      "mw8tblm8-48j3nuhx.jpg"
+    ],
+    "coords": [
+      -32.9172,
+      -60.8139
+    ],
+    "aprox": true,
+    "relacionadas": [
+      "samco-funes",
+      "entubamiento-y-darsena-escuela-primaria-n1397",
+      "casa-m"
+    ]
   }
 ];
