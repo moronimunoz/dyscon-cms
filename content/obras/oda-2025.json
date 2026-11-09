@@ -1,14 +1,32 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 260,
-  "nombre": "Obras de Arquitectura 2025",
+  "nombre": "Obras de Arquitectura (ODA) 2025",
   "categoria": "Institucional",
-  "tipo": "propia",
-  "estado": "terminado",
+  "tipo": "colaboracion",
+  "con": "<b>Del Sol</b> - Empresa Constructora",
+  "estado": "obra",
   "comitente": "Municipalidad de Rosario.",
-  "ubicacion": "Rosario, Santa Fe.",
-  "plazo": "Abril 2025 - Finalizado.",
+  "ubicacion": "Rosario · Santa Fe.",
+  "mapa": "Buenos Aires 711, S2000CEB Rosario, Santa Fe",
+  "direccion": "Buenos Aires 711, Rosario, Santa Fe",
+  "plazo": "Abril 2025 - En ejecución.",
+  "resumen": "Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones.",
+  "descripcion": [
+    "<p>Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones.</p><p><strong>¿Qué trabajos comprende?</strong></p><p>· Reparación y ejecución de veredas.</p><p>· Intervenciones en plazas de la ciudad.</p><p>· Obras varias de arquitectura y mantenimiento municipal.</p><p>· Remodelación del Palacio de los Leones, sede del gobierno municipal.</p>"
+  ],
+  "miniatura": "/img/obras/mw8on9rp-fbra1lke.jpeg",
+  "portada": "/img/obras/mw8onllq-kiz0t94u.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mw8ol833-961f0720.jpeg",
+    "/img/obras/mw8olerj-qa8thxzb.jpeg",
+    "/img/obras/mw8oliff-c8boj211.jpeg",
+    "/img/obras/mw8olnn7-33ct9wbm.jpeg",
+    "/img/obras/mw8olu9e-gljqho65.jpeg",
+    "/img/obras/mw8olx5z-vgbmm3r5.jpeg",
+    "/img/obras/mw8om14w-7zym2c3n.jpeg",
+    "/img/obras/mw8om5qz-kxjxru88.jpeg",
+    "/img/obras/mw8omc2e-ija69ntx.jpeg",
+    "/img/obras/mw8omfld-iqmxkz9n.jpeg"
   ]
 }
