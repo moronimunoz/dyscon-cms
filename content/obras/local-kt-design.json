@@ -6,10 +6,28 @@
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "KT Design.",
-  "ubicacion": "Funes - Rosario, Santa Fe.",
-  "superficie": "1.000 m².",
+  "ubicacion": "Funes · Santa Fe",
+  "mapa": "San Martín Bis 454, S2132 Funes, Santa Fe",
+  "direccion": "San Martín Bis 454, Funes, Santa Fe",
+  "superficie": "1.200 m².",
   "plazo": "Abril, 2022 - Febrero, 2023.",
+  "resumen": "Construcción de un edificio comercial de dos plantas, destinado a showroom y venta de mobiliario y equipamiento para exteriores. El proyecto comprende amplios espacios de exhibición distribuidos en dos niveles y un sector de depósito, conformando un establecimiento diseñado para integrar diseño, funcionalidad y comercialización de productos para espacios al aire libre.",
+  "descripcion": [
+    "<p>Construcción de un <strong>edificio comercial de dos plantas</strong>, destinado a showroom y venta de mobiliario y equipamiento para exteriores. El proyecto comprende amplios espacios de exhibición distribuidos en dos niveles y un sector de depósito, conformando un establecimiento diseñado para integrar diseño, funcionalidad y comercialización de productos para espacios al aire libre.</p>"
+  ],
+  "miniatura": "/img/obras/mw8tadmm-vt9nkarw.jpg",
+  "portada": "/img/obras/mw8tdb1w-ib7vjcsk.jpg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mw8tb2af-538cze98.jpg",
+    "/img/obras/mw8tbs9f-oe9wk6zn.jpg",
+    "/img/obras/mw8tb6y2-phlxvfng.jpg",
+    "/img/obras/mw8tbp0h-b0jq2r8w.jpg",
+    "/img/obras/mw8tb9qx-84sjg93q.jpg",
+    "/img/obras/mw8tbvh5-s03yo78r.jpg",
+    "/img/obras/mw8talov-5d3icoth.jpg",
+    "/img/obras/mw8tbfxs-18ltd6gm.jpg",
+    "/img/obras/mw8tbcuh-5uyls9mg.jpg",
+    "/img/obras/mw8tbitf-z1iurxr1.jpg",
+    "/img/obras/mw8tblm8-48j3nuhx.jpg"
   ]
 }
