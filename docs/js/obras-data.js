@@ -936,14 +936,14 @@ const OBRAS = [
     "ubicacion": "Rosario · Santa Fe.",
     "mapa": "Buenos Aires 711, S2000CEB Rosario, Santa Fe",
     "direccion": "Buenos Aires 711, Rosario, Santa Fe",
-    "resumen": "Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones.",
+    "resumen": "Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones. Dyscon y Del Sol",
     "descripcion": [
       "Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones.",
       "<strong>¿Qué trabajos comprende?</strong>",
-      "· Reparación y ejecución de veredas.",
-      "· Intervenciones en plazas de la ciudad.",
-      "· Obras varias de arquitectura y mantenimiento municipal.",
-      "· Remodelación del Palacio de los Leones, sede del gobierno municipal."
+      "• Reparación y ejecución de veredas.",
+      "• Intervenciones en plazas de la ciudad.",
+      "• Obras varias de arquitectura y mantenimiento municipal.",
+      "• Remodelación del Palacio de los Leones, sede del gobierno municipal."
     ],
     "datos": [
       "Plazo: Abril 2025 - En ejecución."
