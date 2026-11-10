@@ -6,10 +6,21 @@
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Ministerio de Educación e Innovación.",
-  "ubicacion": "C.A.B.A.",
+  "ubicacion": "Villa Lugano, Cdad. Autónoma de Buenos Aires",
+  "mapa": "Zuviría 6550, C1439 Cdad. Autónoma de Buenos Aires",
+  "direccion": "Zuviría 6550, Cdad. Autónoma de Buenos Aires",
   "superficie": "2.800 m².",
   "plazo": "Abril, 2019 - Febrero, 2021.",
+  "resumen": "Construcción de un nuevo edificio destinado a la Escuela Primaria de Creación del Polo Educativo Piedrabuena, en Villa Lugano. El proyecto comprendió una superficie cubierta de 3.445 m², diseñada para albergar aproximadamente 420 alumnos, incorporando espacios educativos y dependencias destinadas al desarrollo de actividades pedagógicas. La obra formó parte de un plan de ampliación de la infraestructura educativa de la Ciudad de Buenos Aires.",
+  "descripcion": [
+    "<p>Construcción de un nuevo edificio destinado a la Escuela Primaria de Creación del Polo Educativo Piedrabuena, en Villa Lugano. El proyecto comprendió una superficie cubierta de 3.445 m², diseñada para albergar aproximadamente 420 alumnos, incorporando espacios educativos y dependencias destinadas al desarrollo de actividades pedagógicas. La obra formó parte de un plan de ampliación de la infraestructura educativa de la Ciudad de Buenos Aires.</p>"
+  ],
+  "miniatura": "/img/obras/mwathagi-1x2xi749.jpg",
+  "portada": "/img/obras/mwathdrf-lslkagta.jpg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwath6h9-sqfr7il0.jpg",
+    "/img/obras/mwathio1-2q0yyvdr.jpeg",
+    "/img/obras/mwathm2h-ee2xqkq7.jpeg",
+    "/img/obras/mwathovi-mnuquy66.jpeg"
   ]
 }
