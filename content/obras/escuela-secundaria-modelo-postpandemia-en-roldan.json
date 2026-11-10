@@ -1,15 +1,33 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 400,
   "nombre": "Escuela Secundaria Modelo Postpandemia en Roldán",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
-  "ubicacion": "Roldán, Santa Fe.",
+  "ubicacion": "Roldán · Santa Fe.",
+  "mapa": "-32.890707345653695, -60.899015965610765",
+  "direccion": "Juan José Paso 281, Roldán, Santa Fe",
   "superficie": "3.000 m².",
   "plazo": "Septiembre, 2021 - Septiembre, 2023.",
+  "resumen": "EESO 1643: Construcción de un establecimiento educativo de diseño innovador, desarrollado en dos plantas y concebido bajo criterios de sustentabilidad, eficiencia energética y flexibilidad espacial. El proyecto incorporó aulas adaptables, patios verdes, ventilación cruzada, paneles solares y sistemas de aprovechamiento de energías renovables, generando espacios educativos integrados con el entorno.",
+  "descripcion": [
+    "<p>Construcción de un establecimiento educativo de diseño innovador, desarrollado en dos plantas y concebido bajo criterios de sustentabilidad, eficiencia energética y flexibilidad espacial. El proyecto incorporó aulas adaptables, patios verdes, ventilación cruzada, paneles solares y sistemas de aprovechamiento de energías renovables, generando espacios educativos integrados con el entorno.</p>"
+  ],
+  "miniatura": "/img/obras/mwatxbdu-d9j1vwc9.jpeg",
+  "portada": "/img/obras/mwatxkur-7wos5gio.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwausdbm-kkglqm5j.jpg",
+    "/img/obras/mwatxxqp-rw5hf1vx.jpeg",
+    "/img/obras/mwaty0x2-zuhjlnbs.jpeg",
+    "/img/obras/mwaus3b0-0a1ojqdj.jpg",
+    "/img/obras/mwausbc3-lfl3urm7.jpg",
+    "/img/obras/mwaus95n-x27nxt1r.jpg",
+    "/img/obras/mwaus6m1-v1nbt01n.jpg",
+    "/img/obras/mwatxocr-29p6cot7.jpeg",
+    "/img/obras/mwatxrhp-hhd6aw8i.jpeg",
+    "/img/obras/mwaty6ed-ladtwjxa.jpeg",
+    "/img/obras/mwaty3j1-4tx1urg1.jpeg"
   ]
 }
