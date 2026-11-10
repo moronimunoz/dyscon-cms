@@ -3,16 +3,30 @@
   "orden": 480,
   "nombre": "Hospital Granaderos a Caballos",
   "categoria": "Salud",
-  "tipo": "propia",
+  "tipo": "colaboracion",
+  "con": "<b>Del Sol</b> - Empresa Constructora",
   "estado": "terminado",
-  "comitente": "Ministerio de Obras Públicas - DIPAI.",
+  "comitente": "Gobierno de Santa Fe",
   "ubicacion": "San Lorenzo, Santa Fe.",
-  "superficie": "700 m².",
+  "mapa": "-32.748960661133516, -60.729970826094316",
+  "direccion": "Riccheri 347, San Lorenzo, Santa Fe",
+  "superficie": "2.500 m²",
   "plazo": "Septiembre, 2018 - Julio, 2019.",
+  "resumen": "Ampliación y refuncionalización del Hospital Granaderos a Caballo de San Lorenzo, mediante la construcción de nuevos espacios destinados a consultorios externos, administración e internación. El proyecto incluyó la ejecución de instalaciones sanitarias y eléctricas, un nuevo acceso público, mejoras en la infraestructura existente y la puesta en valor de los espacios exteriores y áreas verdes del establecimiento.",
   "descripcion": [
-    "REHABILITACIÓN DE FACHADAS Y CUBIERTAS Y OBRAS COMPLEMENTARIO"
+    "<p>Ampliación y refuncionalización del Hospital Granaderos a Caballo de San Lorenzo, mediante la construcción de nuevos espacios destinados a consultorios externos, administración e internación. El proyecto incluyó la ejecución de instalaciones sanitarias y eléctricas, un nuevo acceso público, mejoras en la infraestructura existente y la puesta en valor de los espacios exteriores y áreas verdes del establecimiento.</p>"
   ],
+  "miniatura": "/img/obras/mwapdjqs-p9a6cxn6.jpeg",
+  "portada": "/img/obras/mwapdeap-hhkky0vs.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwapc0wk-yoijuydw.jpeg",
+    "/img/obras/mwapcbkf-o89mpeqz.jpeg",
+    "/img/obras/mwapc3wa-3f05hi2r.jpeg",
+    "/img/obras/mwapchdr-d5faafpo.jpeg",
+    "/img/obras/mwapcelt-h3v6r2zj.jpeg",
+    "/img/obras/mwapcjym-hmp1sqod.jpeg",
+    "/img/obras/mwapc6ex-3qzpnw86.jpeg",
+    "/img/obras/mwapc8tb-khlb1738.jpeg",
+    "/img/obras/mwapcn9q-qdjpv2c9.jpeg"
   ]
 }
