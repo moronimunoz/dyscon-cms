@@ -636,7 +636,7 @@ const OBRAS = [
     "relacionadas": [
       "samco-funes",
       "nuevo-edificio-consultorios-externos-hospital-general-de-agudos-p-pinero",
-      "pami-ituzaingo"
+      "nuevo-samco-ibarlucea"
     ]
   },
   {
@@ -672,8 +672,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "nuevo-edificio-consultorios-externos-hospital-general-de-agudos-p-pinero",
-      "pami-ituzaingo",
-      "samco-pavon-arriba"
+      "nuevo-samco-ibarlucea",
+      "pami-ituzaingo"
     ]
   },
   {
@@ -772,8 +772,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "entubamiento-y-darsena-escuela-primaria-n1397",
-      "escuela-ricardone",
-      "eetp-485"
+      "escuela-de-educacion-secundaria-zona-cero",
+      "escuela-ricardone"
     ]
   },
   {
@@ -1004,9 +1004,9 @@ const OBRAS = [
       -60.793462
     ],
     "relacionadas": [
+      "escuela-de-educacion-secundaria-zona-cero",
       "escuela-ricardone",
-      "eetp-485",
-      "escuela-608"
+      "eetp-485"
     ]
   },
   {
@@ -1097,9 +1097,9 @@ const OBRAS = [
       -58.454736
     ],
     "relacionadas": [
+      "nuevo-samco-ibarlucea",
       "pami-ituzaingo",
-      "samco-pavon-arriba",
-      "samco-funes"
+      "samco-pavon-arriba"
     ]
   },
   {
@@ -1142,7 +1142,119 @@ const OBRAS = [
     "relacionadas": [
       "samco-funes",
       "entubamiento-y-darsena-escuela-primaria-n1397",
-      "casa-m"
+      "nuevo-samco-ibarlucea"
+    ]
+  },
+  {
+    "id": "nuevo-samco-ibarlucea",
+    "nombre": "Nuevo SAMCO Ibarlucea",
+    "categoria": "Salud",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat.",
+    "ubicacion": "Ibarlucea, Santa Fe.",
+    "mapa": "-32.851997574888536, -60.78719945732579",
+    "direccion": "Corrientes 141, Ibarlucea, Santa Fe",
+    "resumen": "Construcción de un nuevo centro de atención sanitaria de aproximadamente 595 m², desarrollado en planta baja. El edificio cuenta con consultorios, sala de observación y aislamiento, shockroom, áreas de circulación diferenciadas y espacios de apoyo para el personal médico. El proyecto incorpora soluciones sustentables, como ventilación cruzada, iluminación LED y sistemas de aprovechamiento de energía solar, con el objetivo de mejorar la eficiencia energética y las condiciones de atención de la comunidad.",
+    "descripcion": [
+      "Construcción de un nuevo centro de atención sanitaria de aproximadamente 595 m², desarrollado en planta baja. El edificio cuenta con consultorios, sala de observación y aislamiento, shockroom, áreas de circulación diferenciadas y espacios de apoyo para el personal médico. El proyecto incorpora soluciones sustentables, como ventilación cruzada, iluminación LED y sistemas de aprovechamiento de energía solar, con el objetivo de mejorar la eficiencia energética y las condiciones de atención de la comunidad."
+    ],
+    "datos": [
+      "Superficie: 595 m²",
+      "Plazo: Agosto, 2021 - Mayo, 2023."
+    ],
+    "miniatura": "mwapp561-gejsbdgp.png",
+    "portada": "mwappaf7-05j3fnqp.jpeg",
+    "fotos": [
+      "mwapotf4-cx1yxilj.jpeg",
+      "mwapow2u-7f8i3uee.png"
+    ],
+    "coords": [
+      -32.851998,
+      -60.787199
+    ],
+    "relacionadas": [
+      "pami-ituzaingo",
+      "samco-pavon-arriba",
+      "samco-funes"
+    ]
+  },
+  {
+    "id": "hospital-granaderos-a-caballos",
+    "nombre": "Hospital Granaderos a Caballos",
+    "categoria": "Salud",
+    "tipo": "colaboracion",
+    "estado": "terminado",
+    "con": "<b>Del Sol</b> - Empresa Constructora",
+    "comitente": "Gobierno de Santa Fe",
+    "ubicacion": "San Lorenzo, Santa Fe.",
+    "mapa": "-32.748960661133516, -60.729970826094316",
+    "direccion": "Riccheri 347, San Lorenzo, Santa Fe",
+    "resumen": "Ampliación y refuncionalización del Hospital Granaderos a Caballo de San Lorenzo, mediante la construcción de nuevos espacios destinados a consultorios externos, administración e internación. El proyecto incluyó la ejecución de instalaciones sanitarias y eléctricas, un nuevo acceso público, mejoras en la infraestructura existente y la puesta en valor de los espacios exteriores y áreas verdes del establecimiento.",
+    "descripcion": [
+      "Ampliación y refuncionalización del Hospital Granaderos a Caballo de San Lorenzo, mediante la construcción de nuevos espacios destinados a consultorios externos, administración e internación. El proyecto incluyó la ejecución de instalaciones sanitarias y eléctricas, un nuevo acceso público, mejoras en la infraestructura existente y la puesta en valor de los espacios exteriores y áreas verdes del establecimiento."
+    ],
+    "datos": [
+      "Superficie: 2.500 m²",
+      "Plazo: Septiembre, 2018 - Julio, 2019."
+    ],
+    "miniatura": "mwapdjqs-p9a6cxn6.jpeg",
+    "portada": "mwapdeap-hhkky0vs.jpeg",
+    "fotos": [
+      "mwapc0wk-yoijuydw.jpeg",
+      "mwapcbkf-o89mpeqz.jpeg",
+      "mwapc3wa-3f05hi2r.jpeg",
+      "mwapchdr-d5faafpo.jpeg",
+      "mwapcelt-h3v6r2zj.jpeg",
+      "mwapcjym-hmp1sqod.jpeg",
+      "mwapc6ex-3qzpnw86.jpeg",
+      "mwapc8tb-khlb1738.jpeg",
+      "mwapcn9q-qdjpv2c9.jpeg"
+    ],
+    "coords": [
+      -32.748961,
+      -60.729971
+    ],
+    "relacionadas": [
+      "pami-ituzaingo",
+      "samco-pavon-arriba",
+      "samco-funes"
+    ]
+  },
+  {
+    "id": "escuela-de-educacion-secundaria-zona-cero",
+    "nombre": "Escuela de Educación Secundaria - Zona Cero",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Obras Públicas - UEPA.",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "-32.880359630684204, -60.72269680485515",
+    "direccion": "Oncativo 2793, Rosario, Santa Fe",
+    "resumen": "La construcción de la Escuela Secundaria N.º 539 José Antonio Balseiro formó parte del desarrollo educativo del barrio Zona Cero, actualmente denominado Roberto Fontanarrosa. El proyecto contempló un edificio de aproximadamente 2.000 m² cubiertos, organizado mediante módulos de aulas vinculados a patios exteriores. Incluyó cinco aulas, biblioteca, sala multimedia, laboratorio, taller multipropósito, salón de usos múltiples y cantina. La propuesta priorizó la iluminación natural, la amplitud de los espacios y la integración de la institución con la comunidad barrial. El edificio fue inaugurado en abril de 2019.",
+    "descripcion": [
+      "La construcción de la Escuela Secundaria N.º 539 José Antonio Balseiro formó parte del desarrollo educativo del barrio Zona Cero, actualmente denominado Roberto Fontanarrosa. El proyecto contempló un edificio de aproximadamente 2.000 m² cubiertos, organizado mediante módulos de aulas vinculados a patios exteriores. Incluyó cinco aulas, biblioteca, sala multimedia, laboratorio, taller multipropósito, salón de usos múltiples y cantina. La propuesta priorizó la iluminación natural, la amplitud de los espacios y la integración de la institución con la comunidad barrial. El edificio fue inaugurado en abril de 2019."
+    ],
+    "datos": [
+      "Superficie: 2.000 m².",
+      "Plazo: Noviembre, 2017 - Agosto, 2019."
+    ],
+    "miniatura": "mwaoy8p1-olzwror7.jpeg",
+    "portada": "mwaoy12z-c7d51kq3.jpeg",
+    "fotos": [
+      "mwaokjni-o5eqp29q.jpeg",
+      "mwaowy84-lyqy692z.jpeg",
+      "mwaox221-e3dyg5u8.jpeg",
+      "mwaoxmv0-7j9kxc3u.jpg"
+    ],
+    "coords": [
+      -32.88036,
+      -60.722697
+    ],
+    "relacionadas": [
+      "escuela-ricardone",
+      "eetp-485",
+      "escuela-608"
     ]
   }
 ];
