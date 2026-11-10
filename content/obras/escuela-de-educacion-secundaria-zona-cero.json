@@ -1,5 +1,5 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 530,
   "nombre": "Escuela de Educación Secundaria - Zona Cero",
   "categoria": "Educación",
@@ -7,9 +7,20 @@
   "estado": "terminado",
   "comitente": "Ministerio de Obras Públicas - UEPA.",
   "ubicacion": "Rosario, Santa Fe.",
-  "superficie": "2.200 m².",
+  "mapa": "-32.880359630684204, -60.72269680485515",
+  "direccion": "Oncativo 2793, Rosario, Santa Fe",
+  "superficie": "2.000 m².",
   "plazo": "Noviembre, 2017 - Agosto, 2019.",
+  "resumen": "La construcción de la Escuela Secundaria N.º 539 José Antonio Balseiro formó parte del desarrollo educativo del barrio Zona Cero, actualmente denominado Roberto Fontanarrosa. El proyecto contempló un edificio de aproximadamente 2.000 m² cubiertos, organizado mediante módulos de aulas vinculados a patios exteriores. Incluyó cinco aulas, biblioteca, sala multimedia, laboratorio, taller multipropósito, salón de usos múltiples y cantina. La propuesta priorizó la iluminación natural, la amplitud de los espacios y la integración de la institución con la comunidad barrial. El edificio fue inaugurado en abril de 2019.",
+  "descripcion": [
+    "<p>La construcción de la Escuela Secundaria N.º 539 José Antonio Balseiro formó parte del desarrollo educativo del barrio Zona Cero, actualmente denominado Roberto Fontanarrosa. El proyecto contempló un edificio de aproximadamente 2.000 m² cubiertos, organizado mediante módulos de aulas vinculados a patios exteriores. Incluyó cinco aulas, biblioteca, sala multimedia, laboratorio, taller multipropósito, salón de usos múltiples y cantina. La propuesta priorizó la iluminación natural, la amplitud de los espacios y la integración de la institución con la comunidad barrial. El edificio fue inaugurado en abril de 2019.</p>"
+  ],
+  "miniatura": "/img/obras/mwaoy8p1-olzwror7.jpeg",
+  "portada": "/img/obras/mwaoy12z-c7d51kq3.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwaokjni-o5eqp29q.jpeg",
+    "/img/obras/mwaowy84-lyqy692z.jpeg",
+    "/img/obras/mwaox221-e3dyg5u8.jpeg",
+    "/img/obras/mwaoxmv0-7j9kxc3u.jpg"
   ]
 }
