@@ -772,8 +772,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "entubamiento-y-darsena-escuela-primaria-n1397",
-      "escuela-de-educacion-secundaria-zona-cero",
-      "escuela-ricardone"
+      "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
+      "escuela-de-educacion-secundaria-zona-cero"
     ]
   },
   {
@@ -1004,9 +1004,9 @@ const OBRAS = [
       -60.793462
     ],
     "relacionadas": [
+      "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
       "escuela-de-educacion-secundaria-zona-cero",
-      "escuela-ricardone",
-      "eetp-485"
+      "escuela-eet-n-346"
     ]
   },
   {
@@ -1180,6 +1180,38 @@ const OBRAS = [
     ]
   },
   {
+    "id": "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
+    "nombre": "Escuela Primaria de Creación D.E. 20 “Polo Piedrabuena”",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Educación e Innovación.",
+    "ubicacion": "Villa Lugano, Cdad. Autónoma de Buenos Aires",
+    "mapa": "Zuviría 6550, C1439 Cdad. Autónoma de Buenos Aires",
+    "direccion": "Zuviría 6550, Cdad. Autónoma de Buenos Aires",
+    "resumen": "Construcción de un nuevo edificio destinado a la Escuela Primaria de Creación del Polo Educativo Piedrabuena, en Villa Lugano. El proyecto comprendió una superficie cubierta de 3.445 m², diseñada para albergar aproximadamente 420 alumnos, incorporando espacios educativos y dependencias destinadas al desarrollo de actividades pedagógicas. La obra formó parte de un plan de ampliación de la infraestructura educativa de la Ciudad de Buenos Aires.",
+    "descripcion": [
+      "Construcción de un nuevo edificio destinado a la Escuela Primaria de Creación del Polo Educativo Piedrabuena, en Villa Lugano. El proyecto comprendió una superficie cubierta de 3.445 m², diseñada para albergar aproximadamente 420 alumnos, incorporando espacios educativos y dependencias destinadas al desarrollo de actividades pedagógicas. La obra formó parte de un plan de ampliación de la infraestructura educativa de la Ciudad de Buenos Aires."
+    ],
+    "datos": [
+      "Superficie: 2.800 m².",
+      "Plazo: Abril, 2019 - Febrero, 2021."
+    ],
+    "miniatura": "mwathagi-1x2xi749.jpg",
+    "portada": "mwathdrf-lslkagta.jpg",
+    "fotos": [
+      "mwath6h9-sqfr7il0.jpg",
+      "mwathio1-2q0yyvdr.jpeg",
+      "mwathm2h-ee2xqkq7.jpeg",
+      "mwathovi-mnuquy66.jpeg"
+    ],
+    "relacionadas": [
+      "escuela-de-educacion-secundaria-zona-cero",
+      "escuela-eet-n-346",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
+    ]
+  },
+  {
     "id": "hospital-granaderos-a-caballos",
     "nombre": "Hospital Granaderos a Caballos",
     "categoria": "Salud",
@@ -1252,9 +1284,76 @@ const OBRAS = [
       -60.722697
     ],
     "relacionadas": [
-      "escuela-ricardone",
-      "eetp-485",
-      "escuela-608"
+      "escuela-eet-n-346",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
+      "escuela-ricardone"
+    ]
+  },
+  {
+    "id": "escuela-eet-n-346",
+    "nombre": "E.E.T.P. N° 346 \"Gral. Juan Antonio Álvarez de Arenales\"",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "-32.968002406453586, -60.72505067329241",
+    "direccion": "Deán Funes 7770, Rosario, Santa Fe",
+    "resumen": "Ampliación del edificio de la Escuela de Educación Técnico Profesional N.º 346, mediante la construcción de nuevos espacios destinados a la formación técnica. El proyecto comprendió talleres de tornería y ajuste, carpintería, electricidad, herrería y soldadura, además de galerías, ascensor y un acceso secundario, distribuidos en dos plantas.",
+    "descripcion": [
+      "Ampliación del edificio de la Escuela de Educación Técnico Profesional N.º 346, mediante la construcción de nuevos espacios destinados a la formación técnica. El proyecto comprendió talleres de tornería y ajuste, carpintería, electricidad, herrería y soldadura, además de galerías, ascensor y un acceso secundario, distribuidos en dos plantas."
+    ],
+    "datos": [
+      "Superficie: 400 m².",
+      "Plazo: Octubre, 2015 - Noviembre, 2017."
+    ],
+    "miniatura": "mwaqn4hg-dkygn6xx.jpeg",
+    "portada": "mwaqn1ob-1lxnwzqr.jpeg",
+    "fotos": [
+      "mwaqmym1-6hrh6hsw.jpeg"
+    ],
+    "coords": [
+      -32.968002,
+      -60.725051
+    ],
+    "relacionadas": [
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
+      "escuela-de-educacion-secundaria-zona-cero",
+      "escuela-ricardone"
+    ]
+  },
+  {
+    "id": "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
+    "nombre": "Refacciones y mejoras – Escuela N.º 1331 \"Vicente López y Planes\"",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Educación de la Provincia de Santa Fe. P.I.E.",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "Juan Casacuberta 8982, S2000 Rosario, Santa Fe",
+    "direccion": "Juan Casacuberta 8982, Rosario, Santa Fe",
+    "resumen": "Ejecución de trabajos de refacción y acondicionamiento de la infraestructura escolar, incluyendo mejoras en galerías, adecuación de instalaciones eléctricas, ampliación de la red de gas y provisión de equipamiento para climatización, contribuyendo al mejoramiento de las condiciones edilicias y funcionales del establecimiento.",
+    "descripcion": [
+      "Ejecución de trabajos de refacción y acondicionamiento de la infraestructura escolar, incluyendo mejoras en galerías, adecuación de instalaciones eléctricas, ampliación de la red de gas y provisión de equipamiento para climatización, contribuyendo al mejoramiento de las condiciones edilicias y funcionales del establecimiento."
+    ],
+    "datos": [
+      "Superficie: 1.670 m²",
+      "Plazo: Abril, 2007 - Septiembre, 2007 / Septiembre, 2008."
+    ],
+    "miniatura": "mwasv139-acb3roca.jpg",
+    "portada": "mwat3inf-njvb5x7z.jpg",
+    "fotos": [
+      "mwasuw34-393ssh14.jpg",
+      "mwat3lhd-i6pl8mp8.jpg"
+    ],
+    "coords": [
+      -32.929473,
+      -60.758897
+    ],
+    "relacionadas": [
+      "escuela-de-educacion-secundaria-zona-cero",
+      "escuela-eet-n-346",
+      "escuela-ricardone"
     ]
   }
 ];
