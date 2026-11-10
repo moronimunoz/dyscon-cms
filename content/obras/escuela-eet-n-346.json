@@ -1,15 +1,23 @@
 {
   "publicada": false,
   "orden": 710,
-  "nombre": "Escuela EET N° 346",
+  "nombre": "E.E.T.P. N° 346 \"Gral. Juan Antonio Álvarez de Arenales\"",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
   "ubicacion": "Rosario, Santa Fe.",
+  "mapa": "-32.968002406453586, -60.72505067329241",
+  "direccion": "Deán Funes 7770, Rosario, Santa Fe",
   "superficie": "400 m².",
   "plazo": "Octubre, 2015 - Noviembre, 2017.",
+  "resumen": "Ampliación del edificio de la Escuela de Educación Técnico Profesional N.º 346, mediante la construcción de nuevos espacios destinados a la formación técnica. El proyecto comprendió talleres de tornería y ajuste, carpintería, electricidad, herrería y soldadura, además de galerías, ascensor y un acceso secundario, distribuidos en dos plantas.",
+  "descripcion": [
+    "<p>Ampliación del edificio de la Escuela de Educación Técnico Profesional N.º 346, mediante la construcción de nuevos espacios destinados a la formación técnica. El proyecto comprendió talleres de tornería y ajuste, carpintería, electricidad, herrería y soldadura, además de galerías, ascensor y un acceso secundario, distribuidos en dos plantas.</p>"
+  ],
+  "miniatura": "/img/obras/mwaqn4hg-dkygn6xx.jpeg",
+  "portada": "/img/obras/mwaqn1ob-1lxnwzqr.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwaqmym1-6hrh6hsw.jpeg"
   ]
 }
