@@ -772,8 +772,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "entubamiento-y-darsena-escuela-primaria-n1397",
-      "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
-      "escuela-de-educacion-secundaria-zona-cero"
+      "escuela-secundaria-modelo-postpandemia-en-roldan",
+      "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena"
     ]
   },
   {
@@ -1004,9 +1004,9 @@ const OBRAS = [
       -60.793462
     ],
     "relacionadas": [
+      "escuela-secundaria-modelo-postpandemia-en-roldan",
       "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
-      "escuela-de-educacion-secundaria-zona-cero",
-      "escuela-eet-n-346"
+      "escuela-de-educacion-secundaria-zona-cero"
     ]
   },
   {
@@ -1142,7 +1142,50 @@ const OBRAS = [
     "relacionadas": [
       "samco-funes",
       "entubamiento-y-darsena-escuela-primaria-n1397",
-      "nuevo-samco-ibarlucea"
+      "escuela-secundaria-modelo-postpandemia-en-roldan"
+    ]
+  },
+  {
+    "id": "escuela-secundaria-modelo-postpandemia-en-roldan",
+    "nombre": "Escuela Secundaria Modelo Postpandemia en Roldán",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat - DIPAI.",
+    "ubicacion": "Roldán · Santa Fe.",
+    "mapa": "-32.890707345653695, -60.899015965610765",
+    "direccion": "Juan José Paso 281, Roldán, Santa Fe",
+    "resumen": "EESO 1643: Construcción de un establecimiento educativo de diseño innovador, desarrollado en dos plantas y concebido bajo criterios de sustentabilidad, eficiencia energética y flexibilidad espacial. El proyecto incorporó aulas adaptables, patios verdes, ventilación cruzada, paneles solares y sistemas de aprovechamiento de energías renovables, generando espacios educativos integrados con el entorno.",
+    "descripcion": [
+      "Construcción de un establecimiento educativo de diseño innovador, desarrollado en dos plantas y concebido bajo criterios de sustentabilidad, eficiencia energética y flexibilidad espacial. El proyecto incorporó aulas adaptables, patios verdes, ventilación cruzada, paneles solares y sistemas de aprovechamiento de energías renovables, generando espacios educativos integrados con el entorno."
+    ],
+    "datos": [
+      "Superficie: 3.000 m².",
+      "Plazo: Septiembre, 2021 - Septiembre, 2023."
+    ],
+    "miniatura": "mwatxbdu-d9j1vwc9.jpeg",
+    "portada": "mwatxkur-7wos5gio.jpeg",
+    "fotos": [
+      "mwausdbm-kkglqm5j.jpg",
+      "mwatxxqp-rw5hf1vx.jpeg",
+      "mwaty0x2-zuhjlnbs.jpeg",
+      "mwaus3b0-0a1ojqdj.jpg",
+      "mwausbc3-lfl3urm7.jpg",
+      "mwaus95n-x27nxt1r.jpg",
+      "mwaus6m1-v1nbt01n.jpg",
+      "mwatxocr-29p6cot7.jpeg",
+      "mwatxrhp-hhd6aw8i.jpeg",
+      "mwaty6ed-ladtwjxa.jpeg",
+      "mwaty3j1-4tx1urg1.jpeg"
+    ],
+    "coords": [
+      -32.890707,
+      -60.899016
+    ],
+    "relacionadas": [
+      "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
+      "escuela-de-educacion-secundaria-zona-cero",
+      "escuela-eet-n-346"
     ]
   },
   {
