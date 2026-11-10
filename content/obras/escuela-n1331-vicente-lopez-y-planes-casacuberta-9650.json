@@ -1,14 +1,24 @@
 {
   "publicada": false,
   "orden": 1270,
-  "nombre": "Escuela N°1331 “Vicente Lopez y Planes” - Casacuberta 9650",
+  "nombre": "Refacciones y mejoras – Escuela N.º 1331 \"Vicente López y Planes\"",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Ministerio de Educación de la Provincia de Santa Fe. P.I.E.",
   "ubicacion": "Rosario, Santa Fe.",
+  "mapa": "Juan Casacuberta 8982, S2000 Rosario, Santa Fe",
+  "direccion": "Juan Casacuberta 8982, Rosario, Santa Fe",
+  "superficie": "1.670 m²",
   "plazo": "Abril, 2007 - Septiembre, 2007 / Septiembre, 2008.",
+  "resumen": "Ejecución de trabajos de refacción y acondicionamiento de la infraestructura escolar, incluyendo mejoras en galerías, adecuación de instalaciones eléctricas, ampliación de la red de gas y provisión de equipamiento para climatización, contribuyendo al mejoramiento de las condiciones edilicias y funcionales del establecimiento.",
+  "descripcion": [
+    "<p>Ejecución de trabajos de refacción y acondicionamiento de la infraestructura escolar, incluyendo mejoras en galerías, adecuación de instalaciones eléctricas, ampliación de la red de gas y provisión de equipamiento para climatización, contribuyendo al mejoramiento de las condiciones edilicias y funcionales del establecimiento.</p>"
+  ],
+  "miniatura": "/img/obras/mwasv139-acb3roca.jpg",
+  "portada": "/img/obras/mwat3inf-njvb5x7z.jpg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwasuw34-393ssh14.jpg",
+    "/img/obras/mwat3lhd-i6pl8mp8.jpg"
   ]
 }
