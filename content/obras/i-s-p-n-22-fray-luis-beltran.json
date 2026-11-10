@@ -7,12 +7,17 @@
   "estado": "terminado",
   "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
   "ubicacion": "Fray Luis Beltrán, Departamento San Lorenzo, Santa Fe.",
+  "mapa": "-32.789000448250476, -60.723160792365405",
+  "direccion": "Av. San Lorenzo 1300, S2156 Fray Luis Beltrán, Santa Fe",
   "superficie": "928 m².",
   "plazo": "Junio, 2012 - Mayo, 2014.",
+  "resumen": "Proyecto de refacción y adecuación edilicia del Instituto Superior del Profesorado N.º 22 «Maestro Addad», comprendiendo la intervención de 855 m². Los trabajos contemplaban la construcción de un hall de ingreso, librería y portería, rehabilitación de la cocina-comedor, y la incorporación de biblioteca, sala de informática, galerías, área administrativa y núcleos sanitarios en planta alta.",
   "descripcion": [
     "<p>El proyecto de intervención edilicia del Instituto Superior del Profesorado N.º 22 «Maestro Addad», ubicado en Fray Luis Beltrán, contempló la refacción y adecuación de 855 m² destinados a mejorar las instalaciones educativas y administrativas de la institución.</p><p>La propuesta incluyó la construcción de un hall de ingreso, librería y portería, junto con la rehabilitación de la cocina-comedor en planta baja. En planta alta se proyectaron una biblioteca, sala de informática, galerías, área de gobierno y nuevos núcleos sanitarios.</p><p>La obra fue impulsada por el Ministerio de Educación de Santa Fe, con financiamiento del Programa Nacional de Refacción Integral de Edificios de Establecimientos de Educación Técnico Profesional (INET). El presupuesto informado fue de $3.311.008,74, con un plazo de ejecución previsto de 360 días corridos.</p><p>La intervención formó parte de un proyecto destinado a mejorar las condiciones edilicias de una institución educativa que funciona desde 1987 y que necesitaba ampliar y adecuar sus espacios para responder al crecimiento de su comunidad estudiantil.</p>"
   ],
+  "miniatura": "/img/obras/mwavfmz0-r4in8gl3.jpg",
+  "portada": "/img/obras/mwavfkc8-mudi6t7r.jpg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwavfigb-hh931j5d.jpg"
   ]
 }
