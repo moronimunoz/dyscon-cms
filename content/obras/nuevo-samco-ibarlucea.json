@@ -1,5 +1,5 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 410,
   "nombre": "Nuevo SAMCO Ibarlucea",
   "categoria": "Salud",
@@ -7,9 +7,18 @@
   "estado": "terminado",
   "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat.",
   "ubicacion": "Ibarlucea, Santa Fe.",
-  "superficie": "600 m².",
+  "mapa": "-32.851997574888536, -60.78719945732579",
+  "direccion": "Corrientes 141, Ibarlucea, Santa Fe",
+  "superficie": "595 m²",
   "plazo": "Agosto, 2021 - Mayo, 2023.",
+  "resumen": "Construcción de un nuevo centro de atención sanitaria de aproximadamente 595 m², desarrollado en planta baja. El edificio cuenta con consultorios, sala de observación y aislamiento, shockroom, áreas de circulación diferenciadas y espacios de apoyo para el personal médico. El proyecto incorpora soluciones sustentables, como ventilación cruzada, iluminación LED y sistemas de aprovechamiento de energía solar, con el objetivo de mejorar la eficiencia energética y las condiciones de atención de la comunidad.",
+  "descripcion": [
+    "<p>Construcción de un nuevo centro de atención sanitaria de aproximadamente 595 m², desarrollado en planta baja. El edificio cuenta con consultorios, sala de observación y aislamiento, shockroom, áreas de circulación diferenciadas y espacios de apoyo para el personal médico. El proyecto incorpora soluciones sustentables, como ventilación cruzada, iluminación LED y sistemas de aprovechamiento de energía solar, con el objetivo de mejorar la eficiencia energética y las condiciones de atención de la comunidad.</p>"
+  ],
+  "miniatura": "/img/obras/mwapp561-gejsbdgp.png",
+  "portada": "/img/obras/mwappaf7-05j3fnqp.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwapotf4-cx1yxilj.jpeg",
+    "/img/obras/mwapow2u-7f8i3uee.png"
   ]
 }
