@@ -877,11 +877,53 @@ const OBRAS = [
       "mw8ndqfm-r35owesx.png",
       "mw8ndygv-ss12dgut.jpeg",
       "mw8neeri-gu3ldwmn.jpeg",
-      "mw8nekgh-pa03ml22.jpeg"
+      "mw8nekgh-pa03ml22.jpeg",
+      "mwbemqji-qw4ztv01.jpg",
+      "mwbewbi5-wqlkaqmk.jpeg",
+      "mwbewe0x-yguf31uv.jpeg",
+      "mwbewjg0-1bsjb9xm.jpeg",
+      "mwbewlue-o7wk1kl9.jpeg"
     ],
     "coords": [
       -32.923221,
       -60.695455
+    ],
+    "puntos_extra": [
+      {
+        "coords": [
+          -32.907061,
+          -60.696308
+        ],
+        "nombre": "Plaza Pinocho"
+      },
+      {
+        "coords": [
+          -32.934123,
+          -60.667731
+        ],
+        "nombre": "Plaza de las Americas"
+      },
+      {
+        "coords": [
+          -32.923546,
+          -60.695935
+        ],
+        "nombre": "Plaza J. Wesley"
+      },
+      {
+        "coords": [
+          -33.003787,
+          -60.662087
+        ],
+        "nombre": "Plaza Yugoslavia"
+      },
+      {
+        "coords": [
+          -32.974794,
+          -60.633332
+        ],
+        "nombre": "Plazoleta Posta del Rosario de los Arroyos"
+      }
     ],
     "relacionadas": [
       "plazas-de-la-cercania",
