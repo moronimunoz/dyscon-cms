@@ -109,7 +109,12 @@ const avisos = [];
 const UBICACIONES = resolverCoordenadas(OBRAS, { avisos });
 OBRAS.forEach(o => {
   const u = UBICACIONES[o.id];
-  if (u) { o.coords = u.coords; if (u.aprox) o.aprox = true; }
+  if (u) {
+    o.coords = u.coords; if (u.aprox) o.aprox = true;
+    // Ubicaciones extra ya resueltas: el mapa de obras.html dibuja un pin por cada una (la ficha usa solo "mapa")
+    if (u.extras) o.puntos_extra = u.extras.map(e => ({ coords: e.coords, ...(e.aprox ? { aprox: true } : {}), ...(e.nombre ? { nombre: e.nombre } : {}) }));
+  }
+  delete o.ubicaciones_extra;   // el sitio solo necesita los puntos ya resueltos
   o.relacionadas = relacionadas(o, OBRAS).map(r => r.id);
 });
 

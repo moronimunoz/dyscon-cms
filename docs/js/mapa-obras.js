@@ -2,6 +2,7 @@
    - Las coordenadas de cada obra las calcula build.js (campo coords de obras-data.js).
    - Leaflet y los mapas de OpenStreetMap se cargan recién cuando alguien toca "Mapa".
    - Las obras que comparten lugar (por ejemplo, varias en el centro de Rosario) se agrupan en un solo marcador con el número.
+   - Una obra que está en varios lugares tiene un pin por cada uno (coords + puntos_extra). Todos abren la misma obra.
    - Se puede abrir directo con obras.html?vista=mapa */
 (function () {
   if (typeof OBRAS === 'undefined') return;
@@ -24,6 +25,16 @@
   const chica = ruta => ruta.replace(/\.(jpe?g|png|webp)$/i, '-sm.webp');
   const PIN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6-5.5-6-11a6 6 0 0112 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2"/></svg>';
 
+  // Los puntos de una obra: su ubicación principal y, si las tiene, las "ubicaciones extra" (puntos_extra)
+  const puntosDe = o => {
+    const lista = [];
+    if (Array.isArray(o.coords) && o.coords.length === 2) lista.push({ obra: o, coords: o.coords, aprox: !!o.aprox, lugar: '' });
+    (o.puntos_extra || []).forEach(p => {
+      if (Array.isArray(p.coords) && p.coords.length === 2) lista.push({ obra: o, coords: p.coords, aprox: !!p.aprox, lugar: p.nombre || '' });
+    });
+    return lista;
+  };
+
   let L = null, mapa = null, capa = null, cargando = null, abierto = false;
 
   // Carga Leaflet una sola vez, desde el propio sitio
@@ -43,10 +54,13 @@
     const una = grupo.obras.length === 1;
     const filas = grupo.obras.map(o => {
       const foto = 'img/obras/' + (o.carpeta ? o.carpeta + '/' : '') + (o.miniatura || (o.fotos && o.fotos[0]) || '');
-      return `<li><a href="obra-${esc(o.id)}.html"><img src="${esc(chica(foto))}" alt="" width="52" height="36" loading="lazy" onerror="this.onerror=null;this.src='${esc(foto)}'"><span>${esc(o.nombre)}<small>${esc(o.categoria)}</small></span></a></li>`;
+      // Si el pin es una ubicación extra con nombre (ej: "Plaza Sarmiento"), se muestra junto a la categoría
+      const lugares = [...new Set(grupo.items.filter(i => i.obra === o && i.lugar).map(i => i.lugar))];
+      const detalle = esc(o.categoria) + (lugares.length ? ' · ' + esc(lugares.join(', ')) : '');
+      return `<li><a href="obra-${esc(o.id)}.html"><img src="${esc(chica(foto))}" alt="" width="52" height="36" loading="lazy" onerror="this.onerror=null;this.src='${esc(foto)}'"><span>${esc(o.nombre)}<small>${detalle}</small></span></a></li>`;
     }).join('');
     const lugar = ciudad(grupo.obras[0]);
-    const aprox = grupo.obras.every(o => o.aprox)
+    const aprox = grupo.items.every(i => i.aprox)
       ? `<p class="aviso-aprox">Ubicación aproximada${lugar ? ': centro de ' + esc(lugar) : ''}.</p>` : '';
     return `<div class="mapa-popup"><h3>${una ? 'Obra' : grupo.obras.length + ' obras en este lugar'}</h3><ul>${filas}</ul>${aprox}</div>`;
   };
@@ -56,17 +70,19 @@
     capa.clearLayers();
     const ids = idsVisibles();
     const grupos = new Map();
-    conCoords.filter(o => ids.has(o.id)).forEach(o => {
-      const clave = o.coords[0].toFixed(4) + ',' + o.coords[1].toFixed(4);
-      if (!grupos.has(clave)) grupos.set(clave, { coords: o.coords, obras: [] });
-      grupos.get(clave).obras.push(o);
-    });
+    conCoords.filter(o => ids.has(o.id)).forEach(o => puntosDe(o).forEach(p => {
+      const clave = p.coords[0].toFixed(4) + ',' + p.coords[1].toFixed(4);
+      if (!grupos.has(clave)) grupos.set(clave, { coords: p.coords, obras: [], items: [] });
+      const g = grupos.get(clave);
+      if (!g.obras.includes(o)) g.obras.push(o);       // una obra cuenta una sola vez por lugar, aunque tenga dos puntos juntos
+      g.items.push(p);
+    }));
 
     vacio.hidden = grupos.size > 0;
     if (!grupos.size) return;
 
     grupos.forEach(g => {
-      const aprox = g.obras.every(o => o.aprox);
+      const aprox = g.items.every(i => i.aprox);
       const icono = L.divIcon({
         className: 'pin-wrap',
         html: `<span class="pin-obra${aprox ? ' pin-obra--aprox' : ''}">${g.obras.length > 1 ? g.obras.length : PIN}</span>`,

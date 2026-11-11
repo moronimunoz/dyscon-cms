@@ -122,6 +122,21 @@ content:
         label: Dirección a mostrar (debajo del mapa)
         type: string
         description: "Texto que se lee debajo del mapa en la ficha de la obra. Escribí la dirección que quieras mostrar (ej: Av. Pellegrini 1234, Rosario). No cambia el punto del mapa. Si lo dejás vacío se muestra la ubicación (ciudad y provincia)."
+      - name: ubicaciones_extra
+        label: Ubicaciones extra (solo para el mapa de Obras)
+        type: object
+        list: true
+        description: "Para obras que están en varios lugares (por ejemplo, plazas en distintos barrios). La ubicación principal es la de arriba (\"Dirección para el mapa\") y es la única que se ve en el mapa de la ficha de la obra. Cada ubicación extra que agregues aparece solo en el mapa de la página Obras, como un pin más que abre esta misma obra."
+        fields:
+          - name: nombre
+            label: Nombre del lugar (opcional)
+            type: string
+            description: "Ej: Plaza Sarmiento. Se muestra junto al nombre de la obra al tocar el pin en el mapa."
+          - name: mapa
+            label: Dirección, coordenadas o código de Google Maps
+            type: string
+            required: true
+            description: "Igual que la dirección principal: calle, número, ciudad y provincia; o coordenadas (-32.9468, -60.6393); o el código de Google Maps (X98V+JHG Villa Gdor. Gálvez, Santa Fe)."
       - name: superficie
         label: Superficie
         type: string

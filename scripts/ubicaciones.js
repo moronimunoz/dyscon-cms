@@ -13,7 +13,12 @@
         -> se busca en OpenStreetMap (Nominatim); el resultado queda en scripts/geocache.json
      4. Campo "ubicacion" ("Rosario · Santa Fe"): el centro de la ciudad (ubicación aproximada)
    Si una dirección no se encuentra o cae lejos de la ciudad indicada, se usa la ciudad.
-   Si una dirección todavía no está en el caché, se usa la ciudad hasta que corra geocodificar.js. */
+   Si una dirección todavía no está en el caché, se usa la ciudad hasta que corra geocodificar.js.
+
+   UBICACIONES EXTRA: una obra que está en varios lugares (por ejemplo, plazas en distintos barrios) tiene la
+   ubicación principal en "mapa" y las demás en "ubicaciones_extra" [{ nombre, mapa }]. Cada extra se ubica
+   igual que "mapa" (coordenadas, código de Google o dirección), tomando la ciudad de la obra como referencia.
+   La principal es la única que se ve en el mapa de la ficha; las extra salen solo en el mapa de obras.html. */
 const fs = require('fs');
 const path = require('path');
 
@@ -50,6 +55,11 @@ const CIUDADES = {
 const sinTildes = t => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 const separar = ubicacion => String(ubicacion || '').split(/\s*·\s*/).map(s => s.trim()).filter(Boolean);
 const pausa = ms => new Promise(r => setTimeout(r, ms));
+
+// Las ubicaciones extra de una obra, listas para pasar por ubicarObra() (usan la ciudad de la obra como referencia)
+const extrasDe = o => (o.ubicaciones_extra || []).map((e, i) => ({
+  id: `${o.id} (ubicación extra ${i + 1})`, ubicacion: o.ubicacion, mapa: e.mapa, nombre: e.nombre
+}));
 
 function km([lat1, lng1], [lat2, lng2]) {
   const rad = x => x * Math.PI / 180, R = 6371;
@@ -159,15 +169,23 @@ function ubicarObra(o, buscar, avisos) {
 }
 
 /* ---------- Para build.js: sin internet, solo con lo que ya está en el caché ---------- */
-// Devuelve { id: { coords: [lat, lng], aprox: bool } }. Las obras que no se pueden ubicar no figuran.
+// Devuelve { id: { coords: [lat, lng], aprox: bool, extras?: [{ coords, aprox, nombre? }] } }.
+// Las obras que no se pueden ubicar no figuran.
 function resolverCoordenadas(obras, { avisos = [] } = {}) {
   const cache = leerCache();
   const buscar = q => cache[q];                 // undefined = todavía no se buscó
   const resultado = {};
   obras.forEach(o => {
     const u = ubicarObra(o, buscar, avisos);
-    if (u) resultado[o.id] = u;
-    else avisos.push(`La obra "${o.id}" no se puede ubicar en el mapa (campo "ubicación": "${o.ubicacion || ''}").`);
+    if (!u) { avisos.push(`La obra "${o.id}" no se puede ubicar en el mapa (campo "ubicación": "${o.ubicacion || ''}").`); return; }
+    const extras = [];
+    extrasDe(o).forEach(x => {
+      const r = ubicarObra(x, buscar, avisos);
+      if (!r) { avisos.push(`La ${x.id.replace(/^.*\((.*)\)$/, '$1')} de "${o.id}" no se puede ubicar en el mapa.`); return; }
+      if (r.aprox) avisos.push(`No se encontró la ${x.id.replace(/^.*\((.*)\)$/, '$1')} de "${o.id}" ("${x.mapa}"): se muestra el centro de la ciudad. Revisá la dirección.`);
+      extras.push({ coords: r.coords, aprox: r.aprox, ...(x.nombre ? { nombre: x.nombre } : {}) });
+    });
+    resultado[o.id] = extras.length ? { ...u, extras } : u;
   });
   return resultado;
 }
@@ -191,7 +209,7 @@ async function geocodificarPendientes(obras, { avisos = [], log = () => { } } = 
   // Dos vueltas: la primera busca ciudades y direcciones; la segunda, lo que dependía de una ciudad recién encontrada
   for (let vuelta = 0; vuelta < 2; vuelta++) {
     const faltan = new Set();
-    obras.forEach(o => ubicarObra(o, q => { if (!(q in cache)) faltan.add(q); return cache[q]; }, []));
+    obras.forEach(o => [o, ...extrasDe(o)].forEach(x => ubicarObra(x, q => { if (!(q in cache)) faltan.add(q); return cache[q]; }, [])));
     if (!faltan.size) break;
 
     for (const q of faltan) {
@@ -211,4 +229,4 @@ async function geocodificarPendientes(obras, { avisos = [], log = () => { } } = 
   return cambios;
 }
 
-module.exports = { resolverCoordenadas, geocodificarPendientes, recuperarCodigo, decodificarCompleto, esCodigoPlus, limpiarDireccion };
+module.exports = { resolverCoordenadas, geocodificarPendientes, extrasDe, recuperarCodigo, decodificarCompleto, esCodigoPlus, limpiarDireccion };

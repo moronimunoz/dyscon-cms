@@ -49,6 +49,10 @@ function obraALegacy(j, id) {
   const o = { id, nombre: j.nombre, categoria: j.categoria, tipo: j.tipo || 'propia', estado: j.estado };
   const poner = (k, v) => { if (v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && !v.length)) o[k] = v; };
   poner('con', j.con); o.comitente = j.comitente || ''; poner('ubicacion', j.ubicacion); poner('mapa', j.mapa); poner('direccion', j.direccion);
+  // Ubicaciones extra (solo para el mapa de obras.html): [{ nombre?, mapa }]. La principal sigue siendo "mapa".
+  poner('ubicaciones_extra', (j.ubicaciones_extra || [])
+    .filter(e => e && String(e.mapa || '').trim())
+    .map(e => { const r = { mapa: String(e.mapa).trim() }; if (e.nombre && String(e.nombre).trim()) r.nombre = String(e.nombre).trim(); return r; }));
   poner('destacada', j.destacada); poner('resumen', j.resumen); poner('alt', j.alt);
   o.descripcion = parrafos(j.descripcion);
   const datos = [];
