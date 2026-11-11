@@ -8,7 +8,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "inicio",
     "comitente": "Fideicomiso.",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "-32.93471315323165, -60.643166777856244",
     "direccion": "Arturo Illia 1690, Rosario, Santa Fe",
     "resumen": "<p>Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.</p>",
@@ -47,7 +47,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de economía, Unidad Ejecutora Provincial (UE).",
-    "ubicacion": "Ricardone · Santa Fe",
+    "ubicacion": "Ricardone, Santa Fe",
     "mapa": "-32.77486960487831, -60.79787343957392",
     "direccion": "Club del Pueblo 1531, Ricardone, Santa Fe",
     "resumen": "<p>DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada</p>",
@@ -96,7 +96,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Particular",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "España 543, Rosario, Santa Fe",
     "direccion": "España 543, Rosario, Santa Fe",
     "resumen": "<p>restauración y puesta en valor de un departamento ubicado en calle España 543</p>",
@@ -173,9 +173,9 @@ const OBRAS = [
     "estado": "obra",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Grupo Nasini y Mariano Schor",
-    "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
+    "ubicacion": "Villa Gobernador Gálvez, Santa Fe",
     "mapa": "X98V+JHG Villa Gdor. Gálvez, Santa Fe",
-    "direccion": "Ecuador y Camino del Inmigrante, VGG, Santa Fe",
+    "direccion": "Villa Gobernador Gálvez, Santa Fe",
     "destacada": 1,
     "descripcion": [
       "Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano."
@@ -232,7 +232,7 @@ const OBRAS = [
     "estado": "terminado",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Municipalidad de Rosario.",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "Estévez Boero 740, S2000 Rosario, Santa Fe",
     "direccion": "Estévez Boero 740, Rosario, Santa Fe",
     "destacada": 4,
@@ -283,7 +283,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Fideicomiso.",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "-32.95287073111514, -60.66111829884581",
     "direccion": "Rodríguez 1635, Rosario, Santa Fe",
     "resumen": "<p>El Edificio RDZ 1635 es un proyecto residencial desarrollado por Dyscon S.A., ubicado en un sector estratégico de Rosario, a pocos metros de avenida Pellegrini y bulevar Oroño, con proximidad al Parque Independencia.</p>",
@@ -327,7 +327,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Dirección Provincial de Vivienda y Urbanismo (DPVyU).",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "-32.9817997363948, -60.62924684936593",
     "direccion": "Rosario, Santa Fe",
     "resumen": "<p>El barrio La Tablada, en la zona sur de Rosario, tendrá un nuevo conjunto habitacional de 64 viviendas, financiado por la provincia de Santa Fe.</p>",
@@ -362,7 +362,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Unidad Ejecutora de Infraestructura.",
-    "ubicacion": "Piñero · Santa Fe",
+    "ubicacion": "Piñero, Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
     "direccion": "Ruta A012 y 14",
     "destacada": 2,
@@ -432,9 +432,9 @@ const OBRAS = [
       -60.796188
     ],
     "relacionadas": [
-      "unidad-penitenciaria-15",
       "barrio-mortelari-1",
-      "casa-m"
+      "casa-m",
+      "unidad-penitenciaria-15"
     ]
   },
   {
@@ -444,7 +444,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Ministerio de Espacio Público porteño y Subterráneos de Buenos Aires (SBASE)",
-    "ubicacion": "CABA · Buenos Aires",
+    "ubicacion": "CABA, Buenos Aires",
     "mapa": "-34.62672211727268, -58.399535530640875",
     "direccion": "Constitución 2498, Cdad. Autónoma de Buenos Aires",
     "resumen": "<p>El proyecto contempla la renovación de 13.550 m², incluyendo la plaza y las veredas de toda la manzana, con mejoras en accesibilidad, iluminación y seguridad. El nuevo espacio contará con sectores verdes, juegos infantiles, cancha deportiva, área de calistenia y un espacio cultural semicubierto.</p>",
@@ -481,7 +481,7 @@ const OBRAS = [
     "estado": "obra",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Ministerio de Obras Públicas y la Dirección Provincial de Arquitectura e Ingeniería (DIPAI)",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "-33.00470218365296, -60.628972348056905",
     "direccion": "Láinez 1-48, Rosario, Santa Fe",
     "resumen": "<p>La <strong>Intervención Integral del Parque Regional Sur</strong> en Rosario es una obra de remodelación, Las tareas abarcan <strong>40 hectáreas</strong> del predio</p>",
@@ -501,8 +501,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "plaza-san-martin",
-      "pvplazasdistritales",
-      "plazas-de-la-cercania-2025"
+      "plazas-de-la-cercania-2025",
+      "parque-industrial"
     ]
   },
   {
@@ -512,7 +512,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario (UNR)",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "-32.9663568433821, -60.62559512621197",
     "direccion": "Riobamba 242, Rosario, Santa Fe",
     "resumen": "<p>En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <strong>69 viviendas</strong> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.</p>",
@@ -597,7 +597,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-primaria-1408",
       "pvplazasdistritales",
-      "casa-m"
+      "plaza-san-martin"
     ]
   },
   {
@@ -806,9 +806,9 @@ const OBRAS = [
       -60.649687
     ],
     "relacionadas": [
-      "parque-regional-sur",
       "pvplazasdistritales",
-      "plazas-de-la-cercania-2025"
+      "plazas-de-la-cercania-2025",
+      "parque-industrial"
     ]
   },
   {
@@ -962,9 +962,9 @@ const OBRAS = [
       -60.675806
     ],
     "relacionadas": [
-      "parque-regional-sur",
       "plaza-san-martin",
-      "plazas-de-la-cercania"
+      "plazas-de-la-cercania",
+      "plaza-san-cristobal"
     ]
   },
   {
@@ -1009,9 +1009,9 @@ const OBRAS = [
       -60.632202
     ],
     "relacionadas": [
-      "tecnoteca",
-      "parque-regional-sur",
-      "plaza-san-martin"
+      "plaza-san-martin",
+      "monumento-bandera",
+      "escuela-primaria-1408"
     ]
   },
   {
