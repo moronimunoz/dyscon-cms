@@ -10,6 +10,28 @@
   "ubicacion": "Rosario, Santa Fe.",
   "mapa": "Bielsa 5200, S2007BIF Rosario, Santa Fe",
   "direccion": "Plaza J. Wesley, Rosario, Santa Fe",
+  "ubicaciones_extra": [
+    {
+      "nombre": "Plaza Pinocho",
+      "mapa": "-32.90706129122558, -60.696308279900045"
+    },
+    {
+      "nombre": "Plaza de las Americas",
+      "mapa": "-32.934123152611406, -60.66773111168216"
+    },
+    {
+      "nombre": "Plaza J. Wesley",
+      "mapa": "-32.92354582086434, -60.69593458883753"
+    },
+    {
+      "nombre": "Plaza Yugoslavia",
+      "mapa": "-33.00378707654079, -60.66208739638971"
+    },
+    {
+      "nombre": "Plazoleta Posta del Rosario de los Arroyos",
+      "mapa": "-32.97479402605114, -60.63333185605589"
+    }
+  ],
   "plazo": "Agosto 2025 - Junio 2026 ",
   "resumen": "<p>Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025.</p>",
   "descripcion": [
@@ -24,6 +46,7 @@
     "/img/obras/mw8ndqfm-r35owesx.png",
     "/img/obras/mw8ndygv-ss12dgut.jpeg",
     "/img/obras/mw8neeri-gu3ldwmn.jpeg",
-    "/img/obras/mw8nekgh-pa03ml22.jpeg"
+    "/img/obras/mw8nekgh-pa03ml22.jpeg",
+    "/img/obras/mwbemqji-qw4ztv01.jpg"
   ]
 }
