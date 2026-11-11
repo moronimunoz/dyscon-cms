@@ -4,10 +4,38 @@
 /* ---------- Tipografía (Poppins, servida desde el propio sitio: docs/fonts/) ----------
    font-display: swap muestra el texto enseguida con la letra de respaldo y cambia cuando Poppins llega.
    "Poppins Fallback" es Arial ajustada a las medidas de Poppins, así el texto casi no se mueve al cambiar. */
-@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/poppins-latin-400-normal.woff2') format('woff2'); }
-@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 500; font-display: swap; src: url('../fonts/poppins-latin-500-normal.woff2') format('woff2'); }
-@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/poppins-latin-600-normal.woff2') format('woff2'); }
-@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/poppins-latin-700-normal.woff2') format('woff2'); }
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/poppins-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/poppins-latin-500-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/poppins-latin-600-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/poppins-latin-700-normal.woff2') format('woff2');
+}
+
 @font-face {
   font-family: 'Poppins Fallback';
   src: local('Arial'), local('Helvetica Neue'), local('Helvetica'), local('Liberation Sans');
@@ -16,6 +44,7 @@
   descent-override: 31.15%;
   line-gap-override: 8.9%;
 }
+
 /* ---------- Variables (cambiás la paleta acá) ---------- */
 :root {
   --marca: #588587;
