@@ -8,7 +8,7 @@
   "estado": "terminado",
   "comitente": "Municipalidad de Rosario.",
   "ubicacion": "Rosario, Santa Fe.",
-  "mapa": "Bielsa 5200, S2007BIF Rosario, Santa Fe",
+  "mapa": "-32.92358017563398, -60.695954530438286",
   "direccion": "Plaza J. Wesley, Rosario, Santa Fe",
   "ubicaciones_extra": [
     {
@@ -20,8 +20,8 @@
       "mapa": "-32.934123152611406, -60.66773111168216"
     },
     {
-      "nombre": "Plaza J. Wesley",
-      "mapa": "-32.92354582086434, -60.69593458883753"
+      "nombre": "Plaza Maradona y Matienzo",
+      "mapa": "-32.97997849834854, -60.69255963585969"
     },
     {
       "nombre": "Plaza Yugoslavia",
