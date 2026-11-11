@@ -858,7 +858,7 @@ const OBRAS = [
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Municipalidad de Rosario.",
     "ubicacion": "Rosario, Santa Fe.",
-    "mapa": "Bielsa 5200, S2007BIF Rosario, Santa Fe",
+    "mapa": "-32.92358017563398, -60.695954530438286",
     "direccion": "Plaza J. Wesley, Rosario, Santa Fe",
     "resumen": "<p>Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025.</p>",
     "descripcion": [
@@ -885,8 +885,8 @@ const OBRAS = [
       "mwbewlue-o7wk1kl9.jpeg"
     ],
     "coords": [
-      -32.923221,
-      -60.695455
+      -32.92358,
+      -60.695955
     ],
     "puntos_extra": [
       {
@@ -905,10 +905,10 @@ const OBRAS = [
       },
       {
         "coords": [
-          -32.923546,
-          -60.695935
+          -32.979978,
+          -60.69256
         ],
-        "nombre": "Plaza J. Wesley"
+        "nombre": "Plaza Maradona y Matienzo"
       },
       {
         "coords": [
