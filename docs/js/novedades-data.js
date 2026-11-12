@@ -54,13 +54,32 @@ const NOVEDADES = [
     "portada": "2026_03_21_nodo/poster.jpg",
     "resumen": "Lanzamiento de \"Nodo\", el nuevo parque Industrial",
     "texto": [
-      "<h2>Nace Nodo, el parque industrial que apunta a captar empresas alimenticias</h2><p>Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano.<br>Según explicó <strong>Nasini</strong>, el foco en las alimenticias surgió tras detectar una demanda creciente de empresas que necesitan expandirse pero enfrentan limitaciones dentro de las ciudades.<br>“Hay muchas industrias alimenticias que quedaron atrapadas dentro del eje urbano, con problemas logísticos, de habilitaciones y de crecimiento”, señaló. “Muchas veces no se mudan porque los parques industriales no tienen los servicios específicos que necesitan”.<br>Por eso, Nodo incorporó infraestructura especialmente diseñada para ese segmento: planta potabilizadora de agua, red cloacal, acceso a gas y capacidad eléctrica industrial.<br><br>Enlace de Instagram (Presione aqui): <a target=\"_blank\" rel=\"noopener\" href=\"https://www.instagram.com/econodoproductivo/\"><strong><u>Eco Nodo Productivo<u></strong></a></p>"
+      "<h2>Nace Nodo, el parque industrial que apunta a captar empresas alimenticias</h2><p>Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano.<br>Según explicó <strong>Nasini</strong>, el foco en las alimenticias surgió tras detectar una demanda creciente de empresas que necesitan expandirse pero enfrentan limitaciones dentro de las ciudades.<br>“Hay muchas industrias alimenticias que quedaron atrapadas dentro del eje urbano, con problemas logísticos, de habilitaciones y de crecimiento”, señaló. “Muchas veces no se mudan porque los parques industriales no tienen los servicios específicos que necesitan”.<br>Por eso, Nodo incorporó infraestructura especialmente diseñada para ese segmento: planta potabilizadora de agua, red cloacal, acceso a gas y capacidad eléctrica industrial.<br><br>Enlace de Instagram (Presione aqui): <a target=\"_blank\" rel=\"noopener\" href=\"https://www.instagram.com/econodoproductivo/\"><strong><u>Eco Nodo Productivo</u></strong></a></p>"
     ],
     "fotos": [
-      "2026_03_21_nodo/00.jpeg",
-      "2026_03_21_nodo/01.jpg",
-      "2026_03_21_nodo/02.jpg",
-      "2026_03_21_nodo/03.jpg"
+      "2026_03_21_nodo/mwct7v7e-6diedjo5.jpg",
+      "2026_03_21_nodo/mwct813n-3izbjc7w.jpg",
+      "2026_03_21_nodo/mwct84q3-ejmvjdlk.jpg",
+      "2026_03_21_nodo/mwct88yz-okjjqrdq.jpg",
+      "2026_03_21_nodo/mwct8dbf-nvwzv4bn.jpg",
+      "2026_03_21_nodo/mwct8hoc-rvv18ztl.jpg",
+      "2026_03_21_nodo/mwct8m2h-lzw4dy1e.jpg",
+      "2026_03_21_nodo/mwct8oto-8ds9ygmk.jpg",
+      "2026_03_21_nodo/mwct8sn6-s119f7oh.jpg",
+      "2026_03_21_nodo/mwct8wxb-pz36shvz.jpg",
+      "2026_03_21_nodo/mwct8zj1-06u3ohe0.jpg",
+      "2026_03_21_nodo/mwct921i-jmwp9ml2.jpg",
+      "2026_03_21_nodo/mwct94tc-z7eibn7j.jpg",
+      "2026_03_21_nodo/mwct977o-lrp0embc.jpg",
+      "2026_03_21_nodo/mwct99rv-qv3wwh24.jpg",
+      "2026_03_21_nodo/mwct9d2w-uigm5sx3.jpg",
+      "2026_03_21_nodo/mwct9kqd-cwbegym6.jpg",
+      "2026_03_21_nodo/mwct9pfc-14hnqtuw.jpg",
+      "2026_03_21_nodo/mwct9uan-wk0jze01.jpg",
+      "2026_03_21_nodo/mwct9xsb-tnm8gugu.jpg",
+      "2026_03_21_nodo/mwcta41i-b16vvqrm.jpg",
+      "2026_03_21_nodo/mwcta8s7-3hc5x28i.jpg",
+      "2026_03_21_nodo/mwctadoi-avxj0oxl.jpeg"
     ],
     "video": {
       "src": "novedades/nodo.mp4",
