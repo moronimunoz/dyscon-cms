@@ -48,13 +48,13 @@ const NOVEDADES = [
   },
   {
     "id": "nace_nodo",
-    "titulo": "Nace Nodo, el parque industrial que apunta a captar empresas alimenticias",
+    "titulo": "Lanzamiento de \"Nodo\", el nuevo parque Industrial",
     "categoria": "Eventos",
     "fecha": "2026-03-21",
     "portada": "2026_03_21_nodo/poster.jpg",
-    "resumen": "Nace Nodo, el parque industrial que apunta a captar empresas alimenticias",
+    "resumen": "Lanzamiento de \"Nodo\", el nuevo parque Industrial",
     "texto": [
-      "Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano.<br>Según explicó <strong>Nasini</strong>, el foco en las alimenticias surgió tras detectar una demanda creciente de empresas que necesitan expandirse pero enfrentan limitaciones dentro de las ciudades.<br>“Hay muchas industrias alimenticias que quedaron atrapadas dentro del eje urbano, con problemas logísticos, de habilitaciones y de crecimiento”, señaló. “Muchas veces no se mudan porque los parques industriales no tienen los servicios específicos que necesitan”.<br>Por eso, Nodo incorporó infraestructura especialmente diseñada para ese segmento: planta potabilizadora de agua, red cloacal, acceso a gas y capacidad eléctrica industrial.<br><br>Enlace de Instagram (Presione aqui): <a href=\"https://www.instagram.com/econodoproductivo/\" target=\"_blank\" rel=\"noopener\"><strong>Eco Nodo Productivo</strong></a>"
+      "<h2>Nace Nodo, el parque industrial que apunta a captar empresas alimenticias</h2><p>Con foco en la industria alimenticia y una apuesta fuerte a la infraestructura, un nuevo parque industrial busca abrirse camino en el cordón sur del Gran Rosario. Se trata de <strong>Nodo</strong>, un desarrollo privado impulsado por <strong>Grupo Nasini</strong> Inversiones junto a <strong>Mariano Schor</strong>, de la constructora <strong>Dyscon</strong>, que ya puso en marcha las obras y apunta a captar empresas que hoy operan “atrapadas” dentro del tejido urbano.<br>Según explicó <strong>Nasini</strong>, el foco en las alimenticias surgió tras detectar una demanda creciente de empresas que necesitan expandirse pero enfrentan limitaciones dentro de las ciudades.<br>“Hay muchas industrias alimenticias que quedaron atrapadas dentro del eje urbano, con problemas logísticos, de habilitaciones y de crecimiento”, señaló. “Muchas veces no se mudan porque los parques industriales no tienen los servicios específicos que necesitan”.<br>Por eso, Nodo incorporó infraestructura especialmente diseñada para ese segmento: planta potabilizadora de agua, red cloacal, acceso a gas y capacidad eléctrica industrial.<br><br>Enlace de Instagram (Presione aqui): <a target=\"_blank\" rel=\"noopener\" href=\"https://www.instagram.com/econodoproductivo/\"><strong><u>Eco Nodo Productivo<u></strong></a></p>"
     ],
     "fotos": [
       "2026_03_21_nodo/00.jpeg",
