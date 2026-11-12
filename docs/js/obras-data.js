@@ -939,7 +939,7 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Municipalidad de Rosario.",
     "ubicacion": "Rosario, Santa Fe",
-    "mapa": "Córdoba 3853, S2002LAG Rosario, Santa Fe",
+    "mapa": "-32.93930883194244, -60.67587526713395",
     "direccion": "Plaza Mariano Moreno, Rosario, Santa Fe",
     "resumen": "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
     "descripcion": [
@@ -959,8 +959,8 @@ const OBRAS = [
       "mwdkrzh8-4poamms6.jpg"
     ],
     "coords": [
-      -32.939762,
-      -60.675806
+      -32.939309,
+      -60.675875
     ],
     "puntos_extra": [
       {
