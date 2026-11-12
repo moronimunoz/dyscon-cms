@@ -1,0 +1,174 @@
+/* =========================================================
+   BOTÓN "COMPARTIR" DE LAS FICHAS DE OBRA (js/compartir.js)
+   Círculo blanco al 75 % arriba a la derecha de la barra de datos;
+   al pasar el cursor se vuelve blanco sólido. Abre un menú con
+   WhatsApp, Facebook, LinkedIn, X, correo y copiar enlace.
+   ========================================================= */
+.obra-compartir {
+  --sube: 4rem;
+  /* cuánto se mete la barra de datos sobre la foto (igual que .obra-resumen) */
+  position: relative;
+  z-index: 6;
+  height: 0;
+}
+
+.obra-compartir--sin-barra {
+  --sube: -1.25rem;
+}
+
+.obra-compartir-boton {
+  position: absolute;
+  right: 0;
+  bottom: calc(var(--sube) + 14px);
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .75);
+  color: var(--teal-900);
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .18);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+
+.obra-compartir-boton .icon {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.obra-compartir-boton:hover,
+.obra-compartir-boton:focus-visible,
+.obra-compartir-boton[aria-expanded="true"] {
+  background: #fff;
+  transform: scale(1.06);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .24);
+}
+
+.obra-compartir-boton:focus-visible {
+  outline: 3px solid var(--teal-500);
+  outline-offset: 3px;
+}
+
+/* ---------- Menú ---------- */
+.obra-compartir-menu {
+  position: absolute;
+  right: 0;
+  bottom: calc(var(--sube) + 14px + 48px + 10px);
+  /* arriba del botón */
+  width: 250px;
+  max-width: calc(100vw - 2rem);
+  margin: 0;
+  padding: .5rem;
+  list-style: none;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 14px 40px rgba(27, 58, 60, .28);
+  animation: compartir-entra .18s ease;
+}
+
+.obra-compartir-menu[hidden] {
+  display: none;
+}
+
+/* Si arriba no hay lugar (pantalla baja), se abre hacia abajo */
+.obra-compartir-menu--abajo {
+  bottom: auto;
+  top: calc(-1 * var(--sube) - 4px);
+}
+
+.obra-compartir-titulo {
+  padding: .5rem .8rem .35rem;
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--teal-500);
+}
+
+.obra-compartir-opcion {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  width: 100%;
+  padding: .65rem .8rem;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--teal-900);
+  font: inherit;
+  font-size: .95rem;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+
+.obra-compartir-opcion .icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.obra-compartir-opcion:hover,
+.obra-compartir-opcion:focus-visible {
+  background: var(--teal-100);
+  outline: none;
+}
+
+.obra-compartir-opcion[data-red="whatsapp"] .icon {
+  stroke: #1f9d55;
+}
+
+@keyframes compartir-entra {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* En tablet y celular la barra de datos se mete menos sobre la foto */
+@media (max-width: 1000px) {
+  .obra-compartir {
+    --sube: 3.5rem;
+  }
+
+  .obra-compartir--sin-barra {
+    --sube: -1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .obra-compartir-boton,
+  .obra-compartir-opcion {
+    transition: none;
+  }
+
+  .obra-compartir-menu {
+    animation: none;
+  }
+
+  .obra-compartir-boton:hover {
+    transform: none;
+  }
+}
