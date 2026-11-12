@@ -500,9 +500,9 @@ const OBRAS = [
       -60.628972
     ],
     "relacionadas": [
+      "pvplazasdistritales",
       "plaza-san-martin",
-      "plazas-de-la-cercania-2025",
-      "parque-industrial"
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -596,8 +596,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-primaria-1408",
-      "pvplazasdistritales",
-      "plaza-san-martin"
+      "plaza-san-martin",
+      "oda-2025"
     ]
   },
   {
@@ -806,9 +806,9 @@ const OBRAS = [
       -60.649687
     ],
     "relacionadas": [
-      "pvplazasdistritales",
       "plazas-de-la-cercania-2025",
-      "parque-industrial"
+      "parque-industrial",
+      "parque-regional-sur"
     ]
   },
   {
@@ -938,7 +938,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Municipalidad de Rosario.",
-    "ubicacion": "Rosario · Santa Fe",
+    "ubicacion": "Rosario, Santa Fe",
     "mapa": "Córdoba 3853, S2002LAG Rosario, Santa Fe",
     "direccion": "Plaza Mariano Moreno, Rosario, Santa Fe",
     "resumen": "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
@@ -955,14 +955,24 @@ const OBRAS = [
       "mw7dtruw-tlopnwva.jpeg",
       "mw7du5v9-sasjax07.jpeg",
       "mw7du8k7-kbrmwm29.jpeg",
-      "mw7dubmv-99czacwm.jpeg"
+      "mw7dubmv-99czacwm.jpeg",
+      "mwdkrzh8-4poamms6.jpg"
     ],
     "coords": [
       -32.939762,
       -60.675806
     ],
+    "puntos_extra": [
+      {
+        "coords": [
+          -32.980404,
+          -60.679854
+        ],
+        "nombre": "Plaza Santa Isabel de Hungría"
+      }
+    ],
     "relacionadas": [
-      "plaza-san-martin",
+      "parque-regional-sur",
       "plazas-de-la-cercania",
       "plaza-san-cristobal"
     ]
