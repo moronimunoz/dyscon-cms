@@ -20,7 +20,9 @@
 .destacado-banner {
   position: relative;
   display: block;
-  aspect-ratio: 4 / 1;
+  width: 100%;
+  aspect-ratio: 1920 / 753;
+  max-height: 640px;
   overflow: hidden;
   border-radius: 18px;
   background: var(--teal-900);
@@ -79,7 +81,7 @@
 
 @media (max-width: 1100px) {
   .destacado-banner {
-    aspect-ratio: 3 / 1;
+    aspect-ratio: 2 / 1;
   }
 }
 
