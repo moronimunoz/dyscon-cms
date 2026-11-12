@@ -6,9 +6,15 @@
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Municipalidad de Rosario.",
-  "ubicacion": "Rosario · Santa Fe",
+  "ubicacion": "Rosario, Santa Fe",
   "mapa": "Córdoba 3853, S2002LAG Rosario, Santa Fe",
   "direccion": "Plaza Mariano Moreno, Rosario, Santa Fe",
+  "ubicaciones_extra": [
+    {
+      "nombre": "Plaza Santa Isabel de Hungría",
+      "mapa": "-32.980404115341734, -60.679853977505466"
+    }
+  ],
   "plazo": "150 días.",
   "resumen": "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
   "descripcion": [
@@ -20,6 +26,7 @@
     "/img/obras/mw7dtruw-tlopnwva.jpeg",
     "/img/obras/mw7du5v9-sasjax07.jpeg",
     "/img/obras/mw7du8k7-kbrmwm29.jpeg",
-    "/img/obras/mw7dubmv-99czacwm.jpeg"
+    "/img/obras/mw7dubmv-99czacwm.jpeg",
+    "/img/obras/mwdkrzh8-4poamms6.jpg"
   ]
 }
