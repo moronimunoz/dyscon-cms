@@ -8,7 +8,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "inicio",
     "comitente": "Fideicomiso.",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.93471315323165, -60.643166777856244",
     "direccion": "Arturo Illia 1690, Rosario, Santa Fe",
     "resumen": "<p>Dyscon S.A. proyecta incorporar un nuevo espacio gastronómico en las inmediaciones de la ribera de Rosario, con una propuesta que combina arquitectura contemporánea, naturaleza y gastronomía.</p>",
@@ -47,7 +47,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de economía, Unidad Ejecutora Provincial (UE).",
-    "ubicacion": "Ricardone, Santa Fe",
+    "ubicacion": "Ricardone · Santa Fe",
     "mapa": "-32.77486960487831, -60.79787343957392",
     "direccion": "Club del Pueblo 1531, Ricardone, Santa Fe",
     "resumen": "<p>DYSCON S.A. llevó adelante la construcción del nuevo edificio de la Escuela de Educación Secundaria Orientada N.º 1548 de Ricardone, impulsada por el Gobierno de Santa Fe mediante el programa Santa Fe + Conectada</p>",
@@ -96,7 +96,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Particular",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "España 543, Rosario, Santa Fe",
     "direccion": "España 543, Rosario, Santa Fe",
     "resumen": "<p>restauración y puesta en valor de un departamento ubicado en calle España 543</p>",
@@ -173,7 +173,7 @@ const OBRAS = [
     "estado": "obra",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Grupo Nasini y Mariano Schor",
-    "ubicacion": "Villa Gobernador Gálvez, Santa Fe",
+    "ubicacion": "Villa Gdor. Gálvez · Santa Fe",
     "mapa": "X98V+JHG Villa Gdor. Gálvez, Santa Fe",
     "direccion": "Villa Gobernador Gálvez, Santa Fe",
     "destacada": 1,
@@ -214,10 +214,6 @@ const OBRAS = [
       "src": "obras/nodo.mp4",
       "poster": "parque-industrial/poster.jpg"
     },
-    "coords": [
-      -33.033437,
-      -60.606047
-    ],
     "relacionadas": [
       "parque-regional-sur",
       "plaza-san-martin",
@@ -232,7 +228,7 @@ const OBRAS = [
     "estado": "terminado",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Municipalidad de Rosario.",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "Estévez Boero 740, S2000 Rosario, Santa Fe",
     "direccion": "Estévez Boero 740, Rosario, Santa Fe",
     "destacada": 4,
@@ -283,7 +279,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Fideicomiso.",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.95287073111514, -60.66111829884581",
     "direccion": "Rodríguez 1635, Rosario, Santa Fe",
     "resumen": "<p>El Edificio RDZ 1635 es un proyecto residencial desarrollado por Dyscon S.A., ubicado en un sector estratégico de Rosario, a pocos metros de avenida Pellegrini y bulevar Oroño, con proximidad al Parque Independencia.</p>",
@@ -327,7 +323,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Dirección Provincial de Vivienda y Urbanismo (DPVyU).",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.9817997363948, -60.62924684936593",
     "direccion": "Rosario, Santa Fe",
     "resumen": "<p>El barrio La Tablada, en la zona sur de Rosario, tendrá un nuevo conjunto habitacional de 64 viviendas, financiado por la provincia de Santa Fe.</p>",
@@ -362,7 +358,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Unidad Ejecutora de Infraestructura.",
-    "ubicacion": "Piñero, Santa Fe",
+    "ubicacion": "Piñero · Santa Fe",
     "mapa": "W633+3G Piñero, Santa Fe",
     "direccion": "Ruta A012 y 14",
     "destacada": 2,
@@ -432,9 +428,9 @@ const OBRAS = [
       -60.796188
     ],
     "relacionadas": [
+      "unidad-penitenciaria-15",
       "barrio-mortelari-1",
-      "casa-m",
-      "unidad-penitenciaria-15"
+      "casa-m"
     ]
   },
   {
@@ -444,7 +440,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "obra",
     "comitente": "Ministerio de Espacio Público porteño y Subterráneos de Buenos Aires (SBASE)",
-    "ubicacion": "CABA, Buenos Aires",
+    "ubicacion": "CABA · Buenos Aires",
     "mapa": "-34.62672211727268, -58.399535530640875",
     "direccion": "Constitución 2498, Cdad. Autónoma de Buenos Aires",
     "resumen": "<p>El proyecto contempla la renovación de 13.550 m², incluyendo la plaza y las veredas de toda la manzana, con mejoras en accesibilidad, iluminación y seguridad. El nuevo espacio contará con sectores verdes, juegos infantiles, cancha deportiva, área de calistenia y un espacio cultural semicubierto.</p>",
@@ -481,7 +477,7 @@ const OBRAS = [
     "estado": "obra",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Ministerio de Obras Públicas y la Dirección Provincial de Arquitectura e Ingeniería (DIPAI)",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-33.00470218365296, -60.628972348056905",
     "direccion": "Láinez 1-48, Rosario, Santa Fe",
     "resumen": "<p>La <strong>Intervención Integral del Parque Regional Sur</strong> en Rosario es una obra de remodelación, Las tareas abarcan <strong>40 hectáreas</strong> del predio</p>",
@@ -500,9 +496,9 @@ const OBRAS = [
       -60.628972
     ],
     "relacionadas": [
-      "pvplazasdistritales",
       "plaza-san-martin",
-      "plazas-de-la-cercania-2025"
+      "plazas-de-la-cercania-2025",
+      "pvplazasdistritales"
     ]
   },
   {
@@ -512,7 +508,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "el Gobierno de Santa Fe, la Municipalidad de Rosario y la Universidad Nacional de Rosario (UNR)",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.9663568433821, -60.62559512621197",
     "direccion": "Riobamba 242, Rosario, Santa Fe",
     "resumen": "<p>En el marco del proyecto de transformación urbana de la Ciudad Universitaria de Rosario, se desarrolló el conjunto habitacional de <strong>69 viviendas</strong> en el barrio República de la Sexta, en el sector de las calles Esmeralda, Riobamba y La Paz.</p>",
@@ -596,8 +592,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-primaria-1408",
-      "plaza-san-martin",
-      "oda-2025"
+      "pvplazasdistritales",
+      "escuela-de-educacion-secundaria-zona-cero"
     ]
   },
   {
@@ -683,7 +679,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Educación.",
-    "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
+    "ubicacion": "Villa Gdor. Gálvez · Santa Fe",
     "mapa": "X9JQ+CP2 Villa Gdor. Gálvez, Santa Fe",
     "direccion": "Av. San Diego 329-399, VGG, Santa Fe",
     "resumen": "<p>La institución cuenta ahora con <strong>2.079 metros cuadrados de superficie nueva</strong>, pensados para ampliar su capacidad y mejorar la experiencia de estudiantes y docentes. </p>",
@@ -696,10 +692,6 @@ const OBRAS = [
     ],
     "fotos": [
       "eetp-485/eetp485.jpg"
-    ],
-    "coords": [
-      -33.018988,
-      -60.610734
     ],
     "relacionadas": [
       "escuela-608",
@@ -714,7 +706,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Estado Nacional",
-    "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
+    "ubicacion": "Villa Gdor. Gálvez · Santa Fe",
     "mapa": "-33.038023142288964, -60.616798401153645",
     "direccion": "Pje. Uboldi 630, Villa Gdor. Gálvez, Santa Fe",
     "resumen": "<p>El edificio de la Escuela Secundaria Orientada N.º 608 “La Esperanza”, ubicado en Villa Gobernador Gálvez, cuenta con una superficie cubierta de <strong>1.670 m²</strong> y fue diseñado para ofrecer espacios adecuados para las actividades educativas, administrativas y recreativas de la comunidad escolar.</p>",
@@ -771,9 +763,9 @@ const OBRAS = [
       -60.730541
     ],
     "relacionadas": [
-      "entubamiento-y-darsena-escuela-primaria-n1397",
-      "escuela-secundaria-modelo-postpandemia-en-roldan",
-      "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena"
+      "escuela-de-educacion-secundaria-zona-cero",
+      "escuela-eet-n-346",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
     ]
   },
   {
@@ -807,8 +799,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "plazas-de-la-cercania-2025",
-      "parque-industrial",
-      "parque-regional-sur"
+      "parque-regional-sur",
+      "pvplazasdistritales"
     ]
   },
   {
@@ -818,7 +810,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Nación, Provincia de Santa Fe y Municipalidad de V.G.G.",
-    "ubicacion": "Villa Gobernador Gálvez · Santa Fe",
+    "ubicacion": "Villa Gdor. Gálvez · Santa Fe",
     "mapa": "-33.04029450854612, -60.62849816950204",
     "direccion": "Mortelari I, Villa Gobernador Gálvez, Santa Fe",
     "resumen": "<p>El barrio Mortelari I, ubicado en Villa Gobernador Gálvez, fue objeto de un proyecto de mejoramiento urbano que contempló la renovación de infraestructura y servicios esenciales, junto con la recuperación de espacios públicos.</p>",
@@ -857,7 +849,7 @@ const OBRAS = [
     "estado": "terminado",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Municipalidad de Rosario.",
-    "ubicacion": "Rosario, Santa Fe.",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.92358017563398, -60.695954530438286",
     "direccion": "Plaza J. Wesley, Rosario, Santa Fe",
     "resumen": "<p>Ejecución de obras de renovación y puesta en valor de plazas de cercanía seleccionadas mediante el Presupuesto Participativo 2025.</p>",
@@ -926,9 +918,9 @@ const OBRAS = [
       }
     ],
     "relacionadas": [
-      "plazas-de-la-cercania",
-      "parque-industrial",
-      "parque-regional-sur"
+      "parque-regional-sur",
+      "plaza-san-martin",
+      "pvplazasdistritales"
     ]
   },
   {
@@ -938,7 +930,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Municipalidad de Rosario.",
-    "ubicacion": "Rosario, Santa Fe",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.93930883194244, -60.67587526713395",
     "direccion": "Plaza Mariano Moreno, Rosario, Santa Fe",
     "resumen": "Renovación integral de dos espacios públicos emblemáticos de Rosario, orientada a mejorar su accesibilidad, funcionalidad y calidad urbana. Los trabajos contemplaron la ejecución de veredas y rampas, pintura, incorporación de juegos y equipamiento urbano, parquización y forestación, junto con mejoras en la infraestructura existente.",
@@ -973,8 +965,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "parque-regional-sur",
-      "plazas-de-la-cercania",
-      "plaza-san-cristobal"
+      "plaza-san-martin",
+      "plazas-de-la-cercania-2025"
     ]
   },
   {
@@ -985,7 +977,7 @@ const OBRAS = [
     "estado": "obra",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Municipalidad de Rosario.",
-    "ubicacion": "Rosario · Santa Fe.",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "Buenos Aires 711, S2000CEB Rosario, Santa Fe",
     "direccion": "Buenos Aires 711, Rosario, Santa Fe",
     "resumen": "Ejecución de obras de arquitectura y mantenimiento de infraestructura urbana para la Municipalidad de Rosario. El proyecto contempla intervenciones en veredas, plazas y edificios municipales, incluyendo trabajos de remodelación en el Palacio de los Leones. Dyscon y Del Sol",
@@ -1019,9 +1011,9 @@ const OBRAS = [
       -60.632202
     ],
     "relacionadas": [
-      "plaza-san-martin",
-      "monumento-bandera",
-      "escuela-primaria-1408"
+      "tecnoteca",
+      "parque-regional-sur",
+      "plaza-san-martin"
     ]
   },
   {
@@ -1098,9 +1090,9 @@ const OBRAS = [
       -60.641949
     ],
     "relacionadas": [
-      "plazas-de-la-cercania-2025",
       "plaza-san-cristobal",
-      "pvplazasdistritales"
+      "pvplazasdistritales",
+      "parque-industrial"
     ]
   },
   {
@@ -1247,7 +1239,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Infraestructura, Servicios Públicos y Hábitat.",
-    "ubicacion": "Ibarlucea, Santa Fe.",
+    "ubicacion": "Ibarlucea · Santa Fe",
     "mapa": "-32.851997574888536, -60.78719945732579",
     "direccion": "Corrientes 141, Ibarlucea, Santa Fe",
     "resumen": "Construcción de un nuevo centro de atención sanitaria de aproximadamente 595 m², desarrollado en planta baja. El edificio cuenta con consultorios, sala de observación y aislamiento, shockroom, áreas de circulación diferenciadas y espacios de apoyo para el personal médico. El proyecto incorpora soluciones sustentables, como ventilación cruzada, iluminación LED y sistemas de aprovechamiento de energía solar, con el objetivo de mejorar la eficiencia energética y las condiciones de atención de la comunidad.",
@@ -1281,7 +1273,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Educación e Innovación.",
-    "ubicacion": "Villa Lugano, Cdad. Autónoma de Buenos Aires",
+    "ubicacion": "Villa Lugano · CABA",
     "mapa": "-34.67509619290977, -58.4924761610768",
     "direccion": "Zuviría 6550, Cdad. Autónoma de Buenos Aires",
     "resumen": "Construcción de un nuevo edificio destinado a la Escuela Primaria de Creación del Polo Educativo Piedrabuena, en Villa Lugano. El proyecto comprendió una superficie cubierta de 3.445 m², diseñada para albergar aproximadamente 420 alumnos, incorporando espacios educativos y dependencias destinadas al desarrollo de actividades pedagógicas. La obra formó parte de un plan de ampliación de la infraestructura educativa de la Ciudad de Buenos Aires.",
@@ -1318,7 +1310,7 @@ const OBRAS = [
     "estado": "terminado",
     "con": "<b>Del Sol</b> - Empresa Constructora",
     "comitente": "Gobierno de Santa Fe",
-    "ubicacion": "San Lorenzo, Santa Fe.",
+    "ubicacion": "San Lorenzo · Santa Fe.",
     "mapa": "-32.748960661133516, -60.729970826094316",
     "direccion": "Riccheri 347, San Lorenzo, Santa Fe",
     "resumen": "Ampliación y refuncionalización del Hospital Granaderos a Caballo de San Lorenzo, mediante la construcción de nuevos espacios destinados a consultorios externos, administración e internación. El proyecto incluyó la ejecución de instalaciones sanitarias y eléctricas, un nuevo acceso público, mejoras en la infraestructura existente y la puesta en valor de los espacios exteriores y áreas verdes del establecimiento.",
@@ -1359,7 +1351,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Obras Públicas - UEPA.",
-    "ubicacion": "Rosario, Santa Fe.",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.880359630684204, -60.72269680485515",
     "direccion": "Oncativo 2793, Rosario, Santa Fe",
     "resumen": "La construcción de la Escuela Secundaria N.º 539 José Antonio Balseiro formó parte del desarrollo educativo del barrio Zona Cero, actualmente denominado Roberto Fontanarrosa. El proyecto contempló un edificio de aproximadamente 2.000 m² cubiertos, organizado mediante módulos de aulas vinculados a patios exteriores. Incluyó cinco aulas, biblioteca, sala multimedia, laboratorio, taller multipropósito, salón de usos múltiples y cantina. La propuesta priorizó la iluminación natural, la amplitud de los espacios y la integración de la institución con la comunidad barrial. El edificio fue inaugurado en abril de 2019.",
@@ -1385,7 +1377,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-eet-n-346",
       "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
-      "escuela-ricardone"
+      "escuela-primaria-1408"
     ]
   },
   {
@@ -1395,7 +1387,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
-    "ubicacion": "Rosario, Santa Fe.",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.968002406453586, -60.72505067329241",
     "direccion": "Deán Funes 7770, Rosario, Santa Fe",
     "resumen": "Ampliación del edificio de la Escuela de Educación Técnico Profesional N.º 346, mediante la construcción de nuevos espacios destinados a la formación técnica. El proyecto comprendió talleres de tornería y ajuste, carpintería, electricidad, herrería y soldadura, además de galerías, ascensor y un acceso secundario, distribuidos en dos plantas.",
@@ -1417,8 +1409,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
-      "escuela-de-educacion-secundaria-zona-cero",
-      "escuela-ricardone"
+      "escuela-primaria-1408",
+      "escuela-de-educacion-secundaria-zona-cero"
     ]
   },
   {
@@ -1428,7 +1420,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Educación de la Provincia de Santa Fe. P.I.E.",
-    "ubicacion": "Rosario, Santa Fe.",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "Juan Casacuberta 8982, S2000 Rosario, Santa Fe",
     "direccion": "Juan Casacuberta 8982, Rosario, Santa Fe",
     "resumen": "Ejecución de trabajos de refacción y acondicionamiento de la infraestructura escolar, incluyendo mejoras en galerías, adecuación de instalaciones eléctricas, ampliación de la red de gas y provisión de equipamiento para climatización, contribuyendo al mejoramiento de las condiciones edilicias y funcionales del establecimiento.",
@@ -1450,9 +1442,9 @@ const OBRAS = [
       -60.758897
     ],
     "relacionadas": [
+      "escuela-primaria-1408",
       "escuela-de-educacion-secundaria-zona-cero",
-      "escuela-eet-n-346",
-      "escuela-ricardone"
+      "escuela-eet-n-346"
     ]
   }
 ];
