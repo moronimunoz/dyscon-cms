@@ -5,8 +5,9 @@
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "SUBTE - Buenos Aires Ciudad",
-  "ubicacion": "CABA",
+  "comitente": "Subterráneos de Buenos Aires S.E. (SBASE)",
+  "ubicacion": "CABA · Buenos Aires",
+  "direccion": "Estación Facultad de Derecho, Línea H, CABA, Buenos Aires",
   "plazo": "Junio, 2018 - Agosto, 2019.",
   "fotos": [
     "provisorio/prov-front.png"
