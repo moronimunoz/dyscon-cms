@@ -1,14 +1,22 @@
 {
   "publicada": false,
   "orden": 670,
-  "nombre": "D.P.V. y U. - 14 Viviendas - Carcarañá",
+  "nombre": "Construcción de 14 viviendas",
   "categoria": "Viviendas",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "Dirección Provincial de Vivienda y Urbanismo - Santa Fe.",
-  "ubicacion": "Carcarañá, Santa Fe.",
+  "comitente": "Gobierno de Santa Fe – DPVyU",
+  "ubicacion": "Carcarañá · Santa Fe",
+  "mapa": "-32.851669011408376, -61.14755736471429",
+  "direccion": "Bermejo y Rivadavia, Carcarañá",
   "plazo": "Abril, 2016 - Diciembre, 2017.",
+  "resumen": "DYSCON SA llevó adelante la construcción de un conjunto habitacional de 14 viviendas unifamiliares en la ciudad de Carcarañá, provincia de Santa Fe, en el marco del Programa Habitacional Docente impulsado por el Gobierno provincial a través de la Dirección Provincial de Vivienda y Urbanismo",
+  "descripcion": [
+    "<h3>Construcción de 14 Viviendas – Carcarañá</h3><p><strong>Carcarañá, Santa Fe | 2015–2017</strong></p><p>DYSCON S.A. llevó adelante la construcción de un conjunto habitacional de 14 viviendas unifamiliares en la ciudad de Carcarañá, provincia de Santa Fe, en el marco del Programa Habitacional Docente impulsado por el Gobierno provincial a través de la Dirección Provincial de Vivienda y Urbanismo.</p><p>El proyecto comprendió la ejecución de viviendas de dos dormitorios, equipadas con cocina-comedor, baño, patio e instalaciones de servicios básicos, destinadas principalmente a facilitar el acceso a la vivienda propia de trabajadores de la educación.</p><p>La obra contribuyó al desarrollo habitacional del barrio General San Martín, proporcionando nuevas soluciones de vivienda e infraestructura para las familias beneficiarias.</p>"
+  ],
+  "miniatura": "/img/obras/mwf5zgvz-dmoohxnx.jpeg",
+  "portada": "/img/obras/mwf5ze96-z28id324.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwf5zbnm-vruw10zc.jpeg"
   ]
 }
