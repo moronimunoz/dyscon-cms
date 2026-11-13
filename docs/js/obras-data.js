@@ -466,7 +466,7 @@ const OBRAS = [
     "relacionadas": [
       "pvplazasdistritales",
       "plazas-de-la-cercania",
-      "parque-regional-sur"
+      "plaza-grupo-a-plaza-de-la-infancia-y-plaza-lopez"
     ]
   },
   {
@@ -1090,9 +1090,9 @@ const OBRAS = [
       -60.641949
     ],
     "relacionadas": [
+      "plaza-grupo-a-plaza-de-la-infancia-y-plaza-lopez",
       "plaza-san-cristobal",
-      "pvplazasdistritales",
-      "parque-industrial"
+      "pvplazasdistritales"
     ]
   },
   {
@@ -1144,6 +1144,57 @@ const OBRAS = [
       "nuevo-samco-ibarlucea",
       "pami-ituzaingo",
       "samco-pavon-arriba"
+    ]
+  },
+  {
+    "id": "plaza-grupo-a-plaza-de-la-infancia-y-plaza-lopez",
+    "nombre": "Puesta en valor de Plaza López y Plaza de la Infancia",
+    "categoria": "Espacio Público",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ente Autárquico SUMAR – Municipalidad de Rosario",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "Av. Carlos Pellegrini 700, Rosario, Santa Fe",
+    "direccion": "-32.95899718774275, -60.6364353357832",
+    "resumen": "Puesta en valor de Plaza López y Plaza de la Infancia",
+    "descripcion": [
+      "DYSCON S.A. participó en la ejecución de las obras de renovación integral de Plaza López y Plaza de la Infancia, en el marco del programa municipal de puesta en valor de siete espacios públicos de Rosario.",
+      "Los trabajos comprendieron mejoras de infraestructura, renovación de veredas y senderos, incorporación de equipamiento urbano, iluminación, espacios verdes y sectores recreativos, contribuyendo a recuperar estos espacios de encuentro y recreación para la comunidad."
+    ],
+    "datos": [
+      "Superficie: 8.000 m².",
+      "Plazo: Septiembre, 2022 - Mayo, 2023."
+    ],
+    "miniatura": "mwf4iyp6-zm47mrq6.jpeg",
+    "portada": "mwf4jcir-i7213uzy.jpeg",
+    "fotos": [
+      "mwf4hwxl-qwzybufj.jpeg",
+      "mwf4i05e-969xg4is.jpeg",
+      "mwf4i2fk-xkf4p2vi.jpeg",
+      "mwf4i4ue-jxguy8kq.jpeg",
+      "mwf4i7d1-54unaw6t.jpeg",
+      "mwf4iadf-n9yo6r1o.jpeg",
+      "mwf4id3v-03w0yofl.jpeg",
+      "mwf4ifjz-stzfj38n.jpeg",
+      "mwf4ija3-bcq9pvdd.jpeg"
+    ],
+    "coords": [
+      -32.95818,
+      -60.635296
+    ],
+    "puntos_extra": [
+      {
+        "coords": [
+          -32.95882,
+          -60.690874
+        ],
+        "nombre": "Plaza de la Infancia"
+      }
+    ],
+    "relacionadas": [
+      "plazas-de-la-cercania",
+      "plaza-san-cristobal",
+      "pvplazasdistritales"
     ]
   },
   {
