@@ -1154,8 +1154,8 @@ const OBRAS = [
     "estado": "terminado",
     "comitente": "Ente Autárquico SUMAR – Municipalidad de Rosario",
     "ubicacion": "Rosario · Santa Fe",
-    "mapa": "Av. Carlos Pellegrini 700, Rosario, Santa Fe",
-    "direccion": "-32.95899718774275, -60.6364353357832",
+    "mapa": "-32.95899718774275, -60.6364353357832",
+    "direccion": "Av. Carlos Pellegrini 700, Rosario, Santa Fe",
     "resumen": "Puesta en valor de Plaza López y Plaza de la Infancia",
     "descripcion": [
       "DYSCON S.A. participó en la ejecución de las obras de renovación integral de Plaza López y Plaza de la Infancia, en el marco del programa municipal de puesta en valor de siete espacios públicos de Rosario.",
@@ -1179,8 +1179,8 @@ const OBRAS = [
       "mwf4ija3-bcq9pvdd.jpeg"
     ],
     "coords": [
-      -32.95818,
-      -60.635296
+      -32.958997,
+      -60.636435
     ],
     "puntos_extra": [
       {
