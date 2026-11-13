@@ -1,15 +1,37 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 350,
-  "nombre": "Plaza Grupo “A” - Plaza de la Infancia y Plaza López",
+  "nombre": "Puesta en valor de Plaza López y Plaza de la Infancia",
   "categoria": "Espacio Público",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "Ente Autarquico Munícipal de la Municipalidad de Rosario - SUMAR.",
+  "comitente": "Ente Autárquico SUMAR – Municipalidad de Rosario",
   "ubicacion": "Rosario, Santa Fe.",
+  "mapa": "Av. Carlos Pellegrini 700, Rosario, Santa Fe",
+  "direccion": "-32.95899718774275, -60.6364353357832",
+  "ubicaciones_extra": [
+    {
+      "nombre": "Plaza de la Infancia",
+      "mapa": "-32.9588196367147, -60.69087410187244"
+    }
+  ],
   "superficie": "8.000 m².",
   "plazo": "Septiembre, 2022 - Mayo, 2023.",
+  "resumen": "Puesta en valor de Plaza López y Plaza de la Infancia",
+  "descripcion": [
+    "<p>DYSCON S.A. participó en la ejecución de las obras de renovación integral de Plaza López y Plaza de la Infancia, en el marco del programa municipal de puesta en valor de siete espacios públicos de Rosario.</p><p>Los trabajos comprendieron mejoras de infraestructura, renovación de veredas y senderos, incorporación de equipamiento urbano, iluminación, espacios verdes y sectores recreativos, contribuyendo a recuperar estos espacios de encuentro y recreación para la comunidad.</p>"
+  ],
+  "miniatura": "/img/obras/mwf4iyp6-zm47mrq6.jpeg",
+  "portada": "/img/obras/mwf4jcir-i7213uzy.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwf4hwxl-qwzybufj.jpeg",
+    "/img/obras/mwf4i05e-969xg4is.jpeg",
+    "/img/obras/mwf4i2fk-xkf4p2vi.jpeg",
+    "/img/obras/mwf4i4ue-jxguy8kq.jpeg",
+    "/img/obras/mwf4i7d1-54unaw6t.jpeg",
+    "/img/obras/mwf4iadf-n9yo6r1o.jpeg",
+    "/img/obras/mwf4id3v-03w0yofl.jpeg",
+    "/img/obras/mwf4ifjz-stzfj38n.jpeg",
+    "/img/obras/mwf4ija3-bcq9pvdd.jpeg"
   ]
 }
