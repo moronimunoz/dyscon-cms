@@ -31,14 +31,30 @@ main section[hidden] {
   height: 100%;
 }
 
-/* Panel de la derecha: logos de quienes desarrollan el proyecto */
+/* Panel de la derecha: rótulo "Lo desarrollan" + logos de quienes desarrollan el proyecto (sin caja, logos grandes) */
 .datos--logos {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  margin: 0;
+  padding: 2.4rem 2.4rem 2.4rem 1rem;
+  background: transparent;
+  border-radius: 0;
+}
+
+.datos--logos .rotulo {
+  margin-bottom: 1.4rem;
+}
+
+.logos-lista {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 2.2rem;
-  padding: 2.4rem 1.6rem;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -55,9 +71,9 @@ main section[hidden] {
 
 .datos--logos img {
   display: block;
-  width: min(100%, 260px);
+  width: min(100%, 190px);
   height: auto;
-  max-height: 96px;
+  max-height: 110px;
   object-fit: contain;
 }
 
@@ -71,15 +87,20 @@ main section[hidden] {
 /* Tablet y celular: el panel pasa abajo y los logos quedan en fila */
 @media (max-width: 1100px) {
   .datos--logos {
+    margin: 0 5% 2rem;
+    padding: 1.8rem 0;
+  }
+
+  .logos-lista {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 1.6rem 2.6rem;
-    padding: 1.8rem 1.6rem;
   }
 
   .datos--logos img {
-    width: min(100%, 220px);
-    max-height: 80px;
+    width: min(100%, 200px);
+    max-height: 90px;
   }
 }
 

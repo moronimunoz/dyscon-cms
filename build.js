@@ -110,9 +110,12 @@ function htmlProyecto(p) {
           </svg></a>` : ''}
       </div>
 ${logos.length ? `
-      <ul class="datos datos--logos reveal" aria-label="Quiénes lo desarrollan">
-        ${logos.join('\n        ')}
-      </ul>
+      <div class="datos datos--logos reveal">
+        <p class="rotulo">Lo desarrollan</p>
+        <ul class="logos-lista">
+          ${logos.join('\n          ')}
+        </ul>
+      </div>
 ` : ''}    </section>
     `;
 }
