@@ -593,7 +593,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-primaria-1408",
       "pvplazasdistritales",
-      "escuela-de-educacion-secundaria-zona-cero"
+      "plaza-grupo-a-plaza-de-la-infancia-y-plaza-lopez"
     ]
   },
   {
@@ -964,9 +964,9 @@ const OBRAS = [
       }
     ],
     "relacionadas": [
+      "plaza-grupo-a-plaza-de-la-infancia-y-plaza-lopez",
       "parque-regional-sur",
-      "plaza-san-martin",
-      "plazas-de-la-cercania-2025"
+      "plaza-san-martin"
     ]
   },
   {
@@ -1153,7 +1153,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ente Autárquico SUMAR – Municipalidad de Rosario",
-    "ubicacion": "Rosario, Santa Fe.",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "Av. Carlos Pellegrini 700, Rosario, Santa Fe",
     "direccion": "-32.95899718774275, -60.6364353357832",
     "resumen": "Puesta en valor de Plaza López y Plaza de la Infancia",
@@ -1192,9 +1192,9 @@ const OBRAS = [
       }
     ],
     "relacionadas": [
-      "plazas-de-la-cercania",
-      "plaza-san-cristobal",
-      "pvplazasdistritales"
+      "pvplazasdistritales",
+      "parque-regional-sur",
+      "plaza-san-martin"
     ]
   },
   {
@@ -1235,9 +1235,9 @@ const OBRAS = [
       -60.783765
     ],
     "relacionadas": [
+      "construccion-de-locales-comerciales-en-estacion-facultad-de-derecho",
       "samco-funes",
-      "entubamiento-y-darsena-escuela-primaria-n1397",
-      "escuela-secundaria-modelo-postpandemia-en-roldan"
+      "entubamiento-y-darsena-escuela-primaria-n1397"
     ]
   },
   {
@@ -1393,6 +1393,45 @@ const OBRAS = [
       "pami-ituzaingo",
       "samco-pavon-arriba",
       "samco-funes"
+    ]
+  },
+  {
+    "id": "construccion-de-locales-comerciales-en-estacion-facultad-de-derecho",
+    "nombre": "Construcción de Locales Comerciales en Estación Facultad de Derecho – Línea H",
+    "categoria": "Infraestructura",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Subterráneos de Buenos Aires S.E. (SBASE)",
+    "ubicacion": "CABA · Buenos Aires",
+    "mapa": "-34.582768827000244, -58.392048336120574",
+    "direccion": "Estación Facultad de Derecho – Línea H, Av. Figueroa Alcorta 2263, Recoleta, CABA",
+    "resumen": "la empresa constructora DYSCON SA ejecutó la construcción de locales comerciales en la estación Facultad de Derecho de la Línea H del Subte de Buenos Aires, por encargo de Subterráneos de Buenos Aires S.E. la SBASE",
+    "descripcion": [
+      "<h3>Construcción de Locales Comerciales – Estación Facultad de Derecho, Línea H</h3><p><strong>Ciudad Autónoma de Buenos Aires | 2018</strong></p><p>DYSCON S.A. ejecutó la construcción de locales comerciales en la estación Facultad de Derecho de la Línea H del Subte de Buenos Aires, por encargo de Subterráneos de Buenos Aires S.E. (SBASE).</p><p>El proyecto comprendió la construcción de nueve espacios comerciales distribuidos entre el nivel de acceso y plaza seca y el nivel de andenes, alcanzando una superficie comercial documentada de 637,47 m².</p><p>La intervención incluyó trabajos de obra civil, arquitectura, instalaciones y acondicionamiento de espacios, incorporando nuevas áreas destinadas a actividades comerciales dentro de la infraestructura de transporte público.</p>"
+    ],
+    "datos": [
+      "Superficie: 637,47 m²",
+      "Plazo: Junio, 2018 - Agosto, 2019."
+    ],
+    "miniatura": "mwf5d2fx-rzmuyt44.jpeg",
+    "portada": "mwf5ctp1-qpi3rm76.jpeg",
+    "fotos": [
+      "mwf5apl9-2y55g62c.jpeg",
+      "mwf5b9wd-3cb7gybw.jpeg",
+      "mwf5azby-t5zasj2u.jpeg",
+      "mwf5b25i-c5mj340c.jpeg",
+      "mwf5at8v-9hu25942.jpeg",
+      "mwf5ax0e-p9i8wob1.jpeg",
+      "mwf5b7f6-76r58hcg.jpeg"
+    ],
+    "coords": [
+      -34.582769,
+      -58.392048
+    ],
+    "relacionadas": [
+      "local-kt-design",
+      "plaza-san-cristobal",
+      "escuela-de-educacion-secundaria-zona-cero"
     ]
   },
   {
