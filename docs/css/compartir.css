@@ -7,7 +7,7 @@
 .obra-compartir {
   --sube: 4rem;
   /* cuánto se mete la barra de datos sobre la foto (igual que .obra-resumen) */
-  --aire: 34px;
+  --aire: 16px;
   /* separación entre el círculo y la barra de datos */
   position: relative;
   z-index: 6;
@@ -44,8 +44,8 @@
 
 
 .obra-compartir-boton .icon {
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
