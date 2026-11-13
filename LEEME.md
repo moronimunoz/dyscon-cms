@@ -1,7 +1,7 @@
 # Cómo funciona el sitio de DyScon (desde la integración con Pages CMS)
 
 **Contenido** (se edita desde el panel, https://app.pagescms.org):
-- `content/obras/*.json` · `content/novedades/*.json` · `content/empresa/cifras.json`
+- `content/obras/*.json` · `content/novedades/*.json` · `content/empresa/cifras.json` · `content/inicio/*.json` (orden de secciones y proyecto destacado)
 - Las fotos y videos que se suben van a `docs/img/obras/`, `docs/img/novedades/` y `docs/video/`.
 
 **Publicación automática:** al guardar en el panel (o subir una foto), GitHub corre el flujo "Generar páginas"
@@ -23,6 +23,13 @@ y las carpetas `docs/img/og/` (se pisan en cada corrida). Los datos de antes de 
 **Analítica.** Está apagada hasta que se complete `CONFIG.proveedor` en `docs/js/analitica.js` (Plausible, Umami o GA4). No mide en pruebas locales ni con "No rastrear". Registra llamadas, mails, WhatsApp, PDF, redes, formulario enviado, mapa y páginas 404.
 
 **Cifras y línea de tiempo del inicio.** Salen del panel: *Cifras de la empresa* (casilla "Mostrar en el inicio") y *Línea de tiempo (inicio)*. `build.js` reescribe lo que está entre las marcas `<!-- ...:inicio -->` y `<!-- ...:fin -->` de `docs/index.html`: no las borres.
+
+**Secciones del inicio (orden, Novedades destacadas y Proyecto destacado).** Desde el panel hay dos entradas nuevas:
+- *Inicio · Orden de las secciones*: se arrastran las secciones (Obras destacadas, Nosotros, Novedades destacadas y Proyecto destacado) para cambiar en qué posición aparecen en el inicio. Con la casilla *Mostrar en el inicio* desmarcada la sección se oculta sin borrarse. La franja oscura de trayectoria siempre queda al final.
+- *Inicio · Proyecto destacado*: rótulo, título, texto, foto de la izquierda, botón (texto, enlace y si abre en pestaña nueva) y hasta 4 logos para el panel de la derecha (se ven uno debajo del otro; sin logos el panel no se muestra). Tiene el mismo diseño que *Nosotros*. Las fotos y logos que se suban van a `docs/img/destacado/` y se optimizan solos como el resto.
+- *Novedades destacadas*: salen las 4 novedades más nuevas. Para elegir cuáles, completá *Posición en la portada* (1, 2, 3, 4) en las novedades que quieras: si hay alguna con número, la portada muestra solo esas, en ese orden.
+
+`build.js` arma esto en `docs/index.html` entre las marcas `<!-- SECCIONES:inicio -->`, `<!-- SECCION-...:inicio -->` y `<!-- PROYECTO:inicio -->`: no las borres. Como el resto de los cambios del panel, se ve en el sitio cuando se publica (Actions > *Generar páginas* > *Run workflow*).
 
 **Página 404.** `docs/404.html` calcula sola la raíz del sitio, así que sirve en github.io y en dysconsa.com.ar.
 

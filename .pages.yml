@@ -24,6 +24,12 @@ media:
     output: /img/novedades
     extensions: [jpg, jpeg, png]
     rename: random
+  - name: destacado
+    label: Imágenes del proyecto destacado (inicio)
+    input: docs/img/destacado
+    output: /img/destacado
+    extensions: [jpg, jpeg, png]
+    rename: random
   - name: videos
     label: Videos
     input: docs/video
@@ -239,6 +245,12 @@ content:
         type: boolean
         default: true
         description: "Si la desmarcás, queda guardada pero NO se ve en la página (borrador)."
+      - name: destacada
+        label: Posición en la portada
+        type: number
+        options:
+          min: 1
+        description: "Dejalo vacío para no elegir: la portada muestra las 4 novedades más nuevas. Si completás este número en alguna, la portada muestra solo las que tengan número: 1 = primera, 2 = segunda, etc. (hasta 4)."
       - name: titulo
         label: Título
         type: string
@@ -372,6 +384,106 @@ content:
             label: Qué pasó
             type: string
             required: true
+
+  # ===================== INICIO: ORDEN DE LAS SECCIONES =====================
+  - name: inicio_secciones
+    label: Inicio · Orden de las secciones
+    type: file
+    path: content/inicio/secciones.json
+    format: json
+    operations:
+      create: false
+      delete: false
+    fields:
+      - name: orden
+        label: Secciones del inicio
+        type: object
+        list:
+          min: 4
+          max: 4
+        description: "Arrastrá las secciones para cambiar el orden en que aparecen en la página de inicio: la de arriba de todo de esta lista se ve primera (debajo de las 4 categorías). Desmarcá \"Mostrar\" para ocultar una sección sin borrarla. La franja oscura de trayectoria siempre va al final. Cada sección debe aparecer una sola vez."
+        fields:
+          - name: seccion
+            label: Sección
+            type: select
+            required: true
+            options:
+              values:
+                - value: obras
+                  label: Obras destacadas
+                - value: nosotros
+                  label: Nosotros
+                - value: novedades
+                  label: Novedades destacadas
+                - value: proyecto
+                  label: Proyecto destacado
+          - name: mostrar
+            label: Mostrar en el inicio
+            type: boolean
+            default: true
+
+  # ===================== INICIO: PROYECTO DESTACADO =====================
+  - name: inicio_proyecto
+    label: Inicio · Proyecto destacado
+    type: file
+    path: content/inicio/proyecto-destacado.json
+    format: json
+    operations:
+      create: false
+      delete: false
+    fields:
+      - name: rotulo
+        label: Rótulo (texto chico arriba del título)
+        type: string
+        default: Proyecto destacado
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: texto
+        label: Texto
+        type: text
+        description: "Una línea en blanco separa un párrafo del siguiente."
+      - name: imagen
+        label: Foto de la izquierda
+        type: image
+        options:
+          media: destacado
+        description: "Se recorta para llenar el costado izquierdo, así que conviene una foto donde lo importante quede en el centro. Formato .jpg o .png, máximo 2 MB."
+      - name: imagen_alt
+        label: Descripción de la foto (para accesibilidad y Google)
+        type: string
+      - name: boton_texto
+        label: Texto del botón
+        type: string
+        description: "Ej: Conocé el proyecto. Si lo dejás vacío, no se muestra el botón."
+      - name: boton_enlace
+        label: Enlace del botón (y de la foto)
+        type: string
+        description: "Una dirección completa (https://...) o una página del sitio (ej: novedad-nace_nodo.html)."
+      - name: boton_nueva_pestana
+        label: Abrir el enlace en una pestaña nueva
+        type: boolean
+        default: true
+      - name: logos
+        label: Logos del panel de la derecha
+        type: object
+        list:
+          max: 4
+        description: "Se muestran en el panel de la derecha, uno debajo del otro. Mejor PNG con fondo transparente. Si no cargás ninguno, el panel no se muestra y el texto ocupa ese lugar."
+        fields:
+          - name: imagen
+            label: Logo
+            type: image
+            options:
+              media: destacado
+          - name: nombre
+            label: Nombre (para accesibilidad)
+            type: string
+            required: true
+          - name: enlace
+            label: Enlace (opcional)
+            type: string
 
 # ---------- Mensajes de los cambios en el historial de GitHub ----------
 # identity: app = NO se publica el email de cada empleado en el historial (el repositorio es público).

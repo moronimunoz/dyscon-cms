@@ -1,0 +1,90 @@
+/* =========================================================
+   INICIO: "Novedades destacadas" y "Proyecto destacado"
+   (el Proyecto destacado reutiliza el diseño de "Nosotros" de styles.css)
+   ========================================================= */
+
+/* Una sección que se oculta desde el panel ("Inicio · Orden de las secciones") queda en el HTML pero no se ve */
+main section[hidden] {
+  display: none !important;
+}
+
+/* ---------- Novedades destacadas ---------- */
+/* Hueco reservado mientras js/novedades-lista.js dibuja las tarjetas: así la página no salta cuando aparecen */
+#novedades-destacadas:has(> noscript:only-child) {
+  min-height: 280px;
+}
+
+@media (min-width: 1101px) {
+  .obras--novedades .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* ---------- Proyecto destacado ---------- */
+.nosotros--proyecto .nosotros-img {
+  min-height: 420px;
+}
+
+.nosotros--proyecto .nosotros-img a,
+.nosotros--proyecto .nosotros-img picture {
+  display: block;
+  height: 100%;
+}
+
+/* Panel de la derecha: logos de quienes desarrollan el proyecto */
+.datos--logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+  padding: 2.4rem 1.6rem;
+  list-style: none;
+}
+
+.datos--logos li,
+.datos--logos li+li {
+  display: block;
+  padding: 0;
+  border: 0;
+}
+
+.datos--logos a {
+  display: block;
+}
+
+.datos--logos img {
+  display: block;
+  width: min(100%, 260px);
+  height: auto;
+  max-height: 96px;
+  object-fit: contain;
+}
+
+/* Sin logos cargados, el texto ocupa el lugar del panel */
+@media (min-width: 1101px) {
+  .nosotros--sin-panel {
+    grid-template-columns: 1fr 1.6fr;
+  }
+}
+
+/* Tablet y celular: el panel pasa abajo y los logos quedan en fila */
+@media (max-width: 1100px) {
+  .datos--logos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem 2.6rem;
+    padding: 1.8rem 1.6rem;
+  }
+
+  .datos--logos img {
+    width: min(100%, 220px);
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 760px) {
+  .nosotros--proyecto .nosotros-img {
+    min-height: 260px;
+  }
+}

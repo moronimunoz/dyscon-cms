@@ -70,6 +70,7 @@ function novedadALegacy(j, id) {
   const n = { id, titulo: j.titulo, categoria: j.categoria, fecha: j.fecha, portada: sinPrefijo(j.portada, 'img/novedades'),
     resumen: j.resumen || '', texto: parrafos(j.texto), fotos: rutas(j.fotos, 'img/novedades') };
   const v = videosALegacy(j.videos, 'img/novedades'); if (v !== undefined) n.video = v;
+  if (j.destacada !== undefined && j.destacada !== null && j.destacada !== '' && j.destacada !== false) n.destacada = j.destacada;   // posición en el inicio
   return n;
 }
 
@@ -97,4 +98,23 @@ function cargarTrayectoria(file = path.join(RAIZ, 'content/empresa/trayectoria.j
     ? (leerJson(file).hitos || []).filter(h => h && Number.isFinite(h.anio) && h.texto).sort((a, b) => a.anio - b.anio) : [];
 }
 
-module.exports = { cargarObras, cargarNovedades, cargarCifras, cargarTrayectoria, videosALegacy, parrafos };
+// Sección "Proyecto destacado" del inicio (content/inicio/proyecto-destacado.json). Devuelve null si no existe el archivo.
+function cargarProyectoDestacado(file = path.join(RAIZ, 'content/inicio/proyecto-destacado.json')) {
+  if (!fs.existsSync(file)) return null;
+  const j = leerJson(file), texto = v => String(v == null ? '' : v).trim();
+  return {
+    rotulo: texto(j.rotulo), titulo: texto(j.titulo), texto: texto(j.texto),
+    imagen: texto(j.imagen), imagen_alt: texto(j.imagen_alt),
+    boton_texto: texto(j.boton_texto), boton_enlace: texto(j.boton_enlace), boton_nueva_pestana: j.boton_nueva_pestana !== false,
+    logos: (j.logos || []).filter(l => l && texto(l.imagen))
+      .map(l => ({ imagen: texto(l.imagen), nombre: texto(l.nombre), enlace: texto(l.enlace) }))
+  };
+}
+
+// Orden y visibilidad de las secciones del inicio (content/inicio/secciones.json): [{ seccion, mostrar }]. Devuelve null si no existe.
+function cargarSeccionesInicio(file = path.join(RAIZ, 'content/inicio/secciones.json')) {
+  return fs.existsSync(file)
+    ? (leerJson(file).orden || []).filter(s => s && s.seccion).map(s => ({ seccion: String(s.seccion), mostrar: s.mostrar !== false })) : null;
+}
+
+module.exports = { cargarObras, cargarNovedades, cargarCifras, cargarTrayectoria, cargarProyectoDestacado, cargarSeccionesInicio, videosALegacy, parrafos };

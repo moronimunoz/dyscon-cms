@@ -13,13 +13,15 @@
      cada una con su <title>, descripción, canonical, Open Graph (WhatsApp, LinkedIn, Facebook)
      y datos estructurados. El contenido sigue dibujándose con obra.js / novedad.js.
    - Calcula la ubicación de cada obra para el mapa (scripts/ubicaciones.js) y las obras relacionadas de cada ficha.
-   - Actualiza en docs/index.html las cifras, el rango de años y la línea de tiempo (content/empresa/).
+   - Actualiza en docs/index.html las cifras, el rango de años y la línea de tiempo (content/empresa/),
+     la sección "Proyecto destacado" (content/inicio/proyecto-destacado.json) y el orden de las
+     secciones del inicio (content/inicio/secciones.json).
    - Crea docs/sitemap.xml y docs/robots.txt.
    Los archivos generados empiezan con "obra-" y "novedad-": se borran y se rehacen en cada corrida.
    ========================================================= */
 const fs = require('fs');
 const path = require('path');
-const { cargarObras, cargarNovedades, cargarCifras, cargarTrayectoria } = require('./scripts/contenido');
+const { cargarObras, cargarNovedades, cargarCifras, cargarTrayectoria, cargarProyectoDestacado, cargarSeccionesInicio } = require('./scripts/contenido');
 const { resolverCoordenadas } = require('./scripts/ubicaciones');
 
 /* ---------- CONFIGURACIÓN ---------- */
@@ -60,6 +62,86 @@ function entreMarcas(html, nombre, contenido, archivo, avisos) {
   const re = new RegExp(`(<!--\\s*${nombre}:inicio\\s*-->)[\\s\\S]*?(<!--\\s*${nombre}:fin\\s*-->)`);
   if (!re.test(html)) { avisos.push(`${archivo} no tiene las marcas <!-- ${nombre}:inicio --> y <!-- ${nombre}:fin -->: no se actualizó esa parte.`); return html; }
   return html.replace(re, (m, a, b) => a + contenido + b);
+}
+
+// Solo se aceptan enlaces http(s), mailto:, tel: o rutas del propio sitio (nada de "javascript:")
+const enlaceSeguro = u => { const s = String(u || '').trim(); return !s || /^(https?:|mailto:|tel:)/i.test(s) || !/^[a-z][a-z0-9+.-]*:/i.test(s) ? s : ''; };
+// Ruta pública que escribe el panel ("/img/destacado/foto.jpg") -> ruta del sitio ("img/destacado/foto.jpg")
+const rutaSitio = r => String(r || '').trim().replace(/^\/+/, '');
+
+// Sección "Proyecto destacado": mismo marcado que "Nosotros" (foto a la izquierda, texto con botón y un panel a la derecha)
+function htmlProyecto(p) {
+  const existeArchivo = r => fs.existsSync(path.join(DOCS, r));
+  const parrafos = p.texto.split(/\n\s*\n/).map(t => t.trim()).filter(Boolean).map(t => `<p>${esc(t).replace(/\n/g, '<br>')}</p>`).join('\n        ');
+  const enlace = enlaceSeguro(p.boton_enlace);
+  const nueva = p.boton_nueva_pestana && /^https?:/i.test(enlace) ? ' target="_blank" rel="noopener noreferrer"' : '';
+
+  // Foto: si existen las versiones livianas (-sm / -lg) se usan; si no, la original
+  const foto = rutaSitio(p.imagen);
+  let img = '';
+  if (foto) {
+    const sm = foto.replace(/\.(jpe?g|png|webp)$/i, '-sm.webp'), lg = foto.replace(/\.(jpe?g|png|webp)$/i, '-lg.webp');
+    const etiqueta = `<img src="${esc(foto)}" alt="${esc(p.imagen_alt || p.titulo)}" loading="lazy" decoding="async">`;
+    img = (existeArchivo(sm) && existeArchivo(lg))
+      ? `<picture>\n          <source type="image/webp" srcset="${esc(sm)} 640w, ${esc(lg)} 1600w" sizes="100vw">\n          ${etiqueta}\n        </picture>`
+      : etiqueta;
+    // La foto también lleva al enlace, pero no se repite como parada del teclado ni del lector de pantalla
+    if (enlace) img = `<a href="${esc(enlace)}"${nueva} tabindex="-1" aria-hidden="true">\n          ${img}\n        </a>`;
+  }
+
+  const logos = p.logos.map(l => {
+    const tag = `<img src="${esc(rutaSitio(l.imagen))}" alt="${esc(l.nombre)}" loading="lazy" decoding="async">`;
+    const url = enlaceSeguro(l.enlace);
+    return `<li>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(l.nombre)}">${tag}</a>` : tag}</li>`;
+  });
+
+  return `
+    <section class="nosotros nosotros--proyecto${logos.length ? '' : ' nosotros--sin-panel'}" id="proyecto-destacado"${p.titulo ? ' aria-labelledby="proyecto-titulo"' : ''}>
+      <div class="nosotros-img">
+        ${img}
+      </div>
+
+      <div class="nosotros-texto reveal">
+        ${p.rotulo ? `<p class="rotulo">${esc(p.rotulo)}</p>` : ''}
+        ${p.titulo ? `<h2 id="proyecto-titulo">${esc(p.titulo)}</h2>` : ''}
+        ${parrafos}
+        ${enlace && p.boton_texto ? `<a href="${esc(enlace)}" class="btn btn--borde"${nueva} data-evento="Proyecto destacado: ${esc(p.titulo)}">${esc(p.boton_texto)} <svg class="icon">
+            <use href="#i-flecha" />
+          </svg></a>` : ''}
+      </div>
+${logos.length ? `
+      <ul class="datos datos--logos reveal" aria-label="Quiénes lo desarrollan">
+        ${logos.join('\n        ')}
+      </ul>
+` : ''}    </section>
+    `;
+}
+
+// Orden y visibilidad de las secciones del inicio. Cada sección está rodeada en index.html por
+// <!-- SECCION-nombre:inicio --> ... <!-- SECCION-nombre:fin -->, todas dentro de <!-- SECCIONES:inicio/fin -->.
+// config = [{ seccion, mostrar }] (content/inicio/secciones.json): el orden de la lista es el orden en la página.
+// Una sección con mostrar:false queda en el HTML pero oculta (atributo hidden), así no se pierde.
+function ordenarSecciones(html, config, archivo, avisos) {
+  const regionRe = /(<!--\s*SECCIONES:inicio\s*-->)([\s\S]*?)(<!--\s*SECCIONES:fin\s*-->)/;
+  const region = html.match(regionRe);
+  if (!region) { avisos.push(`${archivo} no tiene las marcas <!-- SECCIONES:inicio --> y <!-- SECCIONES:fin -->: no se ordenaron las secciones.`); return html; }
+
+  const bloques = new Map();
+  const bloqueRe = /<!--\s*SECCION-([a-z0-9]+):inicio\s*-->[\s\S]*?<!--\s*SECCION-\1:fin\s*-->/g;
+  let m; while ((m = bloqueRe.exec(region[2]))) bloques.set(m[1], m[0]);
+
+  const orden = [], mostrar = new Map();
+  config.forEach(s => {
+    if (!bloques.has(s.seccion)) { avisos.push(`secciones.json menciona "${s.seccion}", que no existe en el inicio. Se ignora.`); return; }
+    if (orden.includes(s.seccion)) return;                    // repetida: vale la primera
+    orden.push(s.seccion); mostrar.set(s.seccion, s.mostrar);
+  });
+  [...bloques.keys()].filter(k => !orden.includes(k)).forEach(k => { orden.push(k); mostrar.set(k, true); });   // las que falten, al final
+
+  const marcar = (bloque, oculta) => bloque.replace(/<section\b([^>]*)>/, (_, attrs) =>
+    `<section${attrs.replace(/\s+hidden(?:="[^"]*")?(?=\s|$)/g, '')}${oculta ? ' hidden' : ''}>`);
+  const contenido = orden.map(k => marcar(bloques.get(k), !mostrar.get(k))).join('\n\n    ');
+  return html.replace(regionRe, (_, a, __, z) => `${a}\n    ${contenido}\n\n    ${z}`);
 }
 
 // Foto para compartir: la versión de 1200 x 630 (img/og/..., la crea optimizar-imagenes.js) si existe; si no, la original
@@ -154,6 +236,15 @@ if (fs.existsSync(path.join(DOCS, 'index.html'))) {
     html = entreMarcas(html, 'RANGO', `${HITOS[0].anio} – ${HITOS[HITOS.length - 1].anio}`, 'index.html', avisos);
     html = entreMarcas(html, 'FUNDACION', String(HITOS[0].anio), 'index.html', avisos);
   }
+  // Proyecto destacado y orden de las secciones (panel: "Inicio · Proyecto destacado" e "Inicio · Orden de las secciones")
+  const PROYECTO = cargarProyectoDestacado();
+  if (PROYECTO) {
+    html = entreMarcas(html, 'PROYECTO', htmlProyecto(PROYECTO), 'index.html', avisos);
+    [PROYECTO.imagen, ...PROYECTO.logos.map(l => l.imagen)].filter(Boolean).map(rutaSitio)
+      .filter(r => !fs.existsSync(path.join(DOCS, r))).forEach(r => avisos.push(`El proyecto destacado usa una imagen que no existe: ${r}`));
+  }
+  const SECCIONES = cargarSeccionesInicio();
+  if (SECCIONES) html = ordenarSecciones(html, SECCIONES, 'index.html', avisos);
   fs.writeFileSync(path.join(DOCS, 'index.html'), html);
 }
 

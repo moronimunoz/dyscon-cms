@@ -1,0 +1,22 @@
+{
+  "rotulo": "Proyecto destacado",
+  "titulo": "NODO, ecosistema productivo",
+  "texto": "Un nuevo parque industrial en el cordón sur del Gran Rosario, pensado para la industria alimenticia y con infraestructura propia: planta potabilizadora, red cloacal, gas y capacidad eléctrica industrial. Lo desarrollan Grupo Nasini Inversiones y Mariano Schor, junto a DyScon S.A.",
+  "imagen": "/img/destacado/nodo.jpg",
+  "imagen_alt": "Vista aérea de NODO, ecosistema productivo",
+  "boton_texto": "Conocé el proyecto",
+  "boton_enlace": "https://www.econodoproductivo.com/",
+  "boton_nueva_pestana": true,
+  "logos": [
+    {
+      "imagen": "/img/destacado/logo-dyscon.png",
+      "nombre": "DyScon S.A.",
+      "enlace": ""
+    },
+    {
+      "imagen": "/img/destacado/logo-nasini.png",
+      "nombre": "Grupo Nasini",
+      "enlace": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "orden": [
+    {
+      "seccion": "obras",
+      "mostrar": true
+    },
+    {
+      "seccion": "nosotros",
+      "mostrar": true
+    },
+    {
+      "seccion": "novedades",
+      "mostrar": true
+    },
+    {
+      "seccion": "proyecto",
+      "mostrar": true
+    }
+  ]
+}

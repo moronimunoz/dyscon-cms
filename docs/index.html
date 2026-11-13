@@ -18,7 +18,7 @@
   <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/destacado.css">
+  <link rel="stylesheet" href="css/inicio.css?v=1">
 </head>
 
 <body>
@@ -158,6 +158,9 @@
       </a>
     </section>
 
+    <!-- SECCIONES DEL INICIO: el orden (y si se muestran) se cambia desde el panel, "Inicio · Orden de las secciones". No borres las marcas. -->
+    <!-- SECCIONES:inicio -->
+    <!-- SECCION-obras:inicio -->
     <!-- OBRAS DESTACADAS -->
     <section class="obras" id="obras">
       <div class="contenedor">
@@ -176,7 +179,9 @@
 
       </div>
     </section>
+    <!-- SECCION-obras:fin -->
 
+    <!-- SECCION-nosotros:inicio -->
     <!-- NOSOTROS -->
     <section class="nosotros" id="nosotros">
       <div class="nosotros-img">
@@ -206,29 +211,59 @@
           </svg><span><strong>Presencia en Santa Fe</strong> y otras jurisdicciones</span></li>
       </ul>
     </section>
+    <!-- SECCION-nosotros:fin -->
 
-    <!-- PROYECTO DESTACADO (NODO) -->
-    <section class="destacado" id="destacado" aria-labelledby="destacado-titulo">
-      <div class="destacado-contenedor reveal">
-        <h2 class="titulo" id="destacado-titulo">Proyecto Destacado</h2>
-
-        <a href="https://www.econodoproductivo.com/" class="destacado-banner" target="_blank" rel="noopener noreferrer"
-          data-evento="Proyecto destacado NODO"
-          aria-label="Conocer NODO, ecosistema productivo (se abre en una pestaña nueva)">
-          <picture>
-            <source type="image/webp"
-              srcset="img/destacado/nodo-sm.webp 640w, img/destacado/nodo-lg.webp 1920w" sizes="96vw">
-            <img src="img/destacado/nodo.jpg" alt="NODO, ecosistema productivo: vista aérea del proyecto"
-              width="1920" height="753" loading="lazy" decoding="async">
-          </picture>
-          <span class="destacado-flecha" aria-hidden="true">
-            <svg class="icon">
+    <!-- SECCION-novedades:inicio -->
+    <!-- NOVEDADES DESTACADAS (las tarjetas las dibuja js/novedades-lista.js desde novedades-data.js) -->
+    <section class="obras obras--novedades" id="novedades-inicio">
+      <div class="contenedor">
+        <div class="obras-cabecera">
+          <h2 class="titulo">Novedades destacadas</h2>
+          <a href="novedades.html" class="link-flecha">Ver todas las novedades <svg class="icon">
               <use href="#i-flecha" />
-            </svg>
-          </span>
-        </a>
+            </svg></a>
+        </div>
+
+        <div class="grid" id="novedades-destacadas">
+          <noscript>
+            <p><a href="novedades.html">Ver todas las novedades</a></p>
+          </noscript>
+        </div>
       </div>
     </section>
+    <!-- SECCION-novedades:fin -->
+
+    <!-- SECCION-proyecto:inicio -->
+    <!-- PROYECTO DESTACADO (mismo diseño que Nosotros). Lo genera build.js desde content/inicio/proyecto-destacado.json: se edita desde el panel -->
+    <!-- PROYECTO:inicio -->
+    <section class="nosotros nosotros--proyecto" id="proyecto-destacado" aria-labelledby="proyecto-titulo">
+      <div class="nosotros-img">
+        <a href="https://www.econodoproductivo.com/" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
+          <picture>
+          <source type="image/webp" srcset="img/destacado/nodo-sm.webp 640w, img/destacado/nodo-lg.webp 1600w" sizes="100vw">
+          <img src="img/destacado/nodo.jpg" alt="Vista aérea de NODO, ecosistema productivo" loading="lazy" decoding="async">
+        </picture>
+        </a>
+      </div>
+
+      <div class="nosotros-texto reveal">
+        <p class="rotulo">Proyecto destacado</p>
+        <h2 id="proyecto-titulo">NODO, ecosistema productivo</h2>
+        <p>Un nuevo parque industrial en el cordón sur del Gran Rosario, pensado para la industria alimenticia y con infraestructura propia: planta potabilizadora, red cloacal, gas y capacidad eléctrica industrial. Lo desarrollan Grupo Nasini Inversiones y Mariano Schor, junto a DyScon S.A.</p>
+        <a href="https://www.econodoproductivo.com/" class="btn btn--borde" target="_blank" rel="noopener noreferrer" data-evento="Proyecto destacado: NODO, ecosistema productivo">Conocé el proyecto <svg class="icon">
+            <use href="#i-flecha" />
+          </svg></a>
+      </div>
+
+      <ul class="datos datos--logos reveal" aria-label="Quiénes lo desarrollan">
+        <li><img src="img/destacado/logo-dyscon.png" alt="DyScon S.A." loading="lazy" decoding="async"></li>
+        <li><img src="img/destacado/logo-nasini.png" alt="Grupo Nasini" loading="lazy" decoding="async"></li>
+      </ul>
+    </section>
+    <!-- PROYECTO:fin -->
+    <!-- SECCION-proyecto:fin -->
+
+    <!-- SECCIONES:fin -->
 
     <!-- TRAYECTORIA + SERVICIOS (franja oscura) -->
     <section class="franja" id="trayectoria">
@@ -321,6 +356,8 @@
 
   <script src="js/obras-data.js"></script>
   <script src="js/obras-lista.js"></script>
+  <script src="js/novedades-data.js"></script>
+  <script src="js/novedades-lista.js"></script>
   <script src="js/main.js"></script>
   <script src="js/analitica.js" defer></script>
 </body>

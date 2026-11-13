@@ -12,7 +12,7 @@
       (ubicación GPS, modelo del celular...) o miden más de 2400 px, se enderezan, se achican
       a 2400 px como máximo y se les borran esos datos. El repositorio es público.
       Las fotos que ya estaban cargadas NO se tocan.
-   2) VERSIONES LIVIANAS de cada foto de docs/img/obras y docs/img/novedades:
+   2) VERSIONES LIVIANAS de cada foto de docs/img/obras, docs/img/novedades y docs/img/destacado (proyecto del inicio):
          foto-sm.webp          640 px de ancho   -> tarjetas y miniaturas
          foto-lg.webp          1600 px de ancho  -> foto ampliada y encabezados
          img/og/.../foto.jpg   1200 x 630        -> vista previa al compartir (solo portadas)
@@ -27,7 +27,7 @@ catch { console.error('Falta instalar sharp. Corré primero:  npm install'); pro
 const { cargarObras, cargarNovedades } = require('./scripts/contenido');
 
 const DOCS = path.join(__dirname, 'docs');
-const CARPETAS = ['img/obras', 'img/novedades'];
+const CARPETAS = ['img/obras', 'img/novedades', 'img/destacado'];
 const FORZAR = process.argv.includes('--forzar');
 const MAX_LADO = 2400;                                       // lado más largo de una foto nueva
 
