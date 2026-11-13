@@ -7,19 +7,23 @@
 .obra-compartir {
   --sube: 4rem;
   /* cuánto se mete la barra de datos sobre la foto (igual que .obra-resumen) */
+  --aire: 34px;
+  /* separación entre el círculo y la barra de datos */
   position: relative;
   z-index: 6;
+  display: flow-root;
+  /* evita que el margen negativo de la barra mueva esta fila */
   height: 0;
 }
 
 .obra-compartir--sin-barra {
-  --sube: -1.25rem;
+  --sube: 0px;
 }
 
 .obra-compartir-boton {
   position: absolute;
-  right: 0;
-  bottom: calc(var(--sube) + 14px);
+  right: 6px;
+  bottom: calc(var(--sube) + var(--aire));
   display: grid;
   place-items: center;
   width: 48px;
@@ -36,9 +40,12 @@
   transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
 }
 
+/* Ícono más grande, siempre centrado y quieto */
+
+
 .obra-compartir-boton .icon {
-  width: 22px;
-  height: 22px;
+  width: 28px;
+  height: 28px;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -50,8 +57,9 @@
 .obra-compartir-boton:focus-visible,
 .obra-compartir-boton[aria-expanded="true"] {
   background: #fff;
-  transform: scale(1.06);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, .24);
+  transform: translateY(-4px);
+  /* sube todo el círculo; el ícono no se mueve dentro de él */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .24);
 }
 
 .obra-compartir-boton:focus-visible {
@@ -63,7 +71,7 @@
 .obra-compartir-menu {
   position: absolute;
   right: 0;
-  bottom: calc(var(--sube) + 14px + 48px + 10px);
+  bottom: calc(var(--sube) + var(--aire) + 48px + 14px);
   /* arriba del botón */
   width: 250px;
   max-width: calc(100vw - 2rem);
@@ -83,7 +91,7 @@
 /* Si arriba no hay lugar (pantalla baja), se abre hacia abajo */
 .obra-compartir-menu--abajo {
   bottom: auto;
-  top: calc(-1 * var(--sube) - 4px);
+  top: calc(-1 * var(--sube) - var(--aire) + 14px);
 }
 
 .obra-compartir-titulo {
@@ -153,7 +161,7 @@
   }
 
   .obra-compartir--sin-barra {
-    --sube: -1.25rem;
+    --sube: 0px;
   }
 }
 
