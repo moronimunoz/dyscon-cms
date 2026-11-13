@@ -7,8 +7,8 @@
   "estado": "terminado",
   "comitente": "Ente Autárquico SUMAR – Municipalidad de Rosario",
   "ubicacion": "Rosario · Santa Fe",
-  "mapa": "Av. Carlos Pellegrini 700, Rosario, Santa Fe",
-  "direccion": "-32.95899718774275, -60.6364353357832",
+  "mapa": "-32.95899718774275, -60.6364353357832",
+  "direccion": "Av. Carlos Pellegrini 700, Rosario, Santa Fe",
   "ubicaciones_extra": [
     {
       "nombre": "Plaza de la Infancia",
