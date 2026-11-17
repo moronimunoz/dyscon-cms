@@ -1280,7 +1280,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
       "escuela-de-educacion-secundaria-zona-cero",
-      "jardin-maternal-comuna-de-angelica"
+      "jardin-maternal-comuna-de-ataliva"
     ]
   },
   {
@@ -1349,8 +1349,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-de-educacion-secundaria-zona-cero",
-      "jardin-maternal-comuna-de-angelica",
-      "escuela-eet-n-346"
+      "jardin-maternal-comuna-de-ataliva",
+      "jardin-maternal-comuna-de-acebal"
     ]
   },
   {
@@ -1468,6 +1468,78 @@ const OBRAS = [
       "escuela-eet-n-346",
       "e-e-t-n-465-estructura-de-hormigon-armado-visto",
       "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
+    ]
+  },
+  {
+    "id": "jardin-maternal-comuna-de-ataliva",
+    "nombre": "Jardín Maternal de la comuna de Ataliva",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Comuna de Ataliva",
+    "ubicacion": "Ataliva · Santa Fe",
+    "mapa": "-30.997795162641914, -61.43476609064494",
+    "direccion": "Dorrego & Lamadrid, Ataliva, Santa Fe",
+    "resumen": "El proyecto contempló la incorporación de un nuevo establecimiento destinado a la educación y el cuidado de la primera infancia, ampliando los espacios disponibles para las familias de la comunidad. El edificio fue concebido para desarrollar actividades de atención maternal, estimulación temprana y acompañamiento del desarrollo infantil",
+    "descripcion": [
+      "<strong>Construcción de Jardín Maternal «Adriana Antinori» – Ataliva</strong>",
+      "Ataliva, Santa Fe",
+      "El proyecto contempló la incorporación de un nuevo establecimiento destinado a la educación y el cuidado de la primera infancia, ampliando los espacios disponibles para las familias de la comunidad. El edificio fue concebido para desarrollar actividades de atención maternal, estimulación temprana y acompañamiento del desarrollo infantil.",
+      "La propuesta estructural incluyó el diseño y cálculo de fundaciones, estructuras de hormigón armado y cubierta metálica, aportando las soluciones técnicas necesarias para la conformación de una infraestructura educativa funcional y adecuada a su finalidad."
+    ],
+    "datos": [
+      "Superficie: 480 m².",
+      "Plazo: Junio, 2016 - Agosto, 2017."
+    ],
+    "miniatura": "mwku69sh-j61q1vob.jpg",
+    "portada": "mwku67c4-mi01705j.jpg",
+    "fotos": [
+      "mwku5z05-qzamqnes.jpg",
+      "mwku63ux-9ts0hoz5.jpg"
+    ],
+    "coords": [
+      -30.997795,
+      -61.434766
+    ],
+    "relacionadas": [
+      "jardin-maternal-comuna-de-acebal",
+      "jardin-maternal-comuna-de-angelica",
+      "escuela-eet-n-346"
+    ]
+  },
+  {
+    "id": "jardin-maternal-comuna-de-acebal",
+    "nombre": "Jardín Maternal de la comuna de Acebal",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Comuna de Acebal",
+    "ubicacion": "Acebal · Santa Fe",
+    "mapa": "-33.242367992017805, -60.838914389563534",
+    "direccion": "Acebal, dto Rosario, Santa Fe",
+    "descripcion": [
+      "<strong>Construcción de Jardín Maternal – Acebal</strong>",
+      "Acebal, Santa Fe",
+      "La obra formó parte de un programa de ampliación de la infraestructura educativa destinado a fortalecer la atención de la primera infancia en distintas localidades de la provincia de Santa Fe. El establecimiento fue concebido para brindar espacios adecuados para el cuidado, la estimulación temprana y el desarrollo de los niños.",
+      "El proyecto estructural contempló el diseño y cálculo de fundaciones, elementos de hormigón armado y estructura de cubierta metálica, proporcionando las condiciones técnicas necesarias para el desarrollo de un edificio destinado a la actividad educativa maternal."
+    ],
+    "datos": [
+      "Superficie: 690 m².",
+      "Plazo: Noviembre, 2015 - Marzo, 2017."
+    ],
+    "miniatura": "mwkrhlmn-yh18usrh.jpeg",
+    "portada": "mwkrhqrj-v2hoct1u.jpeg",
+    "fotos": [
+      "mwkrhxjb-n8c49ytd.jpeg"
+    ],
+    "coords": [
+      -33.242368,
+      -60.838914
+    ],
+    "relacionadas": [
+      "jardin-maternal-comuna-de-angelica",
+      "escuela-eet-n-346",
+      "e-e-m-n-128-rosario"
     ]
   },
   {
@@ -1609,14 +1681,14 @@ const OBRAS = [
   },
   {
     "id": "i-s-p-n-22-fray-luis-beltran",
-    "nombre": "Instituto Superior del Profesorado N.º 22 \"Maestro Addad\" de Fray Luis Beltrán",
+    "nombre": "Instituto Superior del Profesorado N.º 22 \"Maestro Addad\"",
     "categoria": "Educación",
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
-    "ubicacion": "Fray Luis Beltrán, Departamento San Lorenzo, Santa Fe.",
+    "ubicacion": "San Lorenzo · Santa Fe",
     "mapa": "-32.789000448250476, -60.723160792365405",
-    "direccion": "Av. San Lorenzo 1300, S2156 Fray Luis Beltrán, Santa Fe",
+    "direccion": "Av. San Lorenzo 1300, Fray Luis Beltrán, Santa Fe",
     "resumen": "Proyecto de refacción y adecuación edilicia del Instituto Superior del Profesorado N.º 22 «Maestro Addad», comprendiendo la intervención de 855 m². Los trabajos contemplaban la construcción de un hall de ingreso, librería y portería, rehabilitación de la cocina-comedor, y la incorporación de biblioteca, sala de informática, galerías, área administrativa y núcleos sanitarios en planta alta.",
     "descripcion": [
       "El proyecto de intervención edilicia del Instituto Superior del Profesorado N.º 22 «Maestro Addad», ubicado en Fray Luis Beltrán, contempló la refacción y adecuación de 855 m² destinados a mejorar las instalaciones educativas y administrativas de la institución.",
