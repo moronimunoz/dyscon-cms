@@ -1,15 +1,23 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 840,
-  "nombre": "E.E.T. N° 292 San Vicente",
+  "nombre": "Ampliación de la E.E.T.P. N.º 292",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
-  "ubicacion": "San Vicente, Departamento Castellanos, Santa Fe",
+  "ubicacion": "San Vicente · Santa Fe",
+  "mapa": "-31.699601994881245, -61.56359049385506",
+  "direccion": "BV 25 de Mayo 347, San Vicente, Santa Fe",
   "superficie": "305 m².",
   "plazo": "Agosto, 2012 - Mayo, 2015.",
+  "resumen": "Proyecto de ampliación de la Escuela de Educación Técnico Profesional N.º 292, impulsado por el Ministerio de Educación de la Provincia de Santa Fe. La intervención contempló la incorporación de nuevos espacios educativos y complementarios, incluyendo aulas, biblioteca, sala de informática, galería, cocina-cantina y sanitarios, con el objetivo de ampliar y mejorar la infraestructura del establecimiento",
+  "descripcion": [
+    "<p><strong>Ampliación de la E.E.T.P. N.º 292 – San Vicente</strong></p><p>San Vicente, Santa Fe | Agosto 2012 – Mayo 2015.</p><p>Proyecto de ampliación de la Escuela de Educación Técnico Profesional N.º 292, impulsado por el Ministerio de Educación de la Provincia de Santa Fe. La intervención contempló la incorporación de nuevos espacios educativos y complementarios, incluyendo aulas, biblioteca, sala de informática, galería, cocina-cantina y sanitarios, con el objetivo de ampliar y mejorar la infraestructura del establecimiento.</p>"
+  ],
+  "miniatura": "/img/obras/mwkqb9ts-lhigtz6n.jpeg",
+  "portada": "/img/obras/mwkqb71x-btzbkegy.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwkqb45n-g7irv9hn.jpeg"
   ]
 }
