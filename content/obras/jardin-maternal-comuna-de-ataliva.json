@@ -1,15 +1,24 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 640,
   "nombre": "Jardín Maternal, Comuna de Ataliva",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "Comuna de Ataliva.",
-  "ubicacion": "Ataliva, Santa Fe.",
+  "comitente": "Comuna de Ataliva",
+  "ubicacion": "Ataliva · Santa Fe",
+  "mapa": "-30.997795162641914, -61.43476609064494",
+  "direccion": "Dorrego & Lamadrid, Ataliva, Santa Fe",
   "superficie": "480 m².",
   "plazo": "Junio, 2016 - Agosto, 2017.",
+  "resumen": "El proyecto contempló la incorporación de un nuevo establecimiento destinado a la educación y el cuidado de la primera infancia, ampliando los espacios disponibles para las familias de la comunidad. El edificio fue concebido para desarrollar actividades de atención maternal, estimulación temprana y acompañamiento del desarrollo infantil",
+  "descripcion": [
+    "<p><strong>Construcción de Jardín Maternal «Adriana Antinori» – Ataliva</strong></p><p>Ataliva, Santa Fe</p><p>El proyecto contempló la incorporación de un nuevo establecimiento destinado a la educación y el cuidado de la primera infancia, ampliando los espacios disponibles para las familias de la comunidad. El edificio fue concebido para desarrollar actividades de atención maternal, estimulación temprana y acompañamiento del desarrollo infantil.</p><p>La propuesta estructural incluyó el diseño y cálculo de fundaciones, estructuras de hormigón armado y cubierta metálica, aportando las soluciones técnicas necesarias para la conformación de una infraestructura educativa funcional y adecuada a su finalidad.</p>"
+  ],
+  "miniatura": "/img/obras/mwku69sh-j61q1vob.jpg",
+  "portada": "/img/obras/mwku67c4-mi01705j.jpg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwku5z05-qzamqnes.jpg",
+    "/img/obras/mwku63ux-9ts0hoz5.jpg"
   ]
 }
