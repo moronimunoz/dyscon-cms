@@ -765,7 +765,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-de-educacion-secundaria-zona-cero",
       "escuela-eet-n-346",
-      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto"
     ]
   },
   {
@@ -1350,7 +1350,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-de-educacion-secundaria-zona-cero",
       "escuela-eet-n-346",
-      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
+      "e-e-m-n-128-rosario"
     ]
   },
   {
@@ -1466,8 +1466,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-eet-n-346",
-      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
-      "escuela-primaria-1408"
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
     ]
   },
   {
@@ -1496,6 +1496,144 @@ const OBRAS = [
     "coords": [
       -32.968002,
       -60.725051
+    ],
+    "relacionadas": [
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
+      "escuela-primaria-1408"
+    ]
+  },
+  {
+    "id": "e-e-m-n-128-rosario",
+    "nombre": "Ampliación y refacción de Escuela N.º 128",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Educación de la Provincia de Santa Fe",
+    "ubicacion": "Rosario, Santa Fe.",
+    "mapa": "-33.00637365152415, -60.64443095449583",
+    "direccion": "Buenos Aires 6025, Rosario",
+    "resumen": "DYSCON S.A. llevó adelante la ampliación y refacción de la Escuela Primaria N.º 128 «Congreso de Tucumán», ubicada en la ciudad de Rosario, provincia de Santa Fe, en el marco de un proyecto impulsado por el Gobierno provincial a través del Ministerio de Educación y financiado por el programa PROMEDU II.",
+    "descripcion": [
+      "<h3>Ampliación y Refacción – Escuela N.º 128 «Congreso de Tucumán»</h3><p><strong>Rosario, Santa Fe | 2013–2015</strong></p><p>DYSCON S.A. llevó adelante la ampliación y refacción de la Escuela Primaria N.º 128 «Congreso de Tucumán», ubicada en la ciudad de Rosario, provincia de Santa Fe, en el marco de un proyecto impulsado por el Gobierno provincial a través del Ministerio de Educación y financiado por el programa PROMEDU II.</p><p>La intervención comprendió la construcción de nuevas aulas en planta alta y la incorporación de un SUM-comedor, cocina, laboratorio, sanitarios y galerías de circulación en planta baja. Asimismo, se realizaron demoliciones de sectores existentes que presentaban deficiencias edilicias.</p><p>El proyecto permitió ampliar y renovar la infraestructura educativa del establecimiento, generando nuevos espacios destinados a las actividades pedagógicas, recreativas y de servicio para la comunidad escolar.</p>"
+    ],
+    "datos": [
+      "Plazo: Marzo, 2013 - Febrero, 2015."
+    ],
+    "miniatura": "mwkpck9s-xlxl1k7g.jpeg",
+    "portada": "mwkpcn80-ha4dkf3k.jpeg",
+    "fotos": [
+      "mwkpcrp9-az1lour7.jpeg"
+    ],
+    "coords": [
+      -33.006374,
+      -60.644431
+    ],
+    "relacionadas": [
+      "e-e-t-n-292-san-vicente",
+      "i-s-p-n-22-fray-luis-beltran",
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto"
+    ]
+  },
+  {
+    "id": "e-e-t-n-292-san-vicente",
+    "nombre": "Ampliación de la E.E.T.P. N.º 292",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+    "ubicacion": "San Vicente · Santa Fe",
+    "mapa": "-31.699601994881245, -61.56359049385506",
+    "direccion": "BV 25 de Mayo 347, San Vicente, Santa Fe",
+    "resumen": "Proyecto de ampliación de la Escuela de Educación Técnico Profesional N.º 292, impulsado por el Ministerio de Educación de la Provincia de Santa Fe. La intervención contempló la incorporación de nuevos espacios educativos y complementarios, incluyendo aulas, biblioteca, sala de informática, galería, cocina-cantina y sanitarios, con el objetivo de ampliar y mejorar la infraestructura del establecimiento",
+    "descripcion": [
+      "<strong>Ampliación de la E.E.T.P. N.º 292 – San Vicente</strong>",
+      "San Vicente, Santa Fe | Agosto 2012 – Mayo 2015.",
+      "Proyecto de ampliación de la Escuela de Educación Técnico Profesional N.º 292, impulsado por el Ministerio de Educación de la Provincia de Santa Fe. La intervención contempló la incorporación de nuevos espacios educativos y complementarios, incluyendo aulas, biblioteca, sala de informática, galería, cocina-cantina y sanitarios, con el objetivo de ampliar y mejorar la infraestructura del establecimiento."
+    ],
+    "datos": [
+      "Superficie: 305 m².",
+      "Plazo: Agosto, 2012 - Mayo, 2015."
+    ],
+    "miniatura": "mwkqb9ts-lhigtz6n.jpeg",
+    "portada": "mwkqb71x-btzbkegy.jpeg",
+    "fotos": [
+      "mwkqb45n-g7irv9hn.jpeg"
+    ],
+    "coords": [
+      -31.699602,
+      -61.56359
+    ],
+    "relacionadas": [
+      "i-s-p-n-22-fray-luis-beltran",
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
+    ]
+  },
+  {
+    "id": "i-s-p-n-22-fray-luis-beltran",
+    "nombre": "Instituto Superior del Profesorado N.º 22 \"Maestro Addad\" de Fray Luis Beltrán",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Educación de la Provincia de Santa Fe.",
+    "ubicacion": "Fray Luis Beltrán, Departamento San Lorenzo, Santa Fe.",
+    "mapa": "-32.789000448250476, -60.723160792365405",
+    "direccion": "Av. San Lorenzo 1300, S2156 Fray Luis Beltrán, Santa Fe",
+    "resumen": "Proyecto de refacción y adecuación edilicia del Instituto Superior del Profesorado N.º 22 «Maestro Addad», comprendiendo la intervención de 855 m². Los trabajos contemplaban la construcción de un hall de ingreso, librería y portería, rehabilitación de la cocina-comedor, y la incorporación de biblioteca, sala de informática, galerías, área administrativa y núcleos sanitarios en planta alta.",
+    "descripcion": [
+      "El proyecto de intervención edilicia del Instituto Superior del Profesorado N.º 22 «Maestro Addad», ubicado en Fray Luis Beltrán, contempló la refacción y adecuación de 855 m² destinados a mejorar las instalaciones educativas y administrativas de la institución.",
+      "La propuesta incluyó la construcción de un hall de ingreso, librería y portería, junto con la rehabilitación de la cocina-comedor en planta baja. En planta alta se proyectaron una biblioteca, sala de informática, galerías, área de gobierno y nuevos núcleos sanitarios.",
+      "La obra fue impulsada por el Ministerio de Educación de Santa Fe, con financiamiento del Programa Nacional de Refacción Integral de Edificios de Establecimientos de Educación Técnico Profesional (INET). El presupuesto informado fue de $3.311.008,74, con un plazo de ejecución previsto de 360 días corridos.",
+      "La intervención formó parte de un proyecto destinado a mejorar las condiciones edilicias de una institución educativa que funciona desde 1987 y que necesitaba ampliar y adecuar sus espacios para responder al crecimiento de su comunidad estudiantil."
+    ],
+    "datos": [
+      "Superficie: 928 m².",
+      "Plazo: Junio, 2012 - Mayo, 2014."
+    ],
+    "miniatura": "mwavfmz0-r4in8gl3.jpg",
+    "portada": "mwavfkc8-mudi6t7r.jpg",
+    "fotos": [
+      "mwavfigb-hh931j5d.jpg"
+    ],
+    "coords": [
+      -32.789,
+      -60.723161
+    ],
+    "relacionadas": [
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
+      "escuela-ricardone"
+    ]
+  },
+  {
+    "id": "e-e-t-n-465-estructura-de-hormigon-armado-visto",
+    "nombre": "E.E.T. N.º 465 – General Manuel Belgrano",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "EPRECO S.R.L.",
+    "ubicacion": "Rosario · Santa Fe",
+    "mapa": "-32.96962909394242, -60.63014121641037",
+    "direccion": "Blvd. 27 de Febrero 150, Rosario, Santa Fe",
+    "resumen": "DYSCON SA participó en la ejecución de la estructura de hormigón armado visto del nuevo edificio de la Escuela de Educación Técnica Numero 465 General Manuel Belgrano en la ciudad de Rosario provincia de Santa Fe",
+    "descripcion": [
+      "<h3>E.E.T. N.º 465 – Ejecución de Estructura de Hormigón Armado Visto</h3><p><strong>Rosario, Santa Fe | 2007–2008</strong></p><p>DYSCON S.A. participó en la ejecución de la estructura de hormigón armado visto del nuevo edificio de la Escuela de Educación Técnica N.º 465 «General Manuel Belgrano», en la ciudad de Rosario, provincia de Santa Fe.</p><p>La intervención comprendió trabajos estructurales mediante la ejecución de tabiques, columnas, vigas y losas de hormigón armado, con terminaciones vistas que forman parte integral del diseño arquitectónico del establecimiento.</p><p>El proyecto requirió especial atención en los procesos de encofrado, hormigonado y curado, garantizando la calidad estructural y estética de las superficies expuestas.</p><p>La obra contribuyó al desarrollo de un complejo educativo de aproximadamente 3.900 m², incorporando nuevos espacios destinados a la formación técnica, actividades pedagógicas y recreativas.</p>"
+    ],
+    "datos": [
+      "Superficie: 2.500 m².",
+      "Plazo: Octubre, 2006 - Septiembre, 2007 / Junio, 2008."
+    ],
+    "miniatura": "mwkprlfy-ujs164xr.jpeg",
+    "portada": "mwkprqjd-u77rriex.jpeg",
+    "fotos": [
+      "mwkprta4-wo0an5ja.jpeg",
+      "mwkps2hs-bg5iya93.jpeg",
+      "mwkps59h-pp20ioo6.jpeg"
+    ],
+    "coords": [
+      -32.969629,
+      -60.630141
     ],
     "relacionadas": [
       "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
