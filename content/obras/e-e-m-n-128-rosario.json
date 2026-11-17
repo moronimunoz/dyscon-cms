@@ -1,14 +1,22 @@
 {
   "publicada": false,
   "orden": 830,
-  "nombre": "E.E.M. N° 128 - Rosario",
+  "nombre": "Ampliación y refacción de Escuela N.º 128",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Ministerio de Educación de la Provincia de Santa Fe",
   "ubicacion": "Rosario, Santa Fe.",
+  "mapa": "-33.00637365152415, -60.64443095449583",
+  "direccion": "Buenos Aires 6025, Rosario",
   "plazo": "Marzo, 2013 - Febrero, 2015.",
+  "resumen": "DYSCON S.A. llevó adelante la ampliación y refacción de la Escuela Primaria N.º 128 «Congreso de Tucumán», ubicada en la ciudad de Rosario, provincia de Santa Fe, en el marco de un proyecto impulsado por el Gobierno provincial a través del Ministerio de Educación y financiado por el programa PROMEDU II.",
+  "descripcion": [
+    "<h3>Ampliación y Refacción – Escuela N.º 128 «Congreso de Tucumán»</h3><p><strong>Rosario, Santa Fe | 2013–2015</strong></p><p>DYSCON S.A. llevó adelante la ampliación y refacción de la Escuela Primaria N.º 128 «Congreso de Tucumán», ubicada en la ciudad de Rosario, provincia de Santa Fe, en el marco de un proyecto impulsado por el Gobierno provincial a través del Ministerio de Educación y financiado por el programa PROMEDU II.</p><p>La intervención comprendió la construcción de nuevas aulas en planta alta y la incorporación de un SUM-comedor, cocina, laboratorio, sanitarios y galerías de circulación en planta baja. Asimismo, se realizaron demoliciones de sectores existentes que presentaban deficiencias edilicias.</p><p>El proyecto permitió ampliar y renovar la infraestructura educativa del establecimiento, generando nuevos espacios destinados a las actividades pedagógicas, recreativas y de servicio para la comunidad escolar.</p>"
+  ],
+  "miniatura": "/img/obras/mwkpck9s-xlxl1k7g.jpeg",
+  "portada": "/img/obras/mwkpcn80-ha4dkf3k.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwkpcrp9-az1lour7.jpeg"
   ]
 }
