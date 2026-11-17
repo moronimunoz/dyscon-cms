@@ -1,15 +1,26 @@
 {
   "publicada": false,
   "orden": 680,
-  "nombre": "Jardin Maternal. Comuna de Máximo Paz",
+  "nombre": "Jardín Maternal de la comuna de Máximo Paz",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "Comuna de Máximo Paz.",
-  "ubicacion": "Máximo Paz, Constitución, Santa Fe.",
+  "comitente": "Comuna de Máximo Paz",
+  "ubicacion": "Máximo Paz · Santa Fe",
+  "mapa": "-33.48170397001917, -60.95934506766184",
+  "direccion": "9 de Julio & Falucho, Maximo Paz, Santa Fe",
   "superficie": "450 m².",
   "plazo": "Septiembre, 2015 - Octubre, 2017.",
+  "resumen": "El proyecto consistió en el desarrollo de un nuevo establecimiento educativo destinado a la atención y el acompañamiento de niños durante sus primeros años de vida. La iniciativa buscó ampliar la infraestructura local para ofrecer espacios apropiados para el cuidado, la estimulación y las actividades educativas de la primera infancia",
+  "descripcion": [
+    "<p><strong>Construcción de Jardín Maternal – Máximo Paz</strong></p><p>Máximo Paz, Santa Fe | 2015–2017</p><p>El proyecto consistió en el desarrollo de un nuevo establecimiento educativo destinado a la atención y el acompañamiento de niños durante sus primeros años de vida. La iniciativa buscó ampliar la infraestructura local para ofrecer espacios apropiados para el cuidado, la estimulación y las actividades educativas de la primera infancia.</p><p>Los trabajos de ingeniería estructural comprendieron el diseño y cálculo de fundaciones, estructuras de hormigón armado y cubierta metálica, definiendo los componentes resistentes necesarios para la materialización del edificio.</p>"
+  ],
+  "miniatura": "/img/obras/mwkuoofm-eskghqob.jpg",
+  "portada": "/img/obras/mwkuot2g-6seup15f.jpg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwkuovnf-ttgm4osc.jpg",
+    "/img/obras/mwkuoy5z-0jhx7llp.jpg",
+    "/img/obras/mwkup1cm-2wi5jx7m.jpg",
+    "/img/obras/mwkup3mk-nj03du48.jpg"
   ]
 }
