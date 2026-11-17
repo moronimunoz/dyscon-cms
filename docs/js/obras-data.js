@@ -1280,7 +1280,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-primaria-de-creacion-d-e-20-polo-piedrabuena",
       "escuela-de-educacion-secundaria-zona-cero",
-      "escuela-eet-n-346"
+      "jardin-maternal-comuna-de-angelica"
     ]
   },
   {
@@ -1349,8 +1349,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-de-educacion-secundaria-zona-cero",
-      "escuela-eet-n-346",
-      "e-e-m-n-128-rosario"
+      "jardin-maternal-comuna-de-angelica",
+      "escuela-eet-n-346"
     ]
   },
   {
@@ -1468,6 +1468,43 @@ const OBRAS = [
       "escuela-eet-n-346",
       "e-e-t-n-465-estructura-de-hormigon-armado-visto",
       "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
+    ]
+  },
+  {
+    "id": "jardin-maternal-comuna-de-angelica",
+    "nombre": "Jardín Maternal de la comuna de Angélica",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Comuna de Angélica",
+    "ubicacion": "Angélica · Santa Fe",
+    "mapa": "-31.548536555146494, -61.544830077856425",
+    "direccion": "Angélica, Dto. Castellanos, Santa Fe",
+    "resumen": "El proyecto contempló el desarrollo de infraestructura educativa destinada a la atención y el cuidado de niños en sus primeros años de vida. El establecimiento cuenta con tres salas especialmente diseñadas para recibir a niños desde los 45 días hasta los 2 años, ofreciendo espacios adecuados para el aprendizaje, la recreación y el desarrollo integral de la primera infancia.",
+    "descripcion": [
+      "<strong>Construcción de Jardín Maternal – Angélica</strong>",
+      "Angélica, Santa Fe",
+      "El proyecto contempló el desarrollo de infraestructura educativa destinada a la atención y el cuidado de niños en sus primeros años de vida. El establecimiento cuenta con tres salas especialmente diseñadas para recibir a niños desde los 45 días hasta los 2 años, ofreciendo espacios adecuados para el aprendizaje, la recreación y el desarrollo integral de la primera infancia.",
+      "La propuesta estructural comprendió el diseño y cálculo de fundaciones, estructuras de hormigón armado y cubierta metálica, contribuyendo a la conformación de un edificio funcional y adaptado a las necesidades de la comunidad educativa."
+    ],
+    "datos": [
+      "Superficie: 480 m².",
+      "Plazo: Octubre, 2015 - Noviembre, 2017."
+    ],
+    "miniatura": "mwkr0syl-57a9icuf.jpg",
+    "portada": "mwkr0oyl-avpr1p1p.jpeg",
+    "fotos": [
+      "mwkr040q-ii46pew2.jpeg",
+      "mwkr06jw-evn49lrm.jpg"
+    ],
+    "coords": [
+      -31.548537,
+      -61.54483
+    ],
+    "relacionadas": [
+      "escuela-eet-n-346",
+      "e-e-m-n-128-rosario",
+      "e-e-t-n-292-san-vicente"
     ]
   },
   {
