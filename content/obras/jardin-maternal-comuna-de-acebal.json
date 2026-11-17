@@ -1,15 +1,22 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 690,
-  "nombre": "Jardin Maternal. Comuna de Acebal",
+  "nombre": "Jardín Maternal de la comuna de Acebal",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "Comuna de Acebal.",
-  "ubicacion": "Acebal, Constitución, Santa Fe.",
+  "comitente": "Comuna de Acebal",
+  "ubicacion": "Acebal · Santa Fe",
+  "mapa": "-33.242367992017805, -60.838914389563534",
+  "direccion": "Acebal, dto Rosario, Santa Fe",
   "superficie": "690 m².",
   "plazo": "Noviembre, 2015 - Marzo, 2017.",
+  "descripcion": [
+    "<p><strong>Construcción de Jardín Maternal – Acebal</strong></p><p>Acebal, Santa Fe</p><p>La obra formó parte de un programa de ampliación de la infraestructura educativa destinado a fortalecer la atención de la primera infancia en distintas localidades de la provincia de Santa Fe. El establecimiento fue concebido para brindar espacios adecuados para el cuidado, la estimulación temprana y el desarrollo de los niños.</p><p>El proyecto estructural contempló el diseño y cálculo de fundaciones, elementos de hormigón armado y estructura de cubierta metálica, proporcionando las condiciones técnicas necesarias para el desarrollo de un edificio destinado a la actividad educativa maternal.</p>"
+  ],
+  "miniatura": "/img/obras/mwkrhlmn-yh18usrh.jpeg",
+  "portada": "/img/obras/mwkrhqrj-v2hoct1u.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwkrhxjb-n8c49ytd.jpeg"
   ]
 }
