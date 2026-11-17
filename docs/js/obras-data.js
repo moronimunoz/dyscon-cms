@@ -1350,7 +1350,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-de-educacion-secundaria-zona-cero",
       "jardin-maternal-comuna-de-ataliva",
-      "jardin-maternal-comuna-de-acebal"
+      "jardin-maternal-comuna-de-maximo-paz"
     ]
   },
   {
@@ -1500,6 +1500,45 @@ const OBRAS = [
     "coords": [
       -30.997795,
       -61.434766
+    ],
+    "relacionadas": [
+      "jardin-maternal-comuna-de-maximo-paz",
+      "jardin-maternal-comuna-de-acebal",
+      "jardin-maternal-comuna-de-angelica"
+    ]
+  },
+  {
+    "id": "jardin-maternal-comuna-de-maximo-paz",
+    "nombre": "Jardín Maternal de la comuna de Máximo Paz",
+    "categoria": "Educación",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Comuna de Máximo Paz",
+    "ubicacion": "Máximo Paz · Santa Fe",
+    "mapa": "-33.48170397001917, -60.95934506766184",
+    "direccion": "9 de Julio & Falucho, Maximo Paz, Santa Fe",
+    "resumen": "El proyecto consistió en el desarrollo de un nuevo establecimiento educativo destinado a la atención y el acompañamiento de niños durante sus primeros años de vida. La iniciativa buscó ampliar la infraestructura local para ofrecer espacios apropiados para el cuidado, la estimulación y las actividades educativas de la primera infancia",
+    "descripcion": [
+      "<strong>Construcción de Jardín Maternal – Máximo Paz</strong>",
+      "Máximo Paz, Santa Fe | 2015–2017",
+      "El proyecto consistió en el desarrollo de un nuevo establecimiento educativo destinado a la atención y el acompañamiento de niños durante sus primeros años de vida. La iniciativa buscó ampliar la infraestructura local para ofrecer espacios apropiados para el cuidado, la estimulación y las actividades educativas de la primera infancia.",
+      "Los trabajos de ingeniería estructural comprendieron el diseño y cálculo de fundaciones, estructuras de hormigón armado y cubierta metálica, definiendo los componentes resistentes necesarios para la materialización del edificio."
+    ],
+    "datos": [
+      "Superficie: 450 m².",
+      "Plazo: Septiembre, 2015 - Octubre, 2017."
+    ],
+    "miniatura": "mwkuoofm-eskghqob.jpg",
+    "portada": "mwkuot2g-6seup15f.jpg",
+    "fotos": [
+      "mwkuovnf-ttgm4osc.jpg",
+      "mwkuoy5z-0jhx7llp.jpg",
+      "mwkup1cm-2wi5jx7m.jpg",
+      "mwkup3mk-nj03du48.jpg"
+    ],
+    "coords": [
+      -33.481704,
+      -60.959345
     ],
     "relacionadas": [
       "jardin-maternal-comuna-de-acebal",
