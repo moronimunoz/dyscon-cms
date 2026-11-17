@@ -1,15 +1,25 @@
 {
-  "publicada": false,
+  "publicada": true,
   "orden": 1200,
-  "nombre": "E.E.T. N° 465 - Estructura de Hormigón Armado Visto",
+  "nombre": "E.E.T. N.º 465 – General Manuel Belgrano",
   "categoria": "Educación",
   "tipo": "propia",
   "estado": "terminado",
-  "comitente": "ESPRECO S.R.L.",
-  "ubicacion": "Rosario, Santa Fe.",
+  "comitente": "EPRECO S.R.L.",
+  "ubicacion": "Rosario · Santa Fe",
+  "mapa": "-32.96962909394242, -60.63014121641037",
+  "direccion": "Blvd. 27 de Febrero 150, Rosario, Santa Fe",
   "superficie": "2.500 m².",
   "plazo": "Octubre, 2006 - Septiembre, 2007 / Junio, 2008.",
+  "resumen": "DYSCON SA participó en la ejecución de la estructura de hormigón armado visto del nuevo edificio de la Escuela de Educación Técnica Numero 465 General Manuel Belgrano en la ciudad de Rosario provincia de Santa Fe",
+  "descripcion": [
+    "<h3>E.E.T. N.º 465 – Ejecución de Estructura de Hormigón Armado Visto</h3><p><strong>Rosario, Santa Fe | 2007–2008</strong></p><p>DYSCON S.A. participó en la ejecución de la estructura de hormigón armado visto del nuevo edificio de la Escuela de Educación Técnica N.º 465 «General Manuel Belgrano», en la ciudad de Rosario, provincia de Santa Fe.</p><p>La intervención comprendió trabajos estructurales mediante la ejecución de tabiques, columnas, vigas y losas de hormigón armado, con terminaciones vistas que forman parte integral del diseño arquitectónico del establecimiento.</p><p>El proyecto requirió especial atención en los procesos de encofrado, hormigonado y curado, garantizando la calidad estructural y estética de las superficies expuestas.</p><p>La obra contribuyó al desarrollo de un complejo educativo de aproximadamente 3.900 m², incorporando nuevos espacios destinados a la formación técnica, actividades pedagógicas y recreativas.</p>"
+  ],
+  "miniatura": "/img/obras/mwkprlfy-ujs164xr.jpeg",
+  "portada": "/img/obras/mwkprqjd-u77rriex.jpeg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwkprta4-wo0an5ja.jpeg",
+    "/img/obras/mwkps2hs-bg5iya93.jpeg",
+    "/img/obras/mwkps59h-pp20ioo6.jpeg"
   ]
 }
