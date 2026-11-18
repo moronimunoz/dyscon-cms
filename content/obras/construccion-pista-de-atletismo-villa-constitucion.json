@@ -1,7 +1,7 @@
 {
   "publicada": true,
   "orden": 780,
-  "nombre": "Construcción de Pista de Atletismo y Vestuarios",
+  "nombre": "Construcción de Pista de Atletismo y Vestuarios - Villa Constitución",
   "categoria": "Espacio Público",
   "tipo": "propia",
   "estado": "terminado",
@@ -13,7 +13,15 @@
   "descripcion": [
     "<h3>Construcción de Pista de Atletismo y Vestuarios – Villa Constitución</h3><p><strong>Villa Constitución, Santa Fe | 2015–2017</strong></p><p>DYSCON S.A. tuvo a su cargo la construcción de una pista reglamentaria de atletismo y dependencias complementarias en el antiguo predio de CILSA, en la ciudad de Villa Constitución, departamento Constitución, provincia de Santa Fe. El proyecto, impulsado por el Gobierno de la Provincia de Santa Fe a través de la Dirección Provincial de Arquitectura e Ingeniería, formó parte de un programa de desarrollo de infraestructura deportiva destinado a ampliar los espacios para la práctica y el desarrollo del atletismo.</p><p>La intervención comprendió la ejecución de una pista de aproximadamente 500 metros de longitud y ocho carriles, con sectores específicos para disciplinas de lanzamiento y salto. Los trabajos incluyeron movimiento y preparación del terreno, ejecución de desagües pluviales, conformación de subbase, terminación superficial con polvo de ladrillo compactado y construcción de bordillos de hormigón. Asimismo, se construyeron vestuarios, sanitarios y un depósito para equipamiento deportivo, junto con las correspondientes instalaciones de agua y electricidad.</p>"
   ],
+  "miniatura": "/img/obras/mwmajmtf-x2sm6ag7.jpg",
+  "portada": "/img/obras/mwmam6n6-2pua2rx8.jpg",
   "fotos": [
-    "provisorio/prov-front.png"
+    "/img/obras/mwmak8ui-4kgwzb5w.jpg",
+    "/img/obras/mwmak65g-9wekugg6.jpg",
+    "/img/obras/mwmajwgx-vuuh43i0.jpg",
+    "/img/obras/mwmak32j-bycsp7pr.jpg",
+    "/img/obras/mwmakew4-oca6zsip.jpg",
+    "/img/obras/mwmajzbr-inqlzm2g.jpg",
+    "/img/obras/mwmakc5h-7rvjutbg.jpg"
   ]
 }
