@@ -744,7 +744,7 @@ const OBRAS = [
     "ubicacion": "Rosario · Santa Fe",
     "mapa": "-32.88844558431866, -60.73054073642479",
     "direccion": "Av. Joaquín Suárez 2900, Rosario, Santa Fe",
-    "resumen": "<p>La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe.</p> ",
+    "resumen": "La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe.",
     "descripcion": [
       "La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe. Se desarrolla en un solo nivel compuesto por 8 aulas agrupables, un salón de usos múltiples, una cantina y espacio para cocinar y un gran patio semicubierto."
     ],
@@ -754,7 +754,9 @@ const OBRAS = [
     ],
     "portada": "escuela-primaria-1408/00.jpg",
     "fotos": [
+      "mwm90ljn-9zjx3brj.jpeg",
       "escuela-primaria-1408/00.jpg",
+      "mwm90iol-dbqhel4a.jpeg",
       "escuela-primaria-1408/01.jpeg",
       "escuela-primaria-1408/02.jpeg"
     ],
@@ -1091,8 +1093,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "plaza-grupo-a-plaza-de-la-infancia-y-plaza-lopez",
-      "plaza-san-cristobal",
-      "pvplazasdistritales"
+      "construccion-pista-de-atletismo-las-rosas",
+      "plaza-san-cristobal"
     ]
   },
   {
@@ -1649,6 +1651,38 @@ const OBRAS = [
       "e-e-t-n-465-estructura-de-hormigon-armado-visto",
       "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
       "escuela-primaria-1408"
+    ]
+  },
+  {
+    "id": "construccion-pista-de-atletismo-las-rosas",
+    "nombre": "Construcción de Pista de Atletismo y Vestuarios – Las Rosas",
+    "categoria": "Espacio Público",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Ministerio de Obras Públicas y Vivienda.",
+    "ubicacion": "Las Rosas · Santa Fe",
+    "mapa": "-32.45835820368655, -61.582625426383096",
+    "direccion": "Las Rosas, Dto. Belgrano, Santa Fe",
+    "descripcion": [
+      "<h3>Construcción de Pista de Atletismo y Vestuarios – Las Rosas</h3><p><strong>Las Rosas, Santa Fe | 2014–2015</strong></p><p>DYSCON S.A. tuvo a su cargo la construcción de una pista reglamentaria de atletismo con dependencias complementarias en la ciudad de Las Rosas, departamento Belgrano, provincia de Santa Fe. El proyecto, impulsado por el Gobierno provincial a través de la Dirección Provincial de Arquitectura e Ingeniería, formó parte de un programa de infraestructura deportiva destinado a ampliar los espacios para la práctica y el desarrollo del atletismo en distintas localidades santafesinas.</p><p>La intervención comprendió la ejecución de una pista de aproximadamente 500 metros de longitud y ocho carriles, con sectores destinados a disciplinas de lanzamiento y salto. Los trabajos incluyeron movimiento de suelo, preparación de subbase, terminación superficial con polvo de ladrillo compactado, demarcación, obras de desagües pluviales y bordillos de hormigón. Asimismo, se construyeron vestuarios, sanitarios y un depósito para equipamiento deportivo, junto con las correspondientes instalaciones de agua, electricidad y servicios.</p>"
+    ],
+    "datos": [
+      "Plazo: Marzo, 2015 - Marzo, 2016."
+    ],
+    "miniatura": "mwm9ku88-25jtktfl.jpg",
+    "portada": "mwm9kwn2-ep0w785k.jpeg",
+    "fotos": [
+      "mwm9kzd7-xp2ccqsy.jpg",
+      "mwm9l2g4-1v1vpav0.jpeg"
+    ],
+    "coords": [
+      -32.458358,
+      -61.582625
+    ],
+    "relacionadas": [
+      "plaza-san-cristobal",
+      "pvplazasdistritales",
+      "plazas-de-la-cercania"
     ]
   },
   {
