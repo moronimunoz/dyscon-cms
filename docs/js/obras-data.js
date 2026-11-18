@@ -1733,6 +1733,38 @@ const OBRAS = [
     ]
   },
   {
+    "id": "estacion-sosa-10-viviendas-entre-rios",
+    "nombre": "Construcción de 10 Viviendas – Estación Sosa",
+    "categoria": "Viviendas",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "I.A.P.V.",
+    "ubicacion": "Estación Sosa · Entre Ríos",
+    "mapa": "-31.73576364691093, -59.91158751313529",
+    "direccion": "Estación Sosa, Entre Ríos",
+    "descripcion": [
+      "<h3>Construcción de 10 Viviendas – Estación Sosa</h3><p><strong>Estación Sosa, Entre Ríos | 2013–2014</strong></p><p>DYSCON S.A. llevó adelante la construcción de un conjunto habitacional de diez viviendas en la localidad de Estación Sosa, departamento Paraná, provincia de Entre Ríos. El proyecto se desarrolló en el marco de un programa de acceso a la vivienda impulsado por el Instituto Autárquico de Planeamiento y Vivienda (IAPV), con financiamiento del Programa Federal de Construcción de Viviendas «Techo Digno».</p><p>La intervención comprendió la ejecución de las unidades habitacionales y trabajos complementarios de infraestructura urbana, incluyendo movimiento de suelo, delimitación de lotes, veredas y conexiones a las redes de agua potable, energía eléctrica y alumbrado público. La obra permitió ampliar la disponibilidad de soluciones habitacionales en la localidad y facilitar el acceso a una vivienda propia para diez familias.</p>"
+    ],
+    "datos": [
+      "Plazo: Junio, 2013 - Mayo, 2014."
+    ],
+    "miniatura": "mwmayftd-uo5k7eyn.jpeg",
+    "portada": "mwmayiov-ny8rny5z.jpeg",
+    "fotos": [
+      "mwmaymsk-grigdtop.jpeg",
+      "mwmayp66-awm6c1e9.jpeg"
+    ],
+    "coords": [
+      -31.735764,
+      -59.911588
+    ],
+    "relacionadas": [
+      "restauracion-espana-543",
+      "rdz-1635",
+      "viviendas-tablada"
+    ]
+  },
+  {
     "id": "e-e-m-n-128-rosario",
     "nombre": "Ampliación y refacción de Escuela N.º 128",
     "categoria": "Educación",
