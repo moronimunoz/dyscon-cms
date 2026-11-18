@@ -1094,7 +1094,7 @@ const OBRAS = [
     "relacionadas": [
       "plaza-grupo-a-plaza-de-la-infancia-y-plaza-lopez",
       "construccion-pista-de-atletismo-las-rosas",
-      "plaza-san-cristobal"
+      "construccion-pista-de-atletismo-villa-constitucion"
     ]
   },
   {
@@ -1664,20 +1664,67 @@ const OBRAS = [
     "mapa": "-32.45835820368655, -61.582625426383096",
     "direccion": "Las Rosas, Dto. Belgrano, Santa Fe",
     "descripcion": [
-      "<h3>Construcción de Pista de Atletismo y Vestuarios – Las Rosas</h3><p><strong>Las Rosas, Santa Fe | 2014–2015</strong></p><p>DYSCON S.A. tuvo a su cargo la construcción de una pista reglamentaria de atletismo con dependencias complementarias en la ciudad de Las Rosas, departamento Belgrano, provincia de Santa Fe. El proyecto, impulsado por el Gobierno provincial a través de la Dirección Provincial de Arquitectura e Ingeniería, formó parte de un programa de infraestructura deportiva destinado a ampliar los espacios para la práctica y el desarrollo del atletismo en distintas localidades santafesinas.</p><p>La intervención comprendió la ejecución de una pista de aproximadamente 500 metros de longitud y ocho carriles, con sectores destinados a disciplinas de lanzamiento y salto. Los trabajos incluyeron movimiento de suelo, preparación de subbase, terminación superficial con polvo de ladrillo compactado, demarcación, obras de desagües pluviales y bordillos de hormigón. Asimismo, se construyeron vestuarios, sanitarios y un depósito para equipamiento deportivo, junto con las correspondientes instalaciones de agua, electricidad y servicios.</p>"
+      "<h3>Construcción de Pista de Atletismo y Vestuarios – Las Rosas</h3><p>DYSCON S.A. tuvo a su cargo la construcción de una pista reglamentaria de atletismo con dependencias complementarias en la ciudad de Las Rosas, departamento Belgrano, provincia de Santa Fe. El proyecto, impulsado por el Gobierno provincial a través de la Dirección Provincial de Arquitectura e Ingeniería, formó parte de un programa de infraestructura deportiva destinado a ampliar los espacios para la práctica y el desarrollo del atletismo en distintas localidades santafesinas.</p><p>La intervención comprendió la ejecución de una pista de aproximadamente 500 metros de longitud y ocho carriles, con sectores destinados a disciplinas de lanzamiento y salto. Los trabajos incluyeron movimiento de suelo, preparación de subbase, terminación superficial con polvo de ladrillo compactado, demarcación, obras de desagües pluviales y bordillos de hormigón. Asimismo, se construyeron vestuarios, sanitarios y un depósito para equipamiento deportivo, junto con las correspondientes instalaciones de agua, electricidad y servicios.</p>"
     ],
     "datos": [
       "Plazo: Marzo, 2015 - Marzo, 2016."
     ],
     "miniatura": "mwm9ku88-25jtktfl.jpg",
-    "portada": "mwm9kwn2-ep0w785k.jpeg",
+    "portada": "mwm9ten2-drsejl2z.jpg",
     "fotos": [
       "mwm9kzd7-xp2ccqsy.jpg",
-      "mwm9l2g4-1v1vpav0.jpeg"
+      "mwm9rxl4-pm5eme1e.jpg",
+      "mwm9reau-i0beg6nc.jpg",
+      "mwm9rk1e-ol9rgm09.jpg",
+      "mwm9r8b5-vmlm8lje.jpg",
+      "mwm9rnru-0liwo6ba.jpg",
+      "mwm9rh0h-drknr3lx.jpg",
+      "mwm9rbhx-8rabfrwm.jpg",
+      "mwm9s0t0-eefiic6a.jpg",
+      "mwm9l2g4-1v1vpav0.jpeg",
+      "mwm9ru8x-gip1i0jg.jpg",
+      "mwm9rqnw-hxwx3n82.jpg"
     ],
     "coords": [
       -32.458358,
       -61.582625
+    ],
+    "relacionadas": [
+      "construccion-pista-de-atletismo-villa-constitucion",
+      "plaza-san-cristobal",
+      "pvplazasdistritales"
+    ]
+  },
+  {
+    "id": "construccion-pista-de-atletismo-villa-constitucion",
+    "nombre": "Construcción de Pista de Atletismo y Vestuarios - Villa Constitución",
+    "categoria": "Espacio Público",
+    "tipo": "propia",
+    "estado": "terminado",
+    "comitente": "Gobierno de la Provincia de Santa Fe",
+    "ubicacion": "Villa Constitución · Santa Fe",
+    "mapa": "-33.23503357941233, -60.32055532099577",
+    "direccion": "Av. San Martín 2200, Villa Constitución, Santa Fe",
+    "descripcion": [
+      "<h3>Construcción de Pista de Atletismo y Vestuarios – Villa Constitución</h3><p><strong>Villa Constitución, Santa Fe | 2015–2017</strong></p><p>DYSCON S.A. tuvo a su cargo la construcción de una pista reglamentaria de atletismo y dependencias complementarias en el antiguo predio de CILSA, en la ciudad de Villa Constitución, departamento Constitución, provincia de Santa Fe. El proyecto, impulsado por el Gobierno de la Provincia de Santa Fe a través de la Dirección Provincial de Arquitectura e Ingeniería, formó parte de un programa de desarrollo de infraestructura deportiva destinado a ampliar los espacios para la práctica y el desarrollo del atletismo.</p><p>La intervención comprendió la ejecución de una pista de aproximadamente 500 metros de longitud y ocho carriles, con sectores específicos para disciplinas de lanzamiento y salto. Los trabajos incluyeron movimiento y preparación del terreno, ejecución de desagües pluviales, conformación de subbase, terminación superficial con polvo de ladrillo compactado y construcción de bordillos de hormigón. Asimismo, se construyeron vestuarios, sanitarios y un depósito para equipamiento deportivo, junto con las correspondientes instalaciones de agua y electricidad.</p>"
+    ],
+    "datos": [
+      "Plazo: Marzo, 2015 - Diciembre, 2017."
+    ],
+    "miniatura": "mwmajmtf-x2sm6ag7.jpg",
+    "portada": "mwmam6n6-2pua2rx8.jpg",
+    "fotos": [
+      "mwmak8ui-4kgwzb5w.jpg",
+      "mwmak65g-9wekugg6.jpg",
+      "mwmajwgx-vuuh43i0.jpg",
+      "mwmak32j-bycsp7pr.jpg",
+      "mwmakew4-oca6zsip.jpg",
+      "mwmajzbr-inqlzm2g.jpg",
+      "mwmakc5h-7rvjutbg.jpg"
+    ],
+    "coords": [
+      -33.235034,
+      -60.320555
     ],
     "relacionadas": [
       "plaza-san-cristobal",
