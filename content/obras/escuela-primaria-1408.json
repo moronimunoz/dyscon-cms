@@ -13,7 +13,7 @@
   "datos_extra": [
     "Capacidad: 200 alumnos/as por turno"
   ],
-  "resumen": "<p>La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe.</p> ",
+  "resumen": "La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe.",
   "descripcion": [
     "<p>La Escuela Primaria Nuevo Alberdi está ubicada en el barrio Nuevo Alberdi, zona norte de la ciudad de Rosario, Santa Fe. Se desarrolla en un solo nivel compuesto por 8 aulas agrupables, un salón de usos múltiples, una cantina y espacio para cocinar y un gran patio semicubierto.</p>"
   ],
@@ -21,6 +21,8 @@
   "fotos": [
     "escuela-primaria-1408/00.jpg",
     "escuela-primaria-1408/01.jpeg",
-    "escuela-primaria-1408/02.jpeg"
+    "escuela-primaria-1408/02.jpeg",
+    "/img/obras/mwm90ljn-9zjx3brj.jpeg",
+    "/img/obras/mwm90iol-dbqhel4a.jpeg"
   ]
 }
