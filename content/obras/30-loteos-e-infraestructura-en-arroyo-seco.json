@@ -1,13 +1,18 @@
 {
   "publicada": false,
   "orden": 740,
-  "nombre": "30 Loteos e Infraestructura en Arroyo Seco",
+  "nombre": "Loteo de 30 parcelas e infraestructuras básicas",
   "categoria": "Infraestructura",
   "tipo": "propia",
   "estado": "terminado",
   "comitente": "Dirección Provincial de Vivienda y Urbanismo. Santa Fe",
-  "ubicacion": "Arroyo Seco, Constitución, Santa Fe.",
+  "ubicacion": "Arroyo Seco, Santa Fe",
+  "mapa": "-33.15623003326974, -60.50954357884982",
+  "direccion": "Arroyo Seco, Santa Fe",
   "plazo": "Marzo, 2015 - Octubre, 2015.",
+  "descripcion": [
+    "<h3>Loteo de 30 Parcelas e Infraestructura Básica</h3><p><strong>Arroyo Seco, Santa Fe | 2014</strong></p><p>El proyecto contempló el desarrollo de un loteo de 30 parcelas en la localidad de Arroyo Seco, departamento Rosario, provincia de Santa Fe, junto con la ejecución de las obras de infraestructura básica necesarias para su urbanización. La iniciativa, impulsada por el Gobierno provincial a través del Ministerio de Obras Públicas y la Dirección Provincial de Vivienda y Urbanismo, estuvo orientada a generar nuevas soluciones habitacionales y ampliar la disponibilidad de suelo urbanizado.</p><p>La intervención formó parte de las acciones de desarrollo urbano y habitacional de la provincia, mediante la incorporación de terrenos destinados a uso residencial y la infraestructura necesaria para favorecer su integración al entorno urbano.</p>"
+  ],
   "fotos": [
     "provisorio/prov-front.png"
   ]
