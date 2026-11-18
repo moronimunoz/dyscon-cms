@@ -767,7 +767,7 @@ const OBRAS = [
     "relacionadas": [
       "escuela-de-educacion-secundaria-zona-cero",
       "escuela-eet-n-346",
-      "e-e-t-n-465-estructura-de-hormigon-armado-visto"
+      "e-e-m-n-128-rosario"
     ]
   },
   {
@@ -1468,8 +1468,8 @@ const OBRAS = [
     ],
     "relacionadas": [
       "escuela-eet-n-346",
-      "e-e-t-n-465-estructura-de-hormigon-armado-visto",
-      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
+      "e-e-m-n-128-rosario",
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto"
     ]
   },
   {
@@ -1648,9 +1648,9 @@ const OBRAS = [
       -60.725051
     ],
     "relacionadas": [
+      "e-e-m-n-128-rosario",
       "e-e-t-n-465-estructura-de-hormigon-armado-visto",
-      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
-      "escuela-primaria-1408"
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650"
     ]
   },
   {
@@ -1739,7 +1739,7 @@ const OBRAS = [
     "tipo": "propia",
     "estado": "terminado",
     "comitente": "Ministerio de Educación de la Provincia de Santa Fe",
-    "ubicacion": "Rosario, Santa Fe.",
+    "ubicacion": "Rosario · Santa Fe",
     "mapa": "-33.00637365152415, -60.64443095449583",
     "direccion": "Buenos Aires 6025, Rosario",
     "resumen": "DYSCON S.A. llevó adelante la ampliación y refacción de la Escuela Primaria N.º 128 «Congreso de Tucumán», ubicada en la ciudad de Rosario, provincia de Santa Fe, en el marco de un proyecto impulsado por el Gobierno provincial a través del Ministerio de Educación y financiado por el programa PROMEDU II.",
@@ -1759,9 +1759,9 @@ const OBRAS = [
       -60.644431
     ],
     "relacionadas": [
-      "e-e-t-n-292-san-vicente",
-      "i-s-p-n-22-fray-luis-beltran",
-      "e-e-t-n-465-estructura-de-hormigon-armado-visto"
+      "e-e-t-n-465-estructura-de-hormigon-armado-visto",
+      "escuela-n1331-vicente-lopez-y-planes-casacuberta-9650",
+      "escuela-primaria-1408"
     ]
   },
   {
