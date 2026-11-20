@@ -621,10 +621,6 @@ const OBRAS = [
       "samco-pavon-arriba/01.jpg",
       "samco-pavon-arriba/03.jpg"
     ],
-    "video": {
-      "src": "obras/samco-pavon.mp4",
-      "poster": "samco-pavon-arriba/poster.jpg"
-    },
     "coords": [
       -33.310985,
       -60.827244
