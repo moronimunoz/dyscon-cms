@@ -21,12 +21,5 @@
     "samco-pavon-arriba/00.jpg",
     "samco-pavon-arriba/01.jpg",
     "samco-pavon-arriba/03.jpg"
-  ],
-  "videos": [
-    {
-      "archivo": "obras/samco-pavon.mp4",
-      "poster": "samco-pavon-arriba/poster.jpg",
-      "vertical": false
-    }
   ]
 }
