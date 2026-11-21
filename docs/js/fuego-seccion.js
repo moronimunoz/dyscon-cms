@@ -14,6 +14,7 @@
    Aspecto: edita los valores del bloque CFG más abajo.
    ===================================================================== */
 (function () {
+  const scriptTag = document.currentScript;   // hay que tomarlo ahora: dentro de arrancar() (DOMContentLoaded) ya es null
   function arrancar() {
 (() => {
   // ---------- AJUSTES ----------
@@ -89,7 +90,7 @@
     };
   }
 
-  const tag = document.currentScript;
+  const tag = scriptTag;
   const host = document.querySelector((tag && tag.dataset.selector) || "#obras");
   if (!host) { console.warn("fuego-seccion: no encontré el contenedor", tag && tag.dataset.selector); return; }
   const cv = document.createElement("canvas"), ctx = cv.getContext("2d");

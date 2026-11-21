@@ -110,25 +110,24 @@ main section[hidden] {
   }
 }
 
-/* ---------- Obras destacadas con fuego de fondo (js/fuego-seccion.js) ---------- */
-#obras .titulo,
-#obras .link-flecha {
+/* ---------- Mis Favoritos con fuego de fondo (js/fuego-seccion.js) ---------- */
+#favoritos-inicio .titulo,
+#favoritos-inicio .link-flecha {
   color: #fff;
 }
 
-#obras .titulo::before {
+#favoritos-inicio .titulo::before {
   background: #ff9a3c;
 }
 
-#obras .obra-card {
+#favoritos-inicio .obra-card {
   box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
 }
 
-
 /* ---------- Mis Favoritos (js/favoritos-inicio.js) ---------- */
-/* Se muestra solo si hay favoritas (si no, la oculta el atributo hidden, ver más arriba). Hasta 4 tarjetas en una fila. */
+/* Hasta 4 tarjetas en una fila. */
 .obras--favoritos {
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;   /* mismo aire que arriba: la sección tiene fondo propio */
 }
 
 @media (min-width: 1101px) {
