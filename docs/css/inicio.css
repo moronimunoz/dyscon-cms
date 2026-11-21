@@ -109,3 +109,34 @@ main section[hidden] {
     min-height: 260px;
   }
 }
+
+/* ---------- Obras destacadas con fuego de fondo (js/fuego-seccion.js) ---------- */
+#obras .titulo,
+#obras .link-flecha {
+  color: #fff;
+}
+
+#obras .titulo::before {
+  background: #ff9a3c;
+}
+
+#obras .obra-card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+}
+
+
+/* ---------- Mis Favoritos (js/favoritos-inicio.js) ---------- */
+/* Se muestra solo si hay favoritas (si no, la oculta el atributo hidden, ver más arriba). Hasta 4 tarjetas en una fila. */
+.obras--favoritos {
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 1101px) {
+  .obras--favoritos .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.obras--favoritos .link-flecha[hidden] {
+  display: none;
+}
