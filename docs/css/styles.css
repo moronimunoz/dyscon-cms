@@ -1764,3 +1764,83 @@ button {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(15, 61, 78, .16);
 }
+
+/* =========================================================
+   CORAZÓN DE FAVORITO (js/favoritos.js)
+   Gris = no es favorita · rosa = favorita.
+   Va arriba a la derecha de la foto en las tarjetas, y a la izquierda
+   del botón de compartir en la ficha de la obra.
+   ========================================================= */
+.fav-btn {
+  --fav-gris: #9ca3af;
+  --fav-rosa: #f0359f;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--fav-gris);
+  cursor: pointer;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .35));
+  transition: transform .2s ease, color .2s ease;
+}
+
+.fav-btn .icon {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+  stroke: none;
+}
+
+.fav-btn[aria-pressed="true"] {
+  color: var(--fav-rosa);
+}
+
+.fav-btn:hover {
+  transform: scale(1.12);
+}
+
+.fav-btn:active {
+  transform: scale(.94);
+}
+
+.fav-btn:focus-visible {
+  outline: 3px solid var(--teal-500);
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+/* En la tarjeta: arriba a la derecha de la foto (fuera del enlace, así no abre la obra) */
+.obra-card {
+  position: relative;
+}
+
+.fav-btn--tarjeta {
+  position: absolute;
+  top: .1rem;
+  right: .3rem;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+}
+
+/* En la ficha: a la izquierda del botón de compartir (usa las mismas medidas que .obra-compartir-boton) */
+.fav-btn--ficha {
+  position: absolute;
+  right: 56px;
+  bottom: calc(var(--sube) + var(--aire));
+  width: 44px;
+  height: 44px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fav-btn {
+    transition: none;
+  }
+
+  .fav-btn:hover,
+  .fav-btn:active {
+    transform: none;
+  }
+}

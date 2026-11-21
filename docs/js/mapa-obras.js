@@ -3,7 +3,9 @@
    - Leaflet y los mapas de OpenStreetMap se cargan recién cuando alguien toca "Mapa".
    - Las obras que comparten lugar (por ejemplo, varias en el centro de Rosario) se agrupan en un solo marcador con el número.
    - Una obra que está en varios lugares tiene un pin por cada uno (coords + puntos_extra). Todos abren la misma obra.
-   - Se puede abrir directo con obras.html?vista=mapa */
+   - Se puede abrir directo con obras.html?vista=mapa
+   - El botón "Favorito" (data-vista="favorito") comparte este selector: muestra la lista solo con las obras favoritas.
+     Se puede abrir directo con obras.html?vista=favorito */
 (function () {
   if (typeof OBRAS === 'undefined') return;
 
@@ -124,13 +126,15 @@
     const esMapa = vista === 'mapa';
     abierto = esMapa;
     document.body.classList.toggle('vista-mapa', esMapa);
+    document.body.classList.toggle('vista-favorito', vista === 'favorito');   // la lista muestra solo los favoritos (js/main.js)
     caja.hidden = !esMapa;
     botones.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.vista === vista)));
 
     // Deja la dirección compartible: obras.html?vista=mapa
     const url = new URL(location.href);
-    if (esMapa) url.searchParams.set('vista', 'mapa'); else url.searchParams.delete('vista');
+    if (esMapa || vista === 'favorito') url.searchParams.set('vista', vista); else url.searchParams.delete('vista');
     history.replaceState(null, '', url);
+    document.dispatchEvent(new CustomEvent('vista-cambio'));
 
     if (esMapa) {
       if (typeof window.dyEvento === 'function') window.dyEvento('Mapa de obras');
@@ -143,5 +147,6 @@
   // Cuando se cambia un filtro, el mapa muestra solo las obras que quedaron
   document.addEventListener('filtros-aplicados', () => { if (abierto) dibujar(); });
 
-  if (new URLSearchParams(location.search).get('vista') === 'mapa') mostrar('mapa');
+  const vistaInicial = new URLSearchParams(location.search).get('vista');
+  if (vistaInicial === 'mapa' || vistaInicial === 'favorito') mostrar(vistaInicial);
 })();

@@ -109,9 +109,20 @@ if (botonesFiltro.length || selectsFiltro.length) {
     });
     selectsFiltro.forEach(s => { s.value = activos[grupoDe(s)] || 'todos'; });
 
+    // Vista "Favorito" (js/mapa-obras.js): solo las obras marcadas con el corazón
+    const soloFavoritas = document.body.classList.contains('vista-favorito') && window.Favoritos;
+    const favoritas = soloFavoritas ? window.Favoritos.get() : [];
+    if (vacio) {
+      if (!vacio.dataset.textoBase) vacio.dataset.textoBase = vacio.textContent.trim().replace(/\s+/g, ' ');
+      vacio.textContent = soloFavoritas && !favoritas.length
+        ? 'Todavía no marcaste obras favoritas. Tocá el corazón de una obra para guardarla acá.'
+        : vacio.dataset.textoBase;
+    }
+
     let visibles = 0;
     tarjetas.forEach(t => {
-      const oculta = Object.entries(activos).some(([g, v]) => v !== 'todos' && t.dataset[g] !== v);
+      const oculta = (soloFavoritas && !favoritas.includes(t.dataset.id)) ||
+        Object.entries(activos).some(([g, v]) => v !== 'todos' && t.dataset[g] !== v);
       t.classList.toggle('filtrada', oculta);
       if (!oculta) visibles++;
     });
@@ -163,6 +174,11 @@ if (botonesFiltro.length || selectsFiltro.length) {
   selectsFiltro.forEach(s => {
     const v = params.get(grupoDe(s));
     if (v && [...s.options].some(o => o.value === v)) activos[grupoDe(s)] = v;
+  });
+  // Cambió la vista (Lista / Mapa / Favorito) o se marcó o quitó un favorito: se recalcula lo que se ve
+  document.addEventListener('vista-cambio', aplicar);
+  document.addEventListener('favoritos-cambiaron', () => {
+    if (document.body.classList.contains('vista-favorito')) aplicar();
   });
   aplicar();
 }

@@ -54,6 +54,7 @@
             <p class="obra-lugar"><svg class="icon"><use href="#i-pin"/></svg> ${o.ubicacion || ''} <svg class="icon obra-flecha"><use href="#i-flecha"/></svg></p>
           </div>
         </a>
+        ${window.Favoritos ? window.Favoritos.boton(o.id, 'fav-btn--tarjeta') : ''}
       </article>`;
   };
 

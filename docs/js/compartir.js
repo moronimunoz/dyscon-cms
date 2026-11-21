@@ -47,6 +47,10 @@
       </ul>`;
     pagina.insertAdjacentElement('afterbegin', caja);
 
+    // Corazón de favorito, a la izquierda del botón de compartir (js/favoritos.js)
+    const idObra = document.body.dataset.id || new URLSearchParams(location.search).get('id');
+    if (window.Favoritos && idObra) caja.insertAdjacentHTML('afterbegin', window.Favoritos.boton(idObra, 'fav-btn--ficha'));
+
     const boton = caja.querySelector('.obra-compartir-boton');
     const menu = caja.querySelector('.obra-compartir-menu');
 
