@@ -18,7 +18,7 @@
   <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/poppins-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css?v=5">
-  <link rel="stylesheet" href="css/inicio.css?v=3">
+  <link rel="stylesheet" href="css/inicio.css?v=4">
 </head>
 
 <body>
@@ -158,12 +158,12 @@
       </a>
     </section>
 
-    <!-- MIS FAVORITOS: solo se ve si hay obras marcadas con el corazón (máximo 4). Las dibuja js/favoritos-inicio.js. No es parte del orden del panel: va siempre arriba de las demás secciones. -->
+    <!-- MIS FAVORITOS: solo se ve si hay obras marcadas con el corazón (máximo 4). Las dibuja js/favoritos-inicio.js y el fondo animado lo pone js/favoritos-fondo.js (ver LEEME.md). No es parte del orden del panel: va siempre arriba de las demás secciones. -->
     <section class="obras obras--favoritos" id="favoritos-inicio" aria-labelledby="favoritos-titulo" hidden>
       <div class="contenedor">
         <div class="obras-cabecera">
           <h2 class="titulo" id="favoritos-titulo">Mis Favoritos</h2>
-          <a href="obras.html?vista=favorito" class="link-flecha" id="favoritos-ver-todos" hidden>Ver mis <span class="favoritos-cantidad">0</span> favoritas <svg class="icon">
+          <a href="obras.html?vista=favorito" class="link-flecha" id="favoritos-ver-todos" hidden><span>Ver mis <span class="favoritos-cantidad">0</span> favoritas</span> <svg class="icon">
               <use href="#i-flecha" />
             </svg></a>
         </div>
@@ -375,9 +375,9 @@
   <script src="js/favoritos.js?v=5"></script>
   <script src="js/obras-lista.js?v=5"></script>
   <script src="js/favoritos-inicio.js?v=1"></script>
+  <script src="js/favoritos-fondo.js?v=1"></script>
   <script src="js/novedades-data.js"></script>
   <script src="js/novedades-lista.js"></script>
-  <script src="js/fuego-seccion.js?v=2" data-selector="#favoritos-inicio"></script>
   <script src="js/main.js?v=5"></script>
   <script src="js/analitica.js" defer></script>
 </body>

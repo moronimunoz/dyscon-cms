@@ -31,6 +31,12 @@ y las carpetas `docs/img/og/` (se pisan en cada corrida). Los datos de antes de 
 
 `build.js` arma esto en `docs/index.html` entre las marcas `<!-- SECCIONES:inicio -->`, `<!-- SECCION-...:inicio -->` y `<!-- PROYECTO:inicio -->`: no las borres. Como el resto de los cambios del panel, se ve en el sitio cuando se publica (Actions > *Generar páginas* > *Run workflow*).
 
+**Mis Favoritos (inicio) y su fondo animado.** Arriba de las demás secciones del inicio hay una sección "Mis Favoritos" que muestra hasta 4 obras que la persona marcó con el corazón (se guardan en su navegador, no en el servidor). Si no marcó ninguna, la sección no se ve. La dibuja `docs/js/favoritos-inicio.js`; no depende del panel ni de `build.js`.
+- **Cambiar el fondo animado:** guardá el `.js` de la animación como `docs/js/fondo/favoritos.js` (reemplaza al que está) y subilo. No hay que tocar nada más: se carga sin modificarlo dentro de un marco a la medida de la sección (`docs/js/favoritos-fondo.js`), así que sirve tanto una animación de pantalla completa (ej. Milky Way) como una pensada para una sección (ej. `docs/js/fondo/fuego.js`), y nunca puede aparecer en otra parte de la página.
+- Para volver a una anterior (ej. el fuego), copiá ese archivo encima de `favoritos.js`.
+- El texto de la sección es blanco: está pensado para fondos oscuros. Si una animación tiene fondo claro, ajustá `--favoritos-texto` y `--favoritos-fondo` al principio del bloque "Mis Favoritos" de `docs/css/inicio.css`.
+- La animación solo se descarga cuando hay favoritos y se pausa cuando la sección no está en pantalla.
+
 **Página 404.** `docs/404.html` calcula sola la raíz del sitio, así que sirve en github.io y en dysconsa.com.ar.
 
 **Tipografía.** Poppins se sirve desde `docs/fonts/` (ya no se pide a Google Fonts).

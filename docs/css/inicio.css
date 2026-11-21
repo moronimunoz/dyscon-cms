@@ -110,26 +110,46 @@ main section[hidden] {
   }
 }
 
-/* ---------- Mis Favoritos con fuego de fondo (js/fuego-seccion.js) ---------- */
-#favoritos-inicio .titulo,
-#favoritos-inicio .link-flecha {
-  color: #fff;
+/* ---------- Mis Favoritos (js/favoritos-inicio.js) con fondo animado (js/favoritos-fondo.js) ---------- */
+/* El fondo es la animación de js/fondo/favoritos.js. Estos 3 colores son los únicos que pueden necesitar ajuste si la
+   animación nueva es MUY distinta: el texto está pensado para fondos oscuros. */
+.obras--favoritos {
+  --favoritos-fondo: #02030a;    /* color liso: se ve mientras carga la animación o si no carga */
+  --favoritos-texto: #fff;       /* título y enlace */
+  --favoritos-acento: #ff9a3c;   /* rayita arriba del título */
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--favoritos-fondo);
+  padding-bottom: 4rem;          /* mismo aire que arriba: la sección tiene fondo propio */
 }
 
-#favoritos-inicio .titulo::before {
-  background: #ff9a3c;
+/* La animación (marco) ocupa toda la sección, detrás del contenido y sin interceptar toques ni scroll */
+.favoritos-fondo {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  pointer-events: none;
 }
 
-#favoritos-inicio .obra-card {
+.obras--favoritos .titulo,
+.obras--favoritos .link-flecha {
+  color: var(--favoritos-texto);
+}
+
+.obras--favoritos .titulo::before {
+  background: var(--favoritos-acento);
+}
+
+.obras--favoritos .obra-card {
   box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
 }
 
-/* ---------- Mis Favoritos (js/favoritos-inicio.js) ---------- */
-/* Hasta 4 tarjetas en una fila. */
-.obras--favoritos {
-  padding-bottom: 4rem;   /* mismo aire que arriba: la sección tiene fondo propio */
-}
-
+/* Hasta 4 tarjetas en una fila */
 @media (min-width: 1101px) {
   .obras--favoritos .grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
