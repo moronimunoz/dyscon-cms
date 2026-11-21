@@ -34,7 +34,9 @@
     return i < 0;                     // true = ahora es favorita
   };
 
-  const CORAZON = '<svg class="icon fav-icono" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
+  // Un solo dibujo para los dos estados: sin relleno con contorno negro (no favorita) y relleno rosa (favorita).
+  // Los colores están en css/styles.css (.fav-btn)
+  const CORAZON = '<svg class="icon fav-icono" viewBox="0 0 24 21.7" aria-hidden="true"><path d="M12 20.5C12 20.5 1.2 13.8 1.2 6.8C1.2 3.5 3.7 1.2 6.8 1.2C9.1 1.2 11 2.4 12 4.2C13 2.4 14.9 1.2 17.2 1.2C20.3 1.2 22.8 3.5 22.8 6.8C22.8 13.8 12 20.5 12 20.5Z"/></svg>';
 
   const esc = t => String(t).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 

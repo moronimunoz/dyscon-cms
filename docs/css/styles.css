@@ -1767,33 +1767,41 @@ button {
 
 /* =========================================================
    CORAZÓN DE FAVORITO (js/favoritos.js)
-   Gris = no es favorita · rosa = favorita.
+   No favorita: contorno negro con el centro transparente · favorita: relleno rosa.
    Va arriba a la derecha de la foto en las tarjetas, y a la izquierda
    del botón de compartir en la ficha de la obra.
    ========================================================= */
 .fav-btn {
-  --fav-gris: #9ca3af;
-  --fav-rosa: #f0359f;
+  --fav-contorno: #000;
+  --fav-rosa: #ff56d5;
   display: grid;
   place-items: center;
   padding: 0;
   border: 0;
   background: transparent;
-  color: var(--fav-gris);
   cursor: pointer;
-  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .35));
-  transition: transform .2s ease, color .2s ease;
+  /* halo blanco finito para que el contorno negro se lea también sobre fotos oscuras */
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, .95));
+  transition: transform .2s ease;
 }
 
 .fav-btn .icon {
   width: 100%;
   height: 100%;
-  fill: currentColor;
-  stroke: none;
+  overflow: visible;
+  fill: none;
+  stroke: var(--fav-contorno);
+  stroke-width: 2;
+  stroke-linejoin: round;
 }
 
 .fav-btn[aria-pressed="true"] {
-  color: var(--fav-rosa);
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, .3));
+}
+
+.fav-btn[aria-pressed="true"] .icon {
+  fill: var(--fav-rosa);
+  stroke: none;
 }
 
 .fav-btn:hover {
@@ -1817,12 +1825,12 @@ button {
 
 .fav-btn--tarjeta {
   position: absolute;
-  top: .1rem;
-  right: .3rem;
+  top: .6rem;
+  right: .6rem;
   z-index: 3;
   width: 40px;
   height: 40px;
-  padding: 7px;
+  padding: 8px 7px;
 }
 
 /* En la ficha: a la izquierda del botón de compartir (usa las mismas medidas que .obra-compartir-boton) */
